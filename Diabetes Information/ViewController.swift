@@ -20,6 +20,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet var mod1Button: UIButton!
 
+    @IBOutlet var mod2Button: UIButton!
+    
+    @IBOutlet var mod3Button: UIButton!
+    
+    @IBOutlet var mod4Button: UIButton!
+    
+    @IBOutlet var mod5Button: UIButton!
+    
+    
+    @IBAction func buttonClick(sender: UIButton) {
+        
+    }
 }
 

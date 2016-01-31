@@ -14,6 +14,12 @@
 		40E497EA1C5EBB8C00ECB5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E497E81C5EBB8C00ECB5F1 /* LaunchScreen.storyboard */; };
 		40E497F51C5EBB8D00ECB5F1 /* Diabetes_InformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497F41C5EBB8D00ECB5F1 /* Diabetes_InformationTests.swift */; };
 		40E498001C5EBB8D00ECB5F1 /* Diabetes_InformationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497FF1C5EBB8D00ECB5F1 /* Diabetes_InformationUITests.swift */; };
+		40E4980E1C5EC4BF00ECB5F1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */; };
+		40E498101C5EC52100ECB5F1 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */; };
+		40E498111C5EC86E00ECB5F1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */; };
+		40E498121C5EC86E00ECB5F1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */; };
+		40E498131C5EC87F00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
+		40E498141C5EC87F00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		40E497FB1C5EBB8D00ECB5F1 /* Diabetes InformationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diabetes InformationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E497FF1C5EBB8D00ECB5F1 /* Diabetes_InformationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diabetes_InformationUITests.swift; sourceTree = "<group>"; };
 		40E498011C5EBB8D00ECB5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,11 @@
 				40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */,
 				40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */,
 				40E497E31C5EBB8C00ECB5F1 /* Main.storyboard */,
+				40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */,
 				40E497E61C5EBB8C00ECB5F1 /* Assets.xcassets */,
 				40E497E81C5EBB8C00ECB5F1 /* LaunchScreen.storyboard */,
 				40E497EB1C5EBB8C00ECB5F1 /* Info.plist */,
+				40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */,
 			);
 			path = "Diabetes Information";
 			sourceTree = "<group>";
@@ -258,6 +268,8 @@
 			files = (
 				40E497E21C5EBB8C00ECB5F1 /* ViewController.swift in Sources */,
 				40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */,
+				40E498101C5EC52100ECB5F1 /* ViewController3.swift in Sources */,
+				40E4980E1C5EC4BF00ECB5F1 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E498131C5EC87F00ECB5F1 /* ViewController.swift in Sources */,
 				40E497F51C5EBB8D00ECB5F1 /* Diabetes_InformationTests.swift in Sources */,
+				40E498111C5EC86E00ECB5F1 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E498141C5EC87F00ECB5F1 /* ViewController.swift in Sources */,
 				40E498001C5EBB8D00ECB5F1 /* Diabetes_InformationUITests.swift in Sources */,
+				40E498121C5EC86E00ECB5F1 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
