@@ -278,27 +278,21 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G0s-kS-BB1">
-                                <rect key="frame" x="190" y="61" width="240" height="40"/>
+                                <rect key="frame" x="190" y="63" width="240" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carbohydrates, or carbs, are one of the three main energy sources in the food we eat." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lIj-pu-3z7">
-                                <rect key="frame" x="119" y="154" width="363" height="69"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Foods that contain carbs turn into sugar in the blood stream" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sxZ-dR-XUs">
                                 <rect key="frame" x="119" y="296" width="363" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gmj-sE-nWX">
-                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <rect key="frame" x="164" y="0.0" width="293" height="63"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="PQS-gL-QlL">
@@ -306,6 +300,12 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </pageControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carbohydrates, or carbs, are one of the three main energy sources in the food we eat." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lIj-pu-3z7">
+                                <rect key="frame" x="119" y="154" width="363" height="81"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -315,8 +315,39 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Bk-7F-LhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="mtU-LY-kj9">
+                    <connections>
+                        <segue destination="3YN-Ly-r45" kind="presentation" id="dvw-jc-SLs"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1745" y="885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sFs-h9-UZQ">
+            <objects>
+                <viewController id="Ohv-fQ-6cD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oot-Zg-N2x"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dm8-pD-jcO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qiZ-JR-7pK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dkh-lY-Xxt">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="9BW-ml-9H8"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdV-Dv-BzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1781" y="1790"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gTs-i0-TRy">
@@ -351,13 +382,13 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wFd-zO-hb1">
                                 <rect key="frame" x="114" y="173" width="373" height="235"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">-&gt; Do not eat out of the box or bag. Use measuring cups or spoons to make smaller poritons
+                                <string key="text">• Do not eat out of the box or bag. Use measuring cups or spoons to make smaller poritons
 
--&gt; Do not snack in fornt of the TV, while reading, or while driving
+• Do not snack in fornt of the TV, while reading, or while driving
 
--&gt; Shop for healthy foods like fresh fruits and vegetables or frozen fruits and vegetables. If you can buy canned fruits and vegetables, shop for sugar free fruits and low sodium
+• Shop for healthy foods like fresh fruits and vegetables or frozen fruits and vegetables. If you can buy canned fruits and vegetables, shop for sugar free fruits and low sodium
 
--&gt; Avoid the candy, cookie, and chip aisles
+• Avoid the candy, cookie, and chip aisles
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -948,7 +979,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aDY-mB-GO2">
                                 <rect key="frame" x="119" y="108" width="363" height="434"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">HEALTHY SNACK IDEAS (lower in Carbs&lt;5 grams)
+                                <string key="text">HEALTHY SNACK IDEAS (lower in Carbs&lt;5 grams)
 
 • ¾ cup of light popcorn
 
@@ -970,7 +1001,7 @@
 
 • 10 goldfish crackers
 
-• 1 string cheese stick</mutableString>
+• 1 string cheese stick</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1008,13 +1039,14 @@
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yV5-me-KGU"/>
-        <segue reference="5e2-WC-cJz"/>
         <segue reference="arv-39-qQs"/>
+        <segue reference="5e2-WC-cJz"/>
+        <segue reference="aQr-oE-AbV"/>
+        <segue reference="dvw-jc-SLs"/>
         <segue reference="b4v-n6-Xxh"/>
         <segue reference="nJV-Oh-u3e"/>
         <segue reference="7iF-nG-dKo"/>
-        <segue reference="8PB-wH-uVx"/>
-        <segue reference="WNq-HM-hnc"/>
+        <segue reference="vrO-Sw-z0J"/>
+        <segue reference="yV5-me-KGU"/>
     </inferredMetricsTieBreakers>
 </document>
