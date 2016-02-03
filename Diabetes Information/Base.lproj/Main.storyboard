@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D13b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Diabetes Information" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xBr-Z2-hht">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Diabetes Information" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xBr-Z2-hht">
                                 <rect key="frame" x="152" y="0.0" width="296" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -39,11 +39,12 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8H-mA-ZL8">
                                 <rect key="frame" x="221" y="89" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509803921566" green="0.66274509803921566" blue="0.66274509803921566" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="1g3-YY-6OH"/>
                                     <constraint firstAttribute="width" constant="158" id="mBl-nJ-o7D"/>
                                 </constraints>
-                                <state key="normal" title="Module 1"/>
+                                <state key="normal" title="Healthy Eating"/>
                                 <connections>
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ax4-9y-Nzx"/>
                                     <segue destination="cgS-OH-rGe" kind="presentation" id="cni-gf-pzp"/>
@@ -145,19 +146,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Module 1" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ir7-bM-Ftt">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ir7-bM-Ftt">
                                 <rect key="frame" x="180" y="5" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cdv-Cx-rFf">
-                                <rect key="frame" x="208" y="184" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uqt-PC-jkA">
+                                <rect key="frame" x="221" y="129" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="6rp-ZB-CeQ"/>
+                                    <constraint firstAttribute="height" constant="69" id="Xv8-86-zRF"/>
+                                </constraints>
+                                <state key="normal" title="Part 1"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hDW-Py-dIp"/>
+                                    <segue destination="yxH-mN-e6W" kind="presentation" id="WNq-HM-hnc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOm-SM-6rj">
+                                <rect key="frame" x="221" y="299" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="T4G-pF-HRM"/>
+                                    <constraint firstAttribute="height" constant="69" id="shX-Ob-goo"/>
+                                </constraints>
+                                <state key="normal" title="Carb Counting"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TqS-0v-M8I"/>
+                                    <segue destination="ocZ-Wn-o3r" kind="presentation" id="8PB-wH-uVx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -167,14 +187,12 @@
                     </view>
                     <connections>
                         <outlet property="SwipeField" destination="Zyr-Yj-W4x" id="nH6-mc-E83"/>
-                        <outlet property="textField" destination="cdv-Cx-rFf" id="2pf-6z-GhB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4R-Ke-zjt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="Zyr-Yj-W4x">
                     <connections>
                         <action selector="textMove:" destination="cgS-OH-rGe" id="mp9-kf-UBQ"/>
-                        <segue destination="yxH-mN-e6W" kind="presentation" id="CtH-0h-ga5"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -199,16 +217,551 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WdW-QE-w5q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="KbZ-It-Gqd">
+                <swipeGestureRecognizer direction="right" id="KbZ-It-Gqd"/>
+            </objects>
+            <point key="canvasLocation" x="1745" y="155"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s1D-Je-8zU">
+            <objects>
+                <viewController id="ocZ-Wn-o3r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cEj-0W-aYb"/>
+                        <viewControllerLayoutGuide type="bottom" id="RaP-aD-U3z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vge-nu-ReW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gmj-sE-nWX">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PCi-Dv-TZ6">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carbohydrates, or carbs, are one of the three main energy sources in the food we eat." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lIj-pu-3z7">
+                                <rect key="frame" x="119" y="154" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Foods that contain carbs turn into sugar in the blood stream" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sxZ-dR-XUs">
+                                <rect key="frame" x="119" y="296" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="tnF-GZ-Zbw" appends="YES" id="gGC-M0-1xf"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Bk-7F-LhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="tnF-GZ-Zbw">
                     <connections>
-                        <segue destination="cgS-OH-rGe" kind="presentation" id="rqI-Ul-eBW"/>
+                        <segue destination="3YN-Ly-r45" kind="presentation" modalTransitionStyle="flipHorizontal" id="IWy-8H-Q43"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1759" y="429"/>
+            <point key="canvasLocation" x="1745" y="885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xsq-6g-ZZQ">
+            <objects>
+                <viewController id="3YN-Ly-r45" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q1V-4r-zAN"/>
+                        <viewControllerLayoutGuide type="bottom" id="zkj-hP-Btl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5hL-Z4-6Dc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ikF-v8-zMH">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Uj-rd-uta">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="In order to control blood sugar in type 2 diabetes, number of carb eaten at each meal should be limited." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DQy-Zc-1Je">
+                                <rect key="frame" x="119" y="154" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, milk, and yogurt" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uMV-Hy-7SD">
+                                <rect key="frame" x="119" y="296" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="bsO-Sb-aWQ" appends="YES" id="VE2-XX-ZpK"/>
+                            <outletCollection property="gestureRecognizers" destination="X9b-aA-iIS" appends="YES" id="HKL-Cc-CWz"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AN5-ja-Zbg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="bsO-Sb-aWQ">
+                    <connections>
+                        <segue destination="ocZ-Wn-o3r" kind="presentation" modalTransitionStyle="flipHorizontal" id="aQr-oE-AbV"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="X9b-aA-iIS">
+                    <connections>
+                        <segue destination="sja-AE-HnY" kind="presentation" modalTransitionStyle="flipHorizontal" id="eLN-0F-4OF"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2589" y="885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Of-vR-Sea">
+            <objects>
+                <viewController id="sja-AE-HnY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OSz-JW-Mcd"/>
+                        <viewControllerLayoutGuide type="bottom" id="kQR-wh-NGA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ew5-Od-QGa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EsM-L1-Jsh">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9be-8i-RvC">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="For most women, blood sugar control and weight loss can occur if carb foods are limited to 3 servings or 45 grams at EACH meal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aNL-Io-75b">
+                                <rect key="frame" x="119" y="154" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="For most men, blood sugar control and weight loss can occur if carb foods are limited to 4 servings or 60 grams at EACH meal." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="77Z-4c-yQH">
+                                <rect key="frame" x="119" y="296" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="06Y-4v-gs2" appends="YES" id="qjE-IB-sof"/>
+                            <outletCollection property="gestureRecognizers" destination="1oa-mR-1e5" appends="YES" id="eNH-bW-cVL"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ayD-eu-zfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="06Y-4v-gs2">
+                    <connections>
+                        <segue destination="3YN-Ly-r45" kind="presentation" modalTransitionStyle="flipHorizontal" id="sat-aX-Zgj"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="1oa-mR-1e5">
+                    <connections>
+                        <segue destination="gLR-yR-4AE" kind="presentation" modalTransitionStyle="flipHorizontal" id="jnh-MA-vEz"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3365" y="895"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zri-xQ-WOV">
+            <objects>
+                <viewController id="laI-XB-BPW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pov-24-EVV"/>
+                        <viewControllerLayoutGuide type="bottom" id="jzy-8X-4tY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cMt-tJ-KJq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u2H-m2-kpb">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WrN-Rf-FrO">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrM-1t-5hV">
+                                <rect key="frame" x="221" y="228" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="kKG-LY-sTg"/>
+                                    <constraint firstAttribute="height" constant="69" id="v5w-gK-PqR"/>
+                                </constraints>
+                                <state key="normal" title="Try again"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iVp-gs-e2L"/>
+                                    <segue destination="htb-Qy-W3R" kind="presentation" id="Do2-Zu-Xm9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2E-z1-uON">
+                                <rect key="frame" x="221" y="391" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="ABx-NL-yAv"/>
+                                    <constraint firstAttribute="width" constant="158" id="s5X-Fo-wLn"/>
+                                </constraints>
+                                <state key="normal" title="Home"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wwE-H1-umu"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="TAI-h6-nmY"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Your Score: " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kP3-Df-19d">
+                                <rect key="frame" x="180" y="120" width="240" height="71"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="grH-fx-mib" appends="YES" id="Vn8-mM-a2H"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OXi-ss-cy5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="grH-fx-mib"/>
+            </objects>
+            <point key="canvasLocation" x="3365" y="1789"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JYL-xU-xte">
+            <objects>
+                <viewController id="htb-Qy-W3R" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fzY-nn-znh"/>
+                        <viewControllerLayoutGuide type="bottom" id="ogi-yK-Cfk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IsB-HD-8SI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TeJ-GR-at2">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8K2-zl-5o9">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Activity" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mxe-68-1jS">
+                                <rect key="frame" x="119" y="154" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5k-Ze-cAI">
+                                <rect key="frame" x="280" y="331" width="41" height="30"/>
+                                <state key="normal" title="Finish"/>
+                                <connections>
+                                    <segue destination="laI-XB-BPW" kind="presentation" id="3mD-pv-QuD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="sCo-pD-TYY" appends="YES" id="KiJ-jL-i6L"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wW2-mH-aI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="sCo-pD-TYY"/>
+            </objects>
+            <point key="canvasLocation" x="4740" y="1892"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zuZ-fD-APK">
+            <objects>
+                <viewController id="gLR-yR-4AE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wcp-Fq-hYp"/>
+                        <viewControllerLayoutGuide type="bottom" id="QOV-5A-5PR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kuZ-hb-bdO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PHX-Rh-XP9">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QQG-ew-R9C">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="It is also recommended that snacks be limited to 15-20 grams of carbs" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jZO-Pe-YLp">
+                                <rect key="frame" x="119" y="154" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rkg-BT-2I8">
+                                <rect key="frame" x="119" y="296" width="363" height="69"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Some food labels and menus list serving sizes and number of carbs, but if not, you can use measuring cups and spoons to check serving sizes</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="wkE-bO-cjg" appends="YES" id="JIY-h9-2QY"/>
+                            <outletCollection property="gestureRecognizers" destination="rBi-Th-nk0" appends="YES" id="Yux-6j-cWN"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyr-Ib-bqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="wkE-bO-cjg">
+                    <connections>
+                        <segue destination="sja-AE-HnY" kind="presentation" id="yV5-me-KGU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="rBi-Th-nk0">
+                    <connections>
+                        <segue destination="6Co-ux-wCQ" kind="presentation" modalTransitionStyle="flipHorizontal" id="arv-39-qQs"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="4247" y="885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BJf-LS-dUj">
+            <objects>
+                <viewController id="6Co-ux-wCQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f71-Fd-EOB"/>
+                        <viewControllerLayoutGuide type="bottom" id="8u6-H1-67h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zj7-AM-2Ar">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hxW-vF-7dn">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6aZ-fO-qXp">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yOW-0l-3px">
+                                <rect key="frame" x="119" y="154" width="363" height="166.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Check food labels for the serving size, then look at how many carbs are listed in the ingredients (carbs= 5). For example: the label on a box of crackers reads 1 serving= 3 crackers. Carbs per serving =5. This means that for every 3 crackers you eat, there will be 5 carbohydrates total. So to reach your snack goal of 15 carbs, you can eat 15 crackers (3 crackers x 5 carbs=15 carbs total) (we want to show a pic of a label to explain this section)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="e5L-EA-syE" appends="YES" id="3hw-Hr-O8h"/>
+                            <outletCollection property="gestureRecognizers" destination="nwR-PE-Qfb" appends="YES" id="srR-X3-N4K"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZVA-WT-m2s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="e5L-EA-syE">
+                    <connections>
+                        <segue destination="gLR-yR-4AE" kind="presentation" id="5e2-WC-cJz"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="nwR-PE-Qfb">
+                    <connections>
+                        <segue destination="hAN-vy-EfI" kind="presentation" id="IoE-Gm-JUe"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="4905" y="885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6C2-PD-NgZ">
+            <objects>
+                <viewController id="hAN-vy-EfI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mD0-Rn-31D"/>
+                        <viewControllerLayoutGuide type="bottom" id="HMe-iI-olj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rVE-FY-kdy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NQv-Ku-iWN">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zRZ-q1-CrE">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="38O-xR-HES">
+                                <rect key="frame" x="112" y="171" width="376" height="230"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WYR-Yl-yWc" appends="YES" id="fPU-wh-nEw"/>
+                            <outletCollection property="gestureRecognizers" destination="tgx-07-9u5" appends="YES" id="NSy-qP-qE9"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SEa-0r-ZKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="WYR-Yl-yWc">
+                    <connections>
+                        <segue destination="6Co-ux-wCQ" kind="presentation" id="vhR-Am-MYx"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="tgx-07-9u5">
+                    <connections>
+                        <segue destination="qpL-vx-bca" kind="presentation" id="O8b-w6-tgq"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="5577" y="885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="goi-QP-Y02">
+            <objects>
+                <viewController id="qpL-vx-bca" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BWo-16-4LT"/>
+                        <viewControllerLayoutGuide type="bottom" id="wH1-4d-3lw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IzV-ky-d8t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hy4-2l-jJl">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BwN-k1-JZu">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aDY-mB-GO2">
+                                <rect key="frame" x="119" y="108" width="363" height="434"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">HEALTHY SNACK IDEAS (lower in Carbs&lt;5 grams)
+
+• ¾ cup of light popcorn
+
+• 1 cup sugar-free gelatin
+
+• 3 celery sticks + 1 Tablespoon of peanut butter
+
+• 5 baby carrots
+
+• 5 cherry tomatoes + 1 Tablespoon ranch dressing
+
+• 1 hard-boiled egg
+
+• 1 cup cucumber slices + 1 Tablespoon ranch dressing
+
+• 1 cup of salad greens + ½ cup of diced cucumber + drizzle of vinegar and oil
+
+• 1 frozen sugar-free popsicle
+
+• 10 goldfish crackers
+
+• 1 string cheese stick</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="S65-ZA-iY8" appends="YES" id="mb4-77-IXH"/>
+                            <outletCollection property="gestureRecognizers" destination="Yfu-hI-eYt" appends="YES" id="RU2-5f-kfM"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZhK-Vu-LVM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="S65-ZA-iY8">
+                    <connections>
+                        <segue destination="hAN-vy-EfI" kind="presentation" id="nJV-Oh-u3e"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="Yfu-hI-eYt">
+                    <connections>
+                        <segue destination="htb-Qy-W3R" kind="presentation" id="b4v-n6-Xxh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="6231" y="885"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rqI-Ul-eBW"/>
+        <segue reference="b4v-n6-Xxh"/>
+        <segue reference="nJV-Oh-u3e"/>
+        <segue reference="5e2-WC-cJz"/>
+        <segue reference="vhR-Am-MYx"/>
+        <segue reference="yV5-me-KGU"/>
+        <segue reference="sat-aX-Zgj"/>
+        <segue reference="aQr-oE-AbV"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -20,6 +20,7 @@
 		40E498121C5EC86E00ECB5F1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */; };
 		40E498131C5EC87F00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
 		40E498141C5EC87F00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
+		F96A29AA1C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		40E498011C5EBB8D00ECB5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-02-02 at 8.09.46 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */,
 				40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */,
 				40E497E31C5EBB8C00ECB5F1 /* Main.storyboard */,
+				F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */,
 				40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */,
 				40E497E61C5EBB8C00ECB5F1 /* Assets.xcassets */,
 				40E497E81C5EBB8C00ECB5F1 /* LaunchScreen.storyboard */,
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E497EA1C5EBB8C00ECB5F1 /* LaunchScreen.storyboard in Resources */,
+				F96A29AA1C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png in Resources */,
 				40E497E71C5EBB8C00ECB5F1 /* Assets.xcassets in Resources */,
 				40E497E51C5EBB8C00ECB5F1 /* Main.storyboard in Resources */,
 			);
@@ -500,6 +504,7 @@
 				40E498061C5EBB8D00ECB5F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E498071C5EBB8D00ECB5F1 /* Build configuration list for PBXNativeTarget "Diabetes InformationTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				40E498091C5EBB8D00ECB5F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E4980A1C5EBB8D00ECB5F1 /* Build configuration list for PBXNativeTarget "Diabetes InformationUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +522,7 @@
 				40E4980C1C5EBB8D00ECB5F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
