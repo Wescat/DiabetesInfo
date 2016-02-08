@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
@@ -16,12 +16,35 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzI-Y1-WJB">
+                                <rect key="frame" x="178" y="112" width="244" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="R1m-yj-h6h"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Diabetes Information">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="25" name="HoeflerText-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="IzI-Y1-WJB" secondAttribute="bottom" constant="419" id="4li-Ms-a86"/>
+                            <constraint firstItem="IzI-Y1-WJB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="92" id="hmU-41-XGZ"/>
+                            <constraint firstItem="IzI-Y1-WJB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oCU-ML-gzU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="107" y="397"/>
         </scene>
     </scenes>
 </document>
