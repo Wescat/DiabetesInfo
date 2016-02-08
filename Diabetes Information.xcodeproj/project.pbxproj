@@ -21,6 +21,7 @@
 		40E498121C5EC86E00ECB5F1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */; };
 		40E498131C5EC87F00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
 		40E498141C5EC87F00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
+		7316255A1C69419C0080EA25 /* CountingCarbsFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731625591C69419C0080EA25 /* CountingCarbsFinal.swift */; };
 		7332948C1C63E70900159952 /* GeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332948B1C63E70900159952 /* GeneralTipsViewController.swift */; };
 		73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */; };
 		F96A29AA1C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */; };
@@ -60,6 +61,7 @@
 		40E498011C5EBB8D00ECB5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		731625591C69419C0080EA25 /* CountingCarbsFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingCarbsFinal.swift; sourceTree = "<group>"; };
 		7332948B1C63E70900159952 /* GeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTipsViewController.swift; sourceTree = "<group>"; };
 		73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiabetesInformationQuizModel.swift; path = ../DiabetesInformationQuizModel.swift; sourceTree = "<group>"; };
 		F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-02-02 at 8.09.46 PM.png"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */,
 				40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */,
 				40E497E31C5EBB8C00ECB5F1 /* Main.storyboard */,
+				731625591C69419C0080EA25 /* CountingCarbsFinal.swift */,
 				7332948B1C63E70900159952 /* GeneralTipsViewController.swift */,
 				F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */,
 				40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */,
@@ -286,6 +289,7 @@
 				40E4980E1C5EC4BF00ECB5F1 /* ViewController2.swift in Sources */,
 				73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */,
 				7332948C1C63E70900159952 /* GeneralTipsViewController.swift in Sources */,
+				7316255A1C69419C0080EA25 /* CountingCarbsFinal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,8 +18,8 @@ class DiabetesInformationQuizModel{
         self.correctAnswer = correctAnswer
     }
     
-    func printQuestion(){
-        print(self.question)
+    func printQuestion() -> String{
+        return question
     }
     
     func guessAnswer(guess:String) -> Bool{
