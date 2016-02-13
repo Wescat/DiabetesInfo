@@ -750,7 +750,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Keeping your blood sugar under control can prevent many of these problems" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wID-22-m4c">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Keeping your blood sugar under control can prevent many of these problems." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wID-22-m4c">
                                 <rect key="frame" x="119" y="336" width="363" height="69"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -759,7 +759,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Many health problems can occur because of diabetes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a0q-Mx-CAz">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Many health problems can occur because of diabetes." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a0q-Mx-CAz">
                                 <rect key="frame" x="119" y="194" width="363" height="81"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
