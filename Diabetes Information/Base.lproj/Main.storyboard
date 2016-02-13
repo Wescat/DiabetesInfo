@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E33e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -86,6 +86,9 @@
                                             <constraint firstAttribute="height" constant="70" id="PFh-m5-wi5"/>
                                         </constraints>
                                         <state key="normal" title="Insulin"/>
+                                        <connections>
+                                            <segue destination="Cpj-eW-sK9" kind="presentation" id="zeB-4s-eHg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -139,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="187" y="41"/>
+            <point key="canvasLocation" x="83" y="201"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="iAm-aQ-h6c">
@@ -158,7 +161,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOm-SM-6rj">
                                         <rect key="frame" x="220" y="224" width="160" height="70"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="UWg-i3-2PW"/>
                                         </constraints>
@@ -170,7 +173,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uqt-PC-jkA">
                                         <rect key="frame" x="220" y="94" width="160" height="70"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="uu6-Ei-CaK"/>
                                         </constraints>
@@ -207,7 +210,7 @@
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxU-qX-mAu">
                                         <rect key="frame" x="9" y="23" width="76" height="30"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="42" id="5fa-3O-qqT"/>
                                         </constraints>
@@ -539,7 +542,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You will need to limit portion sizes and watch how much you eat" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ynP-HK-fde">
                                         <rect key="frame" x="119" y="357" width="363" height="69"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="69" id="ncZ-2M-fDg"/>
                                         </constraints>
@@ -548,7 +551,7 @@
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You can still eat your favorite foods and eat out at restuarants if you have diabetes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S9J-UQ-eiH">
                                         <rect key="frame" x="119" y="8" width="363" height="69"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="69" id="kby-4g-1a6"/>
                                         </constraints>
@@ -562,7 +565,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="S9J-UQ-eiH" secondAttribute="trailing" constant="118" id="Dxx-ED-Say"/>
                                     <constraint firstAttribute="trailing" secondItem="ynP-HK-fde" secondAttribute="trailing" constant="118" id="FmJ-8l-Mca"/>
@@ -810,7 +813,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Helpful tips to avoid bad eating habits:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QfN-Y8-nbg">
                                         <rect key="frame" x="114" y="8" width="373" height="55"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="Wjp-ia-UVo"/>
                                         </constraints>
@@ -819,7 +822,7 @@
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wFd-zO-hb1">
                                         <rect key="frame" x="114" y="88" width="373" height="334"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="DMR-Qs-6Hc"/>
                                         </constraints>
@@ -835,7 +838,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="wFd-zO-hb1" firstAttribute="top" secondItem="QfN-Y8-nbg" secondAttribute="bottom" constant="25" id="TUm-Na-CyB"/>
                                     <constraint firstItem="QfN-Y8-nbg" firstAttribute="top" secondItem="qZs-6F-ROg" secondAttribute="top" constant="8" id="X2R-tL-1Au"/>
@@ -1067,7 +1070,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="When you eat out or have fast food:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cK5-bg-g0Q">
                                         <rect key="frame" x="115" y="30" width="370" height="38"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38" id="xeF-th-5Nf"/>
                                         </constraints>
@@ -1076,7 +1079,7 @@
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gCy-19-gpw">
                                         <rect key="frame" x="114" y="89" width="373" height="276"/>
-                                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="276" id="jaH-R3-ZxO"/>
                                         </constraints>
@@ -1093,7 +1096,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="gCy-19-gpw" firstAttribute="leading" secondItem="du8-nP-ijg" secondAttribute="leading" constant="114" id="1oT-2d-q3g"/>
                                     <constraint firstItem="cK5-bg-g0Q" firstAttribute="leading" secondItem="du8-nP-ijg" secondAttribute="leading" constant="115" id="CnE-l0-YX5"/>
@@ -1889,13 +1892,1040 @@
             </objects>
             <point key="canvasLocation" x="6231" y="885"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="u5n-zH-zlg">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulin1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X2P-OS-RTh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cNR-bY-4no"/>
+                        <viewControllerLayoutGuide type="bottom" id="DYU-hD-zso"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ROX-HT-YK1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UuA-y6-O2q">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e7k-d9-nvo">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="EpK-TY-cwh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yko-jo-T9v">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="1GT-ir-QV7"/>
+                                        </constraints>
+                                        <string key="text">Gather your vial of insulin and a fresh syringe on a clean table or counter.
+
+Check to make sure it is the right kind on insulin, that the insulin has not expired, and that there are no clumps or particles in the vial.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Yko-jo-T9v" firstAttribute="top" secondItem="e7k-d9-nvo" secondAttribute="bottom" constant="25" id="1PV-qF-E6o"/>
+                                    <constraint firstItem="e7k-d9-nvo" firstAttribute="leading" secondItem="UuA-y6-O2q" secondAttribute="leading" constant="114" id="4cQ-Gz-m2g"/>
+                                    <constraint firstItem="e7k-d9-nvo" firstAttribute="top" secondItem="UuA-y6-O2q" secondAttribute="top" constant="8" id="Gua-JG-7EN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yko-jo-T9v" secondAttribute="trailing" constant="113" id="MZ5-E2-jKv"/>
+                                    <constraint firstItem="Yko-jo-T9v" firstAttribute="leading" secondItem="UuA-y6-O2q" secondAttribute="leading" constant="114" id="fM7-gc-HFd"/>
+                                    <constraint firstItem="Yko-jo-T9v" firstAttribute="top" secondItem="e7k-d9-nvo" secondAttribute="bottom" constant="25" id="kws-jd-wE7"/>
+                                    <constraint firstAttribute="trailing" secondItem="e7k-d9-nvo" secondAttribute="trailing" constant="113" id="oy6-c0-hMg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zx5-3K-lJE">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="Hfd-6w-9MU">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="ymz-U1-PMn"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Hfd-6w-9MU" firstAttribute="top" secondItem="zx5-3K-lJE" secondAttribute="top" constant="9" id="CvZ-mP-ywX"/>
+                                    <constraint firstAttribute="height" constant="55" id="Ldg-Yx-Zmy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hfd-6w-9MU" secondAttribute="trailing" constant="239" id="oh4-MJ-BMo"/>
+                                    <constraint firstAttribute="bottom" secondItem="Hfd-6w-9MU" secondAttribute="bottom" constant="9" id="tkb-gl-Bkb"/>
+                                    <constraint firstItem="Hfd-6w-9MU" firstAttribute="leading" secondItem="zx5-3K-lJE" secondAttribute="leading" constant="240" id="yJC-b5-yOp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TOd-9j-XYu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cei-dm-guC">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="YyW-jz-WpV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bxb-2i-XLv">
+                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="UZM-XF-8ul"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bxb-2i-XLv" secondAttribute="trailing" constant="180" id="LjK-jQ-lSb"/>
+                                    <constraint firstItem="cei-dm-guC" firstAttribute="leading" secondItem="TOd-9j-XYu" secondAttribute="leading" constant="180" id="OcW-Ia-usM"/>
+                                    <constraint firstItem="cei-dm-guC" firstAttribute="top" secondItem="TOd-9j-XYu" secondAttribute="top" constant="8" id="QH3-qW-p2Q"/>
+                                    <constraint firstItem="bxb-2i-XLv" firstAttribute="top" secondItem="cei-dm-guC" secondAttribute="bottom" constant="12" id="Z8T-H9-xB7"/>
+                                    <constraint firstItem="bxb-2i-XLv" firstAttribute="leading" secondItem="TOd-9j-XYu" secondAttribute="leading" constant="180" id="aHv-S0-xpe"/>
+                                    <constraint firstAttribute="trailing" secondItem="cei-dm-guC" secondAttribute="trailing" constant="180" id="jAR-TI-Qy2"/>
+                                    <constraint firstAttribute="bottom" secondItem="bxb-2i-XLv" secondAttribute="bottom" constant="2" id="xsj-KV-UvY"/>
+                                    <constraint firstItem="bxb-2i-XLv" firstAttribute="top" secondItem="cei-dm-guC" secondAttribute="bottom" constant="12" id="ymK-32-yEs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TOd-9j-XYu" secondAttribute="trailing" id="1QJ-we-89s"/>
+                            <constraint firstItem="TOd-9j-XYu" firstAttribute="leading" secondItem="ROX-HT-YK1" secondAttribute="leading" id="4cr-7I-BHb"/>
+                            <constraint firstItem="zx5-3K-lJE" firstAttribute="top" secondItem="UuA-y6-O2q" secondAttribute="bottom" id="4za-yv-f6U"/>
+                            <constraint firstAttribute="trailing" secondItem="UuA-y6-O2q" secondAttribute="trailing" id="8aU-bN-2i0"/>
+                            <constraint firstItem="UuA-y6-O2q" firstAttribute="top" secondItem="TOd-9j-XYu" secondAttribute="bottom" id="8mD-0y-tI8"/>
+                            <constraint firstItem="UuA-y6-O2q" firstAttribute="leading" secondItem="ROX-HT-YK1" secondAttribute="leading" id="9Lx-yI-O3M"/>
+                            <constraint firstItem="zx5-3K-lJE" firstAttribute="top" secondItem="UuA-y6-O2q" secondAttribute="bottom" id="eTu-ix-ufT"/>
+                            <constraint firstAttribute="trailing" secondItem="zx5-3K-lJE" secondAttribute="trailing" id="l9X-Tx-3wD"/>
+                            <constraint firstItem="UuA-y6-O2q" firstAttribute="top" secondItem="TOd-9j-XYu" secondAttribute="bottom" id="qO8-pO-rZH"/>
+                            <constraint firstItem="TOd-9j-XYu" firstAttribute="top" secondItem="ROX-HT-YK1" secondAttribute="top" id="r4q-Ar-g4c"/>
+                            <constraint firstItem="zx5-3K-lJE" firstAttribute="leading" secondItem="ROX-HT-YK1" secondAttribute="leading" id="t1H-ku-8G6"/>
+                            <constraint firstItem="DYU-hD-zso" firstAttribute="top" secondItem="zx5-3K-lJE" secondAttribute="bottom" id="u6y-Yb-r1X"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="nEC-mf-0kd" appends="YES" id="NIW-Lb-t7E"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tbL-IE-XMz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="nEC-mf-0kd"/>
+            </objects>
+            <point key="canvasLocation" x="-442" y="3999"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jUm-ZV-5Tz">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulin2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zww-ys-3rL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jmm-De-41I"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Me-4h-4K1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SHC-BL-xnx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Fq-Vh-zcr">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pmt-mk-i1b">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="7EN-y7-siB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yeq-Vd-QVm">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="osV-oT-DFp"/>
+                                        </constraints>
+                                        <string key="text">Next, get the vial of insulin ready by removing the cap if it is a new bottle
+
+Then, remove the cap from the needle and pull back the plunger to pull in enough air to equal the amount of insulin that you are going to give. If you are giving to yourself 5 units, pull back the plunger until it lines up with the 5 unit mark on the syringe</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="top" secondItem="pmt-mk-i1b" secondAttribute="bottom" constant="25" id="5fi-9y-7kO"/>
+                                    <constraint firstItem="pmt-mk-i1b" firstAttribute="top" secondItem="1Fq-Vh-zcr" secondAttribute="top" constant="8" id="BTy-S3-r33"/>
+                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="leading" secondItem="1Fq-Vh-zcr" secondAttribute="leading" constant="114" id="FqT-h7-zyD"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yeq-Vd-QVm" secondAttribute="trailing" constant="113" id="HI9-zr-XYW"/>
+                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="top" secondItem="pmt-mk-i1b" secondAttribute="bottom" constant="25" id="WIR-an-X0Z"/>
+                                    <constraint firstItem="pmt-mk-i1b" firstAttribute="leading" secondItem="1Fq-Vh-zcr" secondAttribute="leading" constant="114" id="dqy-LU-eKT"/>
+                                    <constraint firstAttribute="trailing" secondItem="pmt-mk-i1b" secondAttribute="trailing" constant="113" id="pbx-PN-eIr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLs-WM-fOj">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="LmL-Jv-KCu">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="EAU-TA-G2G"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="LmL-Jv-KCu" secondAttribute="trailing" constant="239" id="EeD-F8-OKC"/>
+                                    <constraint firstAttribute="height" constant="55" id="El6-Bh-K6v"/>
+                                    <constraint firstAttribute="bottom" secondItem="LmL-Jv-KCu" secondAttribute="bottom" constant="9" id="RRY-bQ-n21"/>
+                                    <constraint firstItem="LmL-Jv-KCu" firstAttribute="leading" secondItem="CLs-WM-fOj" secondAttribute="leading" constant="240" id="htS-6h-zep"/>
+                                    <constraint firstItem="LmL-Jv-KCu" firstAttribute="top" secondItem="CLs-WM-fOj" secondAttribute="top" constant="9" id="x3d-Ja-JJW"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bi7-pj-b3Z">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nsg-Lt-HJY">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="9cx-zS-0Wt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IP9-Fg-VOr">
+                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="MAv-K7-qWJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="IP9-Fg-VOr" firstAttribute="leading" secondItem="bi7-pj-b3Z" secondAttribute="leading" constant="180" id="5dl-HB-kcb"/>
+                                    <constraint firstItem="nsg-Lt-HJY" firstAttribute="leading" secondItem="bi7-pj-b3Z" secondAttribute="leading" constant="180" id="BCB-QJ-Dtx"/>
+                                    <constraint firstAttribute="trailing" secondItem="IP9-Fg-VOr" secondAttribute="trailing" constant="180" id="Zhz-7i-KcS"/>
+                                    <constraint firstItem="nsg-Lt-HJY" firstAttribute="top" secondItem="bi7-pj-b3Z" secondAttribute="top" constant="8" id="ZsU-ME-SwC"/>
+                                    <constraint firstAttribute="bottom" secondItem="IP9-Fg-VOr" secondAttribute="bottom" constant="2" id="aP0-IB-VXY"/>
+                                    <constraint firstItem="IP9-Fg-VOr" firstAttribute="top" secondItem="nsg-Lt-HJY" secondAttribute="bottom" constant="12" id="eWc-lC-tlq"/>
+                                    <constraint firstItem="IP9-Fg-VOr" firstAttribute="top" secondItem="nsg-Lt-HJY" secondAttribute="bottom" constant="12" id="pIL-G8-2Gr"/>
+                                    <constraint firstAttribute="trailing" secondItem="nsg-Lt-HJY" secondAttribute="trailing" constant="180" id="trE-TQ-N3P"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="1Fq-Vh-zcr" firstAttribute="top" secondItem="bi7-pj-b3Z" secondAttribute="bottom" id="56Q-bu-Mcs"/>
+                            <constraint firstItem="bi7-pj-b3Z" firstAttribute="leading" secondItem="SHC-BL-xnx" secondAttribute="leading" id="8pk-ld-g6u"/>
+                            <constraint firstItem="1Me-4h-4K1" firstAttribute="top" secondItem="CLs-WM-fOj" secondAttribute="bottom" id="CjZ-1v-m85"/>
+                            <constraint firstAttribute="trailing" secondItem="bi7-pj-b3Z" secondAttribute="trailing" id="Fmu-Ti-60b"/>
+                            <constraint firstItem="1Fq-Vh-zcr" firstAttribute="leading" secondItem="SHC-BL-xnx" secondAttribute="leading" id="Go9-9s-KgY"/>
+                            <constraint firstItem="bi7-pj-b3Z" firstAttribute="top" secondItem="SHC-BL-xnx" secondAttribute="top" id="Q9A-Iw-6h2"/>
+                            <constraint firstItem="1Fq-Vh-zcr" firstAttribute="top" secondItem="bi7-pj-b3Z" secondAttribute="bottom" id="S11-bX-aax"/>
+                            <constraint firstItem="CLs-WM-fOj" firstAttribute="leading" secondItem="SHC-BL-xnx" secondAttribute="leading" id="XRd-dx-5yv"/>
+                            <constraint firstAttribute="trailing" secondItem="CLs-WM-fOj" secondAttribute="trailing" id="adX-2Q-zit"/>
+                            <constraint firstItem="CLs-WM-fOj" firstAttribute="top" secondItem="1Fq-Vh-zcr" secondAttribute="bottom" id="b7M-zP-IkI"/>
+                            <constraint firstItem="CLs-WM-fOj" firstAttribute="top" secondItem="1Fq-Vh-zcr" secondAttribute="bottom" id="fsd-xj-pKS"/>
+                            <constraint firstAttribute="trailing" secondItem="1Fq-Vh-zcr" secondAttribute="trailing" id="laH-i6-7UY"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Kzl-qX-rNE" appends="YES" id="boo-HS-IRj"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UAF-cg-xsa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Kzl-qX-rNE"/>
+            </objects>
+            <point key="canvasLocation" x="242" y="3993"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vRz-dL-QZu">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulin3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rjV-4M-89o" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qgt-Dg-iOb"/>
+                        <viewControllerLayoutGuide type="bottom" id="ti2-s1-heU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GAN-Nn-eNY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CPB-P7-7mw">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ccx-dU-yO9">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="aOv-ub-4eI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tTz-Xd-ofu">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="4A4-Pk-abp"/>
+                                        </constraints>
+                                        <string key="text">With the vial on the counter, hold the syringe like a pen and inject the air into the vial of insulin
+
+With the needle still in the vial, turn the vial upside down and pull back on the plunger to draw up the number of units that you need</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="tTz-Xd-ofu" firstAttribute="top" secondItem="ccx-dU-yO9" secondAttribute="bottom" constant="25" id="5Kh-GU-duO"/>
+                                    <constraint firstAttribute="trailing" secondItem="tTz-Xd-ofu" secondAttribute="trailing" constant="113" id="AVg-5v-1Kx"/>
+                                    <constraint firstItem="tTz-Xd-ofu" firstAttribute="top" secondItem="ccx-dU-yO9" secondAttribute="bottom" constant="25" id="Fg8-mW-bCh"/>
+                                    <constraint firstItem="tTz-Xd-ofu" firstAttribute="leading" secondItem="CPB-P7-7mw" secondAttribute="leading" constant="114" id="IdN-Rq-Fzf"/>
+                                    <constraint firstAttribute="trailing" secondItem="ccx-dU-yO9" secondAttribute="trailing" constant="113" id="MVl-Rw-9ah"/>
+                                    <constraint firstItem="ccx-dU-yO9" firstAttribute="top" secondItem="CPB-P7-7mw" secondAttribute="top" constant="8" id="czw-d9-G2Y"/>
+                                    <constraint firstItem="ccx-dU-yO9" firstAttribute="leading" secondItem="CPB-P7-7mw" secondAttribute="leading" constant="114" id="udq-XA-fRN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sud-Jb-nzl">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="Si2-iw-bGP">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="yyH-Gr-w8X"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Si2-iw-bGP" firstAttribute="leading" secondItem="sud-Jb-nzl" secondAttribute="leading" constant="240" id="Eeh-tM-C0f"/>
+                                    <constraint firstAttribute="height" constant="55" id="Lbr-Zh-6jy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Si2-iw-bGP" secondAttribute="trailing" constant="239" id="O5U-ry-amY"/>
+                                    <constraint firstItem="Si2-iw-bGP" firstAttribute="top" secondItem="sud-Jb-nzl" secondAttribute="top" constant="9" id="aKe-ZS-yIk"/>
+                                    <constraint firstAttribute="bottom" secondItem="Si2-iw-bGP" secondAttribute="bottom" constant="9" id="pfA-0P-EWb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VTK-pE-P5g">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="efq-RF-tPG">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="ddr-bu-i2d"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zDe-sQ-O0H">
+                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Te6-bM-RZw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zDe-sQ-O0H" secondAttribute="bottom" constant="2" id="2IS-Gq-svc"/>
+                                    <constraint firstItem="zDe-sQ-O0H" firstAttribute="leading" secondItem="VTK-pE-P5g" secondAttribute="leading" constant="180" id="3Zm-Z5-fqx"/>
+                                    <constraint firstAttribute="trailing" secondItem="efq-RF-tPG" secondAttribute="trailing" constant="180" id="NRI-sR-sBX"/>
+                                    <constraint firstItem="efq-RF-tPG" firstAttribute="leading" secondItem="VTK-pE-P5g" secondAttribute="leading" constant="180" id="OzE-Ot-nnB"/>
+                                    <constraint firstItem="zDe-sQ-O0H" firstAttribute="top" secondItem="efq-RF-tPG" secondAttribute="bottom" constant="12" id="SXH-qB-WKp"/>
+                                    <constraint firstItem="zDe-sQ-O0H" firstAttribute="top" secondItem="efq-RF-tPG" secondAttribute="bottom" constant="12" id="U5x-Lr-Esq"/>
+                                    <constraint firstAttribute="trailing" secondItem="zDe-sQ-O0H" secondAttribute="trailing" constant="180" id="eiM-Oi-ID0"/>
+                                    <constraint firstItem="efq-RF-tPG" firstAttribute="top" secondItem="VTK-pE-P5g" secondAttribute="top" constant="8" id="tqi-kD-tzy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ti2-s1-heU" firstAttribute="top" secondItem="sud-Jb-nzl" secondAttribute="bottom" id="1EY-CH-oHc"/>
+                            <constraint firstAttribute="trailing" secondItem="VTK-pE-P5g" secondAttribute="trailing" id="4Gj-EU-xn1"/>
+                            <constraint firstItem="VTK-pE-P5g" firstAttribute="leading" secondItem="GAN-Nn-eNY" secondAttribute="leading" id="7YP-dh-DVY"/>
+                            <constraint firstItem="CPB-P7-7mw" firstAttribute="top" secondItem="VTK-pE-P5g" secondAttribute="bottom" id="P8t-HV-FLH"/>
+                            <constraint firstItem="CPB-P7-7mw" firstAttribute="leading" secondItem="GAN-Nn-eNY" secondAttribute="leading" id="QW1-0l-bQC"/>
+                            <constraint firstAttribute="trailing" secondItem="sud-Jb-nzl" secondAttribute="trailing" id="SF8-eR-OBK"/>
+                            <constraint firstItem="sud-Jb-nzl" firstAttribute="top" secondItem="CPB-P7-7mw" secondAttribute="bottom" id="V1L-02-eIt"/>
+                            <constraint firstItem="sud-Jb-nzl" firstAttribute="top" secondItem="CPB-P7-7mw" secondAttribute="bottom" id="j0e-Zz-pnB"/>
+                            <constraint firstItem="sud-Jb-nzl" firstAttribute="leading" secondItem="GAN-Nn-eNY" secondAttribute="leading" id="jfl-gz-BcG"/>
+                            <constraint firstItem="CPB-P7-7mw" firstAttribute="top" secondItem="VTK-pE-P5g" secondAttribute="bottom" id="kxc-8H-zWj"/>
+                            <constraint firstAttribute="trailing" secondItem="CPB-P7-7mw" secondAttribute="trailing" id="qgL-Y0-dTs"/>
+                            <constraint firstItem="VTK-pE-P5g" firstAttribute="top" secondItem="GAN-Nn-eNY" secondAttribute="top" id="xHW-t1-MMD"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FfG-zE-UMA" appends="YES" id="DgL-LD-uhn"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3j-fX-ewt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="FfG-zE-UMA"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="3999"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jRB-yC-34M">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulin4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1ge-Aw-FSD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mdz-jy-VzR"/>
+                        <viewControllerLayoutGuide type="bottom" id="x7T-ZQ-Bzv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YQa-9y-F1k">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhp-sV-8qy">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tBU-jM-Fkb">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="tle-KV-eSc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4my-XE-uOQ">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="oE8-a0-H0y"/>
+                                        </constraints>
+                                        <string key="text">If you see any air bubbles in the syringe, push the plunger slowly until you don’t see any bubbles
+
+Then, remove the needle from the bottle</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="4my-XE-uOQ" firstAttribute="leading" secondItem="dhp-sV-8qy" secondAttribute="leading" constant="114" id="Cel-Ez-u9V"/>
+                                    <constraint firstAttribute="trailing" secondItem="tBU-jM-Fkb" secondAttribute="trailing" constant="113" id="GVe-bk-nZc"/>
+                                    <constraint firstItem="4my-XE-uOQ" firstAttribute="top" secondItem="tBU-jM-Fkb" secondAttribute="bottom" constant="25" id="HtN-TF-AXj"/>
+                                    <constraint firstItem="tBU-jM-Fkb" firstAttribute="top" secondItem="dhp-sV-8qy" secondAttribute="top" constant="8" id="LTY-4J-ze0"/>
+                                    <constraint firstItem="4my-XE-uOQ" firstAttribute="top" secondItem="tBU-jM-Fkb" secondAttribute="bottom" constant="25" id="PDP-am-M2f"/>
+                                    <constraint firstAttribute="trailing" secondItem="4my-XE-uOQ" secondAttribute="trailing" constant="113" id="Qek-Jr-sYv"/>
+                                    <constraint firstItem="tBU-jM-Fkb" firstAttribute="leading" secondItem="dhp-sV-8qy" secondAttribute="leading" constant="114" id="pUC-T4-fMZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjt-9X-L7L">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="lTV-pZ-X39">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="Tr6-CP-9LY"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="lTV-pZ-X39" secondAttribute="trailing" constant="239" id="8nk-m6-H8p"/>
+                                    <constraint firstAttribute="height" constant="55" id="QpF-kv-CpV"/>
+                                    <constraint firstItem="lTV-pZ-X39" firstAttribute="leading" secondItem="sjt-9X-L7L" secondAttribute="leading" constant="240" id="RUT-85-AKk"/>
+                                    <constraint firstItem="lTV-pZ-X39" firstAttribute="top" secondItem="sjt-9X-L7L" secondAttribute="top" constant="9" id="WLh-rB-8an"/>
+                                    <constraint firstAttribute="bottom" secondItem="lTV-pZ-X39" secondAttribute="bottom" constant="9" id="rBE-bW-8TD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3G-fp-vOw">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="daC-s2-F1g">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="e53-54-Ej5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dit-Rm-OsK">
+                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="fMk-4t-LsR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dit-Rm-OsK" secondAttribute="trailing" constant="180" id="I5p-b4-f2W"/>
+                                    <constraint firstItem="daC-s2-F1g" firstAttribute="top" secondItem="t3G-fp-vOw" secondAttribute="top" constant="8" id="OPQ-J4-fa8"/>
+                                    <constraint firstItem="daC-s2-F1g" firstAttribute="leading" secondItem="t3G-fp-vOw" secondAttribute="leading" constant="180" id="SLi-0J-pV5"/>
+                                    <constraint firstAttribute="bottom" secondItem="dit-Rm-OsK" secondAttribute="bottom" constant="2" id="Vct-9Y-OHR"/>
+                                    <constraint firstItem="dit-Rm-OsK" firstAttribute="top" secondItem="daC-s2-F1g" secondAttribute="bottom" constant="12" id="giv-RL-VXE"/>
+                                    <constraint firstAttribute="trailing" secondItem="daC-s2-F1g" secondAttribute="trailing" constant="180" id="nCg-rk-N8Z"/>
+                                    <constraint firstItem="dit-Rm-OsK" firstAttribute="top" secondItem="daC-s2-F1g" secondAttribute="bottom" constant="12" id="rkK-mR-aKT"/>
+                                    <constraint firstItem="dit-Rm-OsK" firstAttribute="leading" secondItem="t3G-fp-vOw" secondAttribute="leading" constant="180" id="t31-7O-wBJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sjt-9X-L7L" secondAttribute="trailing" id="09q-vT-QTf"/>
+                            <constraint firstAttribute="trailing" secondItem="t3G-fp-vOw" secondAttribute="trailing" id="8XG-dm-zHK"/>
+                            <constraint firstItem="x7T-ZQ-Bzv" firstAttribute="top" secondItem="sjt-9X-L7L" secondAttribute="bottom" id="HI7-HU-jPo"/>
+                            <constraint firstItem="t3G-fp-vOw" firstAttribute="leading" secondItem="YQa-9y-F1k" secondAttribute="leading" id="PGi-7D-nzr"/>
+                            <constraint firstItem="sjt-9X-L7L" firstAttribute="top" secondItem="dhp-sV-8qy" secondAttribute="bottom" id="Qp1-Y6-oUt"/>
+                            <constraint firstItem="t3G-fp-vOw" firstAttribute="top" secondItem="YQa-9y-F1k" secondAttribute="top" id="Rtj-GO-IJg"/>
+                            <constraint firstAttribute="trailing" secondItem="dhp-sV-8qy" secondAttribute="trailing" id="VSn-To-RHd"/>
+                            <constraint firstItem="dhp-sV-8qy" firstAttribute="top" secondItem="t3G-fp-vOw" secondAttribute="bottom" id="iEM-aW-OmD"/>
+                            <constraint firstItem="dhp-sV-8qy" firstAttribute="leading" secondItem="YQa-9y-F1k" secondAttribute="leading" id="ie3-C0-MtN"/>
+                            <constraint firstItem="dhp-sV-8qy" firstAttribute="top" secondItem="t3G-fp-vOw" secondAttribute="bottom" id="nRJ-Ui-4Hx"/>
+                            <constraint firstItem="sjt-9X-L7L" firstAttribute="top" secondItem="dhp-sV-8qy" secondAttribute="bottom" id="okz-pc-Juj"/>
+                            <constraint firstItem="sjt-9X-L7L" firstAttribute="leading" secondItem="YQa-9y-F1k" secondAttribute="leading" id="qui-dD-9JT"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Q28-rK-Bp1" appends="YES" id="4IY-cI-Cma"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vL9-cq-JeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Q28-rK-Bp1"/>
+            </objects>
+            <point key="canvasLocation" x="1578" y="3999"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lf2-Po-nVx">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulin5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uH1-2j-ptz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ioP-At-2Ay"/>
+                        <viewControllerLayoutGuide type="bottom" id="OmJ-1K-blJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NXR-Bn-uDT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Fi-h0-d2O">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EY7-KY-qCo">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="Nqr-xM-GJy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0Sm-hE-19a">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="veX-JW-cMx"/>
+                                        </constraints>
+                                        <string key="text">Select a spot on your body such as your stomach or the back of one of your arms to give your shot
+
+Make sure that area of your skin is clean</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="EY7-KY-qCo" firstAttribute="top" secondItem="2Fi-h0-d2O" secondAttribute="top" constant="8" id="1ox-jH-XIo"/>
+                                    <constraint firstItem="0Sm-hE-19a" firstAttribute="top" secondItem="EY7-KY-qCo" secondAttribute="bottom" constant="25" id="7CS-I4-0DQ"/>
+                                    <constraint firstItem="0Sm-hE-19a" firstAttribute="top" secondItem="EY7-KY-qCo" secondAttribute="bottom" constant="25" id="W2R-yG-X4y"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Sm-hE-19a" secondAttribute="trailing" constant="113" id="Xsj-tS-4LX"/>
+                                    <constraint firstItem="0Sm-hE-19a" firstAttribute="leading" secondItem="2Fi-h0-d2O" secondAttribute="leading" constant="114" id="nU3-J1-JaW"/>
+                                    <constraint firstItem="EY7-KY-qCo" firstAttribute="leading" secondItem="2Fi-h0-d2O" secondAttribute="leading" constant="114" id="uNv-Fk-WuS"/>
+                                    <constraint firstAttribute="trailing" secondItem="EY7-KY-qCo" secondAttribute="trailing" constant="113" id="zBD-QF-Sbj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fqk-Or-DNk">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="uUf-ys-JOa">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="1LO-xy-yDA"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="uUf-ys-JOa" firstAttribute="top" secondItem="Fqk-Or-DNk" secondAttribute="top" constant="9" id="5kV-xJ-iHl"/>
+                                    <constraint firstItem="uUf-ys-JOa" firstAttribute="leading" secondItem="Fqk-Or-DNk" secondAttribute="leading" constant="240" id="dyv-WR-t0Y"/>
+                                    <constraint firstAttribute="height" constant="55" id="fUD-yo-a6J"/>
+                                    <constraint firstAttribute="trailing" secondItem="uUf-ys-JOa" secondAttribute="trailing" constant="239" id="k19-t7-A8C"/>
+                                    <constraint firstAttribute="bottom" secondItem="uUf-ys-JOa" secondAttribute="bottom" constant="9" id="rO3-ZX-s5T"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2f-6z-5Y6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cVp-h5-O7K">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="MIh-xH-tpt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PHY-6C-ljx">
+                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Ahp-wR-sMl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="cVp-h5-O7K" firstAttribute="leading" secondItem="F2f-6z-5Y6" secondAttribute="leading" constant="180" id="N41-13-5NF"/>
+                                    <constraint firstAttribute="trailing" secondItem="cVp-h5-O7K" secondAttribute="trailing" constant="180" id="PJ2-9b-yjs"/>
+                                    <constraint firstItem="PHY-6C-ljx" firstAttribute="top" secondItem="cVp-h5-O7K" secondAttribute="bottom" constant="12" id="VNV-0U-u00"/>
+                                    <constraint firstItem="PHY-6C-ljx" firstAttribute="top" secondItem="cVp-h5-O7K" secondAttribute="bottom" constant="12" id="h3a-Wh-5b8"/>
+                                    <constraint firstItem="PHY-6C-ljx" firstAttribute="leading" secondItem="F2f-6z-5Y6" secondAttribute="leading" constant="180" id="j2w-tI-9Tb"/>
+                                    <constraint firstAttribute="trailing" secondItem="PHY-6C-ljx" secondAttribute="trailing" constant="180" id="kp0-bO-pae"/>
+                                    <constraint firstAttribute="bottom" secondItem="PHY-6C-ljx" secondAttribute="bottom" constant="2" id="ses-Dt-jdu"/>
+                                    <constraint firstItem="cVp-h5-O7K" firstAttribute="top" secondItem="F2f-6z-5Y6" secondAttribute="top" constant="8" id="y1I-eF-0xy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2Fi-h0-d2O" firstAttribute="top" secondItem="F2f-6z-5Y6" secondAttribute="bottom" id="4Hm-1n-Zfp"/>
+                            <constraint firstItem="OmJ-1K-blJ" firstAttribute="top" secondItem="Fqk-Or-DNk" secondAttribute="bottom" id="6Ah-G0-2Yv"/>
+                            <constraint firstItem="F2f-6z-5Y6" firstAttribute="leading" secondItem="NXR-Bn-uDT" secondAttribute="leading" id="9oP-1G-2hX"/>
+                            <constraint firstItem="Fqk-Or-DNk" firstAttribute="leading" secondItem="NXR-Bn-uDT" secondAttribute="leading" id="MD4-mG-Cga"/>
+                            <constraint firstItem="2Fi-h0-d2O" firstAttribute="leading" secondItem="NXR-Bn-uDT" secondAttribute="leading" id="MVx-Fs-PAu"/>
+                            <constraint firstItem="F2f-6z-5Y6" firstAttribute="top" secondItem="NXR-Bn-uDT" secondAttribute="top" id="MdK-2s-EJ0"/>
+                            <constraint firstAttribute="trailing" secondItem="Fqk-Or-DNk" secondAttribute="trailing" id="MhT-a1-CYk"/>
+                            <constraint firstAttribute="trailing" secondItem="F2f-6z-5Y6" secondAttribute="trailing" id="d9u-mo-Sj6"/>
+                            <constraint firstItem="Fqk-Or-DNk" firstAttribute="top" secondItem="2Fi-h0-d2O" secondAttribute="bottom" id="hRP-zd-Mro"/>
+                            <constraint firstItem="2Fi-h0-d2O" firstAttribute="top" secondItem="F2f-6z-5Y6" secondAttribute="bottom" id="hUg-h0-XIC"/>
+                            <constraint firstAttribute="trailing" secondItem="2Fi-h0-d2O" secondAttribute="trailing" id="kON-cv-oyO"/>
+                            <constraint firstItem="Fqk-Or-DNk" firstAttribute="top" secondItem="2Fi-h0-d2O" secondAttribute="bottom" id="pLg-ol-kFe"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="cCX-Jc-2Iv" appends="YES" id="xVM-jb-TmV"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mS6-Zn-ZAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="cCX-Jc-2Iv"/>
+            </objects>
+            <point key="canvasLocation" x="2238" y="3999"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gtm-WP-OjA">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulin6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="orX-jG-rye" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m5d-yc-aNc"/>
+                        <viewControllerLayoutGuide type="bottom" id="imh-ex-xJY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PeR-ZR-xK4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GuX-0w-LAI">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fmf-ji-DeU">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="J9l-Pk-CUC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s7K-iV-5og">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="cKB-aD-dcR"/>
+                                        </constraints>
+                                        <string key="text">Pinch a 1-2 inch part of your skin and fat between your thumb and first finger
+
+With your other hand, push the needle quickly into the skin at a 90-degree angle
+
+Then let go of your skin and push the plunger down to inject the insulin</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Fmf-ji-DeU" firstAttribute="leading" secondItem="GuX-0w-LAI" secondAttribute="leading" constant="114" id="Hf8-7E-hun"/>
+                                    <constraint firstAttribute="trailing" secondItem="s7K-iV-5og" secondAttribute="trailing" constant="113" id="NBk-hX-Wtp"/>
+                                    <constraint firstItem="s7K-iV-5og" firstAttribute="top" secondItem="Fmf-ji-DeU" secondAttribute="bottom" constant="25" id="Pks-ss-iRK"/>
+                                    <constraint firstItem="s7K-iV-5og" firstAttribute="top" secondItem="Fmf-ji-DeU" secondAttribute="bottom" constant="25" id="Qk6-GW-ang"/>
+                                    <constraint firstItem="Fmf-ji-DeU" firstAttribute="top" secondItem="GuX-0w-LAI" secondAttribute="top" constant="8" id="T9N-LH-JE1"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fmf-ji-DeU" secondAttribute="trailing" constant="113" id="X9p-Zh-uqg"/>
+                                    <constraint firstItem="s7K-iV-5og" firstAttribute="leading" secondItem="GuX-0w-LAI" secondAttribute="leading" constant="114" id="iQg-cd-3xb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bYu-Vb-Cpv">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="nKU-JK-eC4">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="ffh-kk-g2J"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="nKU-JK-eC4" firstAttribute="top" secondItem="bYu-Vb-Cpv" secondAttribute="top" constant="9" id="3zX-XG-iaD"/>
+                                    <constraint firstAttribute="trailing" secondItem="nKU-JK-eC4" secondAttribute="trailing" constant="239" id="FOC-uO-3RN"/>
+                                    <constraint firstItem="nKU-JK-eC4" firstAttribute="leading" secondItem="bYu-Vb-Cpv" secondAttribute="leading" constant="240" id="H9d-2w-HPJ"/>
+                                    <constraint firstAttribute="height" constant="55" id="Uie-Gh-TJI"/>
+                                    <constraint firstAttribute="bottom" secondItem="nKU-JK-eC4" secondAttribute="bottom" constant="9" id="dre-T7-m0S"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EkS-SE-jg7">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nOl-R2-d9i">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="dfe-Rp-L36"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NGN-4d-pVE">
+                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wCN-bY-FJl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="NGN-4d-pVE" firstAttribute="top" secondItem="nOl-R2-d9i" secondAttribute="bottom" constant="12" id="2DU-pi-sF5"/>
+                                    <constraint firstItem="NGN-4d-pVE" firstAttribute="leading" secondItem="EkS-SE-jg7" secondAttribute="leading" constant="180" id="3dg-Kh-XXU"/>
+                                    <constraint firstAttribute="bottom" secondItem="NGN-4d-pVE" secondAttribute="bottom" constant="2" id="5aB-Ix-AAh"/>
+                                    <constraint firstItem="NGN-4d-pVE" firstAttribute="top" secondItem="nOl-R2-d9i" secondAttribute="bottom" constant="12" id="FSe-Yi-nWI"/>
+                                    <constraint firstItem="nOl-R2-d9i" firstAttribute="top" secondItem="EkS-SE-jg7" secondAttribute="top" constant="8" id="O6i-wu-E8q"/>
+                                    <constraint firstAttribute="trailing" secondItem="NGN-4d-pVE" secondAttribute="trailing" constant="180" id="SOv-Ak-0XR"/>
+                                    <constraint firstAttribute="trailing" secondItem="nOl-R2-d9i" secondAttribute="trailing" constant="180" id="adl-Uf-3dk"/>
+                                    <constraint firstItem="nOl-R2-d9i" firstAttribute="leading" secondItem="EkS-SE-jg7" secondAttribute="leading" constant="180" id="vYt-L3-hXV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="bYu-Vb-Cpv" firstAttribute="top" secondItem="GuX-0w-LAI" secondAttribute="bottom" id="0Uk-FE-eN8"/>
+                            <constraint firstItem="imh-ex-xJY" firstAttribute="top" secondItem="bYu-Vb-Cpv" secondAttribute="bottom" id="DYQ-km-kvR"/>
+                            <constraint firstItem="GuX-0w-LAI" firstAttribute="top" secondItem="EkS-SE-jg7" secondAttribute="bottom" id="Ehs-F1-nrD"/>
+                            <constraint firstItem="GuX-0w-LAI" firstAttribute="leading" secondItem="PeR-ZR-xK4" secondAttribute="leading" id="FWT-sr-S7z"/>
+                            <constraint firstItem="GuX-0w-LAI" firstAttribute="top" secondItem="EkS-SE-jg7" secondAttribute="bottom" id="QLi-Xq-EWe"/>
+                            <constraint firstItem="bYu-Vb-Cpv" firstAttribute="leading" secondItem="PeR-ZR-xK4" secondAttribute="leading" id="RE3-VX-pMv"/>
+                            <constraint firstItem="bYu-Vb-Cpv" firstAttribute="top" secondItem="GuX-0w-LAI" secondAttribute="bottom" id="b0t-ED-6GA"/>
+                            <constraint firstAttribute="trailing" secondItem="bYu-Vb-Cpv" secondAttribute="trailing" id="krN-iU-Fvi"/>
+                            <constraint firstItem="EkS-SE-jg7" firstAttribute="leading" secondItem="PeR-ZR-xK4" secondAttribute="leading" id="mY8-PN-kgY"/>
+                            <constraint firstItem="EkS-SE-jg7" firstAttribute="top" secondItem="PeR-ZR-xK4" secondAttribute="top" id="svA-96-A8r"/>
+                            <constraint firstAttribute="trailing" secondItem="GuX-0w-LAI" secondAttribute="trailing" id="yGv-gd-7QW"/>
+                            <constraint firstAttribute="trailing" secondItem="EkS-SE-jg7" secondAttribute="trailing" id="yKd-Wk-wSN"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ijF-eZ-szY" appends="YES" id="kcC-vS-dkh"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kh9-qY-m4L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="ijF-eZ-szY"/>
+            </objects>
+            <point key="canvasLocation" x="2884" y="3993"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WdZ-vc-mYa">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulin7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Noy-AN-YR1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="49H-0R-pY5"/>
+                        <viewControllerLayoutGuide type="bottom" id="cyf-JB-pgM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fGU-ws-UjE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17F-8I-fUT">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jas-Rv-SIN">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="C3M-ea-Z6B"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sDg-2u-Op6">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="hKX-y9-Lbk"/>
+                                        </constraints>
+                                        <string key="text">Pull the needle straight out of your skin and press the site for 5-10 seconds with a finger to keep the insulin from leaking out
+
+Throw the needle away in the box provided by your pharmacy or healthcare provider</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="sDg-2u-Op6" firstAttribute="top" secondItem="jas-Rv-SIN" secondAttribute="bottom" constant="25" id="BTc-8c-iUq"/>
+                                    <constraint firstItem="sDg-2u-Op6" firstAttribute="leading" secondItem="17F-8I-fUT" secondAttribute="leading" constant="114" id="IY6-dI-MKk"/>
+                                    <constraint firstAttribute="trailing" secondItem="sDg-2u-Op6" secondAttribute="trailing" constant="113" id="J9D-Is-y30"/>
+                                    <constraint firstAttribute="trailing" secondItem="jas-Rv-SIN" secondAttribute="trailing" constant="113" id="ouo-7z-YYK"/>
+                                    <constraint firstItem="sDg-2u-Op6" firstAttribute="top" secondItem="jas-Rv-SIN" secondAttribute="bottom" constant="25" id="u6d-Ol-fEy"/>
+                                    <constraint firstItem="jas-Rv-SIN" firstAttribute="leading" secondItem="17F-8I-fUT" secondAttribute="leading" constant="114" id="vFt-1h-554"/>
+                                    <constraint firstItem="jas-Rv-SIN" firstAttribute="top" secondItem="17F-8I-fUT" secondAttribute="top" constant="8" id="vTw-Un-1NZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIn-4s-DUs">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="uDa-8R-UJC">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="VwG-pE-G7Z"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="uDa-8R-UJC" firstAttribute="top" secondItem="KIn-4s-DUs" secondAttribute="top" constant="9" id="2sN-GT-aNx"/>
+                                    <constraint firstAttribute="trailing" secondItem="uDa-8R-UJC" secondAttribute="trailing" constant="239" id="Pfg-fg-LD9"/>
+                                    <constraint firstItem="uDa-8R-UJC" firstAttribute="leading" secondItem="KIn-4s-DUs" secondAttribute="leading" constant="240" id="YJ1-8N-MqM"/>
+                                    <constraint firstAttribute="bottom" secondItem="uDa-8R-UJC" secondAttribute="bottom" constant="9" id="oDL-ed-cG0"/>
+                                    <constraint firstAttribute="height" constant="55" id="tvU-fe-vD5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1D-xq-Cir">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9F5-As-98m">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="u0k-sf-Egf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tQ6-Gc-6qT">
+                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="VL2-ks-28G"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tQ6-Gc-6qT" firstAttribute="leading" secondItem="i1D-xq-Cir" secondAttribute="leading" constant="180" id="090-xV-9ZC"/>
+                                    <constraint firstAttribute="bottom" secondItem="tQ6-Gc-6qT" secondAttribute="bottom" constant="2" id="3Sp-91-k2U"/>
+                                    <constraint firstAttribute="trailing" secondItem="9F5-As-98m" secondAttribute="trailing" constant="180" id="EJs-Lr-S1A"/>
+                                    <constraint firstItem="tQ6-Gc-6qT" firstAttribute="top" secondItem="9F5-As-98m" secondAttribute="bottom" constant="12" id="GI4-WY-aqb"/>
+                                    <constraint firstAttribute="trailing" secondItem="tQ6-Gc-6qT" secondAttribute="trailing" constant="180" id="U2B-QJ-BXt"/>
+                                    <constraint firstItem="9F5-As-98m" firstAttribute="leading" secondItem="i1D-xq-Cir" secondAttribute="leading" constant="180" id="WLh-nE-i2w"/>
+                                    <constraint firstItem="tQ6-Gc-6qT" firstAttribute="top" secondItem="9F5-As-98m" secondAttribute="bottom" constant="12" id="eEw-ad-Kfs"/>
+                                    <constraint firstItem="9F5-As-98m" firstAttribute="top" secondItem="i1D-xq-Cir" secondAttribute="top" constant="8" id="kwi-vV-QPV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="KIn-4s-DUs" firstAttribute="top" secondItem="17F-8I-fUT" secondAttribute="bottom" id="9CP-lF-35U"/>
+                            <constraint firstItem="17F-8I-fUT" firstAttribute="top" secondItem="i1D-xq-Cir" secondAttribute="bottom" id="Aqa-FD-AFa"/>
+                            <constraint firstAttribute="trailing" secondItem="i1D-xq-Cir" secondAttribute="trailing" id="Dey-ZW-Xhn"/>
+                            <constraint firstAttribute="trailing" secondItem="17F-8I-fUT" secondAttribute="trailing" id="Etp-If-vE5"/>
+                            <constraint firstItem="KIn-4s-DUs" firstAttribute="top" secondItem="17F-8I-fUT" secondAttribute="bottom" id="Uk9-GU-VkC"/>
+                            <constraint firstItem="cyf-JB-pgM" firstAttribute="top" secondItem="KIn-4s-DUs" secondAttribute="bottom" id="dUE-ig-1as"/>
+                            <constraint firstItem="i1D-xq-Cir" firstAttribute="top" secondItem="fGU-ws-UjE" secondAttribute="top" id="fcu-d1-l0F"/>
+                            <constraint firstItem="i1D-xq-Cir" firstAttribute="leading" secondItem="fGU-ws-UjE" secondAttribute="leading" id="ikJ-jh-V1G"/>
+                            <constraint firstAttribute="trailing" secondItem="KIn-4s-DUs" secondAttribute="trailing" id="ky6-bx-EpI"/>
+                            <constraint firstItem="17F-8I-fUT" firstAttribute="top" secondItem="i1D-xq-Cir" secondAttribute="bottom" id="nB2-6e-iey"/>
+                            <constraint firstItem="KIn-4s-DUs" firstAttribute="leading" secondItem="fGU-ws-UjE" secondAttribute="leading" id="no8-a6-Dpn"/>
+                            <constraint firstItem="17F-8I-fUT" firstAttribute="leading" secondItem="fGU-ws-UjE" secondAttribute="leading" id="qej-Ez-mWV"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="vZc-aE-HQ7" appends="YES" id="V8Z-dG-jNr"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S0V-vN-Hl4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="vZc-aE-HQ7"/>
+            </objects>
+            <point key="canvasLocation" x="3580" y="3993"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="atc-3H-Fzz">
+            <objects>
+                <viewController id="Cpj-eW-sK9" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2MB-1G-qAu"/>
+                        <viewControllerLayoutGuide type="bottom" id="mAQ-2B-X07"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="edT-3H-SXg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NSX-Nj-ZwZ">
+                                <rect key="frame" x="0.0" y="83" width="600" height="517"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAm-5d-1HZ">
+                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Rxc-us-Nv2"/>
+                                        </constraints>
+                                        <state key="normal" title="Basics"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1U-he-hDS">
+                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="of4-im-kKU"/>
+                                        </constraints>
+                                        <state key="normal" title="How to draw up and give your insulin"/>
+                                        <connections>
+                                            <segue destination="PGS-TM-I4l" kind="presentation" id="XQt-SG-KSB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="xAm-5d-1HZ" secondAttribute="trailing" constant="220" id="E7Q-G3-Jsh"/>
+                                    <constraint firstAttribute="trailing" secondItem="O1U-he-hDS" secondAttribute="trailing" constant="220" id="QDJ-E2-Uuj"/>
+                                    <constraint firstItem="xAm-5d-1HZ" firstAttribute="centerY" secondItem="NSX-Nj-ZwZ" secondAttribute="centerY" id="W0l-AW-WHJ"/>
+                                    <constraint firstItem="O1U-he-hDS" firstAttribute="leading" secondItem="NSX-Nj-ZwZ" secondAttribute="leading" constant="220" id="XAd-aE-dsa"/>
+                                    <constraint firstItem="xAm-5d-1HZ" firstAttribute="leading" secondItem="NSX-Nj-ZwZ" secondAttribute="leading" constant="220" id="aOl-z5-C2D"/>
+                                    <constraint firstItem="xAm-5d-1HZ" firstAttribute="top" secondItem="O1U-he-hDS" secondAttribute="bottom" constant="60" id="btR-t1-vX3"/>
+                                    <constraint firstItem="xAm-5d-1HZ" firstAttribute="top" secondItem="O1U-he-hDS" secondAttribute="bottom" constant="60" id="r4v-UM-6Ex"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaB-Rg-10k">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8d7-yj-Qes">
+                                        <rect key="frame" x="194" y="0.0" width="213" height="75"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="9Xb-EB-aS8"/>
+                                            <constraint firstAttribute="width" constant="213" id="aGn-fz-P0m"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTl-BV-aG2">
+                                        <rect key="frame" x="9" y="23" width="76" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="42" id="SWh-ID-sl6"/>
+                                        </constraints>
+                                        <state key="normal" title="Main Menu"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="JTl-BV-aG2" firstAttribute="centerY" secondItem="8d7-yj-Qes" secondAttribute="centerY" id="5on-QC-8qJ"/>
+                                    <constraint firstItem="JTl-BV-aG2" firstAttribute="leading" secondItem="kaB-Rg-10k" secondAttribute="leading" constant="26" id="BRk-4P-FwM"/>
+                                    <constraint firstItem="8d7-yj-Qes" firstAttribute="top" secondItem="kaB-Rg-10k" secondAttribute="top" id="M7Y-d9-2O9"/>
+                                    <constraint firstAttribute="bottom" secondItem="8d7-yj-Qes" secondAttribute="bottom" id="bLW-uq-Aty"/>
+                                    <constraint firstItem="8d7-yj-Qes" firstAttribute="centerX" secondItem="kaB-Rg-10k" secondAttribute="centerX" id="s6p-bA-BqY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="kaB-Rg-10k" firstAttribute="top" secondItem="edT-3H-SXg" secondAttribute="top" id="5eB-ZQ-G4j"/>
+                            <constraint firstItem="NSX-Nj-ZwZ" firstAttribute="top" secondItem="kaB-Rg-10k" secondAttribute="bottom" constant="8" id="76u-NE-ul2"/>
+                            <constraint firstItem="NSX-Nj-ZwZ" firstAttribute="top" secondItem="kaB-Rg-10k" secondAttribute="bottom" constant="8" id="Aqn-Kt-8Xg"/>
+                            <constraint firstItem="mAQ-2B-X07" firstAttribute="top" secondItem="NSX-Nj-ZwZ" secondAttribute="bottom" id="P3K-v6-Xgb"/>
+                            <constraint firstItem="kaB-Rg-10k" firstAttribute="leading" secondItem="edT-3H-SXg" secondAttribute="leading" id="Urq-ui-1sD"/>
+                            <constraint firstAttribute="trailing" secondItem="NSX-Nj-ZwZ" secondAttribute="trailing" id="ccU-PX-rpZ"/>
+                            <constraint firstItem="NSX-Nj-ZwZ" firstAttribute="leading" secondItem="edT-3H-SXg" secondAttribute="leading" id="dzR-04-EpW"/>
+                            <constraint firstAttribute="trailing" secondItem="kaB-Rg-10k" secondAttribute="trailing" id="zVA-ug-JXR"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="0HW-X3-xVl" appends="YES" id="5PY-PR-ytu"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="SwipeField" destination="0HW-X3-xVl" id="uij-Td-hxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zBK-e1-1VH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="0HW-X3-xVl">
+                    <connections>
+                        <action selector="textMove:" destination="Cpj-eW-sK9" id="SBc-Cn-VBZ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-217" y="1077"/>
+        </scene>
+        <!--Draw Insulin View Controller-->
+        <scene sceneID="QhA-Y2-ETV">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="PGS-TM-I4l" customClass="DrawInsulinViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="olS-OW-ca5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-345" y="1936"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XRe-jj-CqC"/>
-        <segue reference="9i7-Vm-NdP"/>
-        <segue reference="cek-SE-eSn"/>
+        <segue reference="nLq-0n-4sb"/>
+        <segue reference="fj5-xA-aQQ"/>
+        <segue reference="cP7-H0-Spc"/>
     </inferredMetricsTieBreakers>
 </document>
