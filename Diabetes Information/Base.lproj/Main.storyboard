@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E33e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -58,6 +58,9 @@
                                             <constraint firstAttribute="height" constant="70" id="gUH-ph-KVC"/>
                                         </constraints>
                                         <state key="normal" title="Complications"/>
+                                        <connections>
+                                            <segue destination="iWP-Ls-pX4" kind="presentation" id="TqC-u4-EeE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8H-mA-ZL8">
                                         <rect key="frame" x="220" y="30" width="160" height="70"/>
@@ -259,18 +262,10 @@
             </objects>
             <point key="canvasLocation" x="967" y="41"/>
         </scene>
-        <!--Prevent Complications View Controller-->
-        <scene sceneID="KY0-Vp-wPa">
-            <objects>
-                <pageViewController storyboardIdentifier="PreventComplicationsViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="gpm-jB-W3g" customClass="PreventComplicationsViewController" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qfR-Kb-h4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="882" y="1710"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="GaQ-a8-5SC">
             <objects>
-                <viewController id="dBM-Z7-WXZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PreventComplications2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dBM-Z7-WXZ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7MG-Ha-nmV"/>
                         <viewControllerLayoutGuide type="bottom" id="BGZ-9Z-2Fv"/>
@@ -339,12 +334,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fej-5l-ySL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1575" y="2568"/>
+            <point key="canvasLocation" x="2211" y="3264"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1uw-IB-XDk">
             <objects>
-                <viewController id="NSA-al-aCe" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PreventComplications3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NSA-al-aCe" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FQu-zz-f9i"/>
                         <viewControllerLayoutGuide type="bottom" id="Jga-re-F86"/>
@@ -412,12 +407,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XMZ-uN-BUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2240" y="2568"/>
+            <point key="canvasLocation" x="2876" y="3264"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RyA-EV-0I9">
             <objects>
-                <viewController id="4XH-H6-AZe" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PreventComplications4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4XH-H6-AZe" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lgj-hB-R8w"/>
                         <viewControllerLayoutGuide type="bottom" id="ioH-fi-fbz"/>
@@ -487,7 +482,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJn-md-Tbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2901" y="2568"/>
+            <point key="canvasLocation" x="3537" y="3264"/>
         </scene>
         <!--Counting Carbs View Controller-->
         <scene sceneID="hAY-wt-Tti">
@@ -722,10 +717,18 @@
             </objects>
             <point key="canvasLocation" x="1907" y="895"/>
         </scene>
+        <!--Prevent Complications View Controller-->
+        <scene sceneID="2Wu-Q8-SvC">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="dYJ-oN-lXA" customClass="PreventComplicationsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7rp-3s-7vU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="1928"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="32t-Pf-HoV">
             <objects>
-                <viewController id="Cwb-Qd-wa3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PreventComplications1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cwb-Qd-wa3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dXt-No-v4P"/>
                         <viewControllerLayoutGuide type="bottom" id="z30-9v-rQL"/>
@@ -794,7 +797,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QR1-W9-uo5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="2LS-eJ-jqK"/>
             </objects>
-            <point key="canvasLocation" x="882" y="2568"/>
+            <point key="canvasLocation" x="1518" y="3264"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gTs-i0-TRy">
@@ -2850,6 +2853,37 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                     <constraint firstItem="xAm-5d-1HZ" firstAttribute="top" secondItem="O1U-he-hDS" secondAttribute="bottom" constant="60" id="r4v-UM-6Ex"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eLz-iC-Nkt">
+                                <rect key="frame" x="10" y="93" width="600" height="517"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIk-84-Vyp">
+                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="H4X-Vl-hhd"/>
+                                        </constraints>
+                                        <state key="normal" title="Basics"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zte-8A-uFp">
+                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Lye-GX-vpM"/>
+                                        </constraints>
+                                        <state key="normal" title="How to draw up and give your insulin"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="zte-8A-uFp" secondAttribute="trailing" constant="220" id="3vw-hF-fiV"/>
+                                    <constraint firstItem="IIk-84-Vyp" firstAttribute="leading" secondItem="eLz-iC-Nkt" secondAttribute="leading" constant="220" id="8Cc-bJ-yrp"/>
+                                    <constraint firstItem="zte-8A-uFp" firstAttribute="leading" secondItem="eLz-iC-Nkt" secondAttribute="leading" constant="220" id="9pA-vk-PpS"/>
+                                    <constraint firstAttribute="trailing" secondItem="IIk-84-Vyp" secondAttribute="trailing" constant="220" id="HAz-cR-2Yl"/>
+                                    <constraint firstItem="IIk-84-Vyp" firstAttribute="centerY" secondItem="eLz-iC-Nkt" secondAttribute="centerY" id="anW-Kw-tkV"/>
+                                    <constraint firstItem="IIk-84-Vyp" firstAttribute="top" secondItem="zte-8A-uFp" secondAttribute="bottom" constant="60" id="kAL-Cl-KIh"/>
+                                    <constraint firstItem="IIk-84-Vyp" firstAttribute="top" secondItem="zte-8A-uFp" secondAttribute="bottom" constant="60" id="tCn-IM-vvg"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaB-Rg-10k">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                 <subviews>
@@ -2909,7 +2943,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-217" y="1077"/>
+            <point key="canvasLocation" x="-583" y="1006"/>
         </scene>
         <!--Draw Insulin View Controller-->
         <scene sceneID="QhA-Y2-ETV">
@@ -2918,6 +2952,144 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="olS-OW-ca5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-345" y="1936"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="vfs-Vy-5O7">
+            <objects>
+                <viewController id="iWP-Ls-pX4" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="twm-ca-MPj"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Ub-tF-PW7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wle-4i-9v0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHZ-iW-Ino">
+                                <rect key="frame" x="0.0" y="83" width="600" height="517"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcq-28-9xi">
+                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="g8z-vN-rDI"/>
+                                        </constraints>
+                                        <state key="normal" title="Basics"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkQ-Pi-iX8">
+                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="YP4-5r-hYX"/>
+                                        </constraints>
+                                        <state key="normal" title="How to draw up and give your insulin"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.85425327072381152" blue="0.24901533096972928" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="rcq-28-9xi" secondAttribute="trailing" constant="220" id="6Ib-C2-Hh6"/>
+                                    <constraint firstAttribute="trailing" secondItem="mkQ-Pi-iX8" secondAttribute="trailing" constant="220" id="KtE-xr-4TG"/>
+                                    <constraint firstItem="mkQ-Pi-iX8" firstAttribute="leading" secondItem="bHZ-iW-Ino" secondAttribute="leading" constant="220" id="Mjf-R3-7eA"/>
+                                    <constraint firstItem="rcq-28-9xi" firstAttribute="leading" secondItem="bHZ-iW-Ino" secondAttribute="leading" constant="220" id="RhW-vo-120"/>
+                                    <constraint firstItem="rcq-28-9xi" firstAttribute="top" secondItem="mkQ-Pi-iX8" secondAttribute="bottom" constant="60" id="azC-aq-UWb"/>
+                                    <constraint firstItem="rcq-28-9xi" firstAttribute="top" secondItem="mkQ-Pi-iX8" secondAttribute="bottom" constant="60" id="e5d-SI-vOi"/>
+                                    <constraint firstItem="rcq-28-9xi" firstAttribute="centerY" secondItem="bHZ-iW-Ino" secondAttribute="centerY" id="l9A-Rp-PuK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEv-Rf-ooX">
+                                <rect key="frame" x="10" y="93" width="600" height="517"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qe-aL-NQn">
+                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="EJN-9m-Nbt"/>
+                                        </constraints>
+                                        <state key="normal" title="Basics"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aus-nI-e1z">
+                                        <rect key="frame" x="174" y="91" width="252" height="70"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="szG-5B-7fz"/>
+                                        </constraints>
+                                        <state key="normal" title="Preventing Complications"/>
+                                        <connections>
+                                            <segue destination="dYJ-oN-lXA" kind="presentation" id="N7m-Jd-fI6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.85425327072381152" blue="0.24901533096972928" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6Qe-aL-NQn" secondAttribute="trailing" constant="220" id="DLK-Rp-4he"/>
+                                    <constraint firstItem="6Qe-aL-NQn" firstAttribute="centerY" secondItem="hEv-Rf-ooX" secondAttribute="centerY" id="FXs-bO-gQ7"/>
+                                    <constraint firstAttribute="trailing" secondItem="Aus-nI-e1z" secondAttribute="trailing" constant="220" id="Z2D-tZ-kaE"/>
+                                    <constraint firstItem="6Qe-aL-NQn" firstAttribute="top" secondItem="Aus-nI-e1z" secondAttribute="bottom" constant="60" id="cjJ-jO-b7s"/>
+                                    <constraint firstItem="Aus-nI-e1z" firstAttribute="leading" secondItem="hEv-Rf-ooX" secondAttribute="leading" constant="220" id="iMa-Oq-udr"/>
+                                    <constraint firstItem="6Qe-aL-NQn" firstAttribute="top" secondItem="Aus-nI-e1z" secondAttribute="bottom" constant="60" id="kDM-0Q-3xg"/>
+                                    <constraint firstItem="6Qe-aL-NQn" firstAttribute="leading" secondItem="hEv-Rf-ooX" secondAttribute="leading" constant="220" id="zz5-bj-wQQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pGp-YS-RJe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J8G-DN-PpZ">
+                                        <rect key="frame" x="194" y="0.0" width="213" height="75"/>
+                                        <color key="backgroundColor" red="1" green="0.85425327072381152" blue="0.24901533096972928" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="4Cg-qU-oxs"/>
+                                            <constraint firstAttribute="width" constant="213" id="bi5-vw-6BF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifq-Q3-jO7">
+                                        <rect key="frame" x="9" y="23" width="76" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="42" id="sL3-Fo-Q7T"/>
+                                        </constraints>
+                                        <state key="normal" title="Main Menu"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.85425327072381152" blue="0.24901533096972928" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="J8G-DN-PpZ" firstAttribute="centerX" secondItem="pGp-YS-RJe" secondAttribute="centerX" id="FvC-gK-Owg"/>
+                                    <constraint firstAttribute="bottom" secondItem="J8G-DN-PpZ" secondAttribute="bottom" id="TS8-Ax-SHY"/>
+                                    <constraint firstItem="J8G-DN-PpZ" firstAttribute="top" secondItem="pGp-YS-RJe" secondAttribute="top" id="Wel-We-onm"/>
+                                    <constraint firstItem="ifq-Q3-jO7" firstAttribute="leading" secondItem="pGp-YS-RJe" secondAttribute="leading" constant="26" id="kGN-e0-2ee"/>
+                                    <constraint firstItem="ifq-Q3-jO7" firstAttribute="centerY" secondItem="J8G-DN-PpZ" secondAttribute="centerY" id="ktR-hH-XY7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="bHZ-iW-Ino" firstAttribute="leading" secondItem="wle-4i-9v0" secondAttribute="leading" id="0fA-Pc-cEj"/>
+                            <constraint firstItem="pGp-YS-RJe" firstAttribute="leading" secondItem="wle-4i-9v0" secondAttribute="leading" id="3bc-7U-uTN"/>
+                            <constraint firstItem="bHZ-iW-Ino" firstAttribute="top" secondItem="pGp-YS-RJe" secondAttribute="bottom" constant="8" id="AfK-Js-3BQ"/>
+                            <constraint firstItem="bHZ-iW-Ino" firstAttribute="top" secondItem="pGp-YS-RJe" secondAttribute="bottom" constant="8" id="GI4-mV-b9t"/>
+                            <constraint firstItem="1Ub-tF-PW7" firstAttribute="top" secondItem="bHZ-iW-Ino" secondAttribute="bottom" id="GcY-f5-NpO"/>
+                            <constraint firstAttribute="trailing" secondItem="pGp-YS-RJe" secondAttribute="trailing" id="nmb-GJ-jla"/>
+                            <constraint firstItem="pGp-YS-RJe" firstAttribute="top" secondItem="wle-4i-9v0" secondAttribute="top" id="pyY-iF-gb9"/>
+                            <constraint firstAttribute="trailing" secondItem="bHZ-iW-Ino" secondAttribute="trailing" id="uCp-tp-NP5"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="N2t-3H-7JI" appends="YES" id="8sg-ac-qhV"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="SwipeField" destination="0HW-X3-xVl" id="zgg-sh-6JU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XWc-ik-Q8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="N2t-3H-7JI">
+                    <connections>
+                        <action selector="textMove:" destination="iWP-Ls-pX4" id="FzM-ad-tEy"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="257" y="1025"/>
         </scene>
     </scenes>
     <resources>
