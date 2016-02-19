@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		174798761C72667B004D75A6 /* PreventComplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */; };
+		174D36871C77AF3E003D38CF /* SickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D36861C77AF3E003D38CF /* SickDaysViewController.swift */; };
 		404C8EBF1C691BB8000C676F /* CountingCarbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */; };
 		40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */; };
 		40E497E21C5EBB8C00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreventComplicationsViewController.swift; sourceTree = "<group>"; };
+		174D36861C77AF3E003D38CF /* SickDaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickDaysViewController.swift; sourceTree = "<group>"; };
 		404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingCarbsViewController.swift; sourceTree = "<group>"; };
 		40E497DC1C5EBB8C00ECB5F1 /* Diabetes Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diabetes Information.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				40E497EB1C5EBB8C00ECB5F1 /* Info.plist */,
 				40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */,
 				404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */,
+				174D36861C77AF3E003D38CF /* SickDaysViewController.swift */,
 				174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */,
 			);
 			path = "Diabetes Information";
@@ -300,6 +303,7 @@
 				73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */,
 				F94A7A9B1C6FD23C00F4FF0E /* DrawInsulinViewController.swift in Sources */,
 				73B8E18A1C72878C008DC8DA /* ExerciseAndBloodViewController.swift in Sources */,
+				174D36871C77AF3E003D38CF /* SickDaysViewController.swift in Sources */,
 				40E498101C5EC52100ECB5F1 /* ViewController3.swift in Sources */,
 				40E4980E1C5EC4BF00ECB5F1 /* ViewController2.swift in Sources */,
 				73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */,

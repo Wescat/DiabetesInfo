@@ -279,7 +279,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Sd-1n-sfg">
                                 <rect key="frame" x="154" y="20" width="293" height="64"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="293" id="Kc0-4O-Iju"/>
                                 </constraints>
@@ -288,7 +288,7 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Preventing Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9KO-xY-fpR">
                                 <rect key="frame" x="180" y="77" width="240" height="74"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="5nj-fT-5uj"/>
                                     <constraint firstAttribute="height" constant="40" id="qY6-fR-BNp"/>
@@ -298,14 +298,21 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="To avoid problems with your skin:" translatesAutoresizingMaskIntoConstraints="NO" id="Kwb-JL-yUm">
                                 <rect key="frame" x="114" y="159" width="373" height="55"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="FrW-kz-q4V"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="JAL-PG-dBb">
+                                <rect key="frame" x="263" y="543" width="75" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bm9-Dq-jQa">
                                 <rect key="frame" x="114" y="201" width="373" height="334"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="334" id="Aar-tQ-oFg"/>
                                 </constraints>
@@ -320,13 +327,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="JAL-PG-dBb">
-                                <rect key="frame" x="263" y="543" width="75" height="37"/>
-                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4X6-Rz-6EN">
+                                <rect key="frame" x="486" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lmi-rm-JwX">
+                                <rect key="frame" x="0.0" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="9KO-xY-fpR" firstAttribute="centerX" secondItem="4Sd-1n-sfg" secondAttribute="centerX" id="R0J-30-A16"/>
                             <constraint firstItem="bm9-Dq-jQa" firstAttribute="top" secondItem="Kwb-JL-yUm" secondAttribute="bottom" constant="25" id="RxY-DX-Qm9"/>
@@ -337,7 +347,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fej-5l-ySL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2211" y="3264"/>
+            <point key="canvasLocation" x="251" y="3288"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1uw-IB-XDk">
@@ -353,7 +363,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qN0-gS-Dan">
                                 <rect key="frame" x="154" y="20" width="293" height="64"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="293" id="FS9-LO-6lh"/>
                                 </constraints>
@@ -362,7 +372,7 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Preventing Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zVG-q4-t8l">
                                 <rect key="frame" x="180" y="77" width="240" height="74"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="iyU-CY-Peo"/>
                                     <constraint firstAttribute="width" constant="240" id="uiL-v4-wx8"/>
@@ -372,6 +382,7 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="To avoid problems with your eyes" translatesAutoresizingMaskIntoConstraints="NO" id="0Xa-bf-KXT">
                                 <rect key="frame" x="114" y="159" width="373" height="55"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="yCp-th-j8d"/>
                                 </constraints>
@@ -379,7 +390,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hzq-vt-wbw">
-                                <rect key="frame" x="114" y="203" width="373" height="233"/>
+                                <rect key="frame" x="114" y="203" width="373" height="332"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="334" id="hvM-Jw-8JL"/>
                                 </constraints>
@@ -398,8 +410,16 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e28-u9-aiu">
+                                <rect key="frame" x="486" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qTf-Eb-20s">
+                                <rect key="frame" x="0.0" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="zVG-q4-t8l" firstAttribute="centerX" secondItem="qN0-gS-Dan" secondAttribute="centerX" id="Jc4-xm-ILs"/>
                             <constraint firstItem="hzq-vt-wbw" firstAttribute="top" secondItem="0Xa-bf-KXT" secondAttribute="bottom" constant="25" id="V9S-3r-dbM"/>
@@ -410,7 +430,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XMZ-uN-BUy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2876" y="3264"/>
+            <point key="canvasLocation" x="916" y="3288"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RyA-EV-0I9">
@@ -424,18 +444,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kr2-tV-nS1">
-                                <rect key="frame" x="154" y="28" width="293" height="64"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="293" id="nHG-u3-Vd9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Preventing Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J0V-e2-h4f">
-                                <rect key="frame" x="180" y="85" width="240" height="74"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="180" y="76" width="240" height="74"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="7he-GQ-jc8"/>
                                     <constraint firstAttribute="height" constant="40" id="hkb-fH-jDr"/>
@@ -444,7 +455,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="To avoid problems with your feet:" translatesAutoresizingMaskIntoConstraints="NO" id="RRh-GQ-o4v">
-                                <rect key="frame" x="114" y="167" width="373" height="55"/>
+                                <rect key="frame" x="114" y="159" width="373" height="55"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="aSD-n6-fAq"/>
                                 </constraints>
@@ -452,7 +464,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bnv-WL-nhc">
-                                <rect key="frame" x="114" y="208" width="373" height="349"/>
+                                <rect key="frame" x="114" y="200" width="373" height="335"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="334" id="ML3-Lb-18H"/>
                                 </constraints>
@@ -473,8 +486,25 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvC-lb-IsM">
+                                <rect key="frame" x="486" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hFh-Rf-LZW">
+                                <rect key="frame" x="0.0" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kr2-tV-nS1">
+                                <rect key="frame" x="154" y="20" width="293" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="nHG-u3-Vd9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="bnv-WL-nhc" firstAttribute="top" secondItem="RRh-GQ-o4v" secondAttribute="bottom" constant="25" id="5Yz-fM-aWW"/>
                             <constraint firstItem="bnv-WL-nhc" firstAttribute="top" secondItem="RRh-GQ-o4v" secondAttribute="bottom" constant="25" id="JY8-6z-6ll"/>
@@ -485,7 +515,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJn-md-Tbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3537" y="3264"/>
+            <point key="canvasLocation" x="1577" y="3288"/>
         </scene>
         <!--Counting Carbs View Controller-->
         <scene sceneID="hAY-wt-Tti">
@@ -494,6 +524,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8rE-74-Qm4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="987" y="926"/>
+        </scene>
+        <!--Sick Days View Controller-->
+        <scene sceneID="w6M-Zf-4jl">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="cUg-Hz-rxh" customClass="SickDaysViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGv-O2-0yU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="1820"/>
         </scene>
         <!--GeneralTipsViewController-->
         <scene sceneID="Flz-XO-iO8">
@@ -742,7 +780,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pcG-0G-FOZ">
                                 <rect key="frame" x="154" y="20" width="293" height="64"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="293" id="xce-Wq-YWE"/>
                                 </constraints>
@@ -751,7 +789,7 @@
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Preventing Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="P0q-Oz-6eE">
                                 <rect key="frame" x="180" y="80" width="240" height="70"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Tri-bt-lck"/>
                                     <constraint firstAttribute="height" constant="40" id="xye-vQ-Wwe"/>
@@ -760,8 +798,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Keeping your blood sugar under control can prevent many of these problems." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wID-22-m4c">
-                                <rect key="frame" x="119" y="336" width="363" height="69"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="119" y="336" width="368" height="198"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="ROg-mV-C08"/>
                                 </constraints>
@@ -769,8 +807,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Many health problems can occur because of diabetes." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a0q-Mx-CAz">
-                                <rect key="frame" x="119" y="194" width="363" height="81"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="119" y="158" width="368" height="179"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="81" id="wIr-uf-ATu"/>
                                 </constraints>
@@ -782,8 +820,16 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NO5-y4-Dar">
+                                <rect key="frame" x="486" y="158" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hPf-WW-MXh">
+                                <rect key="frame" x="0.0" y="158" width="119" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="wID-22-m4c" firstAttribute="trailing" secondItem="a0q-Mx-CAz" secondAttribute="trailing" id="8XQ-Ge-JtJ"/>
@@ -800,7 +846,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QR1-W9-uo5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="2LS-eJ-jqK"/>
             </objects>
-            <point key="canvasLocation" x="1518" y="3264"/>
+            <point key="canvasLocation" x="-442" y="3288"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gTs-i0-TRy">
@@ -2040,42 +2086,6 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Fq-Vh-zcr">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pmt-mk-i1b">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="7EN-y7-siB"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yeq-Vd-QVm">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="osV-oT-DFp"/>
-                                        </constraints>
-                                        <string key="text">Next, get the vial of insulin ready by removing the cap if it is a new bottle
-
-Then, remove the cap from the needle and pull back the plunger to pull in enough air to equal the amount of insulin that you are going to give. If you are giving to yourself 5 units, pull back the plunger until it lines up with the 5 unit mark on the syringe</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="top" secondItem="pmt-mk-i1b" secondAttribute="bottom" constant="25" id="5fi-9y-7kO"/>
-                                    <constraint firstItem="pmt-mk-i1b" firstAttribute="top" secondItem="1Fq-Vh-zcr" secondAttribute="top" constant="8" id="BTy-S3-r33"/>
-                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="leading" secondItem="1Fq-Vh-zcr" secondAttribute="leading" constant="114" id="FqT-h7-zyD"/>
-                                    <constraint firstAttribute="trailing" secondItem="Yeq-Vd-QVm" secondAttribute="trailing" constant="113" id="HI9-zr-XYW"/>
-                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="top" secondItem="pmt-mk-i1b" secondAttribute="bottom" constant="25" id="WIR-an-X0Z"/>
-                                    <constraint firstItem="pmt-mk-i1b" firstAttribute="leading" secondItem="1Fq-Vh-zcr" secondAttribute="leading" constant="114" id="dqy-LU-eKT"/>
-                                    <constraint firstAttribute="trailing" secondItem="pmt-mk-i1b" secondAttribute="trailing" constant="113" id="pbx-PN-eIr"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CLs-WM-fOj">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
@@ -2129,6 +2139,42 @@ Then, remove the cap from the needle and pull back the plunger to pull in enough
                                     <constraint firstItem="IP9-Fg-VOr" firstAttribute="top" secondItem="nsg-Lt-HJY" secondAttribute="bottom" constant="12" id="eWc-lC-tlq"/>
                                     <constraint firstItem="IP9-Fg-VOr" firstAttribute="top" secondItem="nsg-Lt-HJY" secondAttribute="bottom" constant="12" id="pIL-G8-2Gr"/>
                                     <constraint firstAttribute="trailing" secondItem="nsg-Lt-HJY" secondAttribute="trailing" constant="180" id="trE-TQ-N3P"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Fq-Vh-zcr">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pmt-mk-i1b">
+                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="7EN-y7-siB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yeq-Vd-QVm">
+                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="334" id="osV-oT-DFp"/>
+                                        </constraints>
+                                        <string key="text">Next, get the vial of insulin ready by removing the cap if it is a new bottle
+
+Then, remove the cap from the needle and pull back the plunger to pull in enough air to equal the amount of insulin that you are going to give. If you are giving to yourself 5 units, pull back the plunger until it lines up with the 5 unit mark on the syringe</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="top" secondItem="pmt-mk-i1b" secondAttribute="bottom" constant="25" id="5fi-9y-7kO"/>
+                                    <constraint firstItem="pmt-mk-i1b" firstAttribute="top" secondItem="1Fq-Vh-zcr" secondAttribute="top" constant="8" id="BTy-S3-r33"/>
+                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="leading" secondItem="1Fq-Vh-zcr" secondAttribute="leading" constant="114" id="FqT-h7-zyD"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yeq-Vd-QVm" secondAttribute="trailing" constant="113" id="HI9-zr-XYW"/>
+                                    <constraint firstItem="Yeq-Vd-QVm" firstAttribute="top" secondItem="pmt-mk-i1b" secondAttribute="bottom" constant="25" id="WIR-an-X0Z"/>
+                                    <constraint firstItem="pmt-mk-i1b" firstAttribute="leading" secondItem="1Fq-Vh-zcr" secondAttribute="leading" constant="114" id="dqy-LU-eKT"/>
+                                    <constraint firstAttribute="trailing" secondItem="pmt-mk-i1b" secondAttribute="trailing" constant="113" id="pbx-PN-eIr"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -3008,7 +3054,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="EJN-9m-Nbt"/>
                                         </constraints>
-                                        <state key="normal" title="Basics"/>
+                                        <state key="normal" title="Sick Days"/>
+                                        <connections>
+                                            <segue destination="cUg-Hz-rxh" kind="presentation" id="wku-U4-cp2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aus-nI-e1z">
                                         <rect key="frame" x="174" y="91" width="252" height="70"/>
@@ -3265,7 +3314,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="klj-6w-Zpl"/>
                                         </constraints>
-                                        <string key="text">Exercise in people with Type 2 Diabetes can help control you blood sugar, increase muscle strength, and improve cardiovascular function. </string>
+                                        <string key="text">Exercise in people with Type 2 Diabetes can help control you blood sugar, increase muscle strength, and improve cardiovascular function. 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3522,7 +3572,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="PnK-UX-j4L"/>
                                         </constraints>
-                                        <string key="text">It is recommended that 30 minutes a day should be spent doing aerobic exercise at least 5 days a week for a total of 150 mintues per week </string>
+                                        <string key="text">It is recommended that 30 minutes a day should be spent doing aerobic exercise at least 5 days a week for a total of 150 mintues per week 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3651,7 +3702,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="1UE-hG-MbX"/>
                                         </constraints>
-                                        <string key="text">Always remember to check your blood sugar before and after you exercise because certain activities can lower your blood sugar </string>
+                                        <string key="text">Always remember to check your blood sugar before and after you exercise because certain activities can lower your blood sugar 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3780,7 +3832,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="pJR-a7-2Bl"/>
                                         </constraints>
-                                        <string key="text">If you have not exercised recently or are starting for the first time, consult your health care team to decide what activities are right for you </string>
+                                        <string key="text">If you have not exercised recently or are starting for the first time, consult your health care team to decide what activities are right for you 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3909,7 +3962,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="hYU-eL-gc3"/>
                                         </constraints>
-                                        <string key="text">Some examples of aerobic exercises include brisk walking, bicycling, dancing, swimming, running, hiking, heavy gardening</string>
+                                        <string key="text">Some examples of aerobic exercises include brisk walking, bicycling, dancing, swimming, running, hiking, heavy gardening
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4038,7 +4092,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="IEK-PI-WVw"/>
                                         </constraints>
-                                        <string key="text">Always start slow with a 5 minute low intensity warm-up before exercise and a 5 minute cool down after your exercise</string>
+                                        <string key="text">Always start slow with a 5 minute low intensity warm-up before exercise and a 5 minute cool down after your exercise
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4175,7 +4230,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="mqP-Ba-8ZI"/>
                                         </constraints>
-                                        <string key="text">Exercise is an important part of managing your diabetesExercise may decrease the amount of insulin or other medication you need to control your blood sugar</string>
+                                        <string key="text">Exercise is an important part of managing your diabetes
+
+Exercise may decrease the amount of insulin or other medication you need to control your blood sugar
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4304,7 +4362,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="uQl-W8-7EO"/>
                                         </constraints>
-                                        <string key="text">You need to monitor your blood sugar more frequently when you exericise, especially before and after exercise More activity than normal can cause your blood sugar levels to drop, which may mean that you will need to give yourself less insulin or eat extra carbohydrates before exercise </string>
+                                        <string key="text">You need to monitor your blood sugar more frequently when you exericise, especially before and after exercise 
+
+More activity than normal can cause your blood sugar levels to drop, which may mean that you will need to give yourself less insulin or eat extra carbohydrates before exercise 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4433,7 +4494,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="nz2-u3-Eg1"/>
                                         </constraints>
-                                        <string key="text">A carb snack that contains about 15 grams of carb should be kept with you when you exercise in case your glucose goes too low.  This may include about 5 hard candies, half of a regular soda, half of a bottle of a sports drink, or glucose tabs </string>
+                                        <string key="text">A carb snack that contains about 15 grams of carb should be kept with you when you exercise in case your glucose goes too low.  This may include about 5 hard candies, half of a regular soda, half of a bottle of a sports drink, or glucose tabs 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4562,7 +4624,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="q5J-vH-1jd"/>
                                         </constraints>
-                                        <string key="text">When you first begin an exercise program, record your blood sugar before, during, and after different types of exercises to see how exercise affects you </string>
+                                        <string key="text">When you first begin an exercise program, record your blood sugar before, during, and after different types of exercises to see how exercise affects you 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4691,7 +4754,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="gv2-1a-Rcs"/>
                                         </constraints>
-                                        <string key="text">If your blood sugar is less than 100 mg/dl, or you think you are going to exercise for more than 30 mintues, eat a carbohydrate snack to reduce the chance for low blood sugar</string>
+                                        <string key="text">If your blood sugar is less than 100 mg/dl, or you think you are going to exercise for more than 30 mintues, eat a carbohydrate snack to reduce the chance for low blood sugar
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4820,7 +4884,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="yae-5Y-E2E"/>
                                         </constraints>
-                                        <string key="text">Check your blood sugar again in 15-20 minutesIf your blood sugar is still lower than 100 mg/dl, eat another small snack and check again in 15-20 minutes</string>
+                                        <string key="text">Check your blood sugar again in 15-20 minutes
+
+If your blood sugar is still lower than 100 mg/dl, eat another small snack and check again in 15-20 minutes
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -5054,6 +5121,372 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zM-P7-wa5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1433" y="926"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yk4-G4-mks">
+            <objects>
+                <viewController storyboardIdentifier="SickDays2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rM5-9Z-LLl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j6S-ZZ-HgO"/>
+                        <viewControllerLayoutGuide type="bottom" id="rW1-5f-Ux9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="PreventComplications2" id="A0e-2I-EGh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="929-mb-9Gu">
+                                <rect key="frame" x="154" y="20" width="293" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="ZfW-1m-mAD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Sick Days" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6vI-Ay-WT3">
+                                <rect key="frame" x="180" y="77" width="240" height="74"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Yyt-e5-hzu"/>
+                                    <constraint firstAttribute="width" constant="240" id="cLR-a9-JoN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="When you get sick, you may not feel like eating which can cause your blood sugar to be low" translatesAutoresizingMaskIntoConstraints="NO" id="erg-st-Cnl">
+                                <rect key="frame" x="114" y="153" width="373" height="173"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="ths-zC-9qO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Your blood sugar can also be too high when you are sick" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zIR-z4-1sy">
+                                <rect key="frame" x="114" y="323" width="373" height="206"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="334" id="7LI-Pe-W2u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="9hl-s0-1vN">
+                                <rect key="frame" x="263" y="543" width="75" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="goa-5f-tZG">
+                                <rect key="frame" x="0.0" y="153" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WTC-Mp-J0F">
+                                <rect key="frame" x="486" y="153" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zIR-z4-1sy" firstAttribute="top" secondItem="erg-st-Cnl" secondAttribute="bottom" constant="25" id="DWU-3M-cg6"/>
+                            <constraint firstItem="zIR-z4-1sy" firstAttribute="top" secondItem="erg-st-Cnl" secondAttribute="bottom" constant="25" id="ESu-Xp-2cS"/>
+                            <constraint firstItem="6vI-Ay-WT3" firstAttribute="top" secondItem="929-mb-9Gu" secondAttribute="bottom" constant="-6" id="H0m-uP-Rf7"/>
+                            <constraint firstItem="6vI-Ay-WT3" firstAttribute="centerX" secondItem="929-mb-9Gu" secondAttribute="centerX" id="mqU-rK-Dvj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Gz-D5-3M2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="3288"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fE4-DX-3g2">
+            <objects>
+                <viewController storyboardIdentifier="SickDays3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cnx-ng-11U" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yh9-BW-Au0"/>
+                        <viewControllerLayoutGuide type="bottom" id="VsR-bz-wRi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="PreventComplications3" id="N2q-sK-JH8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CRi-29-rPg">
+                                <rect key="frame" x="154" y="20" width="293" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="pg1-UY-wNh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Sick Days" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wi4-ff-Dyc">
+                                <rect key="frame" x="180" y="77" width="240" height="74"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="bQV-PU-pcT"/>
+                                    <constraint firstAttribute="height" constant="40" id="g31-qJ-v3N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="You should check your blood sugar more often when you are sick" translatesAutoresizingMaskIntoConstraints="NO" id="0Yy-K6-PZX">
+                                <rect key="frame" x="114" y="155" width="373" height="108"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="2If-rF-fKE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="You may need to talk to your doctor about taking you diabetes mediciation if you are sick." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T02-Sz-4i3">
+                                <rect key="frame" x="114" y="262" width="373" height="269"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="334" id="RgV-MV-m8e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="Wox-HL-YDl">
+                                <rect key="frame" x="263" y="543" width="75" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n29-bx-8Ad">
+                                <rect key="frame" x="0.0" y="155" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEd-dD-uMf">
+                                <rect key="frame" x="486" y="155" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="T02-Sz-4i3" firstAttribute="top" secondItem="0Yy-K6-PZX" secondAttribute="bottom" constant="25" id="9m4-ut-IWF"/>
+                            <constraint firstItem="Wi4-ff-Dyc" firstAttribute="centerX" secondItem="CRi-29-rPg" secondAttribute="centerX" id="KkS-Xw-lCF"/>
+                            <constraint firstItem="T02-Sz-4i3" firstAttribute="top" secondItem="0Yy-K6-PZX" secondAttribute="bottom" constant="25" id="YJ3-co-Wht"/>
+                            <constraint firstItem="Wi4-ff-Dyc" firstAttribute="top" secondItem="CRi-29-rPg" secondAttribute="bottom" constant="-6" id="baL-C5-gqa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgd-M5-RD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4236" y="3288"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SpL-zJ-CbN">
+            <objects>
+                <viewController storyboardIdentifier="SickDays4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xya-CD-9dJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jlq-IM-ktK"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ty-jd-5bL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="PreventComplications4" id="lvw-wP-yY0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uz3-P4-tdS">
+                                <rect key="frame" x="154" y="28" width="293" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="6Nq-5s-iE9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Sick Days" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="M9T-Ts-4Hj">
+                                <rect key="frame" x="180" y="85" width="240" height="74"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="WKo-5k-vgy"/>
+                                    <constraint firstAttribute="height" constant="40" id="rjv-r2-xGg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnK-j9-RAx">
+                                <rect key="frame" x="114" y="159" width="373" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="1QO-HI-PSs"/>
+                                </constraints>
+                                <string key="text">Talk to your doctor or a pharmacist before taking any over the counter medicines for your sickness.  These medicines may affect your diabetes medicine or your blood sugar levels.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="33b-52-Tjc">
+                                <rect key="frame" x="263" y="543" width="75" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2xb-dl-kdn">
+                                <rect key="frame" x="0.0" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mcV-WJ-p6O">
+                                <rect key="frame" x="486" y="159" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="M9T-Ts-4Hj" firstAttribute="top" secondItem="uz3-P4-tdS" secondAttribute="bottom" constant="-6" id="iTi-fS-mtE"/>
+                            <constraint firstItem="M9T-Ts-4Hj" firstAttribute="centerX" secondItem="uz3-P4-tdS" secondAttribute="centerX" id="qUT-yY-pIh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tfq-Zl-PYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4983" y="3288"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c7O-pO-qnh">
+            <objects>
+                <viewController storyboardIdentifier="SickDays1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6F4-SS-M8Z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K1r-sx-M6c"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pzc-H1-Q1w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="PreventComplications1" id="zpl-BY-Ccl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6DN-wG-J34">
+                                <rect key="frame" x="154" y="20" width="293" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="QTn-cz-xAj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Sick Days" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ikb-wy-ahM">
+                                <rect key="frame" x="180" y="80" width="240" height="70"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="HY2-ps-WCO"/>
+                                    <constraint firstAttribute="height" constant="40" id="kEx-FT-UNq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Blood sugar can be too low or too high when you are sick." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qA4-9F-R8D">
+                                <rect key="frame" x="119" y="296" width="368" height="234"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="yAc-Ys-Xcc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="When you are sick, monitoring your blood sugar is very important" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X0f-FL-p4i">
+                                <rect key="frame" x="119" y="154" width="368" height="142"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="WS7-xf-c20"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZSb-T9-M67">
+                                <rect key="frame" x="263" y="546" width="75" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9eY-AD-7go">
+                                <rect key="frame" x="486" y="154" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Maq-bY-t0P">
+                                <rect key="frame" x="0.0" y="154" width="119" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ikb-wy-ahM" firstAttribute="centerX" secondItem="6DN-wG-J34" secondAttribute="centerX" id="6kO-sn-gZc"/>
+                            <constraint firstItem="qA4-9F-R8D" firstAttribute="trailing" secondItem="X0f-FL-p4i" secondAttribute="trailing" id="GVx-8p-S35"/>
+                            <constraint firstItem="qA4-9F-R8D" firstAttribute="leading" secondItem="X0f-FL-p4i" secondAttribute="leading" id="YRE-LI-MYa"/>
+                            <constraint firstItem="qA4-9F-R8D" firstAttribute="top" secondItem="X0f-FL-p4i" secondAttribute="bottom" constant="61" id="YTE-Mp-Uw6"/>
+                            <constraint firstItem="ikb-wy-ahM" firstAttribute="top" secondItem="6DN-wG-J34" secondAttribute="bottom" constant="-6" id="h6b-1i-rHR"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ubv-BE-AIG" appends="YES" id="wcz-zH-1Lg"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqc-CK-dQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="ubv-BE-AIG"/>
+            </objects>
+            <point key="canvasLocation" x="2850" y="3288"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sET-1r-rLF">
+            <objects>
+                <viewController storyboardIdentifier="SickDays5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xbf-SP-mXb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bWT-XQ-Z7V"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ta4-qh-bg6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="PreventComplications4" id="T1Q-aM-ezR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kc2-R0-Ogz">
+                                <rect key="frame" x="154" y="28" width="293" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="293" id="baE-jA-j7C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Sick Days" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eDo-yT-Fhq">
+                                <rect key="frame" x="180" y="85" width="240" height="74"/>
+                                <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="2N3-dV-AGT"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZWW-tq-CTU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPQ-Gl-vPl">
+                                <rect key="frame" x="114" y="158" width="373" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="l9q-9w-iOg"/>
+                                </constraints>
+                                <string key="text">You should also wear a medical ID, like a bracelet, that will let other people know how to help you in case you get in an accident or suffer from another medical emergency </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="LNd-aB-99G">
+                                <rect key="frame" x="263" y="543" width="75" height="37"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uDJ-OD-HDf">
+                                <rect key="frame" x="0.0" y="158" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ww-4N-MUQ">
+                                <rect key="frame" x="486" y="158" width="114" height="376"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="eDo-yT-Fhq" firstAttribute="centerX" secondItem="kc2-R0-Ogz" secondAttribute="centerX" id="58w-KO-scY"/>
+                            <constraint firstItem="eDo-yT-Fhq" firstAttribute="top" secondItem="kc2-R0-Ogz" secondAttribute="bottom" constant="-6" id="YGp-0c-ETY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LE-IB-Nyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5703" y="3288"/>
         </scene>
     </scenes>
     <resources>
