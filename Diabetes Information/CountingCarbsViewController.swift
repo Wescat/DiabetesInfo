@@ -2,7 +2,7 @@
 //  GeneralTipsViewController.swift
 //  Diabetes Information
 //
-//  Created by Ennis Smith on 2/4/16.
+//  Created by Wesley Cates on 2/4/16.
 //  Copyright © 2016 Comp 4710 Group 5. All rights reserved.
 //
 

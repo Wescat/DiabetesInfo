@@ -8,17 +8,18 @@
 
 import UIKit
 
-class DrawInsulinViewController: UIPageViewController{
+class InsulinBasicsViewController: UIPageViewController{
     
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newViewController("drawInsulin1"),
-            self.newViewController("drawInsulin2"),
-            self.newViewController("drawInsulin3"),
-            self.newViewController("drawInsulin4"),
-            self.newViewController("drawInsulin5"),
-            self.newViewController("drawInsulin6"),
-            self.newViewController("drawInsulin7")]
+        return [self.newViewController("InsulinBasics1"),
+            self.newViewController("InsulinBasics2"),
+            self.newViewController("InsulinBasics3"),
+            self.newViewController("InsulinBasics4"),
+            self.newViewController("InsulinBasics5"),
+            self.newViewController("InsulinBasics6"),
+            self.newViewController("InsulinBasics7"),
+            self.newViewController("InsulinBasics8")]
     }()
     
     private func newViewController(view: String) -> UIViewController {
@@ -42,7 +43,7 @@ class DrawInsulinViewController: UIPageViewController{
     }
 }
 
-extension DrawInsulinViewController: UIPageViewControllerDataSource{
+extension InsulinBasicsViewController: UIPageViewControllerDataSource{
     
     
     func pageViewController(pageViewController: UIPageViewController,
