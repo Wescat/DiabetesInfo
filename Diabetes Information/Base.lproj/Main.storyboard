@@ -3265,7 +3265,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="klj-6w-Zpl"/>
                                         </constraints>
-                                        <string key="text">Exercise in people with Type 2 Diabetes can help control you blood sugar, increase muscle strength, and improve cardiovascular function. </string>
+                                        <string key="text">Exercise in people with Type 2 Diabetes can help control you blood sugar, increase muscle strength, and improve cardiovascular function. 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3522,7 +3523,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="PnK-UX-j4L"/>
                                         </constraints>
-                                        <string key="text">It is recommended that 30 minutes a day should be spent doing aerobic exercise at least 5 days a week for a total of 150 mintues per week </string>
+                                        <string key="text">It is recommended that 30 minutes a day should be spent doing aerobic exercise at least 5 days a week for a total of 150 mintues per week 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3651,7 +3653,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="1UE-hG-MbX"/>
                                         </constraints>
-                                        <string key="text">Always remember to check your blood sugar before and after you exercise because certain activities can lower your blood sugar </string>
+                                        <string key="text">Always remember to check your blood sugar before and after you exercise because certain activities can lower your blood sugar 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3780,7 +3783,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="pJR-a7-2Bl"/>
                                         </constraints>
-                                        <string key="text">If you have not exercised recently or are starting for the first time, consult your health care team to decide what activities are right for you </string>
+                                        <string key="text">If you have not exercised recently or are starting for the first time, consult your health care team to decide what activities are right for you 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -3909,7 +3913,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="hYU-eL-gc3"/>
                                         </constraints>
-                                        <string key="text">Some examples of aerobic exercises include brisk walking, bicycling, dancing, swimming, running, hiking, heavy gardening</string>
+                                        <string key="text">Some examples of aerobic exercises include brisk walking, bicycling, dancing, swimming, running, hiking, heavy gardening
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4038,7 +4043,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="IEK-PI-WVw"/>
                                         </constraints>
-                                        <string key="text">Always start slow with a 5 minute low intensity warm-up before exercise and a 5 minute cool down after your exercise</string>
+                                        <string key="text">Always start slow with a 5 minute low intensity warm-up before exercise and a 5 minute cool down after your exercise
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4175,7 +4181,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="mqP-Ba-8ZI"/>
                                         </constraints>
-                                        <string key="text">Exercise is an important part of managing your diabetesExercise may decrease the amount of insulin or other medication you need to control your blood sugar</string>
+                                        <string key="text">Exercise is an important part of managing your diabetes
+
+Exercise may decrease the amount of insulin or other medication you need to control your blood sugar
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4304,7 +4313,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="uQl-W8-7EO"/>
                                         </constraints>
-                                        <string key="text">You need to monitor your blood sugar more frequently when you exericise, especially before and after exercise More activity than normal can cause your blood sugar levels to drop, which may mean that you will need to give yourself less insulin or eat extra carbohydrates before exercise </string>
+                                        <string key="text">You need to monitor your blood sugar more frequently when you exericise, especially before and after exercise 
+
+More activity than normal can cause your blood sugar levels to drop, which may mean that you will need to give yourself less insulin or eat extra carbohydrates before exercise 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4433,7 +4445,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="nz2-u3-Eg1"/>
                                         </constraints>
-                                        <string key="text">A carb snack that contains about 15 grams of carb should be kept with you when you exercise in case your glucose goes too low.  This may include about 5 hard candies, half of a regular soda, half of a bottle of a sports drink, or glucose tabs </string>
+                                        <string key="text">A carb snack that contains about 15 grams of carb should be kept with you when you exercise in case your glucose goes too low.  This may include about 5 hard candies, half of a regular soda, half of a bottle of a sports drink, or glucose tabs 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4562,7 +4575,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="q5J-vH-1jd"/>
                                         </constraints>
-                                        <string key="text">When you first begin an exercise program, record your blood sugar before, during, and after different types of exercises to see how exercise affects you </string>
+                                        <string key="text">When you first begin an exercise program, record your blood sugar before, during, and after different types of exercises to see how exercise affects you 
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4691,7 +4705,8 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="gv2-1a-Rcs"/>
                                         </constraints>
-                                        <string key="text">If your blood sugar is less than 100 mg/dl, or you think you are going to exercise for more than 30 mintues, eat a carbohydrate snack to reduce the chance for low blood sugar</string>
+                                        <string key="text">If your blood sugar is less than 100 mg/dl, or you think you are going to exercise for more than 30 mintues, eat a carbohydrate snack to reduce the chance for low blood sugar
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -4820,7 +4835,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="yae-5Y-E2E"/>
                                         </constraints>
-                                        <string key="text">Check your blood sugar again in 15-20 minutesIf your blood sugar is still lower than 100 mg/dl, eat another small snack and check again in 15-20 minutes</string>
+                                        <string key="text">Check your blood sugar again in 15-20 minutes
+
+If your blood sugar is still lower than 100 mg/dl, eat another small snack and check again in 15-20 minutes
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
