@@ -1,24 +1,22 @@
 //
-//  GeneralTipsViewController.swift
+//  PreventComplicationsViewController.swift
 //  Diabetes Information
 //
-//  Created by Wesley Cates on 2/15/16.
+//  Created by George Towles on 2/15/16.
 //  Copyright © 2016 Comp 4710 Group 5. All rights reserved.
 //
 
 import UIKit
 
-class DrawInsulinViewController: UIPageViewController{
+class SickDaysViewController: UIPageViewController{
     
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newViewController("drawInsulin1"),
-            self.newViewController("drawInsulin2"),
-            self.newViewController("drawInsulin3"),
-            self.newViewController("drawInsulin4"),
-            self.newViewController("drawInsulin5"),
-            self.newViewController("drawInsulin6"),
-            self.newViewController("drawInsulin7")]
+        return [self.newViewController("SickDays1"),
+            self.newViewController("SickDays2"),
+            self.newViewController("SickDays3"),
+            self.newViewController("SickDays4"),
+            self.newViewController("SickDays5")]
     }()
     
     private func newViewController(view: String) -> UIViewController {
@@ -42,7 +40,7 @@ class DrawInsulinViewController: UIPageViewController{
     }
 }
 
-extension DrawInsulinViewController: UIPageViewControllerDataSource{
+extension SickDaysViewController: UIPageViewControllerDataSource{
     
     
     func pageViewController(pageViewController: UIPageViewController,
