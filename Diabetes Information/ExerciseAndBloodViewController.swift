@@ -17,7 +17,8 @@ class ExerciseAndBloodViewController: UIPageViewController{
             self.newViewController("ExerciseandBlood4"),
             self.newViewController("ExerciseandBlood5"),
             self.newViewController("ExerciseandBlood6"),
-            self.newViewController("ExerciseandBlood7")]
+            self.newViewController("ExerciseandBlood7"),
+            self.newViewController("ExerciseandBloodFinal")]
     }()
     
     

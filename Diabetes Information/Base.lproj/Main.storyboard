@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E39d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -1470,7 +1470,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OXi-ss-cy5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="grH-fx-mib"/>
             </objects>
-            <point key="canvasLocation" x="2845" y="1837"/>
+            <point key="canvasLocation" x="2847" y="1841"/>
         </scene>
         <!--Counting Carbs Final-->
         <scene sceneID="JYL-xU-xte">
@@ -1846,7 +1846,7 @@
                 <swipeGestureRecognizer direction="right" id="WYR-Yl-yWc"/>
                 <swipeGestureRecognizer direction="left" id="tgx-07-9u5"/>
             </objects>
-            <point key="canvasLocation" x="5577" y="885"/>
+            <point key="canvasLocation" x="5529" y="869"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="goi-QP-Y02">
@@ -2072,7 +2072,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tbL-IE-XMz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="nEC-mf-0kd"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="3999"/>
+            <point key="canvasLocation" x="-442" y="4009"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jUm-ZV-5Tz">
@@ -2202,7 +2202,7 @@ Then, remove the cap from the needle and pull back the plunger to pull in enough
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UAF-cg-xsa" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Kzl-qX-rNE"/>
             </objects>
-            <point key="canvasLocation" x="242" y="3993"/>
+            <point key="canvasLocation" x="251" y="3993"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vRz-dL-QZu">
@@ -2332,7 +2332,7 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3j-fX-ewt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="FfG-zE-UMA"/>
             </objects>
-            <point key="canvasLocation" x="926" y="3999"/>
+            <point key="canvasLocation" x="916" y="3993"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jRB-yC-34M">
@@ -2462,7 +2462,7 @@ Then, remove the needle from the bottle</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vL9-cq-JeH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Q28-rK-Bp1"/>
             </objects>
-            <point key="canvasLocation" x="1578" y="3999"/>
+            <point key="canvasLocation" x="1570" y="3999"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lf2-Po-nVx">
@@ -2592,7 +2592,7 @@ Make sure that area of your skin is clean</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mS6-Zn-ZAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="cCX-Jc-2Iv"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="3999"/>
+            <point key="canvasLocation" x="2222" y="4009"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gtm-WP-OjA">
@@ -2724,7 +2724,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kh9-qY-m4L" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="ijF-eZ-szY"/>
             </objects>
-            <point key="canvasLocation" x="2884" y="3993"/>
+            <point key="canvasLocation" x="2884" y="3999"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WdZ-vc-mYa">
@@ -2854,7 +2854,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S0V-vN-Hl4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="vZc-aE-HQ7"/>
             </objects>
-            <point key="canvasLocation" x="3580" y="3993"/>
+            <point key="canvasLocation" x="3570" y="3999"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="atc-3H-Fzz">
@@ -3293,7 +3293,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-814" y="265"/>
+            <point key="canvasLocation" x="-2127" y="5701"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5vT-bl-4Am">
@@ -3423,7 +3423,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyQ-pO-5rc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="SRT-ku-ym9"/>
             </objects>
-            <point key="canvasLocation" x="-1450" y="5422"/>
+            <point key="canvasLocation" x="-442" y="5422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dms-b6-RiN">
@@ -3551,7 +3551,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akl-Ir-m49" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="K1w-Q5-mQm"/>
             </objects>
-            <point key="canvasLocation" x="2716" y="5430"/>
+            <point key="canvasLocation" x="3570" y="5422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YuR-z8-awd">
@@ -3681,7 +3681,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n2i-qR-IWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Lhu-ze-oXe"/>
             </objects>
-            <point key="canvasLocation" x="612" y="5430"/>
+            <point key="canvasLocation" x="1577" y="5422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qoF-hp-928">
@@ -3811,7 +3811,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfC-Pw-UmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="NiU-87-yAE"/>
             </objects>
-            <point key="canvasLocation" x="-725" y="5422"/>
+            <point key="canvasLocation" x="916" y="5422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lb7-oe-RrC">
@@ -3941,7 +3941,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JfM-Fh-HIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="kQb-nH-WYO"/>
             </objects>
-            <point key="canvasLocation" x="-49" y="5430"/>
+            <point key="canvasLocation" x="251" y="5422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eIK-WU-hVZ">
@@ -4071,7 +4071,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zxx-lx-Vnu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="sWI-NL-RbN"/>
             </objects>
-            <point key="canvasLocation" x="1986" y="5430"/>
+            <point key="canvasLocation" x="2884" y="5422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZFE-1i-anD">
@@ -4201,7 +4201,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAb-rY-6xs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="ZPA-WS-Rvh"/>
             </objects>
-            <point key="canvasLocation" x="1302" y="5430"/>
+            <point key="canvasLocation" x="2238" y="5422"/>
         </scene>
         <!--GeneralTipsViewController-->
         <scene sceneID="RYc-5w-Xh5">
@@ -4209,7 +4209,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <pageViewController storyboardIdentifier="ExerciseGeneralTipsViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Jiy-B7-oMA" userLabel="GeneralTipsViewController" customClass="ExerciseGeneralTipsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6UL-Qy-fxS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1450" y="265"/>
+            <point key="canvasLocation" x="-1141" y="5422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="q6N-sR-SA8">
@@ -4341,7 +4341,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F9S-Lw-gfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="gMz-sm-7mY"/>
             </objects>
-            <point key="canvasLocation" x="-1450" y="6199"/>
+            <point key="canvasLocation" x="-442" y="6137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oGx-yc-00h">
@@ -4473,7 +4473,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phx-kh-Ojd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Zkm-h8-FhZ"/>
             </objects>
-            <point key="canvasLocation" x="-725" y="6199"/>
+            <point key="canvasLocation" x="257" y="6137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kha-2o-hzZ">
@@ -4603,7 +4603,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rSZ-DD-Yu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="7at-ke-ytS"/>
             </objects>
-            <point key="canvasLocation" x="-36" y="6234"/>
+            <point key="canvasLocation" x="916" y="6137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gk0-xy-Fwf">
@@ -4733,7 +4733,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qAs-Zm-YRj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="ytj-XS-0pd"/>
             </objects>
-            <point key="canvasLocation" x="647" y="6234"/>
+            <point key="canvasLocation" x="1578" y="6137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vVu-s0-FZN">
@@ -4863,7 +4863,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o23-fK-Hzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="UWf-zy-vsR"/>
             </objects>
-            <point key="canvasLocation" x="1320" y="6250"/>
+            <point key="canvasLocation" x="2238" y="6137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0wM-S3-C8J">
@@ -4995,7 +4995,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zJq-p5-zzH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="29h-iN-A4c"/>
             </objects>
-            <point key="canvasLocation" x="1986" y="6259"/>
+            <point key="canvasLocation" x="2884" y="6137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="042-Sx-aaa">
@@ -5123,7 +5123,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sqz-C1-hH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="TTF-Cw-PAU"/>
             </objects>
-            <point key="canvasLocation" x="2716" y="6275"/>
+            <point key="canvasLocation" x="3570" y="6137"/>
         </scene>
         <!--ExerciseAndBloodViewController-->
         <scene sceneID="rlG-fU-yns">
@@ -5131,7 +5131,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <pageViewController storyboardIdentifier="ExerciseandBloodViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="wxE-V4-Aae" userLabel="ExerciseAndBloodViewController" customClass="ExerciseAndBloodViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zM-P7-wa5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1433" y="926"/>
+            <point key="canvasLocation" x="-1133" y="6137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yk4-G4-mks">
@@ -5432,7 +5432,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqc-CK-dQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="ubv-BE-AIG"/>
             </objects>
-            <point key="canvasLocation" x="2850" y="3288"/>
+            <point key="canvasLocation" x="2876" y="3288"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sET-1r-rLF">
@@ -6276,396 +6276,6 @@ Choose an area that you can see and reach and rotate within that area to avoid s
             <point key="canvasLocation" x="2884" y="4675"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="eQo-cY-p8e">
-            <objects>
-                <viewController storyboardIdentifier="drawInsulin1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sW6-gK-tIV" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8yL-rf-paL"/>
-                        <viewControllerLayoutGuide type="bottom" id="mOh-Hl-qYo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6ZM-yu-qac">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kG6-F2-GUN">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rmF-gS-fts">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="udJ-vJ-y9J"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K6T-Q3-iZO">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="cHh-1F-SEV"/>
-                                        </constraints>
-                                        <string key="text">Your vials of insulin should be kept in the refrigerator until you open them
-
-After a vial or pen has be opened, you can keep it at room temperature for a month before replacing the vial</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="rmF-gS-fts" firstAttribute="top" secondItem="kG6-F2-GUN" secondAttribute="top" constant="8" id="1io-uZ-eTE"/>
-                                    <constraint firstItem="K6T-Q3-iZO" firstAttribute="leading" secondItem="kG6-F2-GUN" secondAttribute="leading" constant="114" id="Pv0-fg-E7o"/>
-                                    <constraint firstItem="rmF-gS-fts" firstAttribute="leading" secondItem="kG6-F2-GUN" secondAttribute="leading" constant="114" id="Tx3-aT-cmc"/>
-                                    <constraint firstAttribute="trailing" secondItem="K6T-Q3-iZO" secondAttribute="trailing" constant="113" id="dhY-8a-nQT"/>
-                                    <constraint firstItem="K6T-Q3-iZO" firstAttribute="top" secondItem="rmF-gS-fts" secondAttribute="bottom" constant="25" id="fep-z4-rYs"/>
-                                    <constraint firstAttribute="trailing" secondItem="rmF-gS-fts" secondAttribute="trailing" constant="113" id="nVg-cU-Luf"/>
-                                    <constraint firstItem="K6T-Q3-iZO" firstAttribute="top" secondItem="rmF-gS-fts" secondAttribute="bottom" constant="25" id="s7Q-s7-QI9"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srR-q3-OJH">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
-                                <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="yYp-Fl-Lzf">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="121" id="N9W-iD-u8n"/>
-                                        </constraints>
-                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    </pageControl>
-                                </subviews>
-                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="9kD-Q4-3d3"/>
-                                    <constraint firstItem="yYp-Fl-Lzf" firstAttribute="top" secondItem="srR-q3-OJH" secondAttribute="top" constant="9" id="Brq-IS-K8l"/>
-                                    <constraint firstAttribute="trailing" secondItem="yYp-Fl-Lzf" secondAttribute="trailing" constant="239" id="Ey4-L8-Dio"/>
-                                    <constraint firstItem="yYp-Fl-Lzf" firstAttribute="leading" secondItem="srR-q3-OJH" secondAttribute="leading" constant="240" id="k5C-hg-00c"/>
-                                    <constraint firstAttribute="bottom" secondItem="yYp-Fl-Lzf" secondAttribute="bottom" constant="9" id="qGh-O9-rhZ"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="132-u3-fYF">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hsq-RM-A3Z">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
-                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="bq9-0e-rMP"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CQC-gf-GQo">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
-                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="yL5-Ua-4BL"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="CQC-gf-GQo" firstAttribute="top" secondItem="hsq-RM-A3Z" secondAttribute="bottom" constant="12" id="4c6-a1-O12"/>
-                                    <constraint firstAttribute="bottom" secondItem="CQC-gf-GQo" secondAttribute="bottom" constant="2" id="5tP-Ad-3YY"/>
-                                    <constraint firstAttribute="trailing" secondItem="hsq-RM-A3Z" secondAttribute="trailing" constant="180" id="Uhs-hP-5GP"/>
-                                    <constraint firstItem="CQC-gf-GQo" firstAttribute="top" secondItem="hsq-RM-A3Z" secondAttribute="bottom" constant="12" id="ir0-6k-a7Z"/>
-                                    <constraint firstItem="hsq-RM-A3Z" firstAttribute="leading" secondItem="132-u3-fYF" secondAttribute="leading" constant="180" id="jaU-wQ-RSN"/>
-                                    <constraint firstItem="CQC-gf-GQo" firstAttribute="leading" secondItem="132-u3-fYF" secondAttribute="leading" constant="180" id="pue-yA-U74"/>
-                                    <constraint firstItem="hsq-RM-A3Z" firstAttribute="top" secondItem="132-u3-fYF" secondAttribute="top" constant="8" id="uXg-xf-kSx"/>
-                                    <constraint firstAttribute="trailing" secondItem="CQC-gf-GQo" secondAttribute="trailing" constant="180" id="wMH-f8-Rpv"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="srR-q3-OJH" firstAttribute="leading" secondItem="6ZM-yu-qac" secondAttribute="leading" id="0ck-Dw-fT8"/>
-                            <constraint firstAttribute="trailing" secondItem="kG6-F2-GUN" secondAttribute="trailing" id="42g-rP-sEX"/>
-                            <constraint firstAttribute="trailing" secondItem="srR-q3-OJH" secondAttribute="trailing" id="6QO-Ok-QS8"/>
-                            <constraint firstItem="132-u3-fYF" firstAttribute="leading" secondItem="6ZM-yu-qac" secondAttribute="leading" id="9J8-V0-CZh"/>
-                            <constraint firstItem="mOh-Hl-qYo" firstAttribute="top" secondItem="srR-q3-OJH" secondAttribute="bottom" id="EXp-W4-hXP"/>
-                            <constraint firstAttribute="trailing" secondItem="132-u3-fYF" secondAttribute="trailing" id="HY5-FM-dUq"/>
-                            <constraint firstItem="132-u3-fYF" firstAttribute="top" secondItem="6ZM-yu-qac" secondAttribute="top" id="RIz-07-HvA"/>
-                            <constraint firstItem="srR-q3-OJH" firstAttribute="top" secondItem="kG6-F2-GUN" secondAttribute="bottom" id="k61-lg-7DC"/>
-                            <constraint firstItem="srR-q3-OJH" firstAttribute="top" secondItem="kG6-F2-GUN" secondAttribute="bottom" id="kVw-v4-3su"/>
-                            <constraint firstItem="kG6-F2-GUN" firstAttribute="leading" secondItem="6ZM-yu-qac" secondAttribute="leading" id="mfX-2A-qGo"/>
-                            <constraint firstItem="kG6-F2-GUN" firstAttribute="top" secondItem="132-u3-fYF" secondAttribute="bottom" id="s0F-aI-nOx"/>
-                            <constraint firstItem="kG6-F2-GUN" firstAttribute="top" secondItem="132-u3-fYF" secondAttribute="bottom" id="yXm-QR-Oup"/>
-                        </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="2j3-DF-keR" appends="YES" id="j4O-8M-f5U"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tAe-Jd-UoD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="2j3-DF-keR"/>
-            </objects>
-            <point key="canvasLocation" x="3570" y="4675"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="zyT-mD-jan">
-            <objects>
-                <viewController storyboardIdentifier="drawInsulin1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fDq-k9-am3" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QgZ-lK-Ifi"/>
-                        <viewControllerLayoutGuide type="bottom" id="SkC-oJ-Ery"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="k47-hy-gMD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cmn-Uc-llj">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vlv-5v-g3F">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="lph-s1-dsL"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4bG-4s-nu3">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="klK-yf-INa"/>
-                                        </constraints>
-                                        <string key="text">Your vials of insulin should be kept in the refrigerator until you open them
-
-After a vial or pen has be opened, you can keep it at room temperature for a month before replacing the vial</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="4bG-4s-nu3" firstAttribute="top" secondItem="Vlv-5v-g3F" secondAttribute="bottom" constant="25" id="0pP-vj-u6K"/>
-                                    <constraint firstItem="4bG-4s-nu3" firstAttribute="leading" secondItem="Cmn-Uc-llj" secondAttribute="leading" constant="114" id="9rF-Ct-xF8"/>
-                                    <constraint firstItem="4bG-4s-nu3" firstAttribute="top" secondItem="Vlv-5v-g3F" secondAttribute="bottom" constant="25" id="CWK-Cf-DPo"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vlv-5v-g3F" secondAttribute="trailing" constant="113" id="DZ0-0e-u07"/>
-                                    <constraint firstItem="Vlv-5v-g3F" firstAttribute="leading" secondItem="Cmn-Uc-llj" secondAttribute="leading" constant="114" id="Jrx-of-cTA"/>
-                                    <constraint firstItem="Vlv-5v-g3F" firstAttribute="top" secondItem="Cmn-Uc-llj" secondAttribute="top" constant="8" id="e3v-0R-cbs"/>
-                                    <constraint firstAttribute="trailing" secondItem="4bG-4s-nu3" secondAttribute="trailing" constant="113" id="jaO-Yp-CFs"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VWz-4L-GOc">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
-                                <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="rVT-uB-SJ3">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="121" id="hAb-90-mpS"/>
-                                        </constraints>
-                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    </pageControl>
-                                </subviews>
-                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="26s-Iy-uh1"/>
-                                    <constraint firstItem="rVT-uB-SJ3" firstAttribute="top" secondItem="VWz-4L-GOc" secondAttribute="top" constant="9" id="AnG-Tu-Kjc"/>
-                                    <constraint firstItem="rVT-uB-SJ3" firstAttribute="leading" secondItem="VWz-4L-GOc" secondAttribute="leading" constant="240" id="BTJ-hM-VhG"/>
-                                    <constraint firstAttribute="trailing" secondItem="rVT-uB-SJ3" secondAttribute="trailing" constant="239" id="gac-XE-K6y"/>
-                                    <constraint firstAttribute="bottom" secondItem="rVT-uB-SJ3" secondAttribute="bottom" constant="9" id="jOs-Q3-S5p"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29w-JO-VNy">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="b1r-fI-aMq">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
-                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="Ww1-Yi-4Hg"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yro-cP-k5z">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
-                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="ptc-j8-8z7"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Yro-cP-k5z" secondAttribute="trailing" constant="180" id="074-pG-zW5"/>
-                                    <constraint firstItem="Yro-cP-k5z" firstAttribute="leading" secondItem="29w-JO-VNy" secondAttribute="leading" constant="180" id="Exv-vU-OJ5"/>
-                                    <constraint firstAttribute="bottom" secondItem="Yro-cP-k5z" secondAttribute="bottom" constant="2" id="H8G-7J-lPj"/>
-                                    <constraint firstItem="b1r-fI-aMq" firstAttribute="top" secondItem="29w-JO-VNy" secondAttribute="top" constant="8" id="Mdf-mi-aja"/>
-                                    <constraint firstItem="Yro-cP-k5z" firstAttribute="top" secondItem="b1r-fI-aMq" secondAttribute="bottom" constant="12" id="Mgc-Hq-XsL"/>
-                                    <constraint firstAttribute="trailing" secondItem="b1r-fI-aMq" secondAttribute="trailing" constant="180" id="WwW-ND-RzP"/>
-                                    <constraint firstItem="Yro-cP-k5z" firstAttribute="top" secondItem="b1r-fI-aMq" secondAttribute="bottom" constant="12" id="Zkb-JS-9EM"/>
-                                    <constraint firstItem="b1r-fI-aMq" firstAttribute="leading" secondItem="29w-JO-VNy" secondAttribute="leading" constant="180" id="wIv-du-GbD"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="Cmn-Uc-llj" firstAttribute="top" secondItem="29w-JO-VNy" secondAttribute="bottom" id="2vt-wR-gcZ"/>
-                            <constraint firstItem="VWz-4L-GOc" firstAttribute="top" secondItem="Cmn-Uc-llj" secondAttribute="bottom" id="8x3-0N-xdh"/>
-                            <constraint firstAttribute="trailing" secondItem="29w-JO-VNy" secondAttribute="trailing" id="925-3u-JaJ"/>
-                            <constraint firstItem="29w-JO-VNy" firstAttribute="top" secondItem="k47-hy-gMD" secondAttribute="top" id="BsV-uf-EJG"/>
-                            <constraint firstAttribute="trailing" secondItem="Cmn-Uc-llj" secondAttribute="trailing" id="LA2-Ou-yho"/>
-                            <constraint firstAttribute="trailing" secondItem="VWz-4L-GOc" secondAttribute="trailing" id="Mi5-Yp-KDO"/>
-                            <constraint firstItem="VWz-4L-GOc" firstAttribute="leading" secondItem="k47-hy-gMD" secondAttribute="leading" id="PBC-Xi-f63"/>
-                            <constraint firstItem="SkC-oJ-Ery" firstAttribute="top" secondItem="VWz-4L-GOc" secondAttribute="bottom" id="Ytb-U3-ZnE"/>
-                            <constraint firstItem="Cmn-Uc-llj" firstAttribute="top" secondItem="29w-JO-VNy" secondAttribute="bottom" id="e8o-mt-VRd"/>
-                            <constraint firstItem="Cmn-Uc-llj" firstAttribute="leading" secondItem="k47-hy-gMD" secondAttribute="leading" id="kTY-KV-euk"/>
-                            <constraint firstItem="VWz-4L-GOc" firstAttribute="top" secondItem="Cmn-Uc-llj" secondAttribute="bottom" id="rcp-Fo-GQV"/>
-                            <constraint firstItem="29w-JO-VNy" firstAttribute="leading" secondItem="k47-hy-gMD" secondAttribute="leading" id="vaK-j8-dn8"/>
-                        </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="42G-36-jU1" appends="YES" id="8gD-4v-cki"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j3u-nL-PCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="42G-36-jU1"/>
-            </objects>
-            <point key="canvasLocation" x="3570" y="4675"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Yiu-xc-PCR">
-            <objects>
-                <viewController storyboardIdentifier="drawInsulin1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xCQ-VX-oFO" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0xp-Zj-GQr"/>
-                        <viewControllerLayoutGuide type="bottom" id="DNm-He-3RH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UPs-BC-vrF">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BWS-in-iDc">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qPV-nB-J2C">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="jX4-6J-HVi"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0nI-ua-iUz">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="HiX-MV-XgD"/>
-                                        </constraints>
-                                        <string key="text">Your vials of insulin should be kept in the refrigerator until you open them
-
-After a vial or pen has be opened, you can keep it at room temperature for a month before replacing the vial</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="qPV-nB-J2C" secondAttribute="trailing" constant="113" id="FVX-Gt-C7I"/>
-                                    <constraint firstItem="qPV-nB-J2C" firstAttribute="leading" secondItem="BWS-in-iDc" secondAttribute="leading" constant="114" id="I3n-ov-e71"/>
-                                    <constraint firstItem="qPV-nB-J2C" firstAttribute="top" secondItem="BWS-in-iDc" secondAttribute="top" constant="8" id="RGu-XV-RdE"/>
-                                    <constraint firstAttribute="trailing" secondItem="0nI-ua-iUz" secondAttribute="trailing" constant="113" id="iaX-0k-LUN"/>
-                                    <constraint firstItem="0nI-ua-iUz" firstAttribute="leading" secondItem="BWS-in-iDc" secondAttribute="leading" constant="114" id="j1e-ia-NsI"/>
-                                    <constraint firstItem="0nI-ua-iUz" firstAttribute="top" secondItem="qPV-nB-J2C" secondAttribute="bottom" constant="25" id="omZ-V3-cMf"/>
-                                    <constraint firstItem="0nI-ua-iUz" firstAttribute="top" secondItem="qPV-nB-J2C" secondAttribute="bottom" constant="25" id="yNJ-yJ-Uxi"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HbZ-Ux-Mpx">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
-                                <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="TIo-3g-oce">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="121" id="mlo-Kb-409"/>
-                                        </constraints>
-                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    </pageControl>
-                                </subviews>
-                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="TIo-3g-oce" firstAttribute="leading" secondItem="HbZ-Ux-Mpx" secondAttribute="leading" constant="240" id="ETV-XL-fw9"/>
-                                    <constraint firstItem="TIo-3g-oce" firstAttribute="top" secondItem="HbZ-Ux-Mpx" secondAttribute="top" constant="9" id="HPz-sU-Lz6"/>
-                                    <constraint firstAttribute="bottom" secondItem="TIo-3g-oce" secondAttribute="bottom" constant="9" id="W4q-gz-Id2"/>
-                                    <constraint firstAttribute="trailing" secondItem="TIo-3g-oce" secondAttribute="trailing" constant="239" id="ZyP-RQ-rbm"/>
-                                    <constraint firstAttribute="height" constant="55" id="xKh-nP-Ipe"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7eu-Qf-g1Y">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aF9-Fc-Vzz">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
-                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="foc-to-iSe"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2lQ-hg-UEK">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
-                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="YxI-qT-loc"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="2lQ-hg-UEK" secondAttribute="trailing" constant="180" id="EgV-U8-ghp"/>
-                                    <constraint firstAttribute="bottom" secondItem="2lQ-hg-UEK" secondAttribute="bottom" constant="2" id="HI4-6n-peP"/>
-                                    <constraint firstItem="aF9-Fc-Vzz" firstAttribute="leading" secondItem="7eu-Qf-g1Y" secondAttribute="leading" constant="180" id="Iz1-fI-Wil"/>
-                                    <constraint firstItem="2lQ-hg-UEK" firstAttribute="top" secondItem="aF9-Fc-Vzz" secondAttribute="bottom" constant="12" id="PKH-8m-yyj"/>
-                                    <constraint firstItem="2lQ-hg-UEK" firstAttribute="top" secondItem="aF9-Fc-Vzz" secondAttribute="bottom" constant="12" id="ThH-iQ-q1r"/>
-                                    <constraint firstItem="aF9-Fc-Vzz" firstAttribute="top" secondItem="7eu-Qf-g1Y" secondAttribute="top" constant="8" id="TxJ-e3-fIm"/>
-                                    <constraint firstAttribute="trailing" secondItem="aF9-Fc-Vzz" secondAttribute="trailing" constant="180" id="Yfd-db-2nn"/>
-                                    <constraint firstItem="2lQ-hg-UEK" firstAttribute="leading" secondItem="7eu-Qf-g1Y" secondAttribute="leading" constant="180" id="p75-rj-Moc"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="HbZ-Ux-Mpx" firstAttribute="top" secondItem="BWS-in-iDc" secondAttribute="bottom" id="Bru-vq-jj9"/>
-                            <constraint firstAttribute="trailing" secondItem="7eu-Qf-g1Y" secondAttribute="trailing" id="Bvq-XH-hAb"/>
-                            <constraint firstItem="BWS-in-iDc" firstAttribute="top" secondItem="7eu-Qf-g1Y" secondAttribute="bottom" id="Exn-Nv-Bze"/>
-                            <constraint firstItem="BWS-in-iDc" firstAttribute="leading" secondItem="UPs-BC-vrF" secondAttribute="leading" id="OUi-L3-l3G"/>
-                            <constraint firstAttribute="trailing" secondItem="HbZ-Ux-Mpx" secondAttribute="trailing" id="Qc4-SI-BTN"/>
-                            <constraint firstItem="BWS-in-iDc" firstAttribute="top" secondItem="7eu-Qf-g1Y" secondAttribute="bottom" id="RmD-xb-WWM"/>
-                            <constraint firstItem="7eu-Qf-g1Y" firstAttribute="leading" secondItem="UPs-BC-vrF" secondAttribute="leading" id="YSQ-cj-NYc"/>
-                            <constraint firstItem="HbZ-Ux-Mpx" firstAttribute="top" secondItem="BWS-in-iDc" secondAttribute="bottom" id="dxc-Pb-Wbj"/>
-                            <constraint firstItem="HbZ-Ux-Mpx" firstAttribute="leading" secondItem="UPs-BC-vrF" secondAttribute="leading" id="kSU-2o-7EI"/>
-                            <constraint firstAttribute="trailing" secondItem="BWS-in-iDc" secondAttribute="trailing" id="kgH-Id-axj"/>
-                            <constraint firstItem="DNm-He-3RH" firstAttribute="top" secondItem="HbZ-Ux-Mpx" secondAttribute="bottom" id="l8h-AA-dgq"/>
-                            <constraint firstItem="7eu-Qf-g1Y" firstAttribute="top" secondItem="UPs-BC-vrF" secondAttribute="top" id="rAE-Po-Uj7"/>
-                        </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="0m1-vc-IOF" appends="YES" id="IWC-zf-ChA"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RJx-uf-Oa5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="0m1-vc-IOF"/>
-            </objects>
-            <point key="canvasLocation" x="3570" y="4675"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="6kM-TY-DSd">
             <objects>
                 <viewController storyboardIdentifier="InsulinBasics7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BBG-5Q-a6L" sceneMemberID="viewController">
@@ -6925,13 +6535,202 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
             </objects>
             <point key="canvasLocation" x="4236" y="4675"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Rgk-KZ-IFL">
+            <objects>
+                <viewController storyboardIdentifier="ExerciseandBloodFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sED-pU-mXQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3yh-L1-bJH"/>
+                        <viewControllerLayoutGuide type="bottom" id="P7K-aE-Ohb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EWz-CJ-hlt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="N4P-Dg-jwM">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Wht-2e-3u5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l3C-S9-rZG">
+                                <rect key="frame" x="180" y="51" width="240" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gbD-bp-QE3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm1-nK-3Rc">
+                                <rect key="frame" x="221" y="228" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="tAL-Xe-DdL"/>
+                                    <constraint firstAttribute="height" constant="69" id="up9-tn-ulE"/>
+                                </constraints>
+                                <state key="normal" title="Try again"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofW-K2-D1i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-Df-PBr">
+                                <rect key="frame" x="221" y="466" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="3bJ-xd-NfL"/>
+                                    <constraint firstAttribute="width" constant="158" id="9gU-7U-IQN"/>
+                                </constraints>
+                                <state key="normal" title="Main Menu"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ol-4Y-aab"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="wh3-Xy-B7P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Zg-LH-9Xh">
+                                <rect key="frame" x="221" y="349" width="158" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="IzV-uE-D64"/>
+                                    <constraint firstAttribute="width" constant="158" id="KAW-78-mfG"/>
+                                </constraints>
+                                <state key="normal" title="To &quot;General Tips&quot;"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ro3-Bn-ZC8"/>
+                                    <segue destination="Jiy-B7-oMA" kind="show" id="yBZ-DY-zO4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Fm1-nK-3Rc" firstAttribute="leading" secondItem="0Zg-LH-9Xh" secondAttribute="leading" id="2Gv-qK-ncU"/>
+                            <constraint firstItem="5OT-Df-PBr" firstAttribute="top" secondItem="0Zg-LH-9Xh" secondAttribute="bottom" constant="48" id="ISO-ZK-q8P"/>
+                            <constraint firstItem="l3C-S9-rZG" firstAttribute="top" secondItem="3yh-L1-bJH" secondAttribute="bottom" constant="31" id="Jkv-La-UJX"/>
+                            <constraint firstItem="N4P-Dg-jwM" firstAttribute="leading" secondItem="l3C-S9-rZG" secondAttribute="leading" id="ZzZ-yg-Gei"/>
+                            <constraint firstItem="P7K-aE-Ohb" firstAttribute="top" secondItem="5OT-Df-PBr" secondAttribute="bottom" constant="65" id="aWL-64-4aT"/>
+                            <constraint firstItem="N4P-Dg-jwM" firstAttribute="trailing" secondItem="l3C-S9-rZG" secondAttribute="trailing" id="eXG-3M-9g1"/>
+                            <constraint firstItem="N4P-Dg-jwM" firstAttribute="top" secondItem="EWz-CJ-hlt" secondAttribute="top" id="ybC-ee-YDl"/>
+                            <constraint firstItem="0Zg-LH-9Xh" firstAttribute="leading" secondItem="5OT-Df-PBr" secondAttribute="leading" id="zch-kS-fbR"/>
+                            <constraint firstItem="0Zg-LH-9Xh" firstAttribute="top" secondItem="Fm1-nK-3Rc" secondAttribute="bottom" constant="52" id="zjb-tF-EQj"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="mbD-9q-kaz" appends="YES" id="aNR-4j-paP"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nl-2W-FYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="mbD-9q-kaz"/>
+            </objects>
+            <point key="canvasLocation" x="4236" y="6137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7ON-xS-hwE">
+            <objects>
+                <viewController storyboardIdentifier="ExerciseGeneralFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rfX-UW-g41" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="skT-m8-DkX"/>
+                        <viewControllerLayoutGuide type="bottom" id="m2s-sf-x8q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VR7-5U-ORh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5df-RV-V3f">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="EtR-5R-8Tx"/>
+                                    <constraint firstAttribute="width" constant="240" id="skA-Ik-f6S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fbi-TG-keR">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="45y-kc-EAE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmD-lr-to7">
+                                <rect key="frame" x="170" y="228" width="259" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="O2x-ia-fGB"/>
+                                    <constraint firstAttribute="width" constant="259" id="hK3-p7-glS"/>
+                                </constraints>
+                                <state key="normal" title="Try again"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nWX-Ef-sWK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8P-Lf-ZH1">
+                                <rect key="frame" x="170" y="466" width="259" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="GRv-xM-wqj"/>
+                                    <constraint firstAttribute="height" constant="69" id="Syv-fk-ldu"/>
+                                </constraints>
+                                <state key="normal" title="Main Menu"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyM-wG-YIz"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="tDg-VB-hcC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJF-8V-Vf5">
+                                <rect key="frame" x="170" y="349" width="259" height="69"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="4Zh-u7-pgh"/>
+                                    <constraint firstAttribute="height" constant="69" id="GKV-Fy-LWz"/>
+                                </constraints>
+                                <state key="normal" title="To &quot;Exercise and Your Blood Sugar"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C4N-l8-HWH"/>
+                                    <segue destination="wxE-V4-Aae" kind="show" id="V7b-9T-m9k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="O8P-Lf-ZH1" firstAttribute="centerX" secondItem="VR7-5U-ORh" secondAttribute="centerX" id="GzH-9c-e3j"/>
+                            <constraint firstItem="rJF-8V-Vf5" firstAttribute="top" secondItem="JmD-lr-to7" secondAttribute="bottom" constant="52" id="KCt-PF-zeP"/>
+                            <constraint firstItem="rJF-8V-Vf5" firstAttribute="leading" secondItem="O8P-Lf-ZH1" secondAttribute="leading" id="Ki6-n1-ue3"/>
+                            <constraint firstItem="m2s-sf-x8q" firstAttribute="top" secondItem="O8P-Lf-ZH1" secondAttribute="bottom" constant="65" id="NFa-VM-OKW"/>
+                            <constraint firstItem="JmD-lr-to7" firstAttribute="leading" secondItem="rJF-8V-Vf5" secondAttribute="leading" id="UKL-sW-yLs"/>
+                            <constraint firstItem="JmD-lr-to7" firstAttribute="centerX" secondItem="Fbi-TG-keR" secondAttribute="centerX" id="X4u-tz-bUD"/>
+                            <constraint firstItem="O8P-Lf-ZH1" firstAttribute="top" secondItem="rJF-8V-Vf5" secondAttribute="bottom" constant="48" id="bKV-f5-3w5"/>
+                            <constraint firstItem="Fbi-TG-keR" firstAttribute="top" secondItem="skT-m8-DkX" secondAttribute="bottom" constant="31" id="h4h-PN-jL8"/>
+                            <constraint firstItem="5df-RV-V3f" firstAttribute="top" secondItem="VR7-5U-ORh" secondAttribute="top" id="p7y-W1-CwI"/>
+                            <constraint firstItem="5df-RV-V3f" firstAttribute="trailing" secondItem="Fbi-TG-keR" secondAttribute="trailing" id="rS1-Dn-6tM"/>
+                            <constraint firstItem="5df-RV-V3f" firstAttribute="leading" secondItem="Fbi-TG-keR" secondAttribute="leading" id="z6D-ef-dL3"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="KVS-BN-AMI" appends="YES" id="ySg-iz-AM6"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eot-ZX-PEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="KVS-BN-AMI"/>
+            </objects>
+            <point key="canvasLocation" x="4236" y="5422"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nLq-0n-4sb"/>
-        <segue reference="fj5-xA-aQQ"/>
-        <segue reference="cP7-H0-Spc"/>
+        <segue reference="tDg-VB-hcC"/>
+        <segue reference="V7b-9T-m9k"/>
+        <segue reference="XRe-jj-CqC"/>
+        <segue reference="yBZ-DY-zO4"/>
+        <segue reference="9i7-Vm-NdP"/>
     </inferredMetricsTieBreakers>
 </document>

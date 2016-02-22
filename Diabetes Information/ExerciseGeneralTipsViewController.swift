@@ -17,7 +17,8 @@ class ExerciseGeneralTipsViewController: UIPageViewController{
             self.newViewController("ExerciseGeneral4"),
             self.newViewController("ExerciseGeneral5"),
             self.newViewController("ExerciseGeneral6"),
-            self.newViewController("ExerciseGeneralActivity")]
+            self.newViewController("ExerciseGeneralActivity"),
+            self.newViewController("ExerciseGeneralFinal")]
     }()
     
     
