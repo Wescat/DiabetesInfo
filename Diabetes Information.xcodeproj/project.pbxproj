@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		174798761C72667B004D75A6 /* PreventComplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */; };
-		174D36871C77AF3E003D38CF /* SickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174D36861C77AF3E003D38CF /* SickDaysViewController.swift */; };
 		404C8EBF1C691BB8000C676F /* CountingCarbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */; };
 		40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */; };
 		40E497E21C5EBB8C00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
@@ -28,6 +27,8 @@
 		7342F7751C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */; };
 		73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */; };
 		73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */; };
+		A9CEBC721C863BB700EEE3E1 /* CheckSugarPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CEBC711C863BB700EEE3E1 /* CheckSugarPageViewController.swift */; };
+		A9CEBC741C863CBF00EEE3E1 /* SugarLevelPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CEBC731C863CBF00EEE3E1 /* SugarLevelPageViewController.swift */; };
 		F94A7A9B1C6FD23C00F4FF0E /* DrawInsulinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A7A9A1C6FD23C00F4FF0E /* DrawInsulinViewController.swift */; };
 		F9571B471C7A5012003557DA /* InsulinBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9571B461C7A5012003557DA /* InsulinBasicsViewController.swift */; };
 		F96A29AA1C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */; };
@@ -74,6 +75,8 @@
 		7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseAndBloodViewController.swift; sourceTree = "<group>"; };
 		73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseGeneralTipsViewController.swift; sourceTree = "<group>"; };
 		73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiabetesInformationQuizModel.swift; path = ../DiabetesInformationQuizModel.swift; sourceTree = "<group>"; };
+		A9CEBC711C863BB700EEE3E1 /* CheckSugarPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckSugarPageViewController.swift; sourceTree = "<group>"; };
+		A9CEBC731C863CBF00EEE3E1 /* SugarLevelPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarLevelPageViewController.swift; sourceTree = "<group>"; };
 		F94A7A9A1C6FD23C00F4FF0E /* DrawInsulinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawInsulinViewController.swift; sourceTree = "<group>"; };
 		F9571B461C7A5012003557DA /* InsulinBasicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsulinBasicsViewController.swift; sourceTree = "<group>"; };
 		F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-02-02 at 8.09.46 PM.png"; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */,
 				731625591C69419C0080EA25 /* CountingCarbsFinal.swift */,
 				73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */,
+				A9CEBC711C863BB700EEE3E1 /* CheckSugarPageViewController.swift */,
+				A9CEBC731C863CBF00EEE3E1 /* SugarLevelPageViewController.swift */,
 				7332948B1C63E70900159952 /* GeneralTipsViewController.swift */,
 				F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */,
 				40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */,
@@ -312,7 +317,9 @@
 				F9571B471C7A5012003557DA /* InsulinBasicsViewController.swift in Sources */,
 				174798761C72667B004D75A6 /* PreventComplicationsViewController.swift in Sources */,
 				7332948C1C63E70900159952 /* GeneralTipsViewController.swift in Sources */,
+				A9CEBC741C863CBF00EEE3E1 /* SugarLevelPageViewController.swift in Sources */,
 				7316255A1C69419C0080EA25 /* CountingCarbsFinal.swift in Sources */,
+				A9CEBC721C863BB700EEE3E1 /* CheckSugarPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

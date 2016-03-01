@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E39d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -1980,10 +1980,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                     <constraint firstItem="xAm-5d-1HZ" firstAttribute="top" secondItem="O1U-he-hDS" secondAttribute="bottom" constant="60" id="r4v-UM-6Ex"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eLz-iC-Nkt">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eLz-iC-Nkt">
                                 <rect key="frame" x="10" y="93" width="600" height="517"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIk-84-Vyp">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIk-84-Vyp">
                                         <rect key="frame" x="220" y="224" width="160" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1994,7 +1994,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                             <segue destination="Jda-zH-FQe" kind="presentation" id="jnF-6G-YEe"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zte-8A-uFp">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zte-8A-uFp">
                                         <rect key="frame" x="174" y="94" width="252" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2056,9 +2056,12 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                             <constraint firstItem="NSX-Nj-ZwZ" firstAttribute="top" secondItem="kaB-Rg-10k" secondAttribute="bottom" constant="8" id="76u-NE-ul2"/>
                             <constraint firstItem="NSX-Nj-ZwZ" firstAttribute="top" secondItem="kaB-Rg-10k" secondAttribute="bottom" constant="8" id="Aqn-Kt-8Xg"/>
                             <constraint firstItem="mAQ-2B-X07" firstAttribute="top" secondItem="NSX-Nj-ZwZ" secondAttribute="bottom" id="P3K-v6-Xgb"/>
+                            <constraint firstItem="eLz-iC-Nkt" firstAttribute="leading" secondItem="edT-3H-SXg" secondAttribute="leadingMargin" constant="-10" id="R0I-zi-Iu4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="eLz-iC-Nkt" secondAttribute="bottom" constant="-10" id="Rd0-rl-ibj"/>
                             <constraint firstItem="kaB-Rg-10k" firstAttribute="leading" secondItem="edT-3H-SXg" secondAttribute="leading" id="Urq-ui-1sD"/>
                             <constraint firstAttribute="trailing" secondItem="NSX-Nj-ZwZ" secondAttribute="trailing" id="ccU-PX-rpZ"/>
                             <constraint firstItem="NSX-Nj-ZwZ" firstAttribute="leading" secondItem="edT-3H-SXg" secondAttribute="leading" id="dzR-04-EpW"/>
+                            <constraint firstItem="eLz-iC-Nkt" firstAttribute="top" secondItem="kaB-Rg-10k" secondAttribute="bottom" constant="18" id="xTY-T5-p8E"/>
                             <constraint firstAttribute="trailing" secondItem="kaB-Rg-10k" secondAttribute="trailing" id="zVA-ug-JXR"/>
                         </constraints>
                         <connections>
@@ -2090,13 +2093,13 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MEx-FI-R8B">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MEx-FI-R8B">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QCK-pA-cTX">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QCK-pA-cTX">
                                         <rect key="frame" x="0.0" y="83" width="600" height="517"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-4m-PqT">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJD-4m-PqT">
                                                 <rect key="frame" x="161" y="224" width="279" height="70"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -2107,7 +2110,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                                     <segue destination="N5H-hB-PtG" kind="presentation" id="Gzu-xX-cry"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th7-wq-k9v">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th7-wq-k9v">
                                                 <rect key="frame" x="174" y="94" width="252" height="70"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -2130,10 +2133,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                             <constraint firstItem="th7-wq-k9v" firstAttribute="leading" secondItem="QCK-pA-cTX" secondAttribute="leading" constant="220" id="xWh-UZ-j5d"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xr4-Jz-pVW">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xr4-Jz-pVW">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aXm-ON-ehT">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aXm-ON-ehT">
                                                 <rect key="frame" x="194" y="0.0" width="213" height="75"/>
                                                 <color key="backgroundColor" red="0.088020639650981614" green="1" blue="0.97725526399865004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -2143,7 +2146,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unM-xR-NiB">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unM-xR-NiB">
                                                 <rect key="frame" x="9" y="23" width="76" height="30"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -2168,6 +2171,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                     <constraint firstItem="QCK-pA-cTX" firstAttribute="leading" secondItem="MEx-FI-R8B" secondAttribute="leading" id="1HG-C8-Flm"/>
                                     <constraint firstItem="Xr4-Jz-pVW" firstAttribute="leading" secondItem="MEx-FI-R8B" secondAttribute="leading" id="1vn-rg-vRa"/>
                                     <constraint firstItem="QCK-pA-cTX" firstAttribute="top" secondItem="Xr4-Jz-pVW" secondAttribute="bottom" constant="8" id="8bS-Y8-hcu"/>
+                                    <constraint firstAttribute="bottom" secondItem="QCK-pA-cTX" secondAttribute="bottom" id="QmV-Ec-3NB"/>
                                     <constraint firstAttribute="trailing" secondItem="QCK-pA-cTX" secondAttribute="trailing" id="YET-Ab-AE1"/>
                                     <constraint firstItem="Xr4-Jz-pVW" firstAttribute="top" secondItem="MEx-FI-R8B" secondAttribute="top" id="boi-Uj-Q2H"/>
                                     <constraint firstItem="QCK-pA-cTX" firstAttribute="top" secondItem="Xr4-Jz-pVW" secondAttribute="bottom" constant="8" id="fyz-zt-5W8"/>
@@ -2176,6 +2180,11 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MEx-FI-R8B" firstAttribute="leading" secondItem="9Ge-VI-eGk" secondAttribute="leading" id="1sQ-R9-xaL"/>
+                            <constraint firstItem="MEx-FI-R8B" firstAttribute="bottom" secondItem="eNU-we-MFt" secondAttribute="top" id="9TR-cC-FNE"/>
+                            <constraint firstItem="MEx-FI-R8B" firstAttribute="top" secondItem="9Ge-VI-eGk" secondAttribute="top" id="eBt-5P-OLF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NG9-ri-R6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2183,10 +2192,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
             </objects>
             <point key="canvasLocation" x="-2127" y="8042"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Check Sugar Page View Controller-->
         <scene sceneID="AfL-GB-brR">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="CAm-Lr-aVm" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="CAm-Lr-aVm" customClass="CheckSugarPageViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TkK-aS-ZYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="7502"/>
@@ -2250,10 +2259,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                     <constraint firstItem="rcq-28-9xi" firstAttribute="centerY" secondItem="bHZ-iW-Ino" secondAttribute="centerY" id="l9A-Rp-PuK"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hEv-Rf-ooX">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEv-Rf-ooX">
                                 <rect key="frame" x="10" y="93" width="600" height="517"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qe-aL-NQn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qe-aL-NQn">
                                         <rect key="frame" x="220" y="224" width="160" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2264,7 +2273,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                             <segue destination="cUg-Hz-rxh" kind="presentation" id="wku-U4-cp2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aus-nI-e1z">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aus-nI-e1z">
                                         <rect key="frame" x="174" y="91" width="252" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2329,9 +2338,13 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                             <constraint firstItem="pGp-YS-RJe" firstAttribute="leading" secondItem="wle-4i-9v0" secondAttribute="leading" id="3bc-7U-uTN"/>
                             <constraint firstItem="bHZ-iW-Ino" firstAttribute="top" secondItem="pGp-YS-RJe" secondAttribute="bottom" constant="8" id="AfK-Js-3BQ"/>
                             <constraint firstItem="bHZ-iW-Ino" firstAttribute="top" secondItem="pGp-YS-RJe" secondAttribute="bottom" constant="8" id="GI4-mV-b9t"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hEv-Rf-ooX" secondAttribute="bottom" constant="-10" id="SCh-tJ-Jzx"/>
+                            <constraint firstItem="hEv-Rf-ooX" firstAttribute="leading" secondItem="wle-4i-9v0" secondAttribute="leadingMargin" constant="-10" id="Vkx-vz-G9f"/>
                             <constraint firstItem="1Ub-tF-PW7" firstAttribute="top" secondItem="bHZ-iW-Ino" secondAttribute="bottom" id="Wag-Gc-Qiu"/>
+                            <constraint firstItem="hEv-Rf-ooX" firstAttribute="top" secondItem="pGp-YS-RJe" secondAttribute="bottom" constant="18" id="mTF-fn-9C9"/>
                             <constraint firstAttribute="trailing" secondItem="pGp-YS-RJe" secondAttribute="trailing" id="nmb-GJ-jla"/>
                             <constraint firstItem="pGp-YS-RJe" firstAttribute="top" secondItem="wle-4i-9v0" secondAttribute="top" id="pyY-iF-gb9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hEv-Rf-ooX" secondAttribute="trailing" constant="-30" id="qpM-DH-fkJ"/>
                             <constraint firstAttribute="trailing" secondItem="bHZ-iW-Ino" secondAttribute="trailing" id="uCp-tp-NP5"/>
                         </constraints>
                         <connections>
@@ -2394,10 +2407,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                     <constraint firstAttribute="trailing" secondItem="DTE-bj-gOM" secondAttribute="trailing" constant="220" id="ovg-lE-koy"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjo-aV-bcV">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjo-aV-bcV">
                                 <rect key="frame" x="10" y="93" width="600" height="517"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVr-9z-Xoo">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVr-9z-Xoo">
                                         <rect key="frame" x="195" y="224" width="210" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2408,7 +2421,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                             <segue destination="wxE-V4-Aae" kind="presentation" id="voG-Md-nm5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayb-eq-eZI">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayb-eq-eZI">
                                         <rect key="frame" x="174" y="94" width="252" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2467,11 +2480,14 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="OYD-BV-yhZ" secondAttribute="trailing" id="AS4-et-xKa"/>
+                            <constraint firstItem="fjo-aV-bcV" firstAttribute="top" secondItem="NgJ-4N-oXv" secondAttribute="bottom" constant="18" id="AcJ-Kg-6Bq"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="fjo-aV-bcV" secondAttribute="bottom" constant="-10" id="CJG-Rh-5Tu"/>
                             <constraint firstItem="MrB-bb-VKO" firstAttribute="top" secondItem="OYD-BV-yhZ" secondAttribute="bottom" id="Egn-7K-3lj"/>
                             <constraint firstAttribute="trailing" secondItem="NgJ-4N-oXv" secondAttribute="trailing" id="Fen-3q-AOn"/>
                             <constraint firstItem="OYD-BV-yhZ" firstAttribute="top" secondItem="NgJ-4N-oXv" secondAttribute="bottom" constant="8" id="R8Y-sf-fEY"/>
                             <constraint firstItem="NgJ-4N-oXv" firstAttribute="top" secondItem="BHy-Yf-4wZ" secondAttribute="top" id="XZS-un-GAo"/>
                             <constraint firstItem="OYD-BV-yhZ" firstAttribute="top" secondItem="NgJ-4N-oXv" secondAttribute="bottom" constant="8" id="orj-hC-wWX"/>
+                            <constraint firstItem="fjo-aV-bcV" firstAttribute="leading" secondItem="BHy-Yf-4wZ" secondAttribute="leadingMargin" constant="-10" id="qAa-Su-LOh"/>
                             <constraint firstItem="OYD-BV-yhZ" firstAttribute="leading" secondItem="BHy-Yf-4wZ" secondAttribute="leading" id="vJE-P5-Lz8"/>
                             <constraint firstItem="NgJ-4N-oXv" firstAttribute="leading" secondItem="BHy-Yf-4wZ" secondAttribute="leading" id="z5e-BY-3c1"/>
                         </constraints>
@@ -5376,16 +5392,17 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="N4P-Dg-jwM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="N4P-Dg-jwM">
                                 <rect key="frame" x="180" y="0.0" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="Mhk-zn-mXh"/>
                                     <constraint firstAttribute="width" constant="240" id="Wht-2e-3u5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l3C-S9-rZG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l3C-S9-rZG">
                                 <rect key="frame" x="180" y="51" width="240" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -5394,7 +5411,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm1-nK-3Rc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm1-nK-3Rc">
                                 <rect key="frame" x="221" y="228" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -5406,7 +5423,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofW-K2-D1i"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-Df-PBr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-Df-PBr">
                                 <rect key="frame" x="221" y="466" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -5419,7 +5436,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                     <segue destination="BYZ-38-t0r" kind="show" id="wh3-Xy-B7P"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Zg-LH-9Xh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Zg-LH-9Xh">
                                 <rect key="frame" x="221" y="349" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -5437,8 +5454,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Fm1-nK-3Rc" firstAttribute="leading" secondItem="0Zg-LH-9Xh" secondAttribute="leading" id="2Gv-qK-ncU"/>
+                            <constraint firstItem="0Zg-LH-9Xh" firstAttribute="centerX" secondItem="EWz-CJ-hlt" secondAttribute="centerX" id="6PP-q9-miv"/>
                             <constraint firstItem="5OT-Df-PBr" firstAttribute="top" secondItem="0Zg-LH-9Xh" secondAttribute="bottom" constant="48" id="ISO-ZK-q8P"/>
                             <constraint firstItem="l3C-S9-rZG" firstAttribute="top" secondItem="3yh-L1-bJH" secondAttribute="bottom" constant="31" id="Jkv-La-UJX"/>
+                            <constraint firstItem="Fm1-nK-3Rc" firstAttribute="centerX" secondItem="l3C-S9-rZG" secondAttribute="centerX" id="L2d-tz-4Nd"/>
                             <constraint firstItem="N4P-Dg-jwM" firstAttribute="leading" secondItem="l3C-S9-rZG" secondAttribute="leading" id="ZzZ-yg-Gei"/>
                             <constraint firstItem="P7K-aE-Ohb" firstAttribute="top" secondItem="5OT-Df-PBr" secondAttribute="bottom" constant="65" id="aWL-64-4aT"/>
                             <constraint firstItem="N4P-Dg-jwM" firstAttribute="trailing" secondItem="l3C-S9-rZG" secondAttribute="trailing" id="eXG-3M-9g1"/>
@@ -5680,10 +5699,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
             </objects>
             <point key="canvasLocation" x="-434" y="7566"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Sugar Level Page View Controller-->
         <scene sceneID="IZW-lY-viq">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="N5H-hB-PtG" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="N5H-hB-PtG" customClass="SugarLevelPageViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amb-Pn-crv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="8577"/>
@@ -5736,7 +5755,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uye-8a-TPw">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="uW6-Yc-dmg">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="uW6-Yc-dmg">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -5814,7 +5833,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jRY-Tg-t35" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="1UE-G9-WdZ"/>
             </objects>
-            <point key="canvasLocation" x="257" y="7798"/>
+            <point key="canvasLocation" x="257" y="7566"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="laG-v0-aXb">
@@ -5872,7 +5891,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAd-ts-Uvh">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="idZ-fJ-PZH">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="idZ-fJ-PZH">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -6011,7 +6030,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHV-K7-JEo">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="opE-57-Zwl">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="opE-57-Zwl">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -6146,7 +6165,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="za7-L1-05u">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="0Mg-vU-Qz3">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="0Mg-vU-Qz3">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -6274,7 +6293,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUm-1G-ddr">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="hOl-2l-m2A">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="hOl-2l-m2A">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -6411,7 +6430,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U5a-vQ-3A2">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="tKq-NO-naP">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="tKq-NO-naP">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -6634,7 +6653,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znk-Kq-Xju">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="58X-ns-CN4">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="58X-ns-CN4">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -6769,7 +6788,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lku-Vn-vAJ">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="Mvw-vO-xnj">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mvw-vO-xnj">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -6905,7 +6924,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2b-id-2zy">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="GAm-lQ-doz">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="GAm-lQ-doz">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -7040,7 +7059,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MAZ-Ug-p3d">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="XGZ-FL-nMQ">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="XGZ-FL-nMQ">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -7178,7 +7197,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tLO-pK-wJm">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="kvc-Ve-zIV">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="kvc-Ve-zIV">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -7313,7 +7332,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s9f-4J-bGK">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="8b3-jv-6uX">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="8b3-jv-6uX">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -8171,9 +8190,10 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="w39-FK-icg">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="w39-FK-icg">
                                         <rect key="frame" x="124" y="98" width="376" height="230"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" constant="376" id="7eG-zx-Tgq"/>
                                             <constraint firstAttribute="height" constant="230" id="KR9-Mm-bCB"/>
                                         </constraints>
                                     </imageView>
@@ -8185,6 +8205,8 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                     <constraint firstItem="lH4-8R-u7A" firstAttribute="top" secondItem="cMA-dP-gpa" secondAttribute="top" constant="8" id="Bid-L4-clq"/>
                                     <constraint firstAttribute="trailing" secondItem="PLN-dd-nk7" secondAttribute="trailing" constant="113" id="Jte-s6-B48"/>
                                     <constraint firstAttribute="trailing" secondItem="lH4-8R-u7A" secondAttribute="trailing" constant="113" id="KLs-BO-fGz"/>
+                                    <constraint firstItem="w39-FK-icg" firstAttribute="leading" secondItem="cMA-dP-gpa" secondAttribute="leading" constant="124" id="MOa-MY-6PQ"/>
+                                    <constraint firstItem="w39-FK-icg" firstAttribute="top" secondItem="lH4-8R-u7A" secondAttribute="bottom" constant="35" id="NFW-Nb-Yqm"/>
                                     <constraint firstItem="lH4-8R-u7A" firstAttribute="leading" secondItem="cMA-dP-gpa" secondAttribute="leading" constant="114" id="VqU-ot-Jxu"/>
                                     <constraint firstItem="PLN-dd-nk7" firstAttribute="top" secondItem="lH4-8R-u7A" secondAttribute="bottom" constant="25" id="Wdm-yl-h4A"/>
                                 </constraints>
@@ -9597,12 +9619,12 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TAI-h6-nmY"/>
-        <segue reference="XRe-jj-CqC"/>
+        <segue reference="Evq-vP-7pr"/>
+        <segue reference="wrM-Jb-EAE"/>
+        <segue reference="cP7-H0-Spc"/>
         <segue reference="voG-Md-nm5"/>
         <segue reference="f2R-hI-omN"/>
-        <segue reference="Gzu-xX-cry"/>
-        <segue reference="fOo-Q9-6Yd"/>
-        <segue reference="cP7-H0-Spc"/>
+        <segue reference="EJT-DQ-Out"/>
+        <segue reference="XRe-jj-CqC"/>
     </inferredMetricsTieBreakers>
 </document>
