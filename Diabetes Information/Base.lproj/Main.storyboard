@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E39d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -1150,7 +1150,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tbL-IE-XMz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="nEC-mf-0kd"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="3993"/>
+            <point key="canvasLocation" x="-434" y="3961"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jUm-ZV-5Tz">
@@ -2186,7 +2186,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
         <!--GeneralTipsViewController-->
         <scene sceneID="AfL-GB-brR">
             <objects>
-                <pageViewController storyboardIdentifier="ExerciseGeneralTipsViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="CAm-Lr-aVm" userLabel="GeneralTipsViewController" customClass="ExerciseGeneralTipsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="CAm-Lr-aVm" userLabel="GeneralTipsViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TkK-aS-ZYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="7502"/>
@@ -2490,7 +2490,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-2127" y="5701"/>
+            <point key="canvasLocation" x="-2103" y="5741"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5vT-bl-4Am">
@@ -2620,7 +2620,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pyQ-pO-5rc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="SRT-ku-ym9"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="5422"/>
+            <point key="canvasLocation" x="-434" y="5430"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dms-b6-RiN">
@@ -3406,7 +3406,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <pageViewController storyboardIdentifier="ExerciseGeneralTipsViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Jiy-B7-oMA" userLabel="GeneralTipsViewController" customClass="ExerciseGeneralTipsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6UL-Qy-fxS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1141" y="5422"/>
+            <point key="canvasLocation" x="-1141" y="5310"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="q6N-sR-SA8">
@@ -4328,7 +4328,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <pageViewController storyboardIdentifier="ExerciseandBloodViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="wxE-V4-Aae" userLabel="ExerciseAndBloodViewController" customClass="ExerciseAndBloodViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zM-P7-wa5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1133" y="6137"/>
+            <point key="canvasLocation" x="-1133" y="6153"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jI7-qI-DSq">
@@ -4455,7 +4455,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Gm-iS-nwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="ymW-EC-4O8"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="4675"/>
+            <point key="canvasLocation" x="-450" y="4667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pVt-Y8-59F">
@@ -5552,282 +5552,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
             </objects>
             <point key="canvasLocation" x="4236" y="5422"/>
         </scene>
-        <!--View Controller2-->
-        <scene sceneID="RJc-dy-rhe">
-            <objects>
-                <viewController storyboardIdentifier="ExerciseMenuController" id="0oq-gR-bCr" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WP1-1a-H2Z"/>
-                        <viewControllerLayoutGuide type="bottom" id="zFl-mb-DTt"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="eQF-3g-mgm">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCm-i8-ja2">
-                                <rect key="frame" x="0.0" y="83" width="600" height="517"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnv-Bn-xrJ">
-                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="vBM-j9-r8d"/>
-                                        </constraints>
-                                        <state key="normal" title="Basics"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yD-28-Slo">
-                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="UEa-FR-2Rw"/>
-                                        </constraints>
-                                        <state key="normal" title="How to draw up and give your insulin"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="bnv-Bn-xrJ" firstAttribute="centerY" secondItem="rCm-i8-ja2" secondAttribute="centerY" id="KlI-IY-pCD"/>
-                                    <constraint firstItem="bnv-Bn-xrJ" firstAttribute="top" secondItem="2yD-28-Slo" secondAttribute="bottom" constant="60" id="UQ9-eu-OTQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="bnv-Bn-xrJ" secondAttribute="trailing" constant="220" id="XzI-YL-Xil"/>
-                                    <constraint firstItem="bnv-Bn-xrJ" firstAttribute="top" secondItem="2yD-28-Slo" secondAttribute="bottom" constant="60" id="YTI-eo-DTt"/>
-                                    <constraint firstAttribute="trailing" secondItem="2yD-28-Slo" secondAttribute="trailing" constant="220" id="ayH-ho-g9w"/>
-                                    <constraint firstItem="bnv-Bn-xrJ" firstAttribute="leading" secondItem="rCm-i8-ja2" secondAttribute="leading" constant="220" id="fuH-ig-GQj"/>
-                                    <constraint firstItem="2yD-28-Slo" firstAttribute="leading" secondItem="rCm-i8-ja2" secondAttribute="leading" constant="220" id="oDZ-vF-Kx1"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l3q-IA-N0n">
-                                <rect key="frame" x="10" y="93" width="600" height="517"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d97-0M-R67">
-                                        <rect key="frame" x="195" y="224" width="210" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="sM8-LF-8WC"/>
-                                        </constraints>
-                                        <state key="normal" title="Exercise and Your Blood Sugar"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65U-7N-5ce">
-                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="WyK-v5-qLd"/>
-                                        </constraints>
-                                        <state key="normal" title="General Tips"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="d97-0M-R67" firstAttribute="leading" secondItem="l3q-IA-N0n" secondAttribute="leading" constant="220" id="CDk-Kt-Psp"/>
-                                    <constraint firstAttribute="trailing" secondItem="65U-7N-5ce" secondAttribute="trailing" constant="220" id="FLe-Ab-9fk"/>
-                                    <constraint firstItem="d97-0M-R67" firstAttribute="top" secondItem="65U-7N-5ce" secondAttribute="bottom" constant="60" id="FWg-tr-DhV"/>
-                                    <constraint firstItem="65U-7N-5ce" firstAttribute="leading" secondItem="l3q-IA-N0n" secondAttribute="leading" constant="220" id="K99-RE-BQx"/>
-                                    <constraint firstItem="d97-0M-R67" firstAttribute="top" secondItem="65U-7N-5ce" secondAttribute="bottom" constant="60" id="ltF-Uu-MEa"/>
-                                    <constraint firstAttribute="trailing" secondItem="d97-0M-R67" secondAttribute="trailing" constant="220" id="nkz-ys-eIi"/>
-                                    <constraint firstItem="d97-0M-R67" firstAttribute="centerY" secondItem="l3q-IA-N0n" secondAttribute="centerY" id="qvh-7n-bpQ"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="puz-7P-oMa">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hyQ-Wf-tWu">
-                                        <rect key="frame" x="194" y="0.0" width="213" height="75"/>
-                                        <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="213" id="Smc-3R-4o0"/>
-                                            <constraint firstAttribute="height" constant="75" id="n5f-SK-D76"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFc-Tv-vkY">
-                                        <rect key="frame" x="9" y="23" width="76" height="30"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="42" id="ORN-9P-AJh"/>
-                                        </constraints>
-                                        <state key="normal" title="Main Menu"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="hyQ-Wf-tWu" firstAttribute="centerX" secondItem="puz-7P-oMa" secondAttribute="centerX" id="1iC-9j-ctL"/>
-                                    <constraint firstItem="CFc-Tv-vkY" firstAttribute="centerY" secondItem="hyQ-Wf-tWu" secondAttribute="centerY" id="5YK-76-1Ac"/>
-                                    <constraint firstAttribute="bottom" secondItem="hyQ-Wf-tWu" secondAttribute="bottom" id="Mtw-f0-cGe"/>
-                                    <constraint firstItem="hyQ-Wf-tWu" firstAttribute="top" secondItem="puz-7P-oMa" secondAttribute="top" id="jWV-fb-Jc3"/>
-                                    <constraint firstItem="CFc-Tv-vkY" firstAttribute="leading" secondItem="puz-7P-oMa" secondAttribute="leading" constant="26" id="mLV-6l-L5U"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="puz-7P-oMa" firstAttribute="top" secondItem="eQF-3g-mgm" secondAttribute="top" id="6IB-dA-Izg"/>
-                            <constraint firstAttribute="trailing" secondItem="puz-7P-oMa" secondAttribute="trailing" id="BjL-BQ-eud"/>
-                            <constraint firstItem="zFl-mb-DTt" firstAttribute="top" secondItem="rCm-i8-ja2" secondAttribute="bottom" id="KZy-dY-ZhS"/>
-                            <constraint firstAttribute="trailing" secondItem="rCm-i8-ja2" secondAttribute="trailing" id="PYv-w0-lfj"/>
-                            <constraint firstItem="rCm-i8-ja2" firstAttribute="top" secondItem="puz-7P-oMa" secondAttribute="bottom" constant="8" id="TGX-61-OdD"/>
-                            <constraint firstItem="puz-7P-oMa" firstAttribute="leading" secondItem="eQF-3g-mgm" secondAttribute="leading" id="Xtc-ZO-K0h"/>
-                            <constraint firstItem="rCm-i8-ja2" firstAttribute="top" secondItem="puz-7P-oMa" secondAttribute="bottom" constant="8" id="lmK-BY-wNb"/>
-                            <constraint firstItem="rCm-i8-ja2" firstAttribute="leading" secondItem="eQF-3g-mgm" secondAttribute="leading" id="yBZ-p5-qrU"/>
-                        </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="suQ-cH-sbf" appends="YES" id="ZRr-ln-EgP"/>
-                        </connections>
-                    </view>
-                    <connections>
-                        <outlet property="SwipeField" destination="0HW-X3-xVl" id="FJ5-Rf-9JK"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gzx-sp-2fa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="suQ-cH-sbf">
-                    <connections>
-                        <action selector="textMove:" destination="0oq-gR-bCr" id="cuW-3E-nt9"/>
-                    </connections>
-                </swipeGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="-2127" y="5701"/>
-        </scene>
-        <!--View Controller2-->
-        <scene sceneID="ixq-Qf-cuZ">
-            <objects>
-                <viewController storyboardIdentifier="ExerciseMenuController" id="w0F-Mj-X7T" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="79E-dI-0PZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="llV-gY-8SY"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Iuz-Nc-qgv">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bls-4w-3Zs">
-                                <rect key="frame" x="0.0" y="83" width="600" height="517"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPn-28-xdd">
-                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="9D5-PE-Zei"/>
-                                        </constraints>
-                                        <state key="normal" title="Basics"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjP-li-sTF">
-                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="CSd-7F-Isg"/>
-                                        </constraints>
-                                        <state key="normal" title="How to draw up and give your insulin"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="NPn-28-xdd" secondAttribute="trailing" constant="220" id="053-wF-Oxd"/>
-                                    <constraint firstItem="NPn-28-xdd" firstAttribute="top" secondItem="DjP-li-sTF" secondAttribute="bottom" constant="60" id="1iF-l3-yEO"/>
-                                    <constraint firstItem="NPn-28-xdd" firstAttribute="centerY" secondItem="bls-4w-3Zs" secondAttribute="centerY" id="6Cd-X8-9o3"/>
-                                    <constraint firstItem="DjP-li-sTF" firstAttribute="leading" secondItem="bls-4w-3Zs" secondAttribute="leading" constant="220" id="Giq-a1-rw6"/>
-                                    <constraint firstAttribute="trailing" secondItem="DjP-li-sTF" secondAttribute="trailing" constant="220" id="Qux-wW-QyZ"/>
-                                    <constraint firstItem="NPn-28-xdd" firstAttribute="leading" secondItem="bls-4w-3Zs" secondAttribute="leading" constant="220" id="be9-dc-AcK"/>
-                                    <constraint firstItem="NPn-28-xdd" firstAttribute="top" secondItem="DjP-li-sTF" secondAttribute="bottom" constant="60" id="cjN-2R-3ll"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8tP-BN-seW">
-                                <rect key="frame" x="10" y="93" width="600" height="517"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOm-Na-dRX">
-                                        <rect key="frame" x="195" y="224" width="210" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="e8R-a4-cji"/>
-                                        </constraints>
-                                        <state key="normal" title="Exercise and Your Blood Sugar"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U27-JT-mK5">
-                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="a2E-f4-51B"/>
-                                        </constraints>
-                                        <state key="normal" title="General Tips"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="U27-JT-mK5" secondAttribute="trailing" constant="220" id="2FJ-JR-UW8"/>
-                                    <constraint firstAttribute="trailing" secondItem="nOm-Na-dRX" secondAttribute="trailing" constant="220" id="FsX-Ez-l1A"/>
-                                    <constraint firstItem="nOm-Na-dRX" firstAttribute="top" secondItem="U27-JT-mK5" secondAttribute="bottom" constant="60" id="ICd-ks-jx3"/>
-                                    <constraint firstItem="nOm-Na-dRX" firstAttribute="top" secondItem="U27-JT-mK5" secondAttribute="bottom" constant="60" id="ZUw-2W-6Xf"/>
-                                    <constraint firstItem="nOm-Na-dRX" firstAttribute="leading" secondItem="8tP-BN-seW" secondAttribute="leading" constant="220" id="aur-EB-z1F"/>
-                                    <constraint firstItem="nOm-Na-dRX" firstAttribute="centerY" secondItem="8tP-BN-seW" secondAttribute="centerY" id="jJ1-g8-pBk"/>
-                                    <constraint firstItem="U27-JT-mK5" firstAttribute="leading" secondItem="8tP-BN-seW" secondAttribute="leading" constant="220" id="p6n-mf-wkW"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OmZ-SV-nKf">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="875-Hl-djy">
-                                        <rect key="frame" x="194" y="0.0" width="213" height="75"/>
-                                        <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="75" id="cC2-3y-L7k"/>
-                                            <constraint firstAttribute="width" constant="213" id="gvu-1B-Pbu"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCv-rS-pLd">
-                                        <rect key="frame" x="9" y="23" width="76" height="30"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="42" id="DIN-Tv-JeF"/>
-                                        </constraints>
-                                        <state key="normal" title="Main Menu"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="QCv-rS-pLd" firstAttribute="leading" secondItem="OmZ-SV-nKf" secondAttribute="leading" constant="26" id="KPU-Gm-1Vj"/>
-                                    <constraint firstAttribute="bottom" secondItem="875-Hl-djy" secondAttribute="bottom" id="OGD-w2-tpe"/>
-                                    <constraint firstItem="875-Hl-djy" firstAttribute="centerX" secondItem="OmZ-SV-nKf" secondAttribute="centerX" id="PhW-90-pZz"/>
-                                    <constraint firstItem="QCv-rS-pLd" firstAttribute="centerY" secondItem="875-Hl-djy" secondAttribute="centerY" id="Uf8-Ez-T2m"/>
-                                    <constraint firstItem="875-Hl-djy" firstAttribute="top" secondItem="OmZ-SV-nKf" secondAttribute="top" id="kRO-Eg-Q1q"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="OmZ-SV-nKf" firstAttribute="leading" secondItem="Iuz-Nc-qgv" secondAttribute="leading" id="G8D-QI-ZVW"/>
-                            <constraint firstItem="OmZ-SV-nKf" firstAttribute="top" secondItem="Iuz-Nc-qgv" secondAttribute="top" id="P1U-sA-IIN"/>
-                            <constraint firstItem="bls-4w-3Zs" firstAttribute="top" secondItem="OmZ-SV-nKf" secondAttribute="bottom" constant="8" id="YIj-mc-QbF"/>
-                            <constraint firstAttribute="trailing" secondItem="OmZ-SV-nKf" secondAttribute="trailing" id="bav-n3-qjE"/>
-                            <constraint firstItem="bls-4w-3Zs" firstAttribute="leading" secondItem="Iuz-Nc-qgv" secondAttribute="leading" id="fEw-nb-aKh"/>
-                            <constraint firstItem="llV-gY-8SY" firstAttribute="top" secondItem="bls-4w-3Zs" secondAttribute="bottom" id="mgh-VD-81A"/>
-                            <constraint firstAttribute="trailing" secondItem="bls-4w-3Zs" secondAttribute="trailing" id="p4e-s9-e1f"/>
-                            <constraint firstItem="bls-4w-3Zs" firstAttribute="top" secondItem="OmZ-SV-nKf" secondAttribute="bottom" constant="8" id="qi9-19-jSs"/>
-                        </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="1Xz-kx-OH5" appends="YES" id="mJW-pJ-D0d"/>
-                        </connections>
-                    </view>
-                    <connections>
-                        <outlet property="SwipeField" destination="0HW-X3-xVl" id="ZiC-Gr-FFg"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IF2-Qm-JIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="1Xz-kx-OH5">
-                    <connections>
-                        <action selector="textMove:" destination="w0F-Mj-X7T" id="DH3-lN-LTC"/>
-                    </connections>
-                </swipeGestureRecognizer>
-                <viewControllerLayoutGuide type="top" id="O8e-WO-rkz"/>
-                <viewControllerLayoutGuide type="bottom" id="OZB-XU-nM7"/>
-            </objects>
-            <point key="canvasLocation" x="-2127" y="5701"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="cPv-BX-Qyt">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="evm-Iy-daa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugar1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="evm-Iy-daa" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0lq-ah-apT"/>
                         <viewControllerLayoutGuide type="bottom" id="EZO-oZ-yvt"/>
@@ -5950,12 +5678,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7c-xc-OVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="u2Y-iY-dqK"/>
             </objects>
-            <point key="canvasLocation" x="-422" y="7502"/>
+            <point key="canvasLocation" x="-434" y="7566"/>
         </scene>
         <!--ExerciseAndBloodViewController-->
         <scene sceneID="IZW-lY-viq">
             <objects>
-                <pageViewController storyboardIdentifier="ExerciseandBloodViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="N5H-hB-PtG" userLabel="ExerciseAndBloodViewController" customClass="ExerciseAndBloodViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="N5H-hB-PtG" userLabel="ExerciseAndBloodViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amb-Pn-crv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="8577"/>
@@ -5963,7 +5691,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
         <!--View Controller-->
         <scene sceneID="10B-WG-yi9">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5mF-Se-CXU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugar2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5mF-Se-CXU" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jIx-2I-HQ1"/>
                         <viewControllerLayoutGuide type="bottom" id="h0g-9A-Fwg"/>
@@ -6086,12 +5814,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jRY-Tg-t35" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="1UE-G9-WdZ"/>
             </objects>
-            <point key="canvasLocation" x="257" y="7502"/>
+            <point key="canvasLocation" x="257" y="7798"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="laG-v0-aXb">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0iq-qG-0Kh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugar6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0iq-qG-0Kh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LNS-ua-cOQ"/>
                         <viewControllerLayoutGuide type="bottom" id="cBN-m1-EuX"/>
@@ -6227,7 +5955,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
         <!--View Controller-->
         <scene sceneID="psX-gJ-tbA">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="r3C-0F-4rh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugar5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="r3C-0F-4rh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pQI-xc-Z8Q"/>
                         <viewControllerLayoutGuide type="bottom" id="riK-ON-67R"/>
@@ -6361,12 +6089,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPo-pF-jaF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="y8u-F2-Wow"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="7510"/>
+            <point key="canvasLocation" x="2270" y="7558"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gNI-RD-Ei1">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0wY-du-JjW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugar4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0wY-du-JjW" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PZH-9v-Oh6"/>
                         <viewControllerLayoutGuide type="bottom" id="X0A-RT-Ms3"/>
@@ -6496,12 +6224,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="be8-Mk-Xe0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="004-eX-sD9"/>
             </objects>
-            <point key="canvasLocation" x="1578" y="7510"/>
+            <point key="canvasLocation" x="1634" y="7542"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kFP-Jk-u1a">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1ox-Ar-94Z" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugar3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1ox-Ar-94Z" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0dk-We-KyJ"/>
                         <viewControllerLayoutGuide type="bottom" id="5CS-Rb-5lN"/>
@@ -6624,12 +6352,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enb-07-Ke6" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="jLC-42-ePQ"/>
             </objects>
-            <point key="canvasLocation" x="906" y="7502"/>
+            <point key="canvasLocation" x="930" y="7518"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tkK-nM-dGf">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="soo-Fo-0Jt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugar7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="soo-Fo-0Jt" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JLF-oS-xCa"/>
                         <viewControllerLayoutGuide type="bottom" id="bUr-PQ-FhL"/>
@@ -6761,12 +6489,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWk-ZQ-KCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="15T-IM-sap"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="7510"/>
+            <point key="canvasLocation" x="3562" y="7494"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FAB-kA-e2B">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneralFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bAO-Ej-oQv" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="checkSugarFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bAO-Ej-oQv" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zk5-fA-rUT"/>
                         <viewControllerLayoutGuide type="bottom" id="Pmw-qB-Cfp"/>
@@ -6856,12 +6584,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <swipeGestureRecognizer direction="right" id="nxE-Tl-A9a"/>
                 <viewControllerLayoutGuide type="top" id="EPD-z3-jMo"/>
             </objects>
-            <point key="canvasLocation" x="4268" y="7518"/>
+            <point key="canvasLocation" x="4244" y="7510"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="roA-1T-fm4">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uAE-9j-EHa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sugarLevel1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uAE-9j-EHa" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mhM-Vb-hdR"/>
                         <viewControllerLayoutGuide type="bottom" id="ClW-ua-lMv"/>
@@ -6984,12 +6712,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MXN-YQ-c9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="f80-3N-1oZ"/>
             </objects>
-            <point key="canvasLocation" x="-422" y="8577"/>
+            <point key="canvasLocation" x="-422" y="8609"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cnp-nQ-pwo">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nr1-in-C3x" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sugarLevel2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nr1-in-C3x" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DAG-Ff-eY5"/>
                         <viewControllerLayoutGuide type="bottom" id="0xm-tS-44w"/>
@@ -7119,12 +6847,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J94-md-2Ee" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="j8A-0a-6cw"/>
             </objects>
-            <point key="canvasLocation" x="251" y="8577"/>
+            <point key="canvasLocation" x="275" y="8590"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PeF-0I-tkm">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bro-gJ-bOK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sugarLevel6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bro-gJ-bOK" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s89-rS-g7G"/>
                         <viewControllerLayoutGuide type="bottom" id="uap-OC-4iw"/>
@@ -7255,12 +6983,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggV-bD-jmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Lbw-HN-oTB"/>
             </objects>
-            <point key="canvasLocation" x="2906" y="8598"/>
+            <point key="canvasLocation" x="2906" y="8838"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XpE-RH-TZK">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t6J-Ev-5Wm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sugarLevel5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t6J-Ev-5Wm" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d4J-Yw-qko"/>
                         <viewControllerLayoutGuide type="bottom" id="HpH-a0-D0t"/>
@@ -7390,12 +7118,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqB-s6-Z76" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="CRR-ly-2DO"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="8590"/>
+            <point key="canvasLocation" x="2278" y="8766"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kkB-4R-GGT">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nen-nG-Ta3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sugarLevel4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Nen-nG-Ta3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9hw-Yf-DFK"/>
                         <viewControllerLayoutGuide type="bottom" id="JaZ-xx-tzx"/>
@@ -7528,12 +7256,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRM-0X-28p" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="8vw-gv-jPo"/>
             </objects>
-            <point key="canvasLocation" x="1578" y="8582"/>
+            <point key="canvasLocation" x="1594" y="8622"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qd0-ai-Bkn">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneral1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="li7-Gx-eb6" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sugarLevel3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="li7-Gx-eb6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fmg-dd-n1g"/>
                         <viewControllerLayoutGuide type="bottom" id="M0y-eP-aLH"/>
@@ -7663,12 +7391,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBX-Qp-n9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="K5U-qf-r8c"/>
             </objects>
-            <point key="canvasLocation" x="898" y="8577"/>
+            <point key="canvasLocation" x="967" y="8569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="44p-WL-7Mi">
             <objects>
-                <viewController storyboardIdentifier="ExerciseGeneralFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M3u-fp-Rfl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sugarLevelFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M3u-fp-Rfl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7J6-iW-16C"/>
                         <viewControllerLayoutGuide type="bottom" id="PYM-zN-kCc"/>
@@ -7760,7 +7488,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <swipeGestureRecognizer direction="right" id="pLQ-4u-pUG"/>
                 <viewControllerLayoutGuide type="top" id="RWu-JV-1nU"/>
             </objects>
-            <point key="canvasLocation" x="3584" y="8598"/>
+            <point key="canvasLocation" x="3600" y="8646"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Lq-p8-Z7q">
@@ -7890,7 +7618,7 @@ Foods that contain carbs turn into sugar in the blood stream</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wcb-S5-yjr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="llD-gP-C8X"/>
             </objects>
-            <point key="canvasLocation" x="2489" y="-645"/>
+            <point key="canvasLocation" x="2481" y="-629"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KPp-Oh-8Hl">
@@ -8020,7 +7748,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t0h-Nl-T40" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Iuo-dt-FHx"/>
             </objects>
-            <point key="canvasLocation" x="3162" y="-645"/>
+            <point key="canvasLocation" x="3162" y="-717"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yfO-s4-4lZ">
@@ -8150,7 +7878,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Tp-tO-evR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="kaa-CI-r9l"/>
             </objects>
-            <point key="canvasLocation" x="3804" y="-637"/>
+            <point key="canvasLocation" x="3820" y="-693"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8C2-S4-fVB">
@@ -8280,7 +8008,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mfh-eB-Ofr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Whf-tI-7AK"/>
             </objects>
-            <point key="canvasLocation" x="4454" y="-629"/>
+            <point key="canvasLocation" x="4454" y="-709"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FJI-fH-PyP">
@@ -8408,7 +8136,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jnE-f6-qDZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="ftr-4s-NUS"/>
             </objects>
-            <point key="canvasLocation" x="5108" y="-621"/>
+            <point key="canvasLocation" x="5108" y="-725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4tO-BJ-rpl">
@@ -8541,7 +8269,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78E-aP-kKn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="MNS-8h-H7v"/>
             </objects>
-            <point key="canvasLocation" x="5766" y="-629"/>
+            <point key="canvasLocation" x="5750" y="-685"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wha-AS-1aV">
@@ -8691,137 +8419,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Gj-pl-6ij" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="rg9-LO-Oau"/>
             </objects>
-            <point key="canvasLocation" x="6420" y="-629"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="C6N-XQ-9MJ">
-            <objects>
-                <viewController storyboardIdentifier="drawInsulin1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9yq-1e-hUi" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0BO-dZ-Hzj"/>
-                        <viewControllerLayoutGuide type="bottom" id="O7X-ZE-u3t"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="a8n-va-HYq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9o-Qa-USV">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7gk-dv-1te">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="55" id="LLB-ga-a0k"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r5N-nC-GPr">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="RRK-VT-zXX"/>
-                                        </constraints>
-                                        <string key="text">Gather your vial of insulin and a fresh syringe on a clean table or counter.
-
-Check to make sure it is the right kind on insulin, that the insulin has not expired, and that there are no clumps or particles in the vial.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="r5N-nC-GPr" secondAttribute="trailing" constant="113" id="3HJ-iu-ig5"/>
-                                    <constraint firstItem="7gk-dv-1te" firstAttribute="top" secondItem="c9o-Qa-USV" secondAttribute="top" constant="8" id="6sh-Yy-RIF"/>
-                                    <constraint firstItem="r5N-nC-GPr" firstAttribute="top" secondItem="7gk-dv-1te" secondAttribute="bottom" constant="25" id="H89-yk-EyE"/>
-                                    <constraint firstItem="r5N-nC-GPr" firstAttribute="top" secondItem="7gk-dv-1te" secondAttribute="bottom" constant="25" id="QGZ-1j-OvI"/>
-                                    <constraint firstItem="r5N-nC-GPr" firstAttribute="leading" secondItem="c9o-Qa-USV" secondAttribute="leading" constant="114" id="TE1-Y1-eX0"/>
-                                    <constraint firstItem="7gk-dv-1te" firstAttribute="leading" secondItem="c9o-Qa-USV" secondAttribute="leading" constant="114" id="may-wP-gyP"/>
-                                    <constraint firstAttribute="trailing" secondItem="7gk-dv-1te" secondAttribute="trailing" constant="113" id="yKu-85-MGt"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0H-HB-D0t">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="She-3r-DLB">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
-                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="mIN-Rc-OfH"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="02h-a4-eYo">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
-                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="3Yo-9c-96d"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="02h-a4-eYo" secondAttribute="trailing" constant="180" id="6QX-vb-4jj"/>
-                                    <constraint firstAttribute="bottom" secondItem="02h-a4-eYo" secondAttribute="bottom" constant="2" id="8se-Zm-olf"/>
-                                    <constraint firstItem="She-3r-DLB" firstAttribute="top" secondItem="I0H-HB-D0t" secondAttribute="top" constant="8" id="9WN-dC-34k"/>
-                                    <constraint firstItem="02h-a4-eYo" firstAttribute="top" secondItem="She-3r-DLB" secondAttribute="bottom" constant="12" id="IeY-OR-DoN"/>
-                                    <constraint firstAttribute="trailing" secondItem="She-3r-DLB" secondAttribute="trailing" constant="180" id="KZu-Zd-2Kz"/>
-                                    <constraint firstItem="02h-a4-eYo" firstAttribute="leading" secondItem="I0H-HB-D0t" secondAttribute="leading" constant="180" id="ZLc-iZ-hBK"/>
-                                    <constraint firstItem="02h-a4-eYo" firstAttribute="top" secondItem="She-3r-DLB" secondAttribute="bottom" constant="12" id="dzB-av-sQi"/>
-                                    <constraint firstItem="She-3r-DLB" firstAttribute="leading" secondItem="I0H-HB-D0t" secondAttribute="leading" constant="180" id="gET-m1-3iX"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRB-fO-LvZ">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
-                                <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="lcD-qd-V3T">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="121" id="ULb-hk-RRs"/>
-                                        </constraints>
-                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    </pageControl>
-                                </subviews>
-                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="lcD-qd-V3T" firstAttribute="leading" secondItem="uRB-fO-LvZ" secondAttribute="leading" constant="240" id="GAt-iC-Po8"/>
-                                    <constraint firstAttribute="trailing" secondItem="lcD-qd-V3T" secondAttribute="trailing" constant="239" id="e0K-UI-BM8"/>
-                                    <constraint firstAttribute="height" constant="55" id="en2-Ic-dvc"/>
-                                    <constraint firstItem="lcD-qd-V3T" firstAttribute="top" secondItem="uRB-fO-LvZ" secondAttribute="top" constant="9" id="ox1-Pk-yTv"/>
-                                    <constraint firstAttribute="bottom" secondItem="lcD-qd-V3T" secondAttribute="bottom" constant="9" id="uEQ-uX-Poh"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="c9o-Qa-USV" secondAttribute="trailing" id="GE8-5d-hm5"/>
-                            <constraint firstItem="uRB-fO-LvZ" firstAttribute="leading" secondItem="a8n-va-HYq" secondAttribute="leading" id="I9g-GK-d0f"/>
-                            <constraint firstItem="uRB-fO-LvZ" firstAttribute="top" secondItem="c9o-Qa-USV" secondAttribute="bottom" id="Kmc-SM-EBN"/>
-                            <constraint firstItem="c9o-Qa-USV" firstAttribute="top" secondItem="I0H-HB-D0t" secondAttribute="bottom" id="RW4-cb-7Q3"/>
-                            <constraint firstItem="c9o-Qa-USV" firstAttribute="leading" secondItem="a8n-va-HYq" secondAttribute="leading" id="SY7-CW-0zQ"/>
-                            <constraint firstItem="I0H-HB-D0t" firstAttribute="top" secondItem="a8n-va-HYq" secondAttribute="top" id="XWU-tc-qxE"/>
-                            <constraint firstItem="O7X-ZE-u3t" firstAttribute="top" secondItem="uRB-fO-LvZ" secondAttribute="bottom" id="YNG-Xv-Rhg"/>
-                            <constraint firstItem="c9o-Qa-USV" firstAttribute="top" secondItem="I0H-HB-D0t" secondAttribute="bottom" id="aCh-L4-TaI"/>
-                            <constraint firstItem="I0H-HB-D0t" firstAttribute="leading" secondItem="a8n-va-HYq" secondAttribute="leading" id="b3D-Q4-W8U"/>
-                            <constraint firstAttribute="trailing" secondItem="I0H-HB-D0t" secondAttribute="trailing" id="gue-FX-e50"/>
-                            <constraint firstAttribute="trailing" secondItem="uRB-fO-LvZ" secondAttribute="trailing" id="sOg-DW-zWL"/>
-                            <constraint firstItem="uRB-fO-LvZ" firstAttribute="top" secondItem="c9o-Qa-USV" secondAttribute="bottom" id="wlL-ID-bLt"/>
-                        </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="hth-iz-Pji" appends="YES" id="yeE-jY-zFo"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z6y-dc-j5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="hth-iz-Pji"/>
-            </objects>
-            <point key="canvasLocation" x="-442" y="3993"/>
+            <point key="canvasLocation" x="6420" y="-701"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iHN-2q-VdW">
@@ -10001,10 +9599,10 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
     <inferredMetricsTieBreakers>
         <segue reference="TAI-h6-nmY"/>
         <segue reference="XRe-jj-CqC"/>
+        <segue reference="voG-Md-nm5"/>
+        <segue reference="f2R-hI-omN"/>
         <segue reference="Gzu-xX-cry"/>
         <segue reference="fOo-Q9-6Yd"/>
         <segue reference="cP7-H0-Spc"/>
-        <segue reference="yBZ-DY-zO4"/>
-        <segue reference="V7b-9T-m9k"/>
     </inferredMetricsTieBreakers>
 </document>
