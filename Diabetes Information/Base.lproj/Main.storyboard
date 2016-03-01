@@ -2183,10 +2183,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
             </objects>
             <point key="canvasLocation" x="-2127" y="8042"/>
         </scene>
-        <!--GeneralTipsViewController-->
+        <!--Page View Controller-->
         <scene sceneID="AfL-GB-brR">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="CAm-Lr-aVm" userLabel="GeneralTipsViewController" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="CAm-Lr-aVm" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TkK-aS-ZYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="7502"/>
@@ -5680,10 +5680,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
             </objects>
             <point key="canvasLocation" x="-434" y="7566"/>
         </scene>
-        <!--ExerciseAndBloodViewController-->
+        <!--Page View Controller-->
         <scene sceneID="IZW-lY-viq">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="N5H-hB-PtG" userLabel="ExerciseAndBloodViewController" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="N5H-hB-PtG" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amb-Pn-crv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="8577"/>
