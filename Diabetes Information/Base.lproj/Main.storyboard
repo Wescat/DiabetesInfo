@@ -5697,7 +5697,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7c-xc-OVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="u2Y-iY-dqK"/>
             </objects>
-            <point key="canvasLocation" x="-434" y="7566"/>
+            <point key="canvasLocation" x="-442" y="7502"/>
         </scene>
         <!--Sugar Level Page View Controller-->
         <scene sceneID="IZW-lY-viq">
@@ -5833,7 +5833,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jRY-Tg-t35" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="1UE-G9-WdZ"/>
             </objects>
-            <point key="canvasLocation" x="257" y="7566"/>
+            <point key="canvasLocation" x="257" y="7502"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="laG-v0-aXb">
@@ -5969,7 +5969,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hVs-Y5-unW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="GDa-R7-POi"/>
             </objects>
-            <point key="canvasLocation" x="2906" y="7510"/>
+            <point key="canvasLocation" x="2918" y="7502"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="psX-gJ-tbA">
@@ -6108,7 +6108,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPo-pF-jaF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="y8u-F2-Wow"/>
             </objects>
-            <point key="canvasLocation" x="2270" y="7558"/>
+            <point key="canvasLocation" x="2266" y="7502"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gNI-RD-Ei1">
@@ -6243,7 +6243,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="be8-Mk-Xe0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="004-eX-sD9"/>
             </objects>
-            <point key="canvasLocation" x="1634" y="7542"/>
+            <point key="canvasLocation" x="1594" y="7502"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kFP-Jk-u1a">
@@ -6371,7 +6371,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enb-07-Ke6" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="jLC-42-ePQ"/>
             </objects>
-            <point key="canvasLocation" x="930" y="7518"/>
+            <point key="canvasLocation" x="930" y="7502"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tkK-nM-dGf">
@@ -6508,7 +6508,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWk-ZQ-KCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="15T-IM-sap"/>
             </objects>
-            <point key="canvasLocation" x="3562" y="7494"/>
+            <point key="canvasLocation" x="3570" y="7502"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FAB-kA-e2B">
@@ -6603,7 +6603,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <swipeGestureRecognizer direction="right" id="nxE-Tl-A9a"/>
                 <viewControllerLayoutGuide type="top" id="EPD-z3-jMo"/>
             </objects>
-            <point key="canvasLocation" x="4244" y="7510"/>
+            <point key="canvasLocation" x="4228" y="7502"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="roA-1T-fm4">
@@ -6731,7 +6731,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MXN-YQ-c9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="f80-3N-1oZ"/>
             </objects>
-            <point key="canvasLocation" x="-422" y="8609"/>
+            <point key="canvasLocation" x="-442" y="8590"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cnp-nQ-pwo">
@@ -6866,7 +6866,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J94-md-2Ee" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="j8A-0a-6cw"/>
             </objects>
-            <point key="canvasLocation" x="275" y="8590"/>
+            <point key="canvasLocation" x="257" y="8577"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PeF-0I-tkm">
@@ -7002,7 +7002,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggV-bD-jmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Lbw-HN-oTB"/>
             </objects>
-            <point key="canvasLocation" x="2906" y="8838"/>
+            <point key="canvasLocation" x="2918" y="8610"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XpE-RH-TZK">
@@ -7137,7 +7137,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KqB-s6-Z76" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="CRR-ly-2DO"/>
             </objects>
-            <point key="canvasLocation" x="2278" y="8766"/>
+            <point key="canvasLocation" x="2266" y="8598"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kkB-4R-GGT">
@@ -7275,7 +7275,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRM-0X-28p" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="8vw-gv-jPo"/>
             </objects>
-            <point key="canvasLocation" x="1594" y="8622"/>
+            <point key="canvasLocation" x="1594" y="8590"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qd0-ai-Bkn">
@@ -7410,7 +7410,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZBX-Qp-n9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="K5U-qf-r8c"/>
             </objects>
-            <point key="canvasLocation" x="967" y="8569"/>
+            <point key="canvasLocation" x="923" y="8577"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="44p-WL-7Mi">
@@ -7507,7 +7507,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <swipeGestureRecognizer direction="right" id="pLQ-4u-pUG"/>
                 <viewControllerLayoutGuide type="top" id="RWu-JV-1nU"/>
             </objects>
-            <point key="canvasLocation" x="3600" y="8646"/>
+            <point key="canvasLocation" x="3570" y="8610"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Lq-p8-Z7q">
