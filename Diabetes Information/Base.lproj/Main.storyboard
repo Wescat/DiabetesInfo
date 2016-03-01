@@ -1539,6 +1539,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5k-Ze-cAI">
                                 <rect key="frame" x="280" y="422" width="41" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="finishButton"/>
                                 <state key="normal" title="Finish"/>
                                 <connections>
                                     <segue destination="laI-XB-BPW" kind="presentation" id="3mD-pv-QuD"/>
@@ -1603,6 +1604,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="finishButton" destination="s5k-Ze-cAI" id="TQY-Qr-aMa"/>
                         <outlet property="quizLabel" destination="ac5-zf-kWN" id="m83-VS-jP5"/>
                         <outlet property="quizResponse" destination="Rms-dl-Sdf" id="gad-JX-arS"/>
                     </connections>

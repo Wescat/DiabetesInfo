@@ -9,18 +9,23 @@
 import Foundation
 import UIKit
 
+// Test Commit
 class CountingCarbsFinal: UIViewController{
     @IBOutlet weak var quizLabel: UILabel!
     @IBOutlet weak var quizResponse: UILabel!
+    
 
     
+   
     let dbqm = DiabetesInformationQuizModel(question: "Which one of these foods equals 15g of carbs?", correctAnswer:"2")
+    @IBOutlet weak var finishButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         quizLabel.text = dbqm.printQuestion()
         quizResponse.text = ""
+        finishButton.hidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -35,6 +40,7 @@ class CountingCarbsFinal: UIViewController{
         }
         else{
             quizResponse.text = "Correct!"
+            finishButton.hidden = false
         }
         
     }
@@ -47,7 +53,7 @@ class CountingCarbsFinal: UIViewController{
         }
         else{
             quizResponse.text = "Correct!"
-        }
+            finishButton.hidden = false        }
     }
     
     @IBAction func quizButton3(sender: UIButton) {
@@ -57,6 +63,7 @@ class CountingCarbsFinal: UIViewController{
         }
         else{
             quizResponse.text = "Correct!"
+            finishButton.hidden = false
         }
     }
     
@@ -67,6 +74,7 @@ class CountingCarbsFinal: UIViewController{
         }
         else{
             quizResponse.text = "Correct!"
+            finishButton.hidden = false
         }
     }
 }
