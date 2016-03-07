@@ -2081,7 +2081,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
         <!--Insulin Basics View Controller-->
         <scene sceneID="yq8-fM-vTj">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Jda-zH-FQe" customClass="InsulinBasicsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Jda-zH-FQe" customClass="InsulinBasicsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vpb-Fs-ehj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1240" y="1828"/>
