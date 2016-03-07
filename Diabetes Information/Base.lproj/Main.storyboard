@@ -218,14 +218,14 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxU-qX-mAu">
-                                        <rect key="frame" x="9" y="23" width="76" height="30"/>
+                                        <rect key="frame" x="28" y="23" width="39" height="30"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="42" id="5fa-3O-qqT"/>
                                         </constraints>
-                                        <state key="normal" title="Main Menu"/>
+                                        <state key="normal" title="Menu"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="presentation" id="fj5-xA-aQQ"/>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="T9E-yU-Qh5"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -266,7 +266,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="967" y="41"/>
+            <point key="canvasLocation" x="923" y="49"/>
         </scene>
         <!--Counting Carbs View Controller-->
         <scene sceneID="hAY-wt-Tti">
@@ -2034,6 +2034,9 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                             <constraint firstAttribute="width" constant="42" id="SWh-ID-sl6"/>
                                         </constraints>
                                         <state key="normal" title="Main Menu"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="hb7-vH-Vgg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
@@ -2191,6 +2194,9 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                             <constraint firstAttribute="width" constant="42" id="sL3-Fo-Q7T"/>
                                         </constraints>
                                         <state key="normal" title="Main Menu"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="D7Z-cZ-5yM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.85425327072381152" blue="0.24901533096972928" alpha="1" colorSpace="calibratedRGB"/>
@@ -2371,7 +2377,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-2127" y="5701"/>
+            <point key="canvasLocation" x="-1971" y="5717"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5vT-bl-4Am">
@@ -5465,7 +5471,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                         <string key="text">Carbohydrates, or carbs, are one of the three main energy sources in the food we eat
 
 Foods that contain carbs turn into sugar in the blood stream</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -5560,7 +5566,7 @@ Foods that contain carbs turn into sugar in the blood stream</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch1-Hc-209" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Yli-Hw-Te0"/>
             </objects>
-            <point key="canvasLocation" x="2481" y="-629"/>
+            <point key="canvasLocation" x="2489" y="-617"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aoV-zD-8ZL">
@@ -5690,7 +5696,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shJ-yd-k3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="pRD-Lu-kzF"/>
             </objects>
-            <point key="canvasLocation" x="3162" y="-717"/>
+            <point key="canvasLocation" x="3174" y="-641"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iL3-cx-eiC">
@@ -5820,7 +5826,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ut5-mI-Xub" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Pa6-M6-7k7"/>
             </objects>
-            <point key="canvasLocation" x="3820" y="-693"/>
+            <point key="canvasLocation" x="3858" y="-641"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wCI-1c-rKR">
@@ -5950,7 +5956,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O26-O1-iKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="nsC-QZ-W7j"/>
             </objects>
-            <point key="canvasLocation" x="4454" y="-709"/>
+            <point key="canvasLocation" x="4506" y="-641"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ng1-qe-STy">
@@ -6078,7 +6084,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KT7-fz-zxj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="O4C-or-IFL"/>
             </objects>
-            <point key="canvasLocation" x="5108" y="-725"/>
+            <point key="canvasLocation" x="5164" y="-641"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4R9-4p-uBw">
@@ -7651,7 +7657,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <!--Check Sugar Page View Controller-->
         <scene sceneID="kIi-wl-Vdb">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="KxX-je-vjc" customClass="CheckSugarPageViewController" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="KxX-je-vjc" customClass="CheckSugarPageViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eqf-3I-Z1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="7502"/>
@@ -7787,7 +7793,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <!--Sugar Level Page View Controller-->
         <scene sceneID="SJ2-Hm-QCO">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="zx6-L4-qJR" customClass="SugarLevelPageViewController" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="zx6-L4-qJR" customClass="SugarLevelPageViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n5y-LY-pfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1141" y="8577"/>
@@ -9407,10 +9413,10 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XRe-jj-CqC"/>
-        <segue reference="tDg-VB-hcC"/>
-        <segue reference="V7b-9T-m9k"/>
-        <segue reference="9i7-Vm-NdP"/>
-        <segue reference="yBZ-DY-zO4"/>
+        <segue reference="hb7-vH-Vgg"/>
+        <segue reference="nLq-0n-4sb"/>
+        <segue reference="cP7-H0-Spc"/>
+        <segue reference="voG-Md-nm5"/>
+        <segue reference="f2R-hI-omN"/>
     </inferredMetricsTieBreakers>
 </document>
