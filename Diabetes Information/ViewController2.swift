@@ -28,6 +28,16 @@ class ViewController2: UIViewController {
     @IBAction func textMove(sender: AnyObject) {
     }
     
+    //Attach Main Menu buttons to this class
+    @IBAction func onMainMenuPress(sender: UIButton) {
+        
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewControllerWithIdentifier("MainMenu")
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+    }
+    
     
     /*
     // MARK: - Navigation

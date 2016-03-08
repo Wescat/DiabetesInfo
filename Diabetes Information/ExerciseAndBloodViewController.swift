@@ -23,7 +23,7 @@ class ExerciseAndBloodViewController: UIPageViewController{
     
     
     private func newViewController(view: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
+        return UIStoryboard(name: "Exercise", bundle: nil) .
             instantiateViewControllerWithIdentifier("\(view)")
     }
     

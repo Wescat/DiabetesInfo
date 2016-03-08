@@ -26,6 +26,8 @@
 		7332948C1C63E70900159952 /* GeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332948B1C63E70900159952 /* GeneralTipsViewController.swift */; };
 		7342F7751C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */; };
 		73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */; };
+		73C8ED0A1C8E108500A4FCEE /* SickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */; };
+		73C8ED0D1C8E1CCB00A4FCEE /* Exercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */; };
 		73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */; };
 		F94A7A9B1C6FD23C00F4FF0E /* DrawInsulinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A7A9A1C6FD23C00F4FF0E /* DrawInsulinViewController.swift */; };
 		F9571B471C7A5012003557DA /* InsulinBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9571B461C7A5012003557DA /* InsulinBasicsViewController.swift */; };
@@ -53,7 +55,6 @@
 
 /* Begin PBXFileReference section */
 		174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreventComplicationsViewController.swift; sourceTree = "<group>"; };
-		174D36861C77AF3E003D38CF /* SickDaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickDaysViewController.swift; sourceTree = "<group>"; };
 		404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingCarbsViewController.swift; sourceTree = "<group>"; };
 		40E497DC1C5EBB8C00ECB5F1 /* Diabetes Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diabetes Information.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +75,8 @@
 		7332948B1C63E70900159952 /* GeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTipsViewController.swift; sourceTree = "<group>"; };
 		7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseAndBloodViewController.swift; sourceTree = "<group>"; };
 		73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseGeneralTipsViewController.swift; sourceTree = "<group>"; };
+		73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickDaysViewController.swift; sourceTree = "<group>"; };
+		73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Exercise.storyboard; sourceTree = "<group>"; };
 		73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiabetesInformationQuizModel.swift; path = ../DiabetesInformationQuizModel.swift; sourceTree = "<group>"; };
 		F94A7A9A1C6FD23C00F4FF0E /* DrawInsulinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawInsulinViewController.swift; sourceTree = "<group>"; };
 		F9571B461C7A5012003557DA /* InsulinBasicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsulinBasicsViewController.swift; sourceTree = "<group>"; };
@@ -130,25 +133,24 @@
 		40E497DE1C5EBB8C00ECB5F1 /* Diabetes Information */ = {
 			isa = PBXGroup;
 			children = (
+				73C8ED0B1C8E1C9500A4FCEE /* Exercise */,
 				F9689B251C8DF9AC0054CEF7 /* CheckSugarPageViewController.swift */,
+				40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */,
 				F9689B261C8DF9AC0054CEF7 /* SugarLevelPageViewController.swift */,
 				F94A7A9A1C6FD23C00F4FF0E /* DrawInsulinViewController.swift */,
 				73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */,
 				40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */,
 				40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */,
 				40E497E31C5EBB8C00ECB5F1 /* Main.storyboard */,
-				7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */,
 				731625591C69419C0080EA25 /* CountingCarbsFinal.swift */,
-				73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */,
 				7332948B1C63E70900159952 /* GeneralTipsViewController.swift */,
 				F96A29A91C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png */,
 				40E4980F1C5EC52100ECB5F1 /* ViewController3.swift */,
 				40E497E61C5EBB8C00ECB5F1 /* Assets.xcassets */,
 				40E497E81C5EBB8C00ECB5F1 /* LaunchScreen.storyboard */,
 				40E497EB1C5EBB8C00ECB5F1 /* Info.plist */,
-				40E4980D1C5EC4BF00ECB5F1 /* ViewController2.swift */,
+				73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */,
 				404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */,
-				174D36861C77AF3E003D38CF /* SickDaysViewController.swift */,
 				174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */,
 				F9571B461C7A5012003557DA /* InsulinBasicsViewController.swift */,
 			);
@@ -171,6 +173,16 @@
 				40E498011C5EBB8D00ECB5F1 /* Info.plist */,
 			);
 			path = "Diabetes InformationUITests";
+			sourceTree = "<group>";
+		};
+		73C8ED0B1C8E1C9500A4FCEE /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */,
+				7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */,
+				73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */,
+			);
+			name = Exercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E497EA1C5EBB8C00ECB5F1 /* LaunchScreen.storyboard in Resources */,
+				73C8ED0D1C8E1CCB00A4FCEE /* Exercise.storyboard in Resources */,
 				F96A29AA1C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png in Resources */,
 				40E497E71C5EBB8C00ECB5F1 /* Assets.xcassets in Resources */,
 				40E497E51C5EBB8C00ECB5F1 /* Main.storyboard in Resources */,
@@ -306,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E497E21C5EBB8C00ECB5F1 /* ViewController.swift in Sources */,
+				73C8ED0A1C8E108500A4FCEE /* SickDaysViewController.swift in Sources */,
 				40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */,
 				404C8EBF1C691BB8000C676F /* CountingCarbsViewController.swift in Sources */,
 				73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */,

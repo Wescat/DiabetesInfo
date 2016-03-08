@@ -31,6 +31,16 @@ class ViewController: UIViewController {
     @IBOutlet var mod5Button: UIButton!
     
     
+
+    @IBAction func onExercisePress(sender: UIButton) {
+    
+        
+        var storyboard = UIStoryboard(name: "Exercise", bundle: nil)
+        var controller = storyboard.instantiateViewControllerWithIdentifier("ExerciseMenuController")
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+        
+    }
     @IBAction func buttonClick(sender: UIButton) {
         
     }
