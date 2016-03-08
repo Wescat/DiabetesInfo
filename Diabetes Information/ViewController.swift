@@ -31,16 +31,23 @@ class ViewController: UIViewController {
     @IBOutlet var mod5Button: UIButton!
     
     
-
+    @IBAction func onHealthyEatingPress(sender: UIButton) {
+        let storyboard = UIStoryboard(name: "HealthyEating", bundle: nil)
+        let controller = storyboard.instantiateViewControllerWithIdentifier("HealthyEatingMenuController")
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+    }
+    
     @IBAction func onExercisePress(sender: UIButton) {
     
         
-        var storyboard = UIStoryboard(name: "Exercise", bundle: nil)
-        var controller = storyboard.instantiateViewControllerWithIdentifier("ExerciseMenuController")
+        let storyboard = UIStoryboard(name: "Exercise", bundle: nil)
+        let controller = storyboard.instantiateViewControllerWithIdentifier("ExerciseMenuController")
         
         self.presentViewController(controller, animated: true, completion: nil)
-        
     }
+    
+  
     @IBAction func buttonClick(sender: UIButton) {
         
     }

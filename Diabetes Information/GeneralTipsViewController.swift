@@ -19,7 +19,7 @@ class GeneralTipsViewController: UIPageViewController{
     }()
     
     private func newViewController(view: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
+        return UIStoryboard(name: "HealthyEating", bundle: nil) .
             instantiateViewControllerWithIdentifier("\(view)")
     }
     

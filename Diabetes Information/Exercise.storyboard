@@ -2154,7 +2154,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="LTM-PR-ZPU"/>
         <segue reference="gvI-Bp-tbp"/>
-        <segue reference="k0a-8k-Fwm"/>
     </inferredMetricsTieBreakers>
 </document>
