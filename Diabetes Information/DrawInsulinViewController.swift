@@ -18,11 +18,12 @@ class DrawInsulinViewController: UIPageViewController{
             self.newViewController("drawInsulin4"),
             self.newViewController("drawInsulin5"),
             self.newViewController("drawInsulin6"),
-            self.newViewController("drawInsulin7")]
+            self.newViewController("drawInsulin7"),
+            self.newViewController("drawInsulinFinal")]
     }()
     
     private func newViewController(view: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
+        return UIStoryboard(name: "Insulin", bundle: nil) .
             instantiateViewControllerWithIdentifier("\(view)")
     }
     

@@ -17,12 +17,13 @@ class CheckSugarPageViewController: UIPageViewController{
             self.newViewController("checkSugar4"),
             self.newViewController("checkSugar5"),
             self.newViewController("checkSugar6"),
-            self.newViewController("checkSugar7")]
+            self.newViewController("checkSugar7"),
+            self.newViewController("checkSugarFinal")]
     }()
     
     
     private func newViewController(view: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
+        return UIStoryboard(name: "BloodSugar", bundle: nil) .
             instantiateViewControllerWithIdentifier("\(view)")
     }
     

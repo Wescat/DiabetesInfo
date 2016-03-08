@@ -15,11 +15,12 @@ class PreventComplicationsViewController: UIPageViewController{
         return [self.newViewController("PreventComplications1"),
             self.newViewController("PreventComplications2"),
             self.newViewController("PreventComplications3"),
-            self.newViewController("PreventComplications4")]
+            self.newViewController("PreventComplications4"),
+            self.newViewController("PreventComplicationsFinal")]
     }()
     
     private func newViewController(view: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
+        return UIStoryboard(name: "Complications", bundle: nil) .
             instantiateViewControllerWithIdentifier("\(view)")
     }
     

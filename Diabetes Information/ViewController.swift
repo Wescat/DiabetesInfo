@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func onHealthyEatingPress(sender: UIButton) {
+        
         let storyboard = UIStoryboard(name: "HealthyEating", bundle: nil)
         let controller = storyboard.instantiateViewControllerWithIdentifier("HealthyEatingMenuController")
         
@@ -40,12 +41,34 @@ class ViewController: UIViewController {
     
     @IBAction func onExercisePress(sender: UIButton) {
     
-        
         let storyboard = UIStoryboard(name: "Exercise", bundle: nil)
         let controller = storyboard.instantiateViewControllerWithIdentifier("ExerciseMenuController")
         
         self.presentViewController(controller, animated: true, completion: nil)
     }
+    
+    @IBAction func onInsulinPress(sender: UIButton){
+        
+        let storyboard = UIStoryboard(name: "Insulin", bundle: nil)
+        let controller = storyboard.instantiateViewControllerWithIdentifier("InsulinMenuController")
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+    }
+    
+    @IBAction func onBloodSugarPress(sender:UIButton) {
+        
+        let storyboard = UIStoryboard(name: "BloodSugar", bundle: nil)
+        let controller = storyboard.instantiateViewControllerWithIdentifier("BloodSugarMenuController")
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+    }
+    
+    @IBAction func onComplicationsPress(sender: UIButton) {
+        
+        let storyboard = UIStoryboard(name: "Complications", bundle: nil)
+        let controller = storyboard.instantiateViewControllerWithIdentifier("ComplicationsMenuController")
+        
+        self.presentViewController(controller, animated: true, completion: nil)    }
     
   
     @IBAction func buttonClick(sender: UIButton) {

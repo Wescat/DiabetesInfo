@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller2-->
@@ -20,13 +21,16 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnL-do-CNX">
                                 <rect key="frame" x="0.0" y="83" width="600" height="517"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNc-yJ-JdV">
-                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNc-yJ-JdV">
+                                        <rect key="frame" x="195" y="224" width="210" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="5tC-ho-bcE"/>
                                         </constraints>
-                                        <state key="normal" title="Basics"/>
+                                        <state key="normal" title="Exercise and Your Blood Sugar"/>
+                                        <connections>
+                                            <segue destination="1Qu-cD-yLY" kind="show" id="Kx4-SM-Ecw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vm8-oP-uYY">
                                         <rect key="frame" x="174" y="94" width="252" height="70"/>
@@ -34,55 +38,22 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="jdF-Hy-Gpf"/>
                                         </constraints>
-                                        <state key="normal" title="How to draw up and give your insulin"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="Vm8-oP-uYY" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="220" id="Dkd-qW-2ZF"/>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="60" id="I36-Qh-zLt"/>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="centerY" secondItem="wnL-do-CNX" secondAttribute="centerY" id="MLa-z4-Pwi"/>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="220" id="iY9-hK-oGO"/>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="60" id="kj9-LA-wJ5"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vm8-oP-uYY" secondAttribute="trailing" constant="220" id="tDB-YJ-8q2"/>
-                                    <constraint firstAttribute="trailing" secondItem="nNc-yJ-JdV" secondAttribute="trailing" constant="220" id="y5B-su-mZI"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7xo-mY-tJy">
-                                <rect key="frame" x="10" y="93" width="600" height="517"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEf-T9-dx4">
-                                        <rect key="frame" x="195" y="224" width="210" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="O1a-Dq-EoP"/>
-                                        </constraints>
-                                        <state key="normal" title="Exercise and Your Blood Sugar"/>
-                                        <connections>
-                                            <segue destination="1Qu-cD-yLY" kind="presentation" id="gvI-Bp-tbp"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgh-yh-iO2">
-                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="2IJ-hE-Ee5"/>
-                                        </constraints>
                                         <state key="normal" title="General Tips"/>
                                         <connections>
-                                            <segue destination="KNq-vf-bkY" kind="presentation" id="LTM-PR-ZPU"/>
+                                            <segue destination="KNq-vf-bkY" kind="show" id="J4L-tq-qFT"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="qEf-T9-dx4" firstAttribute="leading" secondItem="7xo-mY-tJy" secondAttribute="leading" constant="220" id="9xa-81-gbu"/>
-                                    <constraint firstItem="qEf-T9-dx4" firstAttribute="centerY" secondItem="7xo-mY-tJy" secondAttribute="centerY" id="Cp5-4Z-Mux"/>
-                                    <constraint firstAttribute="trailing" secondItem="qEf-T9-dx4" secondAttribute="trailing" constant="220" id="M9Q-Ow-ZJo"/>
-                                    <constraint firstAttribute="trailing" secondItem="Wgh-yh-iO2" secondAttribute="trailing" constant="220" id="SR6-G8-daY"/>
-                                    <constraint firstItem="qEf-T9-dx4" firstAttribute="top" secondItem="Wgh-yh-iO2" secondAttribute="bottom" constant="60" id="VHy-cP-v28"/>
-                                    <constraint firstItem="qEf-T9-dx4" firstAttribute="top" secondItem="Wgh-yh-iO2" secondAttribute="bottom" constant="60" id="epS-IV-rGw"/>
-                                    <constraint firstItem="Wgh-yh-iO2" firstAttribute="leading" secondItem="7xo-mY-tJy" secondAttribute="leading" constant="220" id="s5A-zv-9xG"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="60" id="I36-Qh-zLt"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="centerY" secondItem="wnL-do-CNX" secondAttribute="centerY" id="MLa-z4-Pwi"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vm8-oP-uYY" secondAttribute="trailing" constant="220" id="XYP-Wz-qX4"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="220" id="iY9-hK-oGO"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="60" id="kj9-LA-wJ5"/>
+                                    <constraint firstItem="Vm8-oP-uYY" firstAttribute="centerX" secondItem="nNc-yJ-JdV" secondAttribute="centerX" id="nZm-wr-arY"/>
+                                    <constraint firstItem="Vm8-oP-uYY" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="220" id="nut-YL-bcc"/>
+                                    <constraint firstAttribute="trailing" secondItem="nNc-yJ-JdV" secondAttribute="trailing" constant="220" id="y5B-su-mZI"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAj-6a-r5p">
@@ -98,11 +69,12 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8d-mg-SQU">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8d-mg-SQU">
                                         <rect key="frame" x="9" y="23" width="76" height="30"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="42" id="TtH-Ht-k9p"/>
+                                            <constraint firstAttribute="width" constant="76" id="8jE-Bk-YiJ"/>
+                                            <constraint firstAttribute="height" constant="30" id="LLt-Ke-Mc2"/>
                                         </constraints>
                                         <state key="normal" title="Main Menu"/>
                                         <connections>
@@ -112,9 +84,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="x8d-mg-SQU" firstAttribute="leading" secondItem="SAj-6a-r5p" secondAttribute="leadingMargin" constant="1" id="2v8-CW-66a"/>
                                     <constraint firstItem="Rmp-Ib-H9O" firstAttribute="centerX" secondItem="SAj-6a-r5p" secondAttribute="centerX" id="Con-Ud-bZu"/>
                                     <constraint firstItem="x8d-mg-SQU" firstAttribute="centerY" secondItem="Rmp-Ib-H9O" secondAttribute="centerY" id="NHw-tF-0So"/>
-                                    <constraint firstItem="x8d-mg-SQU" firstAttribute="leading" secondItem="SAj-6a-r5p" secondAttribute="leading" constant="26" id="ggw-6W-oOa"/>
+                                    <constraint firstItem="x8d-mg-SQU" firstAttribute="leading" secondItem="SAj-6a-r5p" secondAttribute="leading" constant="9" id="ggw-6W-oOa"/>
                                     <constraint firstAttribute="bottom" secondItem="Rmp-Ib-H9O" secondAttribute="bottom" id="jiA-wo-wzw"/>
                                     <constraint firstItem="Rmp-Ib-H9O" firstAttribute="top" secondItem="SAj-6a-r5p" secondAttribute="top" id="wE8-UZ-Gq4"/>
                                 </constraints>
@@ -1101,9 +1074,6 @@
                                     <constraint firstAttribute="height" constant="69" id="Wyc-J8-zaP"/>
                                 </constraints>
                                 <state key="normal" title="Try again"/>
-                                <connections>
-                                    <segue destination="S6y-Vu-A9n" kind="presentation" id="qrY-1H-eLL"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTF-Mc-V49">
                                 <rect key="frame" x="170" y="466" width="259" height="69"/>
@@ -2154,7 +2124,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LTM-PR-ZPU"/>
-        <segue reference="gvI-Bp-tbp"/>
+        <segue reference="J4L-tq-qFT"/>
+        <segue reference="Kx4-SM-Ecw"/>
     </inferredMetricsTieBreakers>
 </document>

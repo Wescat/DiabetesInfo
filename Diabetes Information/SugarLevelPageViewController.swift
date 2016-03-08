@@ -16,12 +16,13 @@ class SugarLevelPageViewController: UIPageViewController{
             self.newViewController("sugarLevel3"),
             self.newViewController("sugarLevel4"),
             self.newViewController("sugarLevel5"),
-            self.newViewController("sugarLevel6")]
+            self.newViewController("sugarLevel6"),
+            self.newViewController("sugarLevelFinal")]
     }()
     
     
     private func newViewController(view: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
+        return UIStoryboard(name: "BloodSugar", bundle: nil) .
             instantiateViewControllerWithIdentifier("\(view)")
     }
     

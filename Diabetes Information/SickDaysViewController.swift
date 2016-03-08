@@ -16,11 +16,12 @@ class SickDaysViewController: UIPageViewController{
             self.newViewController("SickDays2"),
             self.newViewController("SickDays3"),
             self.newViewController("SickDays4"),
-            self.newViewController("SickDays5")]
+            self.newViewController("SickDays5"),
+            self.newViewController("SickDaysFinal")]
     }()
     
     private func newViewController(view: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil) .
+        return UIStoryboard(name: "Complications", bundle: nil) .
             instantiateViewControllerWithIdentifier("\(view)")
     }
     
