@@ -70,11 +70,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJi-su-PMA">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJi-su-PMA">
                                         <rect key="frame" x="28" y="23" width="39" height="30"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="42" id="9yc-lT-Geg"/>
+                                            <constraint firstAttribute="width" constant="39" id="9yc-lT-Geg"/>
                                         </constraints>
                                         <state key="normal" title="Menu"/>
                                         <connections>
@@ -84,7 +84,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="FJi-su-PMA" firstAttribute="leading" secondItem="MwX-uU-0ZH" secondAttribute="leading" constant="26" id="KUV-Jj-U9S"/>
+                                    <constraint firstItem="FJi-su-PMA" firstAttribute="leading" secondItem="MwX-uU-0ZH" secondAttribute="leading" constant="28" id="KUV-Jj-U9S"/>
                                     <constraint firstAttribute="bottom" secondItem="Hgy-Jc-PRH" secondAttribute="bottom" id="M6W-Xc-noV"/>
                                     <constraint firstItem="Hgy-Jc-PRH" firstAttribute="top" secondItem="MwX-uU-0ZH" secondAttribute="top" id="bbG-2C-yUL"/>
                                     <constraint firstItem="Hgy-Jc-PRH" firstAttribute="centerX" secondItem="MwX-uU-0ZH" secondAttribute="centerX" id="dpf-MM-mgh"/>
@@ -409,10 +409,10 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cws-B7-8Gg">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cws-B7-8Gg">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-6k-CaR">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-6k-CaR">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="Ueg-Y1-0ml"/>
@@ -425,11 +425,11 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                 <constraints>
                                     <constraint firstItem="Unl-6k-CaR" firstAttribute="leading" secondItem="cws-B7-8Gg" secondAttribute="leading" constant="240" id="DuJ-Qe-1Di"/>
                                     <constraint firstAttribute="trailing" secondItem="Unl-6k-CaR" secondAttribute="trailing" constant="239" id="L7X-p9-MxZ"/>
-                                    <constraint firstItem="Unl-6k-CaR" firstAttribute="top" secondItem="cws-B7-8Gg" secondAttribute="top" constant="7" id="YzQ-LQ-c9b"/>
+                                    <constraint firstItem="Unl-6k-CaR" firstAttribute="top" secondItem="cws-B7-8Gg" secondAttribute="top" constant="9" id="YzQ-LQ-c9b"/>
                                     <constraint firstAttribute="bottom" secondItem="Unl-6k-CaR" secondAttribute="bottom" constant="9" id="hn4-Ou-qgF"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TUd-9J-fe4">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TUd-9J-fe4">
                                 <rect key="frame" x="0.0" y="115" width="600" height="430"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You will need to limit portion sizes and watch how much you eat" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VuR-kw-mig">
@@ -450,7 +450,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-ec-1fH">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-ec-1fH">
                                         <rect key="frame" x="112" y="100" width="376" height="230"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="376" id="aI8-PM-WvA"/>
@@ -460,7 +460,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="DY5-ec-1fH" firstAttribute="centerY" secondItem="TUd-9J-fe4" secondAttribute="centerY" id="5Zk-hQ-Uwq"/>
-                                    <constraint firstAttribute="bottom" secondItem="VuR-kw-mig" secondAttribute="bottom" constant="8" id="DKJ-0u-i5E"/>
+                                    <constraint firstAttribute="bottom" secondItem="VuR-kw-mig" secondAttribute="bottom" constant="4" id="DKJ-0u-i5E"/>
                                     <constraint firstItem="VuR-kw-mig" firstAttribute="leading" secondItem="TUd-9J-fe4" secondAttribute="leading" constant="119" id="E3t-Wz-Nsc"/>
                                     <constraint firstItem="DY5-ec-1fH" firstAttribute="top" secondItem="DQK-lG-etU" secondAttribute="bottom" constant="23" id="Nqg-xy-1wW"/>
                                     <constraint firstItem="DQK-lG-etU" firstAttribute="leading" secondItem="TUd-9J-fe4" secondAttribute="leading" constant="119" id="NxD-3f-KrG"/>
@@ -470,7 +470,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                     <constraint firstAttribute="trailing" secondItem="DQK-lG-etU" secondAttribute="trailing" constant="118" id="ts9-No-x9m"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3gh-D9-SYF">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gh-D9-SYF">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U1r-Cq-tMf">
@@ -496,9 +496,9 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                     <constraint firstItem="WIS-eP-wFw" firstAttribute="top" secondItem="3gh-D9-SYF" secondAttribute="top" constant="8" id="Gc8-lx-UIx"/>
                                     <constraint firstItem="WIS-eP-wFw" firstAttribute="leading" secondItem="3gh-D9-SYF" secondAttribute="leading" constant="180" id="NER-9f-W1M"/>
                                     <constraint firstAttribute="trailing" secondItem="U1r-Cq-tMf" secondAttribute="trailing" constant="180" id="V7P-c0-WTa"/>
-                                    <constraint firstAttribute="bottom" secondItem="U1r-Cq-tMf" secondAttribute="bottom" constant="7" id="Y83-0I-V6M"/>
+                                    <constraint firstAttribute="bottom" secondItem="U1r-Cq-tMf" secondAttribute="bottom" constant="9" id="Y83-0I-V6M"/>
                                     <constraint firstItem="U1r-Cq-tMf" firstAttribute="top" secondItem="WIS-eP-wFw" secondAttribute="bottom" constant="5" id="ZZZ-Kg-IYv"/>
-                                    <constraint firstAttribute="height" constant="113" id="iOr-OW-LAT"/>
+                                    <constraint firstAttribute="height" constant="115" id="iOr-OW-LAT"/>
                                     <constraint firstItem="U1r-Cq-tMf" firstAttribute="top" secondItem="WIS-eP-wFw" secondAttribute="bottom" constant="5" id="tMm-s2-maU"/>
                                 </constraints>
                             </view>
@@ -1418,11 +1418,11 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ibd-2d-vHS">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ibd-2d-vHS">
                                         <rect key="frame" x="114" y="0.0" width="373" height="739"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="31N-tr-mSw"/>
+                                            <constraint firstAttribute="height" constant="739" id="31N-tr-mSw"/>
                                         </constraints>
                                         <string key="text">HEALTHY SNACK IDEAS (lower in Carbs&lt;5 grams)
 
@@ -1456,8 +1456,8 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                     <constraint firstItem="Ibd-2d-vHS" firstAttribute="leading" secondItem="XB2-GS-xLL" secondAttribute="leading" constant="114" id="1Cx-wB-8Jj"/>
                                     <constraint firstItem="Yci-Of-ld0" firstAttribute="top" secondItem="XB2-GS-xLL" secondAttribute="top" constant="8" id="2fL-jA-Vvj"/>
                                     <constraint firstAttribute="trailing" secondItem="Ibd-2d-vHS" secondAttribute="trailing" constant="113" id="3JU-ei-Vek"/>
-                                    <constraint firstItem="Ibd-2d-vHS" firstAttribute="top" secondItem="Yci-Of-ld0" secondAttribute="bottom" constant="25" id="Jmh-nW-Dj7"/>
-                                    <constraint firstItem="Ibd-2d-vHS" firstAttribute="top" secondItem="Yci-Of-ld0" secondAttribute="bottom" constant="25" id="mEm-8x-m3o"/>
+                                    <constraint firstItem="Ibd-2d-vHS" firstAttribute="top" secondItem="Yci-Of-ld0" secondAttribute="bottom" constant="-63" id="Jmh-nW-Dj7"/>
+                                    <constraint firstItem="Ibd-2d-vHS" firstAttribute="top" secondItem="Yci-Of-ld0" secondAttribute="bottom" constant="-63" id="mEm-8x-m3o"/>
                                     <constraint firstAttribute="trailing" secondItem="Yci-Of-ld0" secondAttribute="trailing" constant="113" id="qwu-Ck-iCq"/>
                                     <constraint firstItem="Yci-Of-ld0" firstAttribute="leading" secondItem="XB2-GS-xLL" secondAttribute="leading" constant="114" id="vmu-vO-J0G"/>
                                 </constraints>
