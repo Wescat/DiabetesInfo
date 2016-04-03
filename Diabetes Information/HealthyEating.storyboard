@@ -1689,7 +1689,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <!--View Controller2-->
         <scene sceneID="7ds-D5-lxv">
             <objects>
-                <viewController id="q30-SO-UxJ" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CountingCarbsLast" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q30-SO-UxJ" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GgI-t7-CQq"/>
                         <viewControllerLayoutGuide type="bottom" id="VdW-7n-oAm"/>
@@ -1789,12 +1789,97 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
             </objects>
             <point key="canvasLocation" x="8167" y="-617"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="bFb-en-is9">
+            <objects>
+                <viewController storyboardIdentifier="CountingCarbsActivity" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nvc-ww-ouE" customClass="ViewController" customModule="Diabetes_Information" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0y3-Km-zlS"/>
+                        <viewControllerLayoutGuide type="bottom" id="15b-cX-q9a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o5J-Bt-9mP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Sf-6T-hky">
+                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Piv-1e-19o"/>
+                                    <constraint firstAttribute="height" constant="53" id="ep4-O3-bOb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Carb Counting" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tRA-K5-fNc">
+                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ih0-cu-bfk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u3Y-bY-WlP">
+                                <rect key="frame" x="0.0" y="157" width="600" height="285"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="Dc4-6f-7Fi"/>
+                                    <constraint firstAttribute="height" constant="285" id="DzO-fn-6iU"/>
+                                    <constraint firstAttribute="width" constant="600" id="IhY-Gz-uem"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="285" id="M7H-sU-RjQ"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="wST-nW-rWI" kind="embed" id="314-GV-8J1"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="u3Y-bY-WlP" firstAttribute="centerX" secondItem="tRA-K5-fNc" secondAttribute="centerX" id="0aP-mI-tgf"/>
+                            <constraint firstItem="7Sf-6T-hky" firstAttribute="centerX" secondItem="o5J-Bt-9mP" secondAttribute="centerX" id="FFe-zP-51d"/>
+                            <constraint firstItem="7Sf-6T-hky" firstAttribute="trailing" secondItem="tRA-K5-fNc" secondAttribute="trailing" id="Fxy-Jw-TiN"/>
+                            <constraint firstItem="u3Y-bY-WlP" firstAttribute="leading" secondItem="o5J-Bt-9mP" secondAttribute="leading" id="GmZ-Ce-z2M"/>
+                            <constraint firstAttribute="bottom" secondItem="u3Y-bY-WlP" secondAttribute="bottom" constant="158" id="HNE-PI-hiF"/>
+                            <constraint firstItem="tRA-K5-fNc" firstAttribute="top" secondItem="0y3-Km-zlS" secondAttribute="bottom" constant="31" id="O2Z-KK-8nm"/>
+                            <constraint firstItem="7Sf-6T-hky" firstAttribute="top" secondItem="o5J-Bt-9mP" secondAttribute="top" id="Pap-lQ-kpF"/>
+                            <constraint firstItem="u3Y-bY-WlP" firstAttribute="top" secondItem="tRA-K5-fNc" secondAttribute="bottom" constant="66" id="TBz-MW-J1h"/>
+                            <constraint firstItem="7Sf-6T-hky" firstAttribute="leading" secondItem="tRA-K5-fNc" secondAttribute="leading" id="VG7-M9-avB"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dlM-Ea-bwU" appends="YES" id="BbQ-L8-5T4"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kf0-Xz-yWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="dlM-Ea-bwU"/>
+            </objects>
+            <point key="canvasLocation" x="7475" y="207"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="QbU-S5-hFO">
+            <objects>
+                <viewController id="wST-nW-rWI" customClass="GameViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pRf-P2-NMz"/>
+                        <viewControllerLayoutGuide type="bottom" id="ynf-8e-kgz"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5WG-BA-XV6" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="285"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tNx-6V-irj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8288" y="91"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kLn-Dn-a7x"/>
         <segue reference="kbI-rr-9il"/>
+        <segue reference="TNv-Qr-IFb"/>
     </inferredMetricsTieBreakers>
 </document>

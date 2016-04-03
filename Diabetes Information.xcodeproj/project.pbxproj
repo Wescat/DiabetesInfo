@@ -30,6 +30,10 @@
 		7332948C1C63E70900159952 /* GeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332948B1C63E70900159952 /* GeneralTipsViewController.swift */; };
 		7342F7751C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */; };
 		73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */; };
+		73B9B1A31CB1C683001AB736 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9B1A21CB1C683001AB736 /* GameScene.swift */; };
+		73B9B1A51CB1C68F001AB736 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73B9B1A41CB1C68F001AB736 /* GameScene.sks */; };
+		73B9B1A71CB1C69A001AB736 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9B1A61CB1C69A001AB736 /* GameViewController.swift */; };
+		73B9B1AB1CB1C730001AB736 /* HealthyEatingActivity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B9B1AA1CB1C730001AB736 /* HealthyEatingActivity.storyboard */; };
 		73C8ED0A1C8E108500A4FCEE /* SickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */; };
 		73C8ED0D1C8E1CCB00A4FCEE /* Exercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */; };
 		73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */; };
@@ -83,6 +87,10 @@
 		7332948B1C63E70900159952 /* GeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTipsViewController.swift; sourceTree = "<group>"; };
 		7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseAndBloodViewController.swift; sourceTree = "<group>"; };
 		73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseGeneralTipsViewController.swift; sourceTree = "<group>"; };
+		73B9B1A21CB1C683001AB736 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		73B9B1A41CB1C68F001AB736 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		73B9B1A61CB1C69A001AB736 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		73B9B1AA1CB1C730001AB736 /* HealthyEatingActivity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HealthyEatingActivity.storyboard; sourceTree = "<group>"; };
 		73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickDaysViewController.swift; sourceTree = "<group>"; };
 		73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Exercise.storyboard; sourceTree = "<group>"; };
 		73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiabetesInformationQuizModel.swift; path = ../DiabetesInformationQuizModel.swift; sourceTree = "<group>"; };
@@ -141,6 +149,7 @@
 		40E497DE1C5EBB8C00ECB5F1 /* Diabetes Information */ = {
 			isa = PBXGroup;
 			children = (
+				73B9B1A11CB1C604001AB736 /* HealthEatingActivity */,
 				7315F6BA1C8F7638009D9320 /* Complications */,
 				7315F6B71C8F7051009D9320 /* Insulin */,
 				7315F6B41C8F6C06009D9320 /* Blood Sugar */,
@@ -181,6 +190,9 @@
 		7315F6B11C8F65FD009D9320 /* Healthy Eating */ = {
 			isa = PBXGroup;
 			children = (
+				73B9B1A61CB1C69A001AB736 /* GameViewController.swift */,
+				73B9B1A41CB1C68F001AB736 /* GameScene.sks */,
+				73B9B1A21CB1C683001AB736 /* GameScene.swift */,
 				404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */,
 				7332948B1C63E70900159952 /* GeneralTipsViewController.swift */,
 				731625591C69419C0080EA25 /* CountingCarbsFinal.swift */,
@@ -217,6 +229,14 @@
 				7315F6BC1C8F7666009D9320 /* Complications.storyboard */,
 			);
 			name = Complications;
+			sourceTree = "<group>";
+		};
+		73B9B1A11CB1C604001AB736 /* HealthEatingActivity */ = {
+			isa = PBXGroup;
+			children = (
+				73B9B1AA1CB1C730001AB736 /* HealthyEatingActivity.storyboard */,
+			);
+			name = HealthEatingActivity;
 			sourceTree = "<group>";
 		};
 		73C8ED0B1C8E1C9500A4FCEE /* Exercise */ = {
@@ -339,8 +359,10 @@
 				7315F6B91C8F7072009D9320 /* Insulin.storyboard in Resources */,
 				7315F6BD1C8F7666009D9320 /* Complications.storyboard in Resources */,
 				F96A29AA1C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png in Resources */,
+				73B9B1A51CB1C68F001AB736 /* GameScene.sks in Resources */,
 				40E497E71C5EBB8C00ECB5F1 /* Assets.xcassets in Resources */,
 				7315F6B31C8F6629009D9320 /* HealthyEating.storyboard in Resources */,
+				73B9B1AB1CB1C730001AB736 /* HealthyEatingActivity.storyboard in Resources */,
 				40E497E51C5EBB8C00ECB5F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +392,7 @@
 				73C8ED0A1C8E108500A4FCEE /* SickDaysViewController.swift in Sources */,
 				40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */,
 				404C8EBF1C691BB8000C676F /* CountingCarbsViewController.swift in Sources */,
+				73B9B1A71CB1C69A001AB736 /* GameViewController.swift in Sources */,
 				73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */,
 				F94A7A9B1C6FD23C00F4FF0E /* DrawInsulinViewController.swift in Sources */,
 				7342F7751C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift in Sources */,
@@ -377,6 +400,7 @@
 				40E4980E1C5EC4BF00ECB5F1 /* ViewController2.swift in Sources */,
 				73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */,
 				F9571B471C7A5012003557DA /* InsulinBasicsViewController.swift in Sources */,
+				73B9B1A31CB1C683001AB736 /* GameScene.swift in Sources */,
 				174798761C72667B004D75A6 /* PreventComplicationsViewController.swift in Sources */,
 				7332948C1C63E70900159952 /* GeneralTipsViewController.swift in Sources */,
 				F9689B281C8DF9AC0054CEF7 /* SugarLevelPageViewController.swift in Sources */,
