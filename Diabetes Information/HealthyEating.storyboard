@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I2z-AT-bib">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E61b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I2z-AT-bib">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -188,7 +188,7 @@ Foods that contain carbs turn into sugar in the blood stream</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0OK-WN-AUW">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="Z8B-d3-bt8">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z8B-d3-bt8">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="jgk-YK-PMl"/>
@@ -318,7 +318,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZtO-al-mvc">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="neB-pa-Y2C">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="neB-pa-Y2C">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="XPC-hQ-dQk"/>
@@ -412,7 +412,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cws-B7-8Gg">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-6k-CaR">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-6k-CaR">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="Ueg-Y1-0ml"/>
@@ -582,7 +582,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbZ-cD-7Bc">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="y17-mJ-mJK">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="y17-mJ-mJK">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="kqd-uF-n84"/>
@@ -712,7 +712,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10H-6v-wbe">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="Q87-jC-Rng">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="Q87-jC-Rng">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="Pds-f3-bic"/>
@@ -794,7 +794,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
         <!--View Controller-->
         <scene sceneID="Mzv-4s-bG8">
             <objects>
-                <viewController storyboardIdentifier="GeneralTips3" id="zMu-Uz-L87" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GeneralTips4" id="zMu-Uz-L87" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qfz-rX-10J"/>
                         <viewControllerLayoutGuide type="bottom" id="uWu-yf-2cD"/>
@@ -884,7 +884,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IU4-4W-x04">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-yc-D8S">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-yc-D8S">
                                         <rect key="frame" x="259" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="FcA-ev-ced"/>
@@ -1051,7 +1051,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9gq-cF-bQm">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ew9-pr-bMg">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ew9-pr-bMg">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="CNZ-jb-lye"/>
@@ -1179,7 +1179,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45B-h1-5Uk">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="qmx-nB-Sa9">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="qmx-nB-Sa9">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="YiB-z7-1YB"/>
@@ -1261,7 +1261,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <!--View Controller-->
         <scene sceneID="MKp-KS-IUC">
             <objects>
-                <viewController storyboardIdentifier="CountingCarbs6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fo1-wc-CNn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CountingCarbs7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fo1-wc-CNn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NFe-9m-rSA"/>
                         <viewControllerLayoutGuide type="bottom" id="GmM-ix-mfd"/>
@@ -1293,6 +1293,9 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="SgX-gp-9Qw">
                                         <rect key="frame" x="124" y="98" width="376" height="230"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="376" id="EUe-8n-fHz"/>
                                             <constraint firstAttribute="height" constant="230" id="bVx-LJ-2PS"/>
@@ -1315,7 +1318,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="he2-H4-WEz">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="Y0D-S2-rj6">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="Y0D-S2-rj6">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="dKy-rZ-mNi"/>
@@ -1397,7 +1400,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <!--View Controller-->
         <scene sceneID="f4U-9k-jSS">
             <objects>
-                <viewController storyboardIdentifier="CountingCarbs7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VOA-PT-55p" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CountingCarbs8" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VOA-PT-55p" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z6l-Js-Ejn"/>
                         <viewControllerLayoutGuide type="bottom" id="t16-64-Qtm"/>
@@ -1465,7 +1468,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAd-1w-Myv">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-aU-S4X">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="7" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-aU-S4X">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="Y97-m2-00Q"/>
@@ -1876,7 +1879,10 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         </scene>
     </scenes>
     <resources>
+        <image name="FDA_Nutrition_Facts_Label_2006.png" width="684" height="1342"/>
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
+        <image name="chips.png" width="600" height="346"/>
+        <image name="snickers.png" width="400" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kbI-rr-9il"/>
