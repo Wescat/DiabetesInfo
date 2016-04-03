@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I2z-AT-bib">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E61b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I2z-AT-bib">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -188,7 +188,7 @@ Foods that contain carbs turn into sugar in the blood stream</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0OK-WN-AUW">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="Z8B-d3-bt8">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z8B-d3-bt8">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="jgk-YK-PMl"/>
@@ -318,7 +318,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZtO-al-mvc">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="neB-pa-Y2C">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="neB-pa-Y2C">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="XPC-hQ-dQk"/>
@@ -412,7 +412,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cws-B7-8Gg">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-6k-CaR">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="Unl-6k-CaR">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="Ueg-Y1-0ml"/>
@@ -582,7 +582,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbZ-cD-7Bc">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="y17-mJ-mJK">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="y17-mJ-mJK">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="kqd-uF-n84"/>
@@ -712,7 +712,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10H-6v-wbe">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="Q87-jC-Rng">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="Q87-jC-Rng">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="Pds-f3-bic"/>
@@ -794,7 +794,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
         <!--View Controller-->
         <scene sceneID="Mzv-4s-bG8">
             <objects>
-                <viewController storyboardIdentifier="GeneralTips3" id="zMu-Uz-L87" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GeneralTips4" id="zMu-Uz-L87" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qfz-rX-10J"/>
                         <viewControllerLayoutGuide type="bottom" id="uWu-yf-2cD"/>
@@ -884,7 +884,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IU4-4W-x04">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-yc-D8S">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-yc-D8S">
                                         <rect key="frame" x="259" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="FcA-ev-ced"/>
@@ -1051,7 +1051,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9gq-cF-bQm">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ew9-pr-bMg">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="Ew9-pr-bMg">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="CNZ-jb-lye"/>
@@ -1179,7 +1179,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45B-h1-5Uk">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="qmx-nB-Sa9">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="qmx-nB-Sa9">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="YiB-z7-1YB"/>
@@ -1261,7 +1261,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <!--View Controller-->
         <scene sceneID="MKp-KS-IUC">
             <objects>
-                <viewController storyboardIdentifier="CountingCarbs6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fo1-wc-CNn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CountingCarbs7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fo1-wc-CNn" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NFe-9m-rSA"/>
                         <viewControllerLayoutGuide type="bottom" id="GmM-ix-mfd"/>
@@ -1293,6 +1293,9 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="SgX-gp-9Qw">
                                         <rect key="frame" x="124" y="98" width="376" height="230"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="376" id="EUe-8n-fHz"/>
                                             <constraint firstAttribute="height" constant="230" id="bVx-LJ-2PS"/>
@@ -1315,7 +1318,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="he2-H4-WEz">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="Y0D-S2-rj6">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="Y0D-S2-rj6">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="dKy-rZ-mNi"/>
@@ -1397,7 +1400,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
         <!--View Controller-->
         <scene sceneID="f4U-9k-jSS">
             <objects>
-                <viewController storyboardIdentifier="CountingCarbs7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VOA-PT-55p" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CountingCarbs8" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VOA-PT-55p" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z6l-Js-Ejn"/>
                         <viewControllerLayoutGuide type="bottom" id="t16-64-Qtm"/>
@@ -1465,7 +1468,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAd-1w-Myv">
                                 <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-aU-S4X">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="7" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-aU-S4X">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="Y97-m2-00Q"/>
@@ -1789,9 +1792,258 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
             </objects>
             <point key="canvasLocation" x="8167" y="-617"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rm4-yc-Gie">
+            <objects>
+                <viewController storyboardIdentifier="CountingCarbs6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Vr6-DJ-oaw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sh8-aw-d9W"/>
+                        <viewControllerLayoutGuide type="bottom" id="72V-wC-OXX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Fi-X6-9L4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tia-0Z-J3E">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Sample Food Label" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="p4c-bW-GsH">
+                                        <rect key="frame" x="114" y="8" width="373" height="55"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="Isj-qS-WW7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FDA_Nutrition_Facts_Label_2006.png" translatesAutoresizingMaskIntoConstraints="NO" id="ouh-DP-UAY">
+                                        <rect key="frame" x="180" y="41" width="240" height="381"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="Sez-kN-DLp"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ouh-DP-UAY" firstAttribute="top" secondItem="Tia-0Z-J3E" secondAttribute="top" constant="41" id="DWY-kb-Bz8"/>
+                                    <constraint firstItem="ouh-DP-UAY" firstAttribute="bottom" secondItem="Tia-0Z-J3E" secondAttribute="bottomMargin" id="Fti-9h-fFZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="p4c-bW-GsH" secondAttribute="trailing" constant="113" id="Umx-9b-DG3"/>
+                                    <constraint firstItem="p4c-bW-GsH" firstAttribute="top" secondItem="Tia-0Z-J3E" secondAttribute="top" constant="8" id="dKw-4X-K3F"/>
+                                    <constraint firstItem="p4c-bW-GsH" firstAttribute="leading" secondItem="Tia-0Z-J3E" secondAttribute="leading" constant="114" id="j5t-Th-pBF"/>
+                                    <constraint firstItem="ouh-DP-UAY" firstAttribute="centerX" secondItem="p4c-bW-GsH" secondAttribute="centerX" id="pdV-e1-nTz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XqC-B9-uUb">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="Lwi-2q-TtG">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="guv-hJ-vJu"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Lwi-2q-TtG" secondAttribute="bottom" constant="9" id="JqU-GL-kxv"/>
+                                    <constraint firstItem="Lwi-2q-TtG" firstAttribute="top" secondItem="XqC-B9-uUb" secondAttribute="top" constant="9" id="d3p-67-euP"/>
+                                    <constraint firstItem="Lwi-2q-TtG" firstAttribute="leading" secondItem="XqC-B9-uUb" secondAttribute="leading" constant="240" id="dWi-YW-Zrg"/>
+                                    <constraint firstAttribute="height" constant="55" id="g6c-yI-k0U"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lwi-2q-TtG" secondAttribute="trailing" constant="239" id="yAX-4r-1eC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OIk-QT-82F">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Counting Carbs" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YKo-YJ-qzn">
+                                        <rect key="frame" x="180" y="73" width="240" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hQd-EB-1ER"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="R4k-Lv-oiz">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="Sgx-Xc-vqu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="R4k-Lv-oiz" firstAttribute="leading" secondItem="OIk-QT-82F" secondAttribute="leading" constant="180" id="C2w-jY-RBy"/>
+                                    <constraint firstAttribute="trailing" secondItem="R4k-Lv-oiz" secondAttribute="trailing" constant="180" id="U67-Fk-CCR"/>
+                                    <constraint firstAttribute="trailing" secondItem="YKo-YJ-qzn" secondAttribute="trailing" constant="180" id="eah-IR-DVR"/>
+                                    <constraint firstAttribute="bottom" secondItem="YKo-YJ-qzn" secondAttribute="bottom" constant="2" id="ova-DI-CrM"/>
+                                    <constraint firstItem="YKo-YJ-qzn" firstAttribute="top" secondItem="R4k-Lv-oiz" secondAttribute="bottom" constant="12" id="sSF-8j-GAT"/>
+                                    <constraint firstItem="YKo-YJ-qzn" firstAttribute="top" secondItem="R4k-Lv-oiz" secondAttribute="bottom" constant="12" id="uIF-En-btf"/>
+                                    <constraint firstItem="R4k-Lv-oiz" firstAttribute="top" secondItem="OIk-QT-82F" secondAttribute="top" constant="8" id="y9K-CF-dsB"/>
+                                    <constraint firstItem="YKo-YJ-qzn" firstAttribute="leading" secondItem="OIk-QT-82F" secondAttribute="leading" constant="180" id="zdb-Fd-unU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Tia-0Z-J3E" firstAttribute="top" secondItem="OIk-QT-82F" secondAttribute="bottom" id="031-r1-q2y"/>
+                            <constraint firstAttribute="trailing" secondItem="XqC-B9-uUb" secondAttribute="trailing" id="2Ik-Ed-166"/>
+                            <constraint firstItem="XqC-B9-uUb" firstAttribute="top" secondItem="Tia-0Z-J3E" secondAttribute="bottom" id="3e8-5l-h2W"/>
+                            <constraint firstItem="Tia-0Z-J3E" firstAttribute="leading" secondItem="0Fi-X6-9L4" secondAttribute="leading" id="IH0-BH-Yzd"/>
+                            <constraint firstItem="OIk-QT-82F" firstAttribute="leading" secondItem="0Fi-X6-9L4" secondAttribute="leading" id="NIp-r2-DAy"/>
+                            <constraint firstItem="Tia-0Z-J3E" firstAttribute="top" secondItem="OIk-QT-82F" secondAttribute="bottom" id="NXE-Gv-Ybd"/>
+                            <constraint firstAttribute="trailing" secondItem="Tia-0Z-J3E" secondAttribute="trailing" id="a0J-sx-Wmc"/>
+                            <constraint firstAttribute="trailing" secondItem="OIk-QT-82F" secondAttribute="trailing" id="cp2-oC-Hif"/>
+                            <constraint firstItem="OIk-QT-82F" firstAttribute="top" secondItem="0Fi-X6-9L4" secondAttribute="top" id="eF5-A6-Qep"/>
+                            <constraint firstItem="XqC-B9-uUb" firstAttribute="top" secondItem="Tia-0Z-J3E" secondAttribute="bottom" id="fwJ-JT-ETO"/>
+                            <constraint firstItem="XqC-B9-uUb" firstAttribute="leading" secondItem="0Fi-X6-9L4" secondAttribute="leading" id="l0B-wV-KSj"/>
+                            <constraint firstItem="72V-wC-OXX" firstAttribute="top" secondItem="XqC-B9-uUb" secondAttribute="bottom" id="uGl-bD-3tP"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="0cr-Uc-HRt" appends="YES" id="plm-HR-9VG"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ji7-rU-3h1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="0cr-Uc-HRt"/>
+            </objects>
+            <point key="canvasLocation" x="5720" y="-1293"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VEy-hN-hOr">
+            <objects>
+                <viewController storyboardIdentifier="GeneralTips3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kxt-1u-rQh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="32K-Cq-Yl7"/>
+                        <viewControllerLayoutGuide type="bottom" id="3tK-dT-89b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sBY-DV-d0e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZjT-0e-krs">
+                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Some Things to Avoid" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fdP-f9-OVZ">
+                                        <rect key="frame" x="114" y="8" width="373" height="55"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="55" id="iSA-Sw-siy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snickers.png" translatesAutoresizingMaskIntoConstraints="NO" id="A40-re-19s">
+                                        <rect key="frame" x="319" y="95" width="240" height="128"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chips.png" translatesAutoresizingMaskIntoConstraints="NO" id="KaL-Ze-OVI">
+                                        <rect key="frame" x="45" y="95" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="fdP-f9-OVZ" secondAttribute="trailing" constant="113" id="4vl-iz-kKa"/>
+                                    <constraint firstItem="fdP-f9-OVZ" firstAttribute="leading" secondItem="ZjT-0e-krs" secondAttribute="leading" constant="114" id="XvS-GI-BU9"/>
+                                    <constraint firstItem="fdP-f9-OVZ" firstAttribute="top" secondItem="ZjT-0e-krs" secondAttribute="top" constant="8" id="cbH-l2-BBm"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJK-rl-cwK">
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-re-M7h">
+                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="121" id="A56-yd-2RH"/>
+                                        </constraints>
+                                        <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="currentPageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="MBc-re-M7h" secondAttribute="trailing" constant="239" id="2qg-pO-apt"/>
+                                    <constraint firstAttribute="bottom" secondItem="MBc-re-M7h" secondAttribute="bottom" constant="9" id="Awj-9O-uLf"/>
+                                    <constraint firstAttribute="height" constant="55" id="Yl2-4y-Mkg"/>
+                                    <constraint firstItem="MBc-re-M7h" firstAttribute="leading" secondItem="iJK-rl-cwK" secondAttribute="leading" constant="240" id="frq-Hu-IAq"/>
+                                    <constraint firstItem="MBc-re-M7h" firstAttribute="top" secondItem="iJK-rl-cwK" secondAttribute="top" constant="9" id="vMW-Ja-7Da"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k7W-k4-DRi">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jmf-qd-hLe">
+                                        <rect key="frame" x="180" y="73" width="240" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="4Ve-jf-gyd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rWw-Fk-Scd">
+                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="KiT-iD-gY1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="rWw-Fk-Scd" firstAttribute="top" secondItem="k7W-k4-DRi" secondAttribute="top" constant="8" id="2Ns-Hg-abz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jmf-qd-hLe" secondAttribute="trailing" constant="180" id="3Cs-gH-nBD"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jmf-qd-hLe" secondAttribute="bottom" constant="2" id="4a2-Xx-UYN"/>
+                                    <constraint firstItem="Jmf-qd-hLe" firstAttribute="leading" secondItem="k7W-k4-DRi" secondAttribute="leading" constant="180" id="6Tc-hU-95s"/>
+                                    <constraint firstItem="Jmf-qd-hLe" firstAttribute="top" secondItem="rWw-Fk-Scd" secondAttribute="bottom" constant="12" id="TZw-zO-vOp"/>
+                                    <constraint firstAttribute="trailing" secondItem="rWw-Fk-Scd" secondAttribute="trailing" constant="180" id="YQs-nA-QMz"/>
+                                    <constraint firstItem="rWw-Fk-Scd" firstAttribute="leading" secondItem="k7W-k4-DRi" secondAttribute="leading" constant="180" id="dsO-JC-zHY"/>
+                                    <constraint firstItem="Jmf-qd-hLe" firstAttribute="top" secondItem="rWw-Fk-Scd" secondAttribute="bottom" constant="12" id="zfT-e0-UTa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="k7W-k4-DRi" secondAttribute="trailing" id="2Ro-Uj-GXl"/>
+                            <constraint firstItem="ZjT-0e-krs" firstAttribute="top" secondItem="k7W-k4-DRi" secondAttribute="bottom" id="9mj-Ka-eSp"/>
+                            <constraint firstAttribute="trailing" secondItem="ZjT-0e-krs" secondAttribute="trailing" id="C7a-Y6-Xwn"/>
+                            <constraint firstItem="k7W-k4-DRi" firstAttribute="top" secondItem="sBY-DV-d0e" secondAttribute="top" id="CPe-Ta-03I"/>
+                            <constraint firstItem="k7W-k4-DRi" firstAttribute="leading" secondItem="sBY-DV-d0e" secondAttribute="leading" id="DwK-R2-Hqi"/>
+                            <constraint firstItem="ZjT-0e-krs" firstAttribute="leading" secondItem="sBY-DV-d0e" secondAttribute="leading" id="GXV-MW-giF"/>
+                            <constraint firstItem="iJK-rl-cwK" firstAttribute="top" secondItem="ZjT-0e-krs" secondAttribute="bottom" id="VrT-B1-YlI"/>
+                            <constraint firstItem="3tK-dT-89b" firstAttribute="top" secondItem="iJK-rl-cwK" secondAttribute="bottom" id="act-hh-gZd"/>
+                            <constraint firstItem="iJK-rl-cwK" firstAttribute="leading" secondItem="sBY-DV-d0e" secondAttribute="leading" id="fYz-Mn-HAx"/>
+                            <constraint firstAttribute="trailing" secondItem="iJK-rl-cwK" secondAttribute="trailing" id="ik9-gv-vEW"/>
+                            <constraint firstItem="iJK-rl-cwK" firstAttribute="top" secondItem="ZjT-0e-krs" secondAttribute="bottom" id="m4B-Mo-lNv"/>
+                            <constraint firstItem="ZjT-0e-krs" firstAttribute="top" secondItem="k7W-k4-DRi" secondAttribute="bottom" id="nEk-Gg-yvX"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dO6-Sz-XoH" appends="YES" id="6KB-Cx-Lh4"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2YR-RG-eH0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="dO6-Sz-XoH"/>
+            </objects>
+            <point key="canvasLocation" x="3512" y="1337"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="FDA_Nutrition_Facts_Label_2006.png" width="684" height="1342"/>
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
+        <image name="chips.png" width="600" height="346"/>
+        <image name="snickers.png" width="400" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kLn-Dn-a7x"/>

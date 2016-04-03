@@ -15,6 +15,7 @@ class GeneralTipsViewController: UIPageViewController{
         return [self.newViewController("GeneralTips1"),
             self.newViewController("GeneralTips2"),
             self.newViewController("GeneralTips3"),
+            self.newViewController("GeneralTips4"),
             self.newViewController("GeneralTipsFinal")]
     }()
     
