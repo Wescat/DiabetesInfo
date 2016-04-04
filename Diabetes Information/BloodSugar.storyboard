@@ -160,8 +160,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloodMeter.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JV0-X0-FLA">
-                                        <rect key="frame" x="140" y="167" width="321" height="221"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="takingBloodSugar" translatesAutoresizingMaskIntoConstraints="NO" id="z96-fM-Epe">
+                                        <rect key="frame" x="161" y="191" width="256" height="148"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -291,7 +291,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkingBloodSugar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fij-pp-JOy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkingBloodSugar" translatesAutoresizingMaskIntoConstraints="NO" id="Fij-pp-JOy">
                                         <rect key="frame" x="148" y="195" width="305" height="183"/>
                                     </imageView>
                                 </subviews>
@@ -430,7 +430,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stressedPerson.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1jd-4e-3N0">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stressedPerson" translatesAutoresizingMaskIntoConstraints="NO" id="1jd-4e-3N0">
                                         <rect key="frame" x="138" y="158" width="324" height="248"/>
                                     </imageView>
                                 </subviews>
@@ -2064,9 +2064,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bloodMeter.jpg" width="1920" height="1365"/>
-        <image name="checkingBloodSugar.jpg" width="493" height="335"/>
-        <image name="stressedPerson.jpg" width="1847" height="1920"/>
+        <image name="checkingBloodSugar" width="493" height="335"/>
+        <image name="stressedPerson" width="1847" height="1920"/>
+        <image name="takingBloodSugar" width="570" height="270"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="qg1-NT-U14"/>
