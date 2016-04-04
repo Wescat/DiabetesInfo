@@ -1519,12 +1519,522 @@
             </objects>
             <point key="canvasLocation" x="1239" y="2221"/>
         </scene>
+        <!--Comp Activity-->
+        <scene sceneID="ADQ-hF-S5t">
+            <objects>
+                <viewController storyboardIdentifier="ComplicationsActivity" title="Comp Activity" modalTransitionStyle="crossDissolve" id="fWt-UW-h8H" customClass="ViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jrV-Gr-JXj"/>
+                        <viewControllerLayoutGuide type="bottom" id="nDQ-Lh-Tpe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uun-JH-s4g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aIS-Fh-RlB">
+                                <rect key="frame" x="155" y="119" width="305" height="511"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPC-OQ-JyX">
+                                <rect key="frame" x="199" y="577" width="74" height="47"/>
+                                <connections>
+                                    <segue destination="8wT-Zu-w3o" kind="popoverPresentation" popoverAnchorView="iPC-OQ-JyX" id="HBn-1U-JgI">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFX-9n-poX">
+                                <rect key="frame" x="270" y="149" width="61" height="25"/>
+                                <connections>
+                                    <segue destination="OkI-2i-isx" kind="popoverPresentation" popoverAnchorView="ZFX-9n-poX" id="heC-UM-bKC">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="eL6-OE-xDi">
+                                <rect key="frame" x="270" y="149" width="20" height="19"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="w2m-3t-wof">
+                                <rect key="frame" x="199" y="577" width="20" height="19"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="5K7-JV-gel">
+                                <rect key="frame" x="260" y="276" width="20" height="19"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOc-it-Dyi">
+                                <rect key="frame" x="260" y="276" width="80" height="48"/>
+                                <connections>
+                                    <segue destination="I1c-Sd-F1m" kind="popoverPresentation" popoverAnchorView="ZOc-it-Dyi" id="fWe-AL-sEe">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb2-n0-eUh">
+                                <rect key="frame" x="226" y="322" width="54" height="35"/>
+                                <connections>
+                                    <segue destination="Ml7-XO-xfX" kind="popoverPresentation" popoverAnchorView="xb2-n0-eUh" id="E9u-Zl-AuU">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-36-3cz">
+                                <rect key="frame" x="226" y="322" width="20" height="19"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What areas should I pay attention to?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a6T-gR-RBA">
+                                <rect key="frame" x="37" y="8" width="527" height="52"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRW-ba-ybO">
+                                <rect key="frame" x="281" y="566" width="91" height="48"/>
+                                <connections>
+                                    <segue destination="lUB-z0-vyI" kind="popoverPresentation" popoverAnchorView="hRW-ba-ybO" id="1zR-Pg-AMo">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XQb-35-zaL">
+                                <rect key="frame" x="342" y="566" width="20" height="19"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click on the different areas to learn more" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UPf-y3-LKF">
+                                <rect key="frame" x="74" y="68" width="466" height="43"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EQ-Pk-yII">
+                                <rect key="frame" x="281" y="365" width="42" height="45"/>
+                                <connections>
+                                    <segue destination="tJz-Zl-oHd" kind="popoverPresentation" popoverAnchorView="3EQ-Pk-yII" id="nXo-zi-8Bf">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZs-OO-XY7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2030" y="1356"/>
+        </scene>
+        <!--Eyes-->
+        <scene sceneID="kSq-VJ-K8Z">
+            <objects>
+                <viewController storyboardIdentifier="EyesInfo" title="Eyes" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" id="OkI-2i-isx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AtP-BJ-wtF"/>
+                        <viewControllerLayoutGuide type="bottom" id="PtL-Ms-C8S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g8v-Vn-f5i">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eyes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wog-tY-Ee9">
+                                <rect key="frame" x="69" y="0.0" width="154" height="79"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://www.angieslist.com/files/eye_exam_ref%C2%ADraction.png" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lGo-Kc-PaV">
+                                <rect key="frame" x="42" y="356" width="219" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye_exam_ref­raction.png" translatesAutoresizingMaskIntoConstraints="NO" id="4AA-zb-52N">
+                                <rect key="frame" x="0.0" y="255" width="319" height="181"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmZ-ah-yjm">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fWt-UW-h8H" kind="presentation" id="eQW-GE-w7a"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bjt-O7-c3g">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Have your eyes checked once a year to avoid problems" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rk2-lt-TOV">
+                                <rect key="frame" x="0.0" y="108" width="319" height="117"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BPA-cP-POi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2728" y="1356"/>
+        </scene>
+        <!--Feet-->
+        <scene sceneID="CLT-0r-fd7">
+            <objects>
+                <viewController storyboardIdentifier="Feet Info" title="Feet" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" id="8wT-Zu-w3o" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7DI-zV-x87"/>
+                        <viewControllerLayoutGuide type="bottom" id="squ-by-DEg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="1mQ-4f-Sgp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BPV-nV-D8F">
+                                <rect key="frame" x="11" y="338" width="255" height="30"/>
+                                <string key="text">http://www.blackgirlhealth.com/wp-content/uploads/freshizer/19f867c3ada4cc993817f6ab4ce437c0_photodune-4483948-massage-s-980-c.jpg</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="5"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKa-6E-pxi">
+                                <rect key="frame" x="82" y="0.0" width="154" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBY-Ow-O68">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fWt-UW-h8H" kind="presentation" id="AaI-P0-Ec3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="JKu-xT-WwJ">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Check your feet every day for cuts and scrapes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aXs-is-VZK">
+                                <rect key="frame" x="0.0" y="110" width="319" height="116"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foot_exam.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8HJ-eg-f9K">
+                                <rect key="frame" x="0.0" y="245" width="319" height="189"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDo-21-aZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2728" y="658"/>
+        </scene>
+        <!--Stomach-->
+        <scene sceneID="J7Q-kd-E76">
+            <objects>
+                <viewController storyboardIdentifier="StomachInfo" title="Stomach" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" id="I1c-Sd-F1m" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z7o-MC-1jx"/>
+                        <viewControllerLayoutGuide type="bottom" id="IQc-eW-35v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qRf-Bt-QBk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stomach" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUW-Z5-cYA">
+                                <rect key="frame" x="34" y="0.0" width="275" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGx-5K-E2J">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fWt-UW-h8H" kind="presentation" id="1fd-U4-F4h"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://s-media-cache-ak0.pinimg.com/236x/07/ed/5d/07ed5df1b5e1d4cc88debc2d4fb0f191.jpg" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VYc-lv-FuI">
+                                <rect key="frame" x="25" y="285" width="123" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diabetesshot.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zno-4O-bT4">
+                                <rect key="frame" x="0.0" y="232" width="168" height="226"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="OLO-45-MzG">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Rotate where you give your insulin shot around your stomach" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uzU-In-5M7">
+                                <rect key="frame" x="0.0" y="108" width="319" height="124"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Because he knew the importance of daily injection site rotation, George went to extremes to avoid problems" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xf2-9P-IPd">
+                                <rect key="frame" x="168" y="241" width="151" height="207"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2QJ-v8-YIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3442" y="658"/>
+        </scene>
+        <!--Skin-->
+        <scene sceneID="mbv-Q3-hct">
+            <objects>
+                <viewController storyboardIdentifier="SkinInfo" title="Skin" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" id="Ml7-XO-xfX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s71-zY-ejK"/>
+                        <viewControllerLayoutGuide type="bottom" id="IDR-mj-1WS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NVJ-lA-P19">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THw-5R-6LD">
+                                <rect key="frame" x="82" y="0.0" width="154" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baw-0C-sSa">
+                                <rect key="frame" x="0.0" y="0.0" width="36" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fWt-UW-h8H" kind="presentation" id="32m-hl-Ejj"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Bl-5M-iiJ">
+                                <rect key="frame" x="38" y="343" width="241" height="30"/>
+                                <string key="text">http://img.aws.livestrongcdn.com/ls-article-image-640/cme/cme_public_images/www_livestrong_com/photos.demandstudios.com/getty/article/228/132/516219215_XS.jpg</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lotion.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IOq-nd-FK3">
+                                <rect key="frame" x="0.0" y="242" width="319" height="194"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="6iT-Ce-h5D">
+                                <rect key="frame" x="0.0" y="0.0" width="36" height="35"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Make sure to keep your skin clean and use lotion" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pmd-4Y-NlH">
+                                <rect key="frame" x="0.0" y="108" width="319" height="118"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30f-oh-wA6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3442" y="1356"/>
+        </scene>
+        <!--Feet2-->
+        <scene sceneID="2P0-Nn-Okk">
+            <objects>
+                <viewController storyboardIdentifier="Shoe Info" title="Feet2" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" id="lUB-z0-vyI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SOU-TT-7UX"/>
+                        <viewControllerLayoutGuide type="bottom" id="ifh-6t-JGa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="EOY-Tc-V8f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="http://www.ecouterre.com/wp-content/uploads/2013/05/running-shoes-1-537x402.jpg" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gj7-Qx-0zG">
+                                <rect key="frame" x="15" y="339" width="67" height="62"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5O3-IQ-T1h">
+                                <rect key="frame" x="226" y="203" width="81" height="53"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">http://s3.amazonaws.com/cloud.scoutmob.com/shoppe/products/58921/original/Turquoise-Braided-Leather-Thong-Sandals-amber_2_0__il_fullxfull.732222370_30l8.jpg</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="http://www.womenclshoes.org/images/Christian%20Louboutin%20Pumps%20034.jpg" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Tq-Pm-JO3">
+                                <rect key="frame" x="113" y="199" width="79" height="66"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shoes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcv-7J-7dO">
+                                <rect key="frame" x="62" y="0.0" width="194" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkK-DA-F3X">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fWt-UW-h8H" kind="presentation" id="nMs-K4-YYB"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="lsy-B4-StH">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="http://www.clker.com/cliparts/x/g/3/F/8/E/transparent-red-circle-hi.png  https://usercontent1.hubstatic.com/5221980_f248.jpg" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yDu-yR-McH">
+                                <rect key="frame" x="0.0" y="220" width="86" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="3"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueflops.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Srx-SW-FDE">
+                                <rect key="frame" x="0.0" y="185" width="96" height="94"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong.png" translatesAutoresizingMaskIntoConstraints="NO" id="gpK-RK-mjX">
+                                <rect key="frame" x="0.0" y="185" width="96" height="94"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heels.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TkJ-Y8-79Y">
+                                <rect key="frame" x="109" y="185" width="96" height="94"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong.png" translatesAutoresizingMaskIntoConstraints="NO" id="9dX-Ou-qUa">
+                                <rect key="frame" x="109" y="185" width="96" height="94"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sandals.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HPJ-NG-HHy">
+                                <rect key="frame" x="218" y="185" width="96" height="94"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong.png" translatesAutoresizingMaskIntoConstraints="NO" id="pul-zY-Hxo">
+                                <rect key="frame" x="218" y="185" width="96" height="94"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Flip Flops" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="m9R-ns-l7u">
+                                <rect key="frame" x="0.0" y="272" width="96" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Sneakers" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="c9m-hJ-8CM">
+                                <rect key="frame" x="192" y="426" width="96" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Well fitting dress shoes" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SNk-ek-cxx">
+                                <rect key="frame" x="25" y="420" width="118" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Heels" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="23G-XC-NyJ">
+                                <rect key="frame" x="127" y="272" width="61" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Thong sandals" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kPF-Ka-BCE">
+                                <rect key="frame" x="214" y="272" width="112" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sneaker.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EYI-Az-vxb">
+                                <rect key="frame" x="174" y="311" width="133" height="120"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dressshoes.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9s7-DP-jCZ">
+                                <rect key="frame" x="15" y="311" width="139" height="120"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check.png" translatesAutoresizingMaskIntoConstraints="NO" id="fEc-UO-3Ic">
+                                <rect key="frame" x="15" y="311" width="40" height="40"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check.png" translatesAutoresizingMaskIntoConstraints="NO" id="a9e-EW-4Nh">
+                                <rect key="frame" x="174" y="311" width="40" height="40"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What types of shoes should I wear?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vkc-OG-jFY">
+                                <rect key="frame" x="0.0" y="94" width="319" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i8l-It-dI8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2030" y="598"/>
+        </scene>
+        <!--Eyes-->
+        <scene sceneID="jZH-pV-xOr">
+            <objects>
+                <viewController storyboardIdentifier="Perv" title="Eyes" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" id="tJz-Zl-oHd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CWK-sa-Ge6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hbn-0i-mIJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CIh-3Y-j8X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vro-cN-V1z">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fWt-UW-h8H" kind="presentation" id="QIm-7i-wYW"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ud9-e2-PB1">
+                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nHD-kz-69o">
+                                <rect key="frame" x="0.0" y="108" width="319" height="117"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Pervert" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w37-DD-QGf">
+                                <rect key="frame" x="0.0" y="124" width="319" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wO3-gM-box" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2030" y="2013"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Question_Mark_Icon.png" width="175" height="175"/>
+        <image name="blueflops.jpg" width="248" height="232"/>
+        <image name="check.png" width="2000" height="2000"/>
         <image name="diabetes-777001_1920.jpg" width="1920" height="1280"/>
+        <image name="diabetesshot.jpg" width="200" height="291"/>
+        <image name="dressshoes.jpg" width="1280" height="960"/>
+        <image name="eye_exam_ref­raction.png" width="1920" height="1080"/>
+        <image name="foot_exam.jpg" width="980" height="653"/>
+        <image name="heels.jpg" width="550" height="550"/>
+        <image name="lotion.jpg" width="640" height="426"/>
+        <image name="man.jpg" width="791" height="1415"/>
+        <image name="sandals.jpg" width="888" height="986"/>
+        <image name="sneaker.jpg" width="537" height="402"/>
+        <image name="wrong.png" width="600" height="569"/>
+        <image name="x.png" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RdZ-Uk-wVi"/>
         <segue reference="n15-y5-61J"/>
+        <segue reference="QIm-7i-wYW"/>
+        <segue reference="RdZ-Uk-wVi"/>
     </inferredMetricsTieBreakers>
 </document>
