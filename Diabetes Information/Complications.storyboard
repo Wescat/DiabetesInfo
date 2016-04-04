@@ -1601,14 +1601,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EQ-Pk-yII">
-                                <rect key="frame" x="281" y="365" width="42" height="45"/>
-                                <connections>
-                                    <segue destination="tJz-Zl-oHd" kind="popoverPresentation" popoverAnchorView="3EQ-Pk-yII" id="nXo-zi-8Bf">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1967,53 +1959,6 @@
             </objects>
             <point key="canvasLocation" x="2030" y="598"/>
         </scene>
-        <!--Eyes-->
-        <scene sceneID="jZH-pV-xOr">
-            <objects>
-                <viewController storyboardIdentifier="Perv" title="Eyes" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" id="tJz-Zl-oHd" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CWK-sa-Ge6"/>
-                        <viewControllerLayoutGuide type="bottom" id="Hbn-0i-mIJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CIh-3Y-j8X">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vro-cN-V1z">
-                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="fWt-UW-h8H" kind="presentation" id="QIm-7i-wYW"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ud9-e2-PB1">
-                                <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nHD-kz-69o">
-                                <rect key="frame" x="0.0" y="108" width="319" height="117"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Pervert" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w37-DD-QGf">
-                                <rect key="frame" x="0.0" y="124" width="319" height="86"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="shadowOffset" width="-3" height="2"/>
-                            </label>
-                        </subviews>
-                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wO3-gM-box" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2030" y="2013"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Question_Mark_Icon.png" width="175" height="175"/>
@@ -2034,7 +1979,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="n15-y5-61J"/>
-        <segue reference="QIm-7i-wYW"/>
+        <segue reference="nMs-K4-YYB"/>
         <segue reference="RdZ-Uk-wVi"/>
     </inferredMetricsTieBreakers>
 </document>
