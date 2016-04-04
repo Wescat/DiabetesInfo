@@ -459,9 +459,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="LqU-Qh-gUv"/>
                                         </constraints>
-                                        <string key="text">• Don't look at them
-
-• See your doctor once a year for an eye exam
+                                        <string key="text">• See your doctor once a year for an eye exam
 
 • Wear sunglasses when outside
 
@@ -986,6 +984,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diabetes-777001_1920.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bKH-5I-fwJ">
+                                        <rect key="frame" x="139" y="191" width="322" height="192"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1519,8 +1520,11 @@
             <point key="canvasLocation" x="1239" y="2221"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="diabetes-777001_1920.jpg" width="1920" height="1280"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HbX-yd-JZM"/>
         <segue reference="RdZ-Uk-wVi"/>
+        <segue reference="n15-y5-61J"/>
     </inferredMetricsTieBreakers>
 </document>
