@@ -11,7 +11,7 @@
     private let kFoodNodeName = "movable"
     
     class GameScene: SKScene, SKPhysicsContactDelegate{
-        let background = SKSpriteNode(imageNamed: "background")
+        let background = SKSpriteNode(imageNamed: "blue-shooting-stars")
         var selectedNode = SKSpriteNode()
         var carbCount = 0
         var carbLabel = SKLabelNode()
