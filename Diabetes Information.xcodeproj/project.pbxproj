@@ -37,35 +37,6 @@
 		73C8ED0A1C8E108500A4FCEE /* SickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */; };
 		73C8ED0D1C8E1CCB00A4FCEE /* Exercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */; };
 		73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */; };
-		A930EF3A1CB31B7800226AC5 /* sandals.png in Resources */ = {isa = PBXBuildFile; fileRef = A930EF2A1CB31B7800226AC5 /* sandals.png */; };
-		A930EF3B1CB31B7800226AC5 /* sandals.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF2B1CB31B7800226AC5 /* sandals.jpg */; };
-		A930EF3C1CB31B7800226AC5 /* diabetesshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF2C1CB31B7800226AC5 /* diabetesshot.jpg */; };
-		A930EF3D1CB31B7800226AC5 /* lotion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF2D1CB31B7800226AC5 /* lotion.jpg */; };
-		A930EF3E1CB31B7800226AC5 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = A930EF2E1CB31B7800226AC5 /* x.png */; };
-		A930EF3F1CB31B7800226AC5 /* blueflops.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF2F1CB31B7800226AC5 /* blueflops.jpg */; };
-		A930EF401CB31B7800226AC5 /* sneaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF301CB31B7800226AC5 /* sneaker.jpg */; };
-		A930EF411CB31B7800226AC5 /* dressshoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF311CB31B7800226AC5 /* dressshoes.jpg */; };
-		A930EF421CB31B7800226AC5 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = A930EF321CB31B7800226AC5 /* check.png */; };
-		A930EF431CB31B7800226AC5 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = A930EF331CB31B7800226AC5 /* wrong.png */; };
-		A930EF441CB31B7800226AC5 /* heels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF341CB31B7800226AC5 /* heels.jpg */; };
-		A930EF451CB31B7800226AC5 /* foot_exam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF351CB31B7800226AC5 /* foot_exam.jpg */; };
-		A930EF461CB31B7800226AC5 /* eye_exam_ref­raction.png in Resources */ = {isa = PBXBuildFile; fileRef = A930EF361CB31B7800226AC5 /* eye_exam_ref­raction.png */; };
-		A930EF471CB31B7800226AC5 /* eyeglasses-679696_960_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF371CB31B7800226AC5 /* eyeglasses-679696_960_720.jpg */; };
-		A930EF481CB31B7800226AC5 /* Question_Mark_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A930EF381CB31B7800226AC5 /* Question_Mark_Icon.png */; };
-		A930EF491CB31B7800226AC5 /* man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF391CB31B7800226AC5 /* man.jpg */; };
-		A930EF571CB31EA300226AC5 /* bloodMeter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF4A1CB31EA300226AC5 /* bloodMeter.jpg */; };
-		A930EF581CB31EA300226AC5 /* checkingBloodSugar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF4B1CB31EA300226AC5 /* checkingBloodSugar.jpg */; };
-		A930EF591CB31EA300226AC5 /* diabetes-777001_1920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF4C1CB31EA300226AC5 /* diabetes-777001_1920.jpg */; };
-		A930EF5A1CB31EA300226AC5 /* diabeticRetinopathy.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A930EF4D1CB31EA300226AC5 /* diabeticRetinopathy.PNG */; };
-		A930EF5B1CB31EA300226AC5 /* doctorPatient.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A930EF4E1CB31EA300226AC5 /* doctorPatient.PNG */; };
-		A930EF5C1CB31EA300226AC5 /* fitness-818722_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF4F1CB31EA300226AC5 /* fitness-818722_1280.jpg */; };
-		A930EF5D1CB31EA300226AC5 /* halfCupOfOats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF501CB31EA300226AC5 /* halfCupOfOats.jpg */; };
-		A930EF5E1CB31EA300226AC5 /* istock-000023083091-medium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF511CB31EA300226AC5 /* istock-000023083091-medium.jpg */; };
-		A930EF5F1CB31EA300226AC5 /* Main_symptoms_of_diabetes.png in Resources */ = {isa = PBXBuildFile; fileRef = A930EF521CB31EA300226AC5 /* Main_symptoms_of_diabetes.png */; };
-		A930EF601CB31EA300226AC5 /* normalVision.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A930EF531CB31EA300226AC5 /* normalVision.PNG */; };
-		A930EF611CB31EA300226AC5 /* picsAndSource.docx in Resources */ = {isa = PBXBuildFile; fileRef = A930EF541CB31EA300226AC5 /* picsAndSource.docx */; };
-		A930EF621CB31EA300226AC5 /* stressedPerson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF551CB31EA300226AC5 /* stressedPerson.jpg */; };
-		A930EF631CB31EA300226AC5 /* takingBloodSugar.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A930EF561CB31EA300226AC5 /* takingBloodSugar.JPG */; };
 		A9E722401CB32622009002C4 /* ComplicationMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E7223F1CB32622009002C4 /* ComplicationMedia.xcassets */; };
 		F90E8D721CB1A63B007DF51D /* snickers.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D711CB1A63B007DF51D /* snickers.png */; };
 		F90E8D761CB1A648007DF51D /* cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D751CB1A648007DF51D /* cabinet.png */; };
@@ -130,35 +101,6 @@
 		73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickDaysViewController.swift; sourceTree = "<group>"; };
 		73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Exercise.storyboard; sourceTree = "<group>"; };
 		73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiabetesInformationQuizModel.swift; path = ../DiabetesInformationQuizModel.swift; sourceTree = "<group>"; };
-		A930EF2A1CB31B7800226AC5 /* sandals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sandals.png; path = ../../../Desktop/sandals.png; sourceTree = "<group>"; };
-		A930EF2B1CB31B7800226AC5 /* sandals.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sandals.jpg; path = ../../../Desktop/sandals.jpg; sourceTree = "<group>"; };
-		A930EF2C1CB31B7800226AC5 /* diabetesshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = diabetesshot.jpg; path = ../../../Desktop/diabetesshot.jpg; sourceTree = "<group>"; };
-		A930EF2D1CB31B7800226AC5 /* lotion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lotion.jpg; path = ../../../Desktop/lotion.jpg; sourceTree = "<group>"; };
-		A930EF2E1CB31B7800226AC5 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../../Desktop/x.png; sourceTree = "<group>"; };
-		A930EF2F1CB31B7800226AC5 /* blueflops.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blueflops.jpg; path = ../../../Desktop/blueflops.jpg; sourceTree = "<group>"; };
-		A930EF301CB31B7800226AC5 /* sneaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sneaker.jpg; path = ../../../Desktop/sneaker.jpg; sourceTree = "<group>"; };
-		A930EF311CB31B7800226AC5 /* dressshoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dressshoes.jpg; path = ../../../Desktop/dressshoes.jpg; sourceTree = "<group>"; };
-		A930EF321CB31B7800226AC5 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = ../../../Desktop/check.png; sourceTree = "<group>"; };
-		A930EF331CB31B7800226AC5 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wrong.png; path = ../../../Desktop/wrong.png; sourceTree = "<group>"; };
-		A930EF341CB31B7800226AC5 /* heels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = heels.jpg; path = ../../../Desktop/heels.jpg; sourceTree = "<group>"; };
-		A930EF351CB31B7800226AC5 /* foot_exam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foot_exam.jpg; path = ../../../Desktop/foot_exam.jpg; sourceTree = "<group>"; };
-		A930EF361CB31B7800226AC5 /* eye_exam_ref­raction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eye_exam_ref­raction.png"; path = "../../../Desktop/eye_exam_ref­raction.png"; sourceTree = "<group>"; };
-		A930EF371CB31B7800226AC5 /* eyeglasses-679696_960_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eyeglasses-679696_960_720.jpg"; path = "../../../Desktop/eyeglasses-679696_960_720.jpg"; sourceTree = "<group>"; };
-		A930EF381CB31B7800226AC5 /* Question_Mark_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Question_Mark_Icon.png; path = ../../../Desktop/Question_Mark_Icon.png; sourceTree = "<group>"; };
-		A930EF391CB31B7800226AC5 /* man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = man.jpg; path = ../../../Desktop/man.jpg; sourceTree = "<group>"; };
-		A930EF4A1CB31EA300226AC5 /* bloodMeter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bloodMeter.jpg; path = "../../../../../Volumes/Untitled 1/Pictures/bloodMeter.jpg"; sourceTree = "<group>"; };
-		A930EF4B1CB31EA300226AC5 /* checkingBloodSugar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = checkingBloodSugar.jpg; path = "../../../../../Volumes/Untitled 1/Pictures/checkingBloodSugar.jpg"; sourceTree = "<group>"; };
-		A930EF4C1CB31EA300226AC5 /* diabetes-777001_1920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "diabetes-777001_1920.jpg"; path = "../../../../../Volumes/Untitled 1/Pictures/diabetes-777001_1920.jpg"; sourceTree = "<group>"; };
-		A930EF4D1CB31EA300226AC5 /* diabeticRetinopathy.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diabeticRetinopathy.PNG; path = "../../../../../Volumes/Untitled 1/Pictures/diabeticRetinopathy.PNG"; sourceTree = "<group>"; };
-		A930EF4E1CB31EA300226AC5 /* doctorPatient.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doctorPatient.PNG; path = "../../../../../Volumes/Untitled 1/Pictures/doctorPatient.PNG"; sourceTree = "<group>"; };
-		A930EF4F1CB31EA300226AC5 /* fitness-818722_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fitness-818722_1280.jpg"; path = "../../../../../Volumes/Untitled 1/Pictures/fitness-818722_1280.jpg"; sourceTree = "<group>"; };
-		A930EF501CB31EA300226AC5 /* halfCupOfOats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = halfCupOfOats.jpg; path = "../../../../../Volumes/Untitled 1/Pictures/halfCupOfOats.jpg"; sourceTree = "<group>"; };
-		A930EF511CB31EA300226AC5 /* istock-000023083091-medium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "istock-000023083091-medium.jpg"; path = "../../../../../Volumes/Untitled 1/Pictures/istock-000023083091-medium.jpg"; sourceTree = "<group>"; };
-		A930EF521CB31EA300226AC5 /* Main_symptoms_of_diabetes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Main_symptoms_of_diabetes.png; path = "../../../../../Volumes/Untitled 1/Pictures/Main_symptoms_of_diabetes.png"; sourceTree = "<group>"; };
-		A930EF531CB31EA300226AC5 /* normalVision.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normalVision.PNG; path = "../../../../../Volumes/Untitled 1/Pictures/normalVision.PNG"; sourceTree = "<group>"; };
-		A930EF541CB31EA300226AC5 /* picsAndSource.docx */ = {isa = PBXFileReference; lastKnownFileType = file; name = picsAndSource.docx; path = "../../../../../Volumes/Untitled 1/Pictures/picsAndSource.docx"; sourceTree = "<group>"; };
-		A930EF551CB31EA300226AC5 /* stressedPerson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stressedPerson.jpg; path = "../../../../../Volumes/Untitled 1/Pictures/stressedPerson.jpg"; sourceTree = "<group>"; };
-		A930EF561CB31EA300226AC5 /* takingBloodSugar.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = takingBloodSugar.JPG; path = "../../../../../Volumes/Untitled 1/Pictures/takingBloodSugar.JPG"; sourceTree = "<group>"; };
 		A9E7223F1CB32622009002C4 /* ComplicationMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ComplicationMedia.xcassets; sourceTree = "<group>"; };
 		F90E8D6F1CB1A61F007DF51D /* chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chips.png; path = Pics/chips.png; sourceTree = "<group>"; };
 		F90E8D711CB1A63B007DF51D /* snickers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snickers.png; path = Pics/snickers.png; sourceTree = "<group>"; };
@@ -235,36 +177,7 @@
 				40E497E31C5EBB8C00ECB5F1 /* Main.storyboard */,
 				F90E8D7B1CB1A664007DF51D /* NoFreezer.png */,
 				F90E8D791CB1A660007DF51D /* no-cars1.png */,
-				A930EF2A1CB31B7800226AC5 /* sandals.png */,
-				A930EF2B1CB31B7800226AC5 /* sandals.jpg */,
-				A930EF2C1CB31B7800226AC5 /* diabetesshot.jpg */,
-				A930EF2D1CB31B7800226AC5 /* lotion.jpg */,
 				739FB60C1CB32259006A654C /* Assets.xcassets */,
-				A930EF2E1CB31B7800226AC5 /* x.png */,
-				A930EF2F1CB31B7800226AC5 /* blueflops.jpg */,
-				A930EF301CB31B7800226AC5 /* sneaker.jpg */,
-				A930EF311CB31B7800226AC5 /* dressshoes.jpg */,
-				A930EF321CB31B7800226AC5 /* check.png */,
-				A930EF331CB31B7800226AC5 /* wrong.png */,
-				A930EF341CB31B7800226AC5 /* heels.jpg */,
-				A930EF4A1CB31EA300226AC5 /* bloodMeter.jpg */,
-				A930EF4B1CB31EA300226AC5 /* checkingBloodSugar.jpg */,
-				A930EF4C1CB31EA300226AC5 /* diabetes-777001_1920.jpg */,
-				A930EF4D1CB31EA300226AC5 /* diabeticRetinopathy.PNG */,
-				A930EF4E1CB31EA300226AC5 /* doctorPatient.PNG */,
-				A930EF4F1CB31EA300226AC5 /* fitness-818722_1280.jpg */,
-				A930EF501CB31EA300226AC5 /* halfCupOfOats.jpg */,
-				A930EF511CB31EA300226AC5 /* istock-000023083091-medium.jpg */,
-				A930EF521CB31EA300226AC5 /* Main_symptoms_of_diabetes.png */,
-				A930EF531CB31EA300226AC5 /* normalVision.PNG */,
-				A930EF541CB31EA300226AC5 /* picsAndSource.docx */,
-				A930EF551CB31EA300226AC5 /* stressedPerson.jpg */,
-				A930EF561CB31EA300226AC5 /* takingBloodSugar.JPG */,
-				A930EF351CB31B7800226AC5 /* foot_exam.jpg */,
-				A930EF361CB31B7800226AC5 /* eye_exam_ref­raction.png */,
-				A930EF371CB31B7800226AC5 /* eyeglasses-679696_960_720.jpg */,
-				A930EF381CB31B7800226AC5 /* Question_Mark_Icon.png */,
-				A930EF391CB31B7800226AC5 /* man.jpg */,
 				F90E8D771CB1A65B007DF51D /* insulincooler.png */,
 				F90E8D7D1CB1A7FE007DF51D /* insulinvial.png */,
 				F90E8D731CB1A642007DF51D /* FDA_Nutrition_Facts_Label_2006.png */,
@@ -457,53 +370,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A930EF3B1CB31B7800226AC5 /* sandals.jpg in Resources */,
-				A930EF3A1CB31B7800226AC5 /* sandals.png in Resources */,
-				A930EF5B1CB31EA300226AC5 /* doctorPatient.PNG in Resources */,
 				A9E722401CB32622009002C4 /* ComplicationMedia.xcassets in Resources */,
 				40E497EA1C5EBB8C00ECB5F1 /* LaunchScreen.storyboard in Resources */,
 				739FB60D1CB32259006A654C /* Assets.xcassets in Resources */,
-				A930EF441CB31B7800226AC5 /* heels.jpg in Resources */,
-				A930EF3C1CB31B7800226AC5 /* diabetesshot.jpg in Resources */,
-				A930EF621CB31EA300226AC5 /* stressedPerson.jpg in Resources */,
-				A930EF491CB31B7800226AC5 /* man.jpg in Resources */,
-				A930EF5D1CB31EA300226AC5 /* halfCupOfOats.jpg in Resources */,
-				A930EF5A1CB31EA300226AC5 /* diabeticRetinopathy.PNG in Resources */,
 				F90E8D721CB1A63B007DF51D /* snickers.png in Resources */,
-				A930EF461CB31B7800226AC5 /* eye_exam_ref­raction.png in Resources */,
-				A930EF401CB31B7800226AC5 /* sneaker.jpg in Resources */,
-				A930EF601CB31EA300226AC5 /* normalVision.PNG in Resources */,
-				A930EF3F1CB31B7800226AC5 /* blueflops.jpg in Resources */,
 				F90E8D7C1CB1A664007DF51D /* NoFreezer.png in Resources */,
 				F90E8D761CB1A648007DF51D /* cabinet.png in Resources */,
-				A930EF431CB31B7800226AC5 /* wrong.png in Resources */,
 				F90E8D7A1CB1A660007DF51D /* no-cars1.png in Resources */,
-				A930EF591CB31EA300226AC5 /* diabetes-777001_1920.jpg in Resources */,
-				A930EF571CB31EA300226AC5 /* bloodMeter.jpg in Resources */,
-				A930EF5C1CB31EA300226AC5 /* fitness-818722_1280.jpg in Resources */,
-				A930EF421CB31B7800226AC5 /* check.png in Resources */,
 				7315F6B61C8F6C34009D9320 /* BloodSugar.storyboard in Resources */,
-				A930EF451CB31B7800226AC5 /* foot_exam.jpg in Resources */,
 				F90E8D781CB1A65B007DF51D /* insulincooler.png in Resources */,
-				A930EF611CB31EA300226AC5 /* picsAndSource.docx in Resources */,
 				73C8ED0D1C8E1CCB00A4FCEE /* Exercise.storyboard in Resources */,
-				A930EF481CB31B7800226AC5 /* Question_Mark_Icon.png in Resources */,
-				A930EF3E1CB31B7800226AC5 /* x.png in Resources */,
 				F90E8D7E1CB1A7FE007DF51D /* insulinvial.png in Resources */,
-				A930EF411CB31B7800226AC5 /* dressshoes.jpg in Resources */,
 				7315F6B91C8F7072009D9320 /* Insulin.storyboard in Resources */,
 				739FB60F1CB324DA006A654C /* Media.xcassets in Resources */,
-				A930EF631CB31EA300226AC5 /* takingBloodSugar.JPG in Resources */,
-				A930EF5F1CB31EA300226AC5 /* Main_symptoms_of_diabetes.png in Resources */,
 				7315F6BD1C8F7666009D9320 /* Complications.storyboard in Resources */,
-				A930EF5E1CB31EA300226AC5 /* istock-000023083091-medium.jpg in Resources */,
 				F96A29AA1C61999C007D9A54 /* Screen Shot 2016-02-02 at 8.09.46 PM.png in Resources */,
-				A930EF3D1CB31B7800226AC5 /* lotion.jpg in Resources */,
 				73B9B1A51CB1C68F001AB736 /* GameScene.sks in Resources */,
 				7315F6B31C8F6629009D9320 /* HealthyEating.storyboard in Resources */,
 				40E497E51C5EBB8C00ECB5F1 /* Main.storyboard in Resources */,
-				A930EF471CB31B7800226AC5 /* eyeglasses-679696_960_720.jpg in Resources */,
-				A930EF581CB31EA300226AC5 /* checkingBloodSugar.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

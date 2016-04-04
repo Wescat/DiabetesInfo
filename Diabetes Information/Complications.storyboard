@@ -1531,7 +1531,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aIS-Fh-RlB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man" translatesAutoresizingMaskIntoConstraints="NO" id="aIS-Fh-RlB">
                                 <rect key="frame" x="155" y="119" width="305" height="511"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPC-OQ-JyX">
@@ -1550,23 +1550,15 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="eL6-OE-xDi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="eL6-OE-xDi">
                                 <rect key="frame" x="270" y="149" width="20" height="19"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="w2m-3t-wof">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="w2m-3t-wof">
                                 <rect key="frame" x="199" y="577" width="20" height="19"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="5K7-JV-gel">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="5K7-JV-gel">
                                 <rect key="frame" x="260" y="276" width="20" height="19"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOc-it-Dyi">
-                                <rect key="frame" x="260" y="276" width="80" height="48"/>
-                                <connections>
-                                    <segue destination="I1c-Sd-F1m" kind="popoverPresentation" popoverAnchorView="ZOc-it-Dyi" id="fWe-AL-sEe">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb2-n0-eUh">
                                 <rect key="frame" x="226" y="322" width="54" height="35"/>
                                 <connections>
@@ -1575,7 +1567,7 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-36-3cz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="rFe-36-3cz">
                                 <rect key="frame" x="226" y="322" width="20" height="19"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What areas should I pay attention to?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a6T-gR-RBA">
@@ -1592,7 +1584,7 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XQb-35-zaL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Question_Mark_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="XQb-35-zaL">
                                 <rect key="frame" x="342" y="566" width="20" height="19"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Click on the different areas to learn more" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UPf-y3-LKF">
@@ -1601,6 +1593,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOc-it-Dyi">
+                                <rect key="frame" x="260" y="276" width="80" height="48"/>
+                                <connections>
+                                    <segue destination="I1c-Sd-F1m" kind="popoverPresentation" popoverAnchorView="ZOc-it-Dyi" id="fWe-AL-sEe">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1634,7 +1634,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="6"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye_exam_ref­raction.png" translatesAutoresizingMaskIntoConstraints="NO" id="4AA-zb-52N">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye_exam_ref­raction" translatesAutoresizingMaskIntoConstraints="NO" id="4AA-zb-52N">
                                 <rect key="frame" x="0.0" y="255" width="319" height="181"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmZ-ah-yjm">
@@ -1647,7 +1647,7 @@
                                     <segue destination="fWt-UW-h8H" kind="presentation" id="eQW-GE-w7a"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bjt-O7-c3g">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="Bjt-O7-c3g">
                                 <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Have your eyes checked once a year to avoid problems" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rk2-lt-TOV">
@@ -1700,7 +1700,7 @@
                                     <segue destination="fWt-UW-h8H" kind="presentation" id="AaI-P0-Ec3"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="JKu-xT-WwJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="JKu-xT-WwJ">
                                 <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Check your feet every day for cuts and scrapes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aXs-is-VZK">
@@ -1708,7 +1708,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foot_exam.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8HJ-eg-f9K">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="foot_exam" translatesAutoresizingMaskIntoConstraints="NO" id="8HJ-eg-f9K">
                                 <rect key="frame" x="0.0" y="245" width="319" height="189"/>
                             </imageView>
                         </subviews>
@@ -1754,10 +1754,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="4"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diabetesshot.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zno-4O-bT4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diabetesshot" translatesAutoresizingMaskIntoConstraints="NO" id="zno-4O-bT4">
                                 <rect key="frame" x="0.0" y="232" width="168" height="226"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="OLO-45-MzG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="OLO-45-MzG">
                                 <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Rotate where you give your insulin shot around your stomach" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uzU-In-5M7">
@@ -1814,10 +1814,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="4"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lotion.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IOq-nd-FK3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lotion" translatesAutoresizingMaskIntoConstraints="NO" id="IOq-nd-FK3">
                                 <rect key="frame" x="0.0" y="242" width="319" height="194"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="6iT-Ce-h5D">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="6iT-Ce-h5D">
                                 <rect key="frame" x="0.0" y="0.0" width="36" height="35"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Make sure to keep your skin clean and use lotion" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pmd-4Y-NlH">
@@ -1882,7 +1882,7 @@
                                     <segue destination="fWt-UW-h8H" kind="presentation" id="nMs-K4-YYB"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x.png" translatesAutoresizingMaskIntoConstraints="NO" id="lsy-B4-StH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="lsy-B4-StH">
                                 <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="http://www.clker.com/cliparts/x/g/3/F/8/E/transparent-red-circle-hi.png  https://usercontent1.hubstatic.com/5221980_f248.jpg" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yDu-yR-McH">
@@ -1891,22 +1891,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="3"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueflops.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Srx-SW-FDE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueflops" translatesAutoresizingMaskIntoConstraints="NO" id="Srx-SW-FDE">
                                 <rect key="frame" x="0.0" y="185" width="96" height="94"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong.png" translatesAutoresizingMaskIntoConstraints="NO" id="gpK-RK-mjX">
-                                <rect key="frame" x="0.0" y="185" width="96" height="94"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong" translatesAutoresizingMaskIntoConstraints="NO" id="gpK-RK-mjX">
+                                <rect key="frame" x="0.0" y="186" width="96" height="94"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heels.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TkJ-Y8-79Y">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heels" translatesAutoresizingMaskIntoConstraints="NO" id="TkJ-Y8-79Y">
                                 <rect key="frame" x="109" y="185" width="96" height="94"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong.png" translatesAutoresizingMaskIntoConstraints="NO" id="9dX-Ou-qUa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong" translatesAutoresizingMaskIntoConstraints="NO" id="9dX-Ou-qUa">
                                 <rect key="frame" x="109" y="185" width="96" height="94"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sandals.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HPJ-NG-HHy">
-                                <rect key="frame" x="218" y="185" width="96" height="94"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong.png" translatesAutoresizingMaskIntoConstraints="NO" id="pul-zY-Hxo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sandals" translatesAutoresizingMaskIntoConstraints="NO" id="HPJ-NG-HHy">
                                 <rect key="frame" x="218" y="185" width="96" height="94"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Flip Flops" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="m9R-ns-l7u">
@@ -1934,16 +1931,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sneaker.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EYI-Az-vxb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sneaker" translatesAutoresizingMaskIntoConstraints="NO" id="EYI-Az-vxb">
                                 <rect key="frame" x="174" y="311" width="133" height="120"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dressshoes.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9s7-DP-jCZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dressshoes" translatesAutoresizingMaskIntoConstraints="NO" id="9s7-DP-jCZ">
                                 <rect key="frame" x="15" y="311" width="139" height="120"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check.png" translatesAutoresizingMaskIntoConstraints="NO" id="fEc-UO-3Ic">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="fEc-UO-3Ic">
                                 <rect key="frame" x="15" y="311" width="40" height="40"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check.png" translatesAutoresizingMaskIntoConstraints="NO" id="a9e-EW-4Nh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="a9e-EW-4Nh">
                                 <rect key="frame" x="174" y="311" width="40" height="40"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What types of shoes should I wear?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vkc-OG-jFY">
@@ -1951,6 +1948,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrong" translatesAutoresizingMaskIntoConstraints="NO" id="pul-zY-Hxo">
+                                <rect key="frame" x="218" y="185" width="96" height="94"/>
+                            </imageView>
                         </subviews>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
@@ -1961,25 +1961,25 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Question_Mark_Icon.png" width="175" height="175"/>
-        <image name="blueflops.jpg" width="248" height="232"/>
-        <image name="check.png" width="2000" height="2000"/>
+        <image name="Question_Mark_Icon" width="175" height="175"/>
+        <image name="blueflops" width="248" height="232"/>
+        <image name="check" width="2000" height="2000"/>
         <image name="diabetes-777001_1920" width="1920" height="1280"/>
-        <image name="diabetesshot.jpg" width="200" height="291"/>
-        <image name="dressshoes.jpg" width="1280" height="960"/>
-        <image name="eye_exam_ref­raction.png" width="1920" height="1080"/>
-        <image name="foot_exam.jpg" width="980" height="653"/>
-        <image name="heels.jpg" width="550" height="550"/>
-        <image name="lotion.jpg" width="640" height="426"/>
-        <image name="man.jpg" width="791" height="1415"/>
-        <image name="sandals.jpg" width="888" height="986"/>
-        <image name="sneaker.jpg" width="537" height="402"/>
-        <image name="wrong.png" width="600" height="569"/>
-        <image name="x.png" width="64" height="64"/>
+        <image name="diabetesshot" width="200" height="291"/>
+        <image name="dressshoes" width="1280" height="960"/>
+        <image name="eye_exam_ref­raction" width="1920" height="1080"/>
+        <image name="foot_exam" width="980" height="653"/>
+        <image name="heels" width="550" height="550"/>
+        <image name="lotion" width="640" height="426"/>
+        <image name="man" width="791" height="1415"/>
+        <image name="sandals" width="888" height="986"/>
+        <image name="sneaker" width="537" height="402"/>
+        <image name="wrong" width="600" height="569"/>
+        <image name="x" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="32m-hl-Ejj"/>
         <segue reference="n15-y5-61J"/>
-        <segue reference="nMs-K4-YYB"/>
         <segue reference="RdZ-Uk-wVi"/>
     </inferredMetricsTieBreakers>
 </document>
