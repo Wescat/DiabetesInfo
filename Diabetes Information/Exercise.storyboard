@@ -2079,7 +2079,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         </scene>
     </scenes>
     <resources>
-        <image name="halfCupOfOats.jpg" width="640" height="424"/>
+        <image name="halfCupOfOats.jpg" width="1920" height="1280"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Kx4-SM-Ecw"/>
