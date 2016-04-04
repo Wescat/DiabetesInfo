@@ -66,6 +66,7 @@
 		A930EF611CB31EA300226AC5 /* picsAndSource.docx in Resources */ = {isa = PBXBuildFile; fileRef = A930EF541CB31EA300226AC5 /* picsAndSource.docx */; };
 		A930EF621CB31EA300226AC5 /* stressedPerson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A930EF551CB31EA300226AC5 /* stressedPerson.jpg */; };
 		A930EF631CB31EA300226AC5 /* takingBloodSugar.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A930EF561CB31EA300226AC5 /* takingBloodSugar.JPG */; };
+		A9E722401CB32622009002C4 /* ComplicationMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E7223F1CB32622009002C4 /* ComplicationMedia.xcassets */; };
 		F90E8D721CB1A63B007DF51D /* snickers.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D711CB1A63B007DF51D /* snickers.png */; };
 		F90E8D761CB1A648007DF51D /* cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D751CB1A648007DF51D /* cabinet.png */; };
 		F90E8D781CB1A65B007DF51D /* insulincooler.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D771CB1A65B007DF51D /* insulincooler.png */; };
@@ -158,6 +159,7 @@
 		A930EF541CB31EA300226AC5 /* picsAndSource.docx */ = {isa = PBXFileReference; lastKnownFileType = file; name = picsAndSource.docx; path = "../../../../../Volumes/Untitled 1/Pictures/picsAndSource.docx"; sourceTree = "<group>"; };
 		A930EF551CB31EA300226AC5 /* stressedPerson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stressedPerson.jpg; path = "../../../../../Volumes/Untitled 1/Pictures/stressedPerson.jpg"; sourceTree = "<group>"; };
 		A930EF561CB31EA300226AC5 /* takingBloodSugar.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = takingBloodSugar.JPG; path = "../../../../../Volumes/Untitled 1/Pictures/takingBloodSugar.JPG"; sourceTree = "<group>"; };
+		A9E7223F1CB32622009002C4 /* ComplicationMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ComplicationMedia.xcassets; sourceTree = "<group>"; };
 		F90E8D6F1CB1A61F007DF51D /* chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chips.png; path = Pics/chips.png; sourceTree = "<group>"; };
 		F90E8D711CB1A63B007DF51D /* snickers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snickers.png; path = Pics/snickers.png; sourceTree = "<group>"; };
 		F90E8D731CB1A642007DF51D /* FDA_Nutrition_Facts_Label_2006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FDA_Nutrition_Facts_Label_2006.png; path = Pics/FDA_Nutrition_Facts_Label_2006.png; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 				73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */,
 				174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */,
 				7315F6BC1C8F7666009D9320 /* Complications.storyboard */,
+				A9E7223F1CB32622009002C4 /* ComplicationMedia.xcassets */,
 			);
 			name = Complications;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				A930EF3B1CB31B7800226AC5 /* sandals.jpg in Resources */,
 				A930EF3A1CB31B7800226AC5 /* sandals.png in Resources */,
 				A930EF5B1CB31EA300226AC5 /* doctorPatient.PNG in Resources */,
+				A9E722401CB32622009002C4 /* ComplicationMedia.xcassets in Resources */,
 				40E497EA1C5EBB8C00ECB5F1 /* LaunchScreen.storyboard in Resources */,
 				739FB60D1CB32259006A654C /* Assets.xcassets in Resources */,
 				A930EF441CB31B7800226AC5 /* heels.jpg in Resources */,
