@@ -8,7 +8,7 @@
     import SpriteKit
     import UIKit
     
-    private let kAnimalNodeName = "movable"
+    private let kFoodNodeName = "movable"
     
     class GameScene: SKScene, SKPhysicsContactDelegate{
         let background = SKSpriteNode(imageNamed: "blue-shooting-stars")
@@ -45,7 +45,7 @@
             plate.physicsBody?.contactTestBitMask = 2
             plate.physicsBody?.collisionBitMask = 0
             plate.physicsBody?.affectedByGravity = false
-            //plate.physicsBody?.usesPreciseCollisionDetection = true
+            plate.physicsBody?.usesPreciseCollisionDetection = true
             plate.hidden = false
             plate.zPosition = 10
             background.addChild(plate)
@@ -75,7 +75,7 @@
                 
                 
                 let sprite = SKSpriteNode(imageNamed: imageName)
-                sprite.name = kAnimalNodeName
+                sprite.name = kFoodNodeName
                 
                 let offsetFraction = (CGFloat(i % 3) + 1.0)/(CGFloat(imageNames.count) + 1.0)
                 
@@ -130,7 +130,7 @@
                     selectedNode = touchedNode as! SKSpriteNode
                     
                     // 3
-//                    if touchedNode.name! == kAnimalNodeName {
+//                    if touchedNode.name! == kFoodNodeName {
 //                        let sequence = SKAction.sequence([SKAction.rotateByAngle(degToRad(-4.0), duration: 0.1),
 //                            SKAction.rotateByAngle(0.0, duration: 0.1),
 //                            SKAction.rotateByAngle(degToRad(4.0), duration: 0.1)])
@@ -160,7 +160,7 @@
         
         recognizer.setTranslation(CGPointZero, inView: recognizer.view)
         } else if recognizer.state == .Ended {
-//        if selectedNode.name != kAnimalNodeName{
+//        if selectedNode.name != kFoodNodeName{
 //        let scrollDuration = 0.2
 //        let velocity = recognizer.velocityInView(recognizer.view)
 //        let pos = selectedNode.position
@@ -193,7 +193,7 @@
         func panForTranslation(translation: CGPoint) {
             let position = selectedNode.position
             
-            if selectedNode.name! == kAnimalNodeName {
+            if selectedNode.name! == kFoodNodeName {
                 selectedNode.position = CGPoint(x: position.x + translation.x, y: position.y + translation.y)
             } else {
 //                let aNewPosition = CGPoint(x: position.x + translation.x, y: position.y + translation.y)
