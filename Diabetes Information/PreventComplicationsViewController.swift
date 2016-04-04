@@ -16,6 +16,7 @@ class PreventComplicationsViewController: UIPageViewController{
             self.newViewController("PreventComplications2"),
             self.newViewController("PreventComplications3"),
             self.newViewController("PreventComplications4"),
+            self.newViewController("ComplicationsActivity"),
             self.newViewController("PreventComplicationsFinal")]
     }()
     
