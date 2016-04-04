@@ -29,6 +29,7 @@
 		7332948C1C63E70900159952 /* GeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332948B1C63E70900159952 /* GeneralTipsViewController.swift */; };
 		7342F7751C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */; };
 		739FB60D1CB32259006A654C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FB60C1CB32259006A654C /* Assets.xcassets */; };
+		739FB60F1CB324DA006A654C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739FB60E1CB324DA006A654C /* Media.xcassets */; };
 		73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */; };
 		73B9B1A31CB1C683001AB736 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9B1A21CB1C683001AB736 /* GameScene.swift */; };
 		73B9B1A51CB1C68F001AB736 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73B9B1A41CB1C68F001AB736 /* GameScene.sks */; };
@@ -120,6 +121,7 @@
 		7332948B1C63E70900159952 /* GeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTipsViewController.swift; sourceTree = "<group>"; };
 		7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseAndBloodViewController.swift; sourceTree = "<group>"; };
 		739FB60C1CB32259006A654C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		739FB60E1CB324DA006A654C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseGeneralTipsViewController.swift; sourceTree = "<group>"; };
 		73B9B1A21CB1C683001AB736 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		73B9B1A41CB1C68F001AB736 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -343,6 +345,7 @@
 				73B8E1871C728221008DC8DA /* ExerciseGeneralTipsViewController.swift */,
 				7342F7741C7B918D00F6FC0E /* ExerciseAndBloodViewController.swift */,
 				73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */,
+				739FB60E1CB324DA006A654C /* Media.xcassets */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				F90E8D7E1CB1A7FE007DF51D /* insulinvial.png in Resources */,
 				A930EF411CB31B7800226AC5 /* dressshoes.jpg in Resources */,
 				7315F6B91C8F7072009D9320 /* Insulin.storyboard in Resources */,
+				739FB60F1CB324DA006A654C /* Media.xcassets in Resources */,
 				A930EF631CB31EA300226AC5 /* takingBloodSugar.JPG in Resources */,
 				A930EF5F1CB31EA300226AC5 /* Main_symptoms_of_diabetes.png in Resources */,
 				7315F6BD1C8F7666009D9320 /* Complications.storyboard in Resources */,
