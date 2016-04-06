@@ -2076,6 +2076,10 @@
         <scene sceneID="sU0-3U-bFX">
             <objects>
                 <viewController id="Raw-TL-qBM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J6k-ea-xBz"/>
+                        <viewControllerLayoutGuide type="bottom" id="8YC-Is-qGu"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vS2-h1-b7u">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2104,8 +2108,8 @@
         <image name="x" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="RdZ-Uk-wVi"/>
         <segue reference="Qqz-CP-Db5"/>
         <segue reference="n15-y5-61J"/>
-        <segue reference="RdZ-Uk-wVi"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -19,6 +19,7 @@ class DrawInsulinViewController: UIPageViewController{
             self.newViewController("drawInsulin5"),
             self.newViewController("drawInsulin6"),
             self.newViewController("drawInsulin7"),
+            self.newViewController("insulinactivity"),
             self.newViewController("drawInsulinFinal")]
     }()
     
