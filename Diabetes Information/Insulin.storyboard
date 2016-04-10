@@ -2014,7 +2014,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                             <constraint firstAttribute="height" constant="75" id="Gmv-Ri-WLK"/>
                                             <constraint firstAttribute="width" constant="213" id="Yp1-e0-ThU"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTF-Di-Wr9">
@@ -2042,22 +2042,24 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <rect key="frame" x="0.0" y="83" width="768" height="941"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hi0-s2-L48">
-                                        <rect key="frame" x="174" y="306" width="420" height="70"/>
+                                        <rect key="frame" x="192" y="123" width="385" height="230"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="rzV-TJ-UWq"/>
+                                            <constraint firstAttribute="height" constant="230" id="rzV-TJ-UWq"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="How to draw up and give your insulin"/>
                                         <connections>
                                             <segue destination="fLW-cB-z7D" kind="modal" id="1Jk-Sv-Yyf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcb-og-klu">
-                                        <rect key="frame" x="220" y="436" width="328" height="70"/>
+                                        <rect key="frame" x="192" y="498" width="385" height="230"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="ZHb-7H-XN3"/>
+                                            <constraint firstAttribute="height" constant="230" id="ZHb-7H-XN3"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <state key="normal" title="Basics"/>
                                         <connections>
                                             <segue destination="0SO-as-3a4" kind="modal" id="iqZ-Tl-sUT"/>
@@ -2066,13 +2068,13 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 </subviews>
                                 <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Hi0-s2-L48" firstAttribute="leading" secondItem="gEd-Vk-r9A" secondAttribute="leading" constant="174" id="YdQ-JZ-6xC"/>
-                                    <constraint firstItem="Rcb-og-klu" firstAttribute="top" secondItem="Hi0-s2-L48" secondAttribute="bottom" constant="60" id="ggd-r5-MNK"/>
-                                    <constraint firstItem="Rcb-og-klu" firstAttribute="leading" secondItem="gEd-Vk-r9A" secondAttribute="leading" constant="220" id="mm7-uc-GkN"/>
-                                    <constraint firstAttribute="trailing" secondItem="Hi0-s2-L48" secondAttribute="trailing" constant="174" id="sEd-Kb-Pzr"/>
-                                    <constraint firstItem="Rcb-og-klu" firstAttribute="centerY" secondItem="gEd-Vk-r9A" secondAttribute="centerY" id="trM-jd-bE8"/>
-                                    <constraint firstAttribute="trailing" secondItem="Rcb-og-klu" secondAttribute="trailing" constant="220" id="xF3-Pr-CVq"/>
-                                    <constraint firstItem="Rcb-og-klu" firstAttribute="top" secondItem="Hi0-s2-L48" secondAttribute="bottom" constant="60" id="yhx-g5-1If"/>
+                                    <constraint firstItem="Hi0-s2-L48" firstAttribute="leading" secondItem="gEd-Vk-r9A" secondAttribute="leading" constant="192" id="YdQ-JZ-6xC"/>
+                                    <constraint firstItem="Rcb-og-klu" firstAttribute="top" secondItem="Hi0-s2-L48" secondAttribute="bottom" constant="145" id="ggd-r5-MNK"/>
+                                    <constraint firstItem="Rcb-og-klu" firstAttribute="leading" secondItem="gEd-Vk-r9A" secondAttribute="leading" constant="192" id="mm7-uc-GkN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hi0-s2-L48" secondAttribute="trailing" constant="191" id="sEd-Kb-Pzr"/>
+                                    <constraint firstItem="Rcb-og-klu" firstAttribute="centerY" secondItem="gEd-Vk-r9A" secondAttribute="centerY" constant="142.5" id="trM-jd-bE8"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rcb-og-klu" secondAttribute="trailing" constant="191" id="xF3-Pr-CVq"/>
+                                    <constraint firstItem="Rcb-og-klu" firstAttribute="top" secondItem="Hi0-s2-L48" secondAttribute="bottom" constant="145" id="yhx-g5-1If"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -2692,10 +2694,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
         <image name="x" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bEV-X7-VYP"/>
-        <segue reference="IuD-eK-JQN"/>
+        <segue reference="iqZ-Tl-sUT"/>
+        <segue reference="1Jk-Sv-Yyf"/>
         <segue reference="Qgy-DL-VT5"/>
-        <segue reference="hRg-Xx-0cX"/>
-        <segue reference="h5W-TJ-XMH"/>
+        <segue reference="IuD-eK-JQN"/>
+        <segue reference="bEV-X7-VYP"/>
     </inferredMetricsTieBreakers>
 </document>

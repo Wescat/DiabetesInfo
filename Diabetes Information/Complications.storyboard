@@ -52,53 +52,45 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSm-cn-czT">
                                 <rect key="frame" x="10" y="93" width="768" height="941"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycz-R0-ffv">
-                                        <rect key="frame" x="220" y="436" width="328" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="AjB-u0-sfd"/>
-                                        </constraints>
-                                        <state key="normal" title="Sick Days"/>
-                                        <connections>
-                                            <segue destination="AgF-PH-JnS" kind="modal" id="HbX-yd-JZM"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4G-iF-xw8">
-                                        <rect key="frame" x="174" y="303" width="420" height="70"/>
+                                        <rect key="frame" x="192" y="126" width="385" height="230"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="dFs-CC-sRZ"/>
+                                            <constraint firstAttribute="height" constant="230" id="dFs-CC-sRZ"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <state key="normal" title="Preventing Complications"/>
                                         <connections>
                                             <segue destination="9Pn-1G-4aQ" kind="modal" id="RdZ-Uk-wVi"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycz-R0-ffv">
+                                        <rect key="frame" x="192" y="462" width="385" height="230"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="230" id="AjB-u0-sfd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <state key="normal" title="Sick Days"/>
+                                        <connections>
+                                            <segue destination="AgF-PH-JnS" kind="modal" id="HbX-yd-JZM"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="leading" secondItem="dSm-cn-czT" secondAttribute="leading" constant="220" id="AqJ-eV-adE"/>
-                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="top" secondItem="F4G-iF-xw8" secondAttribute="bottom" constant="63" id="CsQ-DK-Td8"/>
-                                    <constraint firstAttribute="trailing" secondItem="ycz-R0-ffv" secondAttribute="trailing" constant="220" id="GJs-6j-RV4"/>
-                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="top" secondItem="F4G-iF-xw8" secondAttribute="bottom" constant="63" id="IEx-VD-hc0"/>
-                                    <constraint firstItem="F4G-iF-xw8" firstAttribute="leading" secondItem="dSm-cn-czT" secondAttribute="leading" constant="174" id="LMt-Q6-UCH"/>
-                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="centerY" secondItem="dSm-cn-czT" secondAttribute="centerY" id="fio-m1-B6g"/>
-                                    <constraint firstAttribute="trailing" secondItem="F4G-iF-xw8" secondAttribute="trailing" constant="174" id="hzB-i2-pZm"/>
+                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="leading" secondItem="dSm-cn-czT" secondAttribute="leading" constant="192" id="AqJ-eV-adE"/>
+                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="top" secondItem="F4G-iF-xw8" secondAttribute="bottom" constant="106" id="CsQ-DK-Td8"/>
+                                    <constraint firstAttribute="trailing" secondItem="ycz-R0-ffv" secondAttribute="trailing" constant="191" id="GJs-6j-RV4"/>
+                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="top" secondItem="F4G-iF-xw8" secondAttribute="bottom" constant="106" id="IEx-VD-hc0"/>
+                                    <constraint firstItem="F4G-iF-xw8" firstAttribute="leading" secondItem="dSm-cn-czT" secondAttribute="leading" constant="192" id="LMt-Q6-UCH"/>
+                                    <constraint firstItem="ycz-R0-ffv" firstAttribute="centerY" secondItem="dSm-cn-czT" secondAttribute="centerY" constant="106.5" id="fio-m1-B6g"/>
+                                    <constraint firstAttribute="trailing" secondItem="F4G-iF-xw8" secondAttribute="trailing" constant="191" id="hzB-i2-pZm"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hu-56-cbY">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="75"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WTC-d4-IZ3">
-                                        <rect key="frame" x="278" y="0.0" width="213" height="75"/>
-                                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="213" id="4Ul-BB-Ko7"/>
-                                            <constraint firstAttribute="height" constant="75" id="z9G-c2-yux"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nz-az-UQs">
                                         <rect key="frame" x="9" y="23" width="76" height="30"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -110,6 +102,16 @@
                                             <action selector="onMainMenuPress:" destination="YIo-SV-9eK" eventType="touchUpInside" id="FsN-n8-vdB"/>
                                         </connections>
                                     </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Complications" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WTC-d4-IZ3">
+                                        <rect key="frame" x="242" y="0.0" width="285" height="75"/>
+                                        <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="285" id="4Ul-BB-Ko7"/>
+                                            <constraint firstAttribute="height" constant="75" id="z9G-c2-yux"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.85425327070000001" blue="0.24901533100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -149,7 +151,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="974.08000000000004" y="839.68000000000006"/>
+            <point key="canvasLocation" x="-242" y="-113"/>
         </scene>
         <!--Prevent Complications View Controller-->
         <scene sceneID="MLw-NA-CqB">
@@ -157,7 +159,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="9Pn-1G-4aQ" customClass="PreventComplicationsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ygg-lh-JKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="339.19999999999999" y="2314.2400000000002"/>
+            <point key="canvasLocation" x="-877" y="1362"/>
         </scene>
         <!--Sick Days View Controller-->
         <scene sceneID="kx0-2y-tiZ">
@@ -165,7 +167,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="AgF-PH-JnS" customClass="SickDaysViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zYs-1j-J6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1585.9200000000001" y="2314.2400000000002"/>
+            <point key="canvasLocation" x="369" y="1362"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L7v-VF-QX0">
@@ -292,7 +294,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fYm-14-OMn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Bhq-a1-fqN"/>
             </objects>
-            <point key="canvasLocation" x="-565.75999999999999" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="-918" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="foi-Kn-M1F">
@@ -427,7 +429,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJS-jw-Q00" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="agL-4X-Vwi"/>
             </objects>
-            <point key="canvasLocation" x="328.95999999999998" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="-24" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OYV-MX-vCE">
@@ -559,7 +561,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suR-WJ-8yl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="dGs-hE-287"/>
             </objects>
-            <point key="canvasLocation" x="1172.48" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="820" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4sM-97-6OV">
@@ -695,7 +697,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGc-5u-6bO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="7XT-lC-gDO"/>
             </objects>
-            <point key="canvasLocation" x="2009.6000000000001" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="1657" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1To-at-yI7">
@@ -822,7 +824,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wff-my-Y1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="qb5-2h-Ri3"/>
             </objects>
-            <point key="canvasLocation" x="2844.1599999999999" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="2492" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ibV-VY-gmI">
@@ -949,7 +951,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vS-x6-H0N" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="MS6-q8-YK3"/>
             </objects>
-            <point key="canvasLocation" x="3691.52" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="3339" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZWh-i3-Hpz">
@@ -1079,7 +1081,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fv3-va-qLx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="kWT-WQ-Kdd"/>
             </objects>
-            <point key="canvasLocation" x="4569.6000000000004" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="4217" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="u2A-Ec-eZ5">
@@ -1208,7 +1210,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SLF-Dw-sYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="iMm-jE-1qj"/>
             </objects>
-            <point key="canvasLocation" x="5441.2799999999997" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="5089" y="4105"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jSf-HP-Tpc">
@@ -1337,7 +1339,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fsZ-1p-5tq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="oT1-Np-9oY"/>
             </objects>
-            <point key="canvasLocation" x="6348.8000000000002" y="5649.0666666666666"/>
+            <point key="canvasLocation" x="5996" y="4105"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="ZbR-xE-S9m">
@@ -1427,7 +1429,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z6k-jy-UYZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Uc0-Jm-4c9"/>
             </objects>
-            <point key="canvasLocation" x="272.63999999999999" y="3804.1600000000003"/>
+            <point key="canvasLocation" x="-944" y="2852"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="pDL-gi-e0u">
@@ -1517,7 +1519,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DfF-aG-JhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="m1d-HA-UwO"/>
             </objects>
-            <point key="canvasLocation" x="1585.9200000000001" y="3790.5066666666671"/>
+            <point key="canvasLocation" x="369" y="2838"/>
         </scene>
         <!--Comp Activity-->
         <scene sceneID="ADQ-hF-S5t">
@@ -1608,7 +1610,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZs-OO-XY7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2485.7600000000002" y="2013.8666666666668"/>
+            <point key="canvasLocation" x="1269" y="1061"/>
         </scene>
         <!--Eyes-->
         <scene sceneID="kSq-VJ-K8Z">
@@ -1663,7 +1665,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BPA-cP-POi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3491.8400000000001" y="2314.2400000000002"/>
+            <point key="canvasLocation" x="2275" y="1362"/>
         </scene>
         <!--Feet-->
         <scene sceneID="CLT-0r-fd7">
@@ -1674,7 +1676,7 @@
                         <viewControllerLayoutGuide type="bottom" id="squ-by-DEg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleAspectFit" id="1mQ-4f-Sgp">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BPV-nV-D8F">
@@ -1718,7 +1720,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sDo-21-aZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3491.8400000000001" y="1122.9866666666667"/>
+            <point key="canvasLocation" x="2275" y="170"/>
         </scene>
         <!--Stomach-->
         <scene sceneID="J7Q-kd-E76">
@@ -1777,7 +1779,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2QJ-v8-YIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4405.7600000000002" y="1122.9866666666667"/>
+            <point key="canvasLocation" x="3189" y="170"/>
         </scene>
         <!--Skin-->
         <scene sceneID="mbv-Q3-hct">
@@ -1832,7 +1834,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="30f-oh-wA6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4405.7600000000002" y="2314.2400000000002"/>
+            <point key="canvasLocation" x="3189" y="1362"/>
         </scene>
         <!--Feet2-->
         <scene sceneID="2P0-Nn-Okk">
@@ -1958,7 +1960,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i8l-It-dI8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2598.4000000000001" y="1020.5866666666667"/>
+            <point key="canvasLocation" x="1382" y="68"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="38N-a4-6lq">
@@ -2070,7 +2072,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNZ-HI-f7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="I4Y-FR-DYb"/>
             </objects>
-            <point key="canvasLocation" x="2485.7600000000002" y="3580.586666666667"/>
+            <point key="canvasLocation" x="1269" y="2628"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sU0-3U-bFX">
@@ -2088,7 +2090,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Usj-LI-9IU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="432.63999999999999" y="-340.48000000000002"/>
+            <point key="canvasLocation" x="596" y="-611"/>
         </scene>
     </scenes>
     <resources>
@@ -2109,8 +2111,8 @@
         <image name="x" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="n15-y5-61J"/>
+        <segue reference="HbX-yd-JZM"/>
+        <segue reference="RdZ-Uk-wVi"/>
         <segue reference="Qqz-CP-Db5"/>
-        <segue reference="stX-Z9-iDy"/>
     </inferredMetricsTieBreakers>
 </document>

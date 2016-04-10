@@ -17,29 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VsL-cA-fkd">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VsL-cA-fkd">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1024"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ssf-47-IOW">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssf-47-IOW">
                                         <rect key="frame" x="0.0" y="83" width="600" height="941"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyv-St-W13">
-                                                <rect key="frame" x="161" y="436" width="279" height="70"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyv-St-W13">
+                                                <rect key="frame" x="108" y="467" width="385" height="230"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="70" id="8zx-Cc-BSk"/>
+                                                    <constraint firstAttribute="height" constant="230" id="8zx-Cc-BSk"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <state key="normal" title="What Do Your Blood Sugar Levels Mean?"/>
                                                 <connections>
                                                     <segue destination="5X9-JZ-0Ek" kind="modal" id="dpB-tG-hoK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGb-HJ-WvL">
-                                                <rect key="frame" x="174" y="306" width="252" height="70"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGb-HJ-WvL">
+                                                <rect key="frame" x="108" y="145" width="385" height="230"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="70" id="fHX-di-vgG"/>
+                                                    <constraint firstAttribute="height" constant="230" id="fHX-di-vgG"/>
                                                 </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                                 <state key="normal" title="How to Check Your Blood Sugar"/>
                                                 <connections>
                                                     <segue destination="kH4-dT-dS5" kind="modal" id="VpC-WG-1Cw"/>
@@ -48,28 +50,18 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="centerY" secondItem="ssf-47-IOW" secondAttribute="centerY" id="27r-83-ogh"/>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="60" id="A51-cg-UTS"/>
-                                            <constraint firstAttribute="trailing" secondItem="zyv-St-W13" secondAttribute="trailing" constant="160" id="H11-eu-XEK"/>
-                                            <constraint firstAttribute="trailing" secondItem="IGb-HJ-WvL" secondAttribute="trailing" constant="174" id="fyy-1H-FQV"/>
-                                            <constraint firstItem="IGb-HJ-WvL" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="174" id="hcL-mR-nkx"/>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="60" id="mlY-b1-Uko"/>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="161" id="ySm-Cu-CpQ"/>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="centerY" secondItem="ssf-47-IOW" secondAttribute="centerY" constant="111.5" id="27r-83-ogh"/>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="92" id="A51-cg-UTS"/>
+                                            <constraint firstAttribute="trailing" secondItem="zyv-St-W13" secondAttribute="trailing" constant="107" id="H11-eu-XEK"/>
+                                            <constraint firstAttribute="trailing" secondItem="IGb-HJ-WvL" secondAttribute="trailing" constant="107" id="fyy-1H-FQV"/>
+                                            <constraint firstItem="IGb-HJ-WvL" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="108" id="hcL-mR-nkx"/>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="92" id="mlY-b1-Uko"/>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="108" id="ySm-Cu-CpQ"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6e1-Ug-hIU">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6e1-Ug-hIU">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mer-3j-ndj">
-                                                <rect key="frame" x="194" y="0.0" width="213" height="75"/>
-                                                <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="75" id="OhR-x0-pl7"/>
-                                                    <constraint firstAttribute="width" constant="213" id="bja-lh-dxP"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rB7-5d-TVt">
                                                 <rect key="frame" x="9" y="23" width="76" height="30"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -81,6 +73,16 @@
                                                     <action selector="onMainMenuPress:" destination="xup-C3-Nve" eventType="touchUpInside" id="C1r-sA-rGO"/>
                                                 </connections>
                                             </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mer-3j-ndj">
+                                                <rect key="frame" x="169" y="0.0" width="262" height="75"/>
+                                                <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="OhR-x0-pl7"/>
+                                                    <constraint firstAttribute="width" constant="262" id="bja-lh-dxP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -117,7 +119,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Un0-vW-lmp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="hNk-7C-Ddt"/>
             </objects>
-            <point key="canvasLocation" x="-2932.48" y="7765.3333333333339"/>
+            <point key="canvasLocation" x="-3733" y="5202"/>
         </scene>
         <!--Check Sugar Page View Controller-->
         <scene sceneID="gnj-DS-YYc">
@@ -125,7 +127,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="kH4-dT-dS5" customClass="CheckSugarPageViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pwF-yu-qCr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1655.04" y="6978.5600000000004"/>
+            <point key="canvasLocation" x="-2456" y="4415"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AFX-mr-7CL">
@@ -256,7 +258,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YDh-nO-F28" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="FLa-ci-XIk"/>
             </objects>
-            <point key="canvasLocation" x="-770.56000000000006" y="6959.7866666666669"/>
+            <point key="canvasLocation" x="-1571" y="4396"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iN5-59-aFY">
@@ -387,7 +389,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uDV-ze-3pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="5de-Xp-8RO"/>
             </objects>
-            <point key="canvasLocation" x="134.40000000000001" y="6959.7866666666669"/>
+            <point key="canvasLocation" x="-666" y="4396"/>
         </scene>
         <!--Sugar Level Page View Controller-->
         <scene sceneID="1nG-xr-5tx">
@@ -395,7 +397,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="5X9-JZ-0Ek" customClass="SugarLevelPageViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="si8-9B-3nr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1685.76" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="-2486" y="6176"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="a2M-p8-klJ">
@@ -526,7 +528,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bVh-NA-JIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="cyG-um-9ja"/>
             </objects>
-            <point key="canvasLocation" x="-770.56000000000006" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="-1571" y="6176"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oxK-ji-IQT">
@@ -661,7 +663,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ia5-4c-MZ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="oah-9x-tTz"/>
             </objects>
-            <point key="canvasLocation" x="134.40000000000001" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="-666" y="6176"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="B2o-6L-xeU">
@@ -789,7 +791,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Da-5h-jk4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="WLA-wu-l8I"/>
             </objects>
-            <point key="canvasLocation" x="1006.08" y="6959.7866666666669"/>
+            <point key="canvasLocation" x="206" y="4396"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PKy-21-SP3">
@@ -924,7 +926,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g8t-CI-D0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="sr1-7M-bSt"/>
             </objects>
-            <point key="canvasLocation" x="1006.08" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="206" y="6176"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="79R-xN-xoR">
@@ -1059,7 +1061,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgi-Uu-V41" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="BlU-MF-H79"/>
             </objects>
-            <point key="canvasLocation" x="1886.72" y="6959.7866666666669"/>
+            <point key="canvasLocation" x="1086" y="4396"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Eqw-T8-OZi">
@@ -1197,7 +1199,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hp4-mW-yuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="btr-Q7-Hri"/>
             </objects>
-            <point key="canvasLocation" x="1886.72" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="1086" y="6176"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XWq-4e-s9I">
@@ -1336,7 +1338,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ke-8q-cu8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="0hN-9i-Nxq"/>
             </objects>
-            <point key="canvasLocation" x="2767.3600000000001" y="6959.7866666666669"/>
+            <point key="canvasLocation" x="1967" y="4396"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bdI-mB-YLi">
@@ -1471,7 +1473,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEN-I5-5Z1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="SMM-PG-ri2"/>
             </objects>
-            <point key="canvasLocation" x="2767.3600000000001" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="1967" y="6176"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qMA-Mj-uce">
@@ -1607,7 +1609,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v98-oe-hIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="dW6-9W-uec"/>
             </objects>
-            <point key="canvasLocation" x="3663.3600000000001" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="2863" y="6176"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nRN-fC-D3v">
@@ -1743,7 +1745,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79F-So-4iy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="LgO-0u-MCI"/>
             </objects>
-            <point key="canvasLocation" x="3622.4000000000001" y="6959.7866666666669"/>
+            <point key="canvasLocation" x="2822" y="4396"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ebY-z9-Q1L">
@@ -1880,7 +1882,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="214-0W-tVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="0KO-SH-dsi"/>
             </objects>
-            <point key="canvasLocation" x="4456.96" y="6959.7866666666669"/>
+            <point key="canvasLocation" x="3656" y="4396"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="4zY-YC-ta7">
@@ -1970,7 +1972,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6y-sk-LZC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="HoU-SC-ZpW"/>
             </objects>
-            <point key="canvasLocation" x="4538.8800000000001" y="8739.8400000000001"/>
+            <point key="canvasLocation" x="3738" y="6176"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="gEI-i5-A3M">
@@ -2060,7 +2062,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9oK-JV-dks" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="xzE-Ix-rpB"/>
             </objects>
-            <point key="canvasLocation" x="5360.6400000000003" y="6978.5600000000004"/>
+            <point key="canvasLocation" x="4560" y="4415"/>
         </scene>
     </scenes>
     <resources>
@@ -2069,7 +2071,7 @@
         <image name="takingBloodSugar" width="570" height="270"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xXM-Nl-1r3"/>
-        <segue reference="qg1-NT-U14"/>
+        <segue reference="VpC-WG-1Cw"/>
+        <segue reference="dpB-tG-hoK"/>
     </inferredMetricsTieBreakers>
 </document>
