@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7bW-zW-YL2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="7bW-zW-YL2">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,14 +15,14 @@
                         <viewControllerLayoutGuide type="bottom" id="MLS-wE-hUS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ic3-fv-K6g">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWi-Jt-vvN">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jq0-vl-JbZ">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="Pqk-sQ-grt"/>
@@ -31,7 +31,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R9W-lD-RUh">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="ljI-II-aAm"/>
@@ -55,7 +55,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CAf-fu-D84">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="BBz-io-nZW">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -76,10 +76,10 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBg-dU-kxQ">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BF8-1w-EEv">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="mut-fp-DxQ"/>
@@ -88,7 +88,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="11z-6X-hR7">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="ckz-Hi-eOP"/>
@@ -134,7 +134,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5e-fr-rXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="4aa-ek-GOv"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="4009"/>
+            <point key="canvasLocation" x="-1006" y="4986"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Va-Ob-9IH">
@@ -145,14 +145,14 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                         <viewControllerLayoutGuide type="bottom" id="2tJ-ih-jWI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YB7-ML-U22">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcJ-3E-uO2">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SH2-SW-D99">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="D1b-7Q-Xtc"/>
@@ -161,7 +161,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Insulin occurs naturally in your body and is a hormone made by your pancreas" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64T-Jd-kXz">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="eR9-cX-mUH"/>
@@ -182,7 +182,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Czd-34-5J6">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" translatesAutoresizingMaskIntoConstraints="NO" id="ctS-uj-8UY">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -203,10 +203,10 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y1X-XM-Oxr">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ud8-ue-zfn">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="sVk-C2-Bpz"/>
@@ -215,7 +215,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WKz-Qw-pGU">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="UVN-HQ-qHA"/>
@@ -261,7 +261,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2W-hR-7ze" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="oET-4A-xwW"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="4675"/>
+            <point key="canvasLocation" x="-1006" y="6122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TU9-v0-Xil">
@@ -272,11 +272,11 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                         <viewControllerLayoutGuide type="bottom" id="VcS-Sd-WgJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="06c-2y-bDW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGB-au-L5L">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="nOr-c7-7QJ">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -297,10 +297,10 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="39l-Rz-BMZ">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9sL-ZJ-uvM">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="H1k-nJ-a5x"/>
@@ -309,7 +309,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GUv-cg-B9k">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="iic-7g-6rt"/>
@@ -331,10 +331,10 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSo-zo-DKj">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Kp-MT-B9F">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="fjY-tW-IKm"/>
@@ -343,7 +343,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lwo-2M-owN">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="0xS-vF-I9h"/>
@@ -391,7 +391,7 @@ Then, remove the cap from the needle and pull back the plunger to pull in enough
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qnl-Qg-L4q" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="0uN-pO-Oeh"/>
             </objects>
-            <point key="canvasLocation" x="251" y="3993"/>
+            <point key="canvasLocation" x="-119" y="4958"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kRo-6b-xnl">
@@ -402,14 +402,14 @@ Then, remove the cap from the needle and pull back the plunger to pull in enough
                         <viewControllerLayoutGuide type="bottom" id="brL-eV-4yj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZOv-Ny-a4B">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xka-WX-PCe">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J9X-3O-OTE">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="a4w-qB-GMI"/>
@@ -418,7 +418,7 @@ Then, remove the cap from the needle and pull back the plunger to pull in enough
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zT3-YD-dXS">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="jyf-Ss-mgl"/>
@@ -442,7 +442,7 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jvr-9g-9wL">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="Edc-xi-KV8">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -463,10 +463,10 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxa-8U-lXo">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rWF-mi-AcC">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="V74-F4-Gbj"/>
@@ -475,7 +475,7 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="M1E-IG-OJF">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="1FO-mj-S4X"/>
@@ -521,7 +521,7 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejh-II-yeu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="CuK-Kg-Adp"/>
             </objects>
-            <point key="canvasLocation" x="251" y="4675"/>
+            <point key="canvasLocation" x="-119" y="6122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IbD-Ck-1Hp">
@@ -532,14 +532,14 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                         <viewControllerLayoutGuide type="bottom" id="Nty-7v-AxR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fSE-vO-0B3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LsH-pQ-fNA">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O0x-7p-ps9">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="oy6-z4-Wyd"/>
@@ -548,7 +548,7 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Rl-Ac-M6d">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="UAj-r3-ym4"/>
@@ -572,7 +572,7 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QCc-al-dmY">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="hOI-bp-Kqv">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -593,10 +593,10 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oZQ-FL-rnt">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pRM-dU-AoN">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="SWO-pL-hLj"/>
@@ -605,7 +605,7 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Blk-pC-oUd">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="2P1-uV-Lxx"/>
@@ -651,7 +651,7 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tw9-XV-O1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Yhm-dd-Osu"/>
             </objects>
-            <point key="canvasLocation" x="916" y="3993"/>
+            <point key="canvasLocation" x="732" y="4958"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y9p-ga-uth">
@@ -662,14 +662,14 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                         <viewControllerLayoutGuide type="bottom" id="0B6-Cm-PQq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GYu-qP-kKn">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KR6-Fh-oEW">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin has three main features:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AYT-ui-9ta">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="hk9-va-4co"/>
@@ -678,7 +678,7 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qC6-xK-wgi">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="PNK-lU-pwK"/>
@@ -704,7 +704,7 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zg7-qC-gWo">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="12h-cp-Xtn">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -725,10 +725,10 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQO-A8-Twz">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wms-bI-lLh">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="jBD-hQ-nlI"/>
@@ -737,7 +737,7 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pn2-zB-b5G">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="P7V-kc-YYY"/>
@@ -783,7 +783,7 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gt7-0L-nUQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="XSc-da-EDg"/>
             </objects>
-            <point key="canvasLocation" x="916" y="4675"/>
+            <point key="canvasLocation" x="732" y="6122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TKG-U1-494">
@@ -794,14 +794,14 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                         <viewControllerLayoutGuide type="bottom" id="Z7b-5d-PCw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Jka-DC-bfg">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lak-Pa-SJc">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bEd-qf-pqQ">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="0OV-kq-s7M"/>
@@ -810,7 +810,7 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jHx-hA-aC7">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="KWN-I7-ups"/>
@@ -834,7 +834,7 @@ Then, remove the needle from the bottle</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z9v-tp-aEh">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="eEb-e4-FqO">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -855,10 +855,10 @@ Then, remove the needle from the bottle</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="000-4n-cW7">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L6x-xP-7gV">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="YDa-z3-ARb"/>
@@ -867,7 +867,7 @@ Then, remove the needle from the bottle</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ueW-OR-48j">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="EL2-iZ-4bm"/>
@@ -913,7 +913,7 @@ Then, remove the needle from the bottle</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxf-dH-Iqb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="xkA-lL-qSK"/>
             </objects>
-            <point key="canvasLocation" x="1570" y="3999"/>
+            <point key="canvasLocation" x="1569" y="4968"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="O8k-B3-mfn">
@@ -924,14 +924,14 @@ Then, remove the needle from the bottle</string>
                         <viewControllerLayoutGuide type="bottom" id="u7p-iT-sgd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="j8y-WS-FiB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jLt-vV-aZv">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="x3L-lH-Zse">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="saP-Nx-b2g"/>
@@ -940,7 +940,7 @@ Then, remove the needle from the bottle</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-hV-Usi">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="lhe-7v-ov8"/>
@@ -962,7 +962,7 @@ Then, remove the needle from the bottle</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Scp-sA-kmD">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="64u-fq-6kv">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -983,10 +983,10 @@ Then, remove the needle from the bottle</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ec-1X-Zkv">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rub-NV-H8t">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="Q9h-l5-ces"/>
@@ -995,7 +995,7 @@ Then, remove the needle from the bottle</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ufC-aq-eyt">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="WzE-m6-1nj"/>
@@ -1041,7 +1041,7 @@ Then, remove the needle from the bottle</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RWl-ff-5ti" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="W7Z-Lf-d5h"/>
             </objects>
-            <point key="canvasLocation" x="1577" y="4675"/>
+            <point key="canvasLocation" x="1578" y="6122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5Fc-2T-co0">
@@ -1052,14 +1052,14 @@ Then, remove the needle from the bottle</string>
                         <viewControllerLayoutGuide type="bottom" id="eRg-hD-x6z"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RSq-oN-2AO">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Bt-uH-PJE">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6oQ-rW-BMI">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="xsZ-59-cw6"/>
@@ -1068,7 +1068,7 @@ Then, remove the needle from the bottle</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64o-hJ-zxW">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="aT6-P7-gmE"/>
@@ -1092,7 +1092,7 @@ Make sure that area of your skin is clean</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KYU-DP-KNm">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="hyf-Y9-DIl">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1113,10 +1113,10 @@ Make sure that area of your skin is clean</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLg-si-DIS">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UPx-Tt-6z7">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="IUG-Du-NYO"/>
@@ -1125,7 +1125,7 @@ Make sure that area of your skin is clean</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jBj-YB-BlY">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="oF1-xe-jsJ"/>
@@ -1171,7 +1171,7 @@ Make sure that area of your skin is clean</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Gc-XX-uHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Kil-9c-azR"/>
             </objects>
-            <point key="canvasLocation" x="2222" y="4009"/>
+            <point key="canvasLocation" x="2404" y="4986"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pWu-w4-YkW">
@@ -1182,14 +1182,14 @@ Make sure that area of your skin is clean</string>
                         <viewControllerLayoutGuide type="bottom" id="sGB-U0-cer"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ou9-9J-GSe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjN-Ej-SSi">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bjl-O7-CzA">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="q4p-Tt-qic"/>
@@ -1198,7 +1198,7 @@ Make sure that area of your skin is clean</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Because insulin is broken down by the digestion in your stomach, it cannot be given in a pill form" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dHc-0s-h2d">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="MqI-CD-f2X"/>
@@ -1219,7 +1219,7 @@ Make sure that area of your skin is clean</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0kN-g9-nt9">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="fGr-Zg-gbi">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1240,10 +1240,10 @@ Make sure that area of your skin is clean</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4U-8m-EV6">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ydY-Bh-V25">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="vng-ee-bgS"/>
@@ -1252,7 +1252,7 @@ Make sure that area of your skin is clean</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tyW-FB-KJ2">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="CPA-sw-F5C"/>
@@ -1298,7 +1298,7 @@ Make sure that area of your skin is clean</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mbt-l6-GY2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="kZE-Yk-dJp"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="4675"/>
+            <point key="canvasLocation" x="2424" y="6122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TqD-zM-NGn">
@@ -1309,14 +1309,14 @@ Make sure that area of your skin is clean</string>
                         <viewControllerLayoutGuide type="bottom" id="DJh-rt-TRk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eSc-H1-AQU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pGm-A8-7mO">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WYz-ne-OzN">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="X8K-yY-j4N"/>
@@ -1325,7 +1325,7 @@ Make sure that area of your skin is clean</string>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hyK-aa-szu">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="G8R-fZ-IaM"/>
@@ -1351,7 +1351,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvf-9g-xTN">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="uyC-tY-mDT">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1372,10 +1372,10 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUv-z5-kEG">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Z2O-n0-Hz4">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="pZ6-qY-cRu"/>
@@ -1384,7 +1384,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="suf-Rl-X9r">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="KOY-gV-Eip"/>
@@ -1430,7 +1430,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PNs-mY-QFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="eCm-A0-Wao"/>
             </objects>
-            <point key="canvasLocation" x="2884" y="3999"/>
+            <point key="canvasLocation" x="3251" y="4968"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gIs-Jv-WOg">
@@ -1441,14 +1441,14 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                         <viewControllerLayoutGuide type="bottom" id="PEY-Ik-a2n"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Upw-71-apN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yK8-ax-bKo">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Most often, insulin is injected into a layer of fat below your skin called “subcutaneous tissue”" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odY-mq-Ldw">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="VJj-2m-Fxv"/>
@@ -1457,7 +1457,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HXP-7n-Du2">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="Vc7-ns-5pr"/>
@@ -1481,7 +1481,7 @@ Choose an area that you can see and reach and rotate within that area to avoid s
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Oh-LW-gxU">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="qWS-CY-Lc5">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1502,10 +1502,10 @@ Choose an area that you can see and reach and rotate within that area to avoid s
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YBg-0D-PZ5">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PAz-W0-y0s">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="SZv-wK-POA"/>
@@ -1514,7 +1514,7 @@ Choose an area that you can see and reach and rotate within that area to avoid s
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ClT-PE-FdW">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="j3e-BW-3e7"/>
@@ -1560,7 +1560,7 @@ Choose an area that you can see and reach and rotate within that area to avoid s
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ilx-VU-zvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="5Kh-LP-ynB"/>
             </objects>
-            <point key="canvasLocation" x="2884" y="4675"/>
+            <point key="canvasLocation" x="3251" y="6122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qMa-3a-ENN">
@@ -1571,14 +1571,14 @@ Choose an area that you can see and reach and rotate within that area to avoid s
                         <viewControllerLayoutGuide type="bottom" id="x8D-i8-gAN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JZ8-DD-qrW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIT-9h-oq7">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9yd-ND-jJz">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="UV6-qt-kh7"/>
@@ -1587,7 +1587,7 @@ Choose an area that you can see and reach and rotate within that area to avoid s
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9mt-fc-rlb">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="XvC-g9-EvO"/>
@@ -1611,7 +1611,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JP5-iN-I70">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="kGr-hF-JOI">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1632,10 +1632,10 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddl-p7-zPC">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="M7e-XV-aG2">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="OYZ-gp-xiZ"/>
@@ -1644,7 +1644,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BrV-hj-sK6">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="pkR-KL-3zE"/>
@@ -1690,7 +1690,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G5y-Uu-gV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="I4N-YQ-5in"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="3999"/>
+            <point key="canvasLocation" x="4097" y="4968"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xta-BW-kMb">
@@ -1701,14 +1701,14 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                         <viewControllerLayoutGuide type="bottom" id="ar6-DI-FfH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="c77-9M-Cv5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImY-by-jfk">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VGh-38-9ie">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="am7-f2-sA2"/>
@@ -1717,7 +1717,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SMr-tK-amL">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="a9R-We-ivp"/>
@@ -1729,13 +1729,13 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insulincooler.png" translatesAutoresizingMaskIntoConstraints="NO" id="mCM-8M-n8o">
-                                        <rect key="frame" x="343" y="261" width="249" height="161"/>
+                                        <rect key="frame" x="511" y="261" width="249" height="161"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="249" id="OMx-id-hn2"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insulinvial.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fmq-oc-EwS">
-                                        <rect key="frame" x="8" y="261" width="250" height="161"/>
+                                        <rect key="frame" x="8" y="261" width="418" height="161"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="161" id="TKg-fe-abH"/>
                                         </constraints>
@@ -1759,7 +1759,7 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3O4-2n-ZuH">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="2Br-vr-ure">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1780,10 +1780,10 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMN-v7-CbE">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jBt-1m-idl">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="tby-jo-ObQ"/>
@@ -1792,7 +1792,7 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8FX-P4-EUV">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="oPc-Lc-Fg2"/>
@@ -1838,7 +1838,7 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6V2-1C-3I3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Jbv-iS-N2e"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="4675"/>
+            <point key="canvasLocation" x="4097" y="6122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vRR-mX-r9I">
@@ -1849,14 +1849,14 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                         <viewControllerLayoutGuide type="bottom" id="FTg-9V-Q1C"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HgJ-p5-yPZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBh-1c-uiQ">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1BI-Y4-9lU">
-                                        <rect key="frame" x="80" y="8" width="441" height="88"/>
+                                        <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="88" id="nI8-xB-AU4"/>
@@ -1865,7 +1865,7 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7lJ-SS-ohG">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="MhF-ch-6ik"/>
@@ -1895,7 +1895,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SyZ-KF-6BW">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="7" translatesAutoresizingMaskIntoConstraints="NO" id="fNg-xB-INf">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1916,10 +1916,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TNP-ma-cpy">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7v1-Q2-ABW">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="6Ny-n8-nhU"/>
@@ -1928,7 +1928,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ggJ-ds-UxI">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="vCO-Us-csb"/>
@@ -1974,7 +1974,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3IJ-sp-vyy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="xwO-d1-vbZ"/>
             </objects>
-            <point key="canvasLocation" x="4236" y="4675"/>
+            <point key="canvasLocation" x="4950" y="6122"/>
         </scene>
         <!--Insulin Basics View Controller-->
         <scene sceneID="OnC-Gz-CZU">
@@ -1982,7 +1982,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="0SO-as-3a4" customClass="InsulinBasicsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gjF-o5-0Pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136" y="1828"/>
+            <point key="canvasLocation" x="-412" y="1535"/>
         </scene>
         <!--Draw Insulin View Controller-->
         <scene sceneID="BRi-G5-HTW">
@@ -1990,7 +1990,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="fLW-cB-z7D" customClass="DrawInsulinViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dEd-me-3Og" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-583" y="1828"/>
+            <point key="canvasLocation" x="-1333" y="1535"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="FPW-Pp-hqe">
@@ -2001,14 +2001,14 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <viewControllerLayoutGuide type="bottom" id="cCP-mM-N0C"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aUx-IN-68I">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vok-uF-aPs">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="75"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vYO-ov-BFz">
-                                        <rect key="frame" x="194" y="0.0" width="213" height="75"/>
+                                        <rect key="frame" x="278" y="0.0" width="213" height="75"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="75" id="Gmv-Ri-WLK"/>
@@ -2039,28 +2039,28 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gEd-Vk-r9A">
-                                <rect key="frame" x="0.0" y="83" width="600" height="517"/>
+                                <rect key="frame" x="0.0" y="83" width="768" height="941"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hi0-s2-L48">
-                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
+                                        <rect key="frame" x="174" y="306" width="420" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="rzV-TJ-UWq"/>
                                         </constraints>
                                         <state key="normal" title="How to draw up and give your insulin"/>
                                         <connections>
-                                            <segue destination="fLW-cB-z7D" kind="show" id="1Jk-Sv-Yyf"/>
+                                            <segue destination="fLW-cB-z7D" kind="modal" id="1Jk-Sv-Yyf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcb-og-klu">
-                                        <rect key="frame" x="220" y="224" width="160" height="70"/>
+                                        <rect key="frame" x="220" y="436" width="328" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="ZHb-7H-XN3"/>
                                         </constraints>
                                         <state key="normal" title="Basics"/>
                                         <connections>
-                                            <segue destination="0SO-as-3a4" kind="show" id="iqZ-Tl-sUT"/>
+                                            <segue destination="0SO-as-3a4" kind="modal" id="iqZ-Tl-sUT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2103,7 +2103,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-251" y="1006"/>
+            <point key="canvasLocation" x="-908" y="132"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="Sff-7w-OGo">
@@ -2114,11 +2114,11 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <viewControllerLayoutGuide type="bottom" id="LLC-9e-dcH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BKq-7H-CtS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gKC-Wv-a1d">
-                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <rect key="frame" x="264" y="0.0" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="Pqb-us-6ld"/>
@@ -2128,7 +2128,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BCm-05-FQi">
-                                <rect key="frame" x="180" y="51" width="240" height="64"/>
+                                <rect key="frame" x="264" y="51" width="240" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="7Vq-1T-ma4"/>
@@ -2137,7 +2137,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3F-eE-crV">
-                                <rect key="frame" x="221" y="228" width="158" height="69"/>
+                                <rect key="frame" x="305" y="652" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="158" id="GIZ-lT-PIq"/>
@@ -2146,7 +2146,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <state key="normal" title="Try again"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1N-KN-kR8">
-                                <rect key="frame" x="221" y="466" width="158" height="69"/>
+                                <rect key="frame" x="305" y="890" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="Xk7-H7-BZO"/>
@@ -2157,14 +2157,14 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cns-wQ-56T">
-                                <rect key="frame" x="158" y="349" width="285" height="69"/>
+                                <rect key="frame" x="242" y="773" width="285" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="oZF-cT-PQe"/>
                                 </constraints>
                                 <state key="normal" title="To &quot;How to draw up and give your insulin&quot;"/>
                                 <connections>
-                                    <segue destination="fLW-cB-z7D" kind="show" id="h5W-TJ-XMH"/>
+                                    <segue destination="fLW-cB-z7D" kind="modal" id="h5W-TJ-XMH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2192,7 +2192,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UVF-eV-ect" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="EOl-ZX-I34"/>
             </objects>
-            <point key="canvasLocation" x="-735" y="2929"/>
+            <point key="canvasLocation" x="-1527" y="3414"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="cyZ-1g-QHU">
@@ -2203,11 +2203,11 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <viewControllerLayoutGuide type="bottom" id="8xT-6H-Mke"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QDc-vD-edi">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pzX-8j-exs">
-                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <rect key="frame" x="264" y="0.0" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="30e-MV-7ck"/>
@@ -2217,7 +2217,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lQ3-Fs-v2a">
-                                <rect key="frame" x="180" y="51" width="240" height="64"/>
+                                <rect key="frame" x="264" y="51" width="240" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="A0d-8F-DqZ"/>
@@ -2226,7 +2226,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Kg-1b-KEf">
-                                <rect key="frame" x="221" y="228" width="158" height="69"/>
+                                <rect key="frame" x="305" y="652" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="c2N-BR-qDf"/>
@@ -2235,7 +2235,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <state key="normal" title="Try again"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJK-i9-GdN">
-                                <rect key="frame" x="174" y="349" width="252" height="69"/>
+                                <rect key="frame" x="258" y="773" width="252" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="252" id="pih-zw-ikd"/>
@@ -2243,11 +2243,11 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 </constraints>
                                 <state key="normal" title="To &quot;Basics&quot;"/>
                                 <connections>
-                                    <segue destination="0SO-as-3a4" kind="show" id="hRg-Xx-0cX"/>
+                                    <segue destination="0SO-as-3a4" kind="modal" id="hRg-Xx-0cX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4CY-hw-FTK">
-                                <rect key="frame" x="221" y="466" width="158" height="69"/>
+                                <rect key="frame" x="305" y="890" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="9hl-rb-C9q"/>
@@ -2282,7 +2282,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K1c-Gl-2i9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Rbc-hB-qMb"/>
             </objects>
-            <point key="canvasLocation" x="121" y="2929"/>
+            <point key="canvasLocation" x="-432" y="3414"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FLX-NT-MZ0">
@@ -2293,11 +2293,11 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <viewControllerLayoutGuide type="bottom" id="KPz-cP-48Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="InZ-XW-QYz">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lqj-AJ-ITR">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h49-aP-hJ2">
                                         <rect key="frame" x="0.0" y="70" width="600" height="360"/>
@@ -2315,17 +2315,17 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41t-Py-gv2">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="25b-EJ-s4u"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FoL-Jb-S75">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FR5-Q5-jge">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="TLy-ya-FdG"/>
@@ -2334,7 +2334,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to draw up and give your insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TBt-Xj-xa4">
-                                        <rect key="frame" x="119" y="73" width="362" height="34"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="34"/>
                                         <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="Fd3-sE-p3i"/>
@@ -2380,7 +2380,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xK8-hh-YAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="iIl-mx-gkf"/>
             </objects>
-            <point key="canvasLocation" x="970" y="3075"/>
+            <point key="canvasLocation" x="655" y="3664"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iaJ-4o-nDK">
@@ -2404,7 +2404,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3l-R8-0jb">
                                 <rect key="frame" x="57" y="186" width="178" height="63"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="Q3l-R8-0jb" id="RoY-N7-q6T">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="Q3l-R8-0jb" id="RoY-N7-q6T">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2412,7 +2412,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLX-Mx-04v">
                                 <rect key="frame" x="119" y="200" width="55" height="30"/>
                                 <connections>
-                                    <segue destination="0oy-a6-aGv" kind="popoverPresentation" popoverAnchorView="jLX-Mx-04v" id="lwN-qq-Knm">
+                                    <segue destination="0oy-a6-aGv" kind="popover" popoverAnchorView="jLX-Mx-04v" id="lwN-qq-Knm">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2420,7 +2420,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhF-M5-Hn9">
                                 <rect key="frame" x="90" y="103" width="121" height="54"/>
                                 <connections>
-                                    <segue destination="0oy-a6-aGv" kind="popoverPresentation" popoverAnchorView="OhF-M5-Hn9" id="x7C-wn-Smz">
+                                    <segue destination="0oy-a6-aGv" kind="popover" popoverAnchorView="OhF-M5-Hn9" id="x7C-wn-Smz">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2428,7 +2428,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHb-No-Dmy">
                                 <rect key="frame" x="181" y="314" width="41" height="40"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="KHb-No-Dmy" id="8Mi-qo-jWL">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="KHb-No-Dmy" id="8Mi-qo-jWL">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2436,7 +2436,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rm5-nr-oKN">
                                 <rect key="frame" x="20" y="95" width="62" height="46"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="Rm5-nr-oKN" id="1my-c2-ozM">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="Rm5-nr-oKN" id="1my-c2-ozM">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2444,7 +2444,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQt-Wm-xPo">
                                 <rect key="frame" x="219" y="106" width="38" height="67"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="SQt-Wm-xPo" id="HSa-O8-X3m">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="SQt-Wm-xPo" id="HSa-O8-X3m">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2452,7 +2452,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKf-zk-905">
                                 <rect key="frame" x="265" y="124" width="43" height="47"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="fKf-zk-905" id="KoB-Lt-e4a">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="fKf-zk-905" id="KoB-Lt-e4a">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2460,7 +2460,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmu-E9-AiA">
                                 <rect key="frame" x="322" y="85" width="118" height="72"/>
                                 <connections>
-                                    <segue destination="0oy-a6-aGv" kind="popoverPresentation" popoverAnchorView="gmu-E9-AiA" id="r7F-8X-w4b">
+                                    <segue destination="0oy-a6-aGv" kind="popover" popoverAnchorView="gmu-E9-AiA" id="r7F-8X-w4b">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2468,7 +2468,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cn-hC-amd">
                                 <rect key="frame" x="448" y="95" width="56" height="53"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="8cn-hC-amd" id="fLa-50-Dkz">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="8cn-hC-amd" id="fLa-50-Dkz">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2476,7 +2476,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKR-ib-O0b">
                                 <rect key="frame" x="290" y="168" width="54" height="43"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="XKR-ib-O0b" id="bEV-X7-VYP">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="XKR-ib-O0b" id="bEV-X7-VYP">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2484,7 +2484,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foB-90-XaB">
                                 <rect key="frame" x="410" y="168" width="52" height="42"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="foB-90-XaB" id="8z2-jg-T9a">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="foB-90-XaB" id="8z2-jg-T9a">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2492,7 +2492,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2v-76-Ll4">
                                 <rect key="frame" x="290" y="211" width="172" height="56"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="d2v-76-Ll4" id="E2K-cn-Dzr">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="d2v-76-Ll4" id="E2K-cn-Dzr">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2500,7 +2500,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyb-62-4zh">
                                 <rect key="frame" x="290" y="302" width="47" height="45"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="xyb-62-4zh" id="9vo-rr-Qom">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="xyb-62-4zh" id="9vo-rr-Qom">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2508,7 +2508,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOa-WA-u5Y">
                                 <rect key="frame" x="417" y="299" width="45" height="48"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="cOa-WA-u5Y" id="CcS-se-TPS">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="cOa-WA-u5Y" id="CcS-se-TPS">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2516,7 +2516,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Co3-w2-0Bb">
                                 <rect key="frame" x="68" y="314" width="33" height="40"/>
                                 <connections>
-                                    <segue destination="Mp3-iR-XIy" kind="popoverPresentation" popoverAnchorView="Co3-w2-0Bb" id="UVB-1w-O5Y">
+                                    <segue destination="Mp3-iR-XIy" kind="popover" popoverAnchorView="Co3-w2-0Bb" id="UVB-1w-O5Y">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2524,7 +2524,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFY-Ps-fB2">
                                 <rect key="frame" x="68" y="362" width="33" height="73"/>
                                 <connections>
-                                    <segue destination="0oy-a6-aGv" kind="popoverPresentation" popoverAnchorView="HFY-Ps-fB2" id="49A-tv-nVV">
+                                    <segue destination="0oy-a6-aGv" kind="popover" popoverAnchorView="HFY-Ps-fB2" id="49A-tv-nVV">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2532,7 +2532,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZD-hS-X2b">
                                 <rect key="frame" x="181" y="362" width="30" height="73"/>
                                 <connections>
-                                    <segue destination="0oy-a6-aGv" kind="popoverPresentation" popoverAnchorView="6ZD-hS-X2b" id="va9-fr-nrn">
+                                    <segue destination="0oy-a6-aGv" kind="popover" popoverAnchorView="6ZD-hS-X2b" id="va9-fr-nrn">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2540,7 +2540,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cku-K5-1rf">
                                 <rect key="frame" x="299" y="362" width="30" height="77"/>
                                 <connections>
-                                    <segue destination="0oy-a6-aGv" kind="popoverPresentation" popoverAnchorView="Cku-K5-1rf" id="gvr-9q-SJT">
+                                    <segue destination="0oy-a6-aGv" kind="popover" popoverAnchorView="Cku-K5-1rf" id="gvr-9q-SJT">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2548,7 +2548,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWb-8V-xBw">
                                 <rect key="frame" x="417" y="362" width="30" height="78"/>
                                 <connections>
-                                    <segue destination="0oy-a6-aGv" kind="popoverPresentation" popoverAnchorView="FWb-8V-xBw" id="Qgy-DL-VT5">
+                                    <segue destination="0oy-a6-aGv" kind="popover" popoverAnchorView="FWb-8V-xBw" id="Qgy-DL-VT5">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -2572,7 +2572,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Mt-e7-QqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Wql-UK-VZb"/>
             </objects>
-            <point key="canvasLocation" x="1618" y="3075"/>
+            <point key="canvasLocation" x="1485" y="3664"/>
         </scene>
         <!--Correct-->
         <scene sceneID="4Cp-Kf-MHk">
@@ -2593,7 +2593,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                     <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JW4-Kv-ZYY" kind="show" animates="NO" id="JPt-e2-ll4"/>
+                                    <segue destination="JW4-Kv-ZYY" kind="modal" animates="NO" id="JPt-e2-ll4"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="jvE-gt-E5m">
@@ -2627,7 +2627,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qiO-0v-a9L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2292" y="3084"/>
+            <point key="canvasLocation" x="2347" y="3679"/>
         </scene>
         <!--Incorrect-->
         <scene sceneID="XWR-VA-ZY0">
@@ -2638,7 +2638,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <viewControllerLayoutGuide type="bottom" id="lUR-Jl-lPt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ePA-P5-yLK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6db-tL-Bbt">
@@ -2648,7 +2648,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                     <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JW4-Kv-ZYY" kind="show" animates="NO" id="IuD-eK-JQN"/>
+                                    <segue destination="JW4-Kv-ZYY" kind="modal" animates="NO" id="IuD-eK-JQN"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="4Lz-8q-8uE">
@@ -2678,7 +2678,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oxs-wT-aUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2292" y="2404"/>
+            <point key="canvasLocation" x="2347" y="2518"/>
         </scene>
     </scenes>
     <resources>
@@ -2692,10 +2692,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
         <image name="x" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iqZ-Tl-sUT"/>
-        <segue reference="RoY-N7-q6T"/>
-        <segue reference="x7C-wn-Smz"/>
+        <segue reference="bEV-X7-VYP"/>
         <segue reference="IuD-eK-JQN"/>
+        <segue reference="Qgy-DL-VT5"/>
+        <segue reference="hRg-Xx-0cX"/>
         <segue reference="h5W-TJ-XMH"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xup-C3-Nve">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="xup-C3-Nve">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller2-->
@@ -14,35 +14,35 @@
                         <viewControllerLayoutGuide type="bottom" id="70r-og-gCG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jLc-U9-8Gu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VsL-cA-fkd">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="1024"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ssf-47-IOW">
-                                        <rect key="frame" x="0.0" y="83" width="600" height="517"/>
+                                        <rect key="frame" x="0.0" y="83" width="600" height="941"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyv-St-W13">
-                                                <rect key="frame" x="161" y="224" width="279" height="70"/>
+                                                <rect key="frame" x="161" y="436" width="279" height="70"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="8zx-Cc-BSk"/>
                                                 </constraints>
                                                 <state key="normal" title="What Do Your Blood Sugar Levels Mean?"/>
                                                 <connections>
-                                                    <segue destination="5X9-JZ-0Ek" kind="show" id="dpB-tG-hoK"/>
+                                                    <segue destination="5X9-JZ-0Ek" kind="modal" id="dpB-tG-hoK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGb-HJ-WvL">
-                                                <rect key="frame" x="174" y="94" width="252" height="70"/>
+                                                <rect key="frame" x="174" y="306" width="252" height="70"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="fHX-di-vgG"/>
                                                 </constraints>
                                                 <state key="normal" title="How to Check Your Blood Sugar"/>
                                                 <connections>
-                                                    <segue destination="kH4-dT-dS5" kind="show" id="VpC-WG-1Cw"/>
+                                                    <segue destination="kH4-dT-dS5" kind="modal" id="VpC-WG-1Cw"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -117,7 +117,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Un0-vW-lmp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="hNk-7C-Ddt"/>
             </objects>
-            <point key="canvasLocation" x="-2291" y="4550"/>
+            <point key="canvasLocation" x="-2932.48" y="7765.3333333333339"/>
         </scene>
         <!--Check Sugar Page View Controller-->
         <scene sceneID="gnj-DS-YYc">
@@ -125,7 +125,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="kH4-dT-dS5" customClass="CheckSugarPageViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pwF-yu-qCr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1293" y="4089"/>
+            <point key="canvasLocation" x="-1655.04" y="6978.5600000000004"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AFX-mr-7CL">
@@ -136,14 +136,14 @@
                         <viewControllerLayoutGuide type="bottom" id="QJT-RM-mJy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wzJ-hL-p23">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZNO-SJ-8Ne">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Xa1-Cm-3YX">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="zXT-4N-ev7"/>
@@ -152,7 +152,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Blood sugar monitoring can help you keep your diabetes under control" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GFb-RZ-NmK">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="Djr-8r-yi7"/>
@@ -176,7 +176,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1U-xh-SlP">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="qS6-we-TUZ">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -198,10 +198,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d0X-io-ezF">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nhQ-7E-h7G">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="Bv6-KO-CXp"/>
@@ -210,7 +210,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NE4-kH-l0e">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="LKT-bC-y6O"/>
@@ -256,7 +256,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YDh-nO-F28" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="FLa-ci-XIk"/>
             </objects>
-            <point key="canvasLocation" x="-602" y="4078"/>
+            <point key="canvasLocation" x="-770.56000000000006" y="6959.7866666666669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iN5-59-aFY">
@@ -267,14 +267,14 @@
                         <viewControllerLayoutGuide type="bottom" id="qtp-3K-HEE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GYz-I5-sSQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8P1-f2-tUK">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yUG-Sk-MRn">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Zcx-MX-lPM"/>
@@ -283,7 +283,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="You should check your blood sugar as often as your health care provider recommends" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="m0C-TZ-rAM">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="pvW-Oi-owi"/>
@@ -307,7 +307,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17v-cT-85h">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="QPG-XN-8Uy">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -329,10 +329,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t9e-lM-9Fg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OHu-Mt-aKi">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="5l3-w7-9wm"/>
@@ -341,7 +341,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vi4-2C-FnH">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="xQ3-tf-AIn"/>
@@ -387,7 +387,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uDV-ze-3pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="5de-Xp-8RO"/>
             </objects>
-            <point key="canvasLocation" x="105" y="4078"/>
+            <point key="canvasLocation" x="134.40000000000001" y="6959.7866666666669"/>
         </scene>
         <!--Sugar Level Page View Controller-->
         <scene sceneID="1nG-xr-5tx">
@@ -395,7 +395,7 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="5X9-JZ-0Ek" customClass="SugarLevelPageViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="si8-9B-3nr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1317" y="5121"/>
+            <point key="canvasLocation" x="-1685.76" y="8739.8400000000001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="a2M-p8-klJ">
@@ -406,14 +406,14 @@
                         <viewControllerLayoutGuide type="bottom" id="zh6-QB-uHK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VKn-TP-xrP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALj-oA-IFG">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pjt-7f-aqZ">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Br7-jY-JGn"/>
@@ -422,7 +422,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Blood sugar levels can be affected by stress, diet, exercise, and other things." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wlu-K7-yPy">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="1lV-gH-1dF"/>
@@ -446,7 +446,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDy-vg-Erg">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="kvo-2b-uil">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -468,10 +468,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKF-Fx-huW">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ILz-af-UUF">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="dTD-wk-VQZ"/>
@@ -480,7 +480,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What Do Your Blood Sugar Levels Mean?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8na-an-ulj">
-                                        <rect key="frame" x="119" y="60" width="362" height="64"/>
+                                        <rect key="frame" x="119" y="60" width="530" height="64"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="bTd-kN-qHN"/>
@@ -526,7 +526,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bVh-NA-JIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="cyG-um-9ja"/>
             </objects>
-            <point key="canvasLocation" x="-602" y="5121"/>
+            <point key="canvasLocation" x="-770.56000000000006" y="8739.8400000000001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oxK-ji-IQT">
@@ -537,14 +537,14 @@
                         <viewControllerLayoutGuide type="bottom" id="ZYA-8j-C3v"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="J9d-D7-Wys">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="934-2T-IyE">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SZE-OP-yQL">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="x0R-0S-C5I"/>
@@ -553,7 +553,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5cr-wR-BHI">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="XMI-j0-nIH"/>
@@ -581,7 +581,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Y2-uT-JTm">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="xEo-mI-dGx">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -603,10 +603,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kkh-b1-F38">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jBc-ku-zD9">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="AEX-bI-Pbg"/>
@@ -615,7 +615,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What Do Your Blood Sugar Levels Mean?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jFO-l9-LFr">
-                                        <rect key="frame" x="119" y="60" width="362" height="64"/>
+                                        <rect key="frame" x="119" y="60" width="530" height="64"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="JMc-IX-RqL"/>
@@ -661,7 +661,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ia5-4c-MZ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="oah-9x-tTz"/>
             </objects>
-            <point key="canvasLocation" x="105" y="5121"/>
+            <point key="canvasLocation" x="134.40000000000001" y="8739.8400000000001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="B2o-6L-xeU">
@@ -672,14 +672,14 @@
                         <viewControllerLayoutGuide type="bottom" id="iee-xU-6vj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2nS-Kc-Ec9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6aW-CO-rYv">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SaW-j3-vde">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="C7p-pR-Uu0"/>
@@ -688,7 +688,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Keep track of your blood sugar levels in a notebook or on a piece of paper to bring to your doctor appointments" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZZd-CF-STF">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="3wb-Kf-un0"/>
@@ -709,7 +709,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnc-zY-Ku7">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="cka-ox-v96">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -731,10 +731,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3uh-Kn-uXk">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wtf-mT-22a">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="Wto-Y1-h98"/>
@@ -743,7 +743,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="086-Hd-Lyg">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="YWe-79-Dgg"/>
@@ -789,7 +789,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Da-5h-jk4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="WLA-wu-l8I"/>
             </objects>
-            <point key="canvasLocation" x="786" y="4078"/>
+            <point key="canvasLocation" x="1006.08" y="6959.7866666666669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PKy-21-SP3">
@@ -800,14 +800,14 @@
                         <viewControllerLayoutGuide type="bottom" id="8Am-oh-vGE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZQ7-1W-1jD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yyq-S8-wc4">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BQe-Gu-WDG">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="vAa-BF-kyO"/>
@@ -816,7 +816,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lvZ-7D-ynJ">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="hTd-jp-Lyi"/>
@@ -844,7 +844,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZK-VF-C2z">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="8BC-fg-oJ2">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -866,10 +866,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZY-5Q-4oO">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vuc-kr-W1k">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="pnz-dD-tl2"/>
@@ -878,7 +878,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What Do Your Blood Sugar Levels Mean?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bdd-Jn-9Wn">
-                                        <rect key="frame" x="119" y="60" width="362" height="64"/>
+                                        <rect key="frame" x="119" y="60" width="530" height="64"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="s5e-44-5Vp"/>
@@ -924,7 +924,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g8t-CI-D0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="sr1-7M-bSt"/>
             </objects>
-            <point key="canvasLocation" x="786" y="5121"/>
+            <point key="canvasLocation" x="1006.08" y="8739.8400000000001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="79R-xN-xoR">
@@ -935,14 +935,14 @@
                         <viewControllerLayoutGuide type="bottom" id="ZQF-1f-XLj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OtV-Zg-oHl">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JSd-G6-5qN">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X5e-n3-N4k">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="diQ-M6-NRF"/>
@@ -951,7 +951,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xM0-2V-Z7m">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="dh9-lS-Fee"/>
@@ -979,7 +979,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hWJ-Bs-kQU">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="Jd2-H9-yld">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1001,10 +1001,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="703-zN-oA5">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0qx-2x-Jti">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="IfT-3k-Rek"/>
@@ -1013,7 +1013,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1X0-J1-gOm">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Cc9-hF-Ad4"/>
@@ -1059,7 +1059,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgi-Uu-V41" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="BlU-MF-H79"/>
             </objects>
-            <point key="canvasLocation" x="1474" y="4078"/>
+            <point key="canvasLocation" x="1886.72" y="6959.7866666666669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Eqw-T8-OZi">
@@ -1070,14 +1070,14 @@
                         <viewControllerLayoutGuide type="bottom" id="MVp-pl-QIM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QuG-K8-ojy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nUf-w0-Iic">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Bf-zi-ZEN">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="SvQ-kK-dSj"/>
@@ -1086,7 +1086,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1nY-Ra-fog">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="mVs-E9-34J"/>
@@ -1117,7 +1117,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tx1-HW-NSX">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="cxT-dB-qaB">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1139,10 +1139,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lsC-lQ-s49">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xlM-vb-L9p">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="FxS-8p-OhW"/>
@@ -1151,7 +1151,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What Do Your Blood Sugar Levels Mean?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7V1-nO-dY6">
-                                        <rect key="frame" x="119" y="60" width="362" height="64"/>
+                                        <rect key="frame" x="119" y="60" width="530" height="64"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="9D4-tY-Ezm"/>
@@ -1197,7 +1197,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hp4-mW-yuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="btr-Q7-Hri"/>
             </objects>
-            <point key="canvasLocation" x="1474" y="5121"/>
+            <point key="canvasLocation" x="1886.72" y="8739.8400000000001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XWq-4e-s9I">
@@ -1208,14 +1208,14 @@
                         <viewControllerLayoutGuide type="bottom" id="jCv-Mo-JsU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tje-la-uRv">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LPC-b6-Ja6">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ycm-06-uV8">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="kKN-sn-PaQ"/>
@@ -1224,7 +1224,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bDR-4w-iVA">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="p9K-Os-Fdw"/>
@@ -1256,7 +1256,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihI-a3-K2f">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="J81-im-qGQ">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1278,10 +1278,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yI5-sf-mNA">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hjT-if-NII">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="ci3-Gb-4GS"/>
@@ -1290,7 +1290,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nzx-20-t10">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="YaF-Va-tWC"/>
@@ -1336,7 +1336,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ke-8q-cu8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="0hN-9i-Nxq"/>
             </objects>
-            <point key="canvasLocation" x="2162" y="4078"/>
+            <point key="canvasLocation" x="2767.3600000000001" y="6959.7866666666669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bdI-mB-YLi">
@@ -1347,14 +1347,14 @@
                         <viewControllerLayoutGuide type="bottom" id="rHE-Zx-4YX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ylp-YH-PMw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huq-1m-rjN">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uC7-fs-jnk">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="AWm-F7-4F2"/>
@@ -1363,7 +1363,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WjM-Zm-XZ8">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="foU-Te-Q1n"/>
@@ -1391,7 +1391,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6VC-nk-pp6">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="Ud3-sO-Qo6">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1413,10 +1413,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ieK-2n-tKH">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W2L-pc-Cih">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="mFO-LP-25g"/>
@@ -1425,7 +1425,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What Do Your Blood Sugar Levels Mean?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o4J-w2-Kde">
-                                        <rect key="frame" x="119" y="60" width="362" height="64"/>
+                                        <rect key="frame" x="119" y="60" width="530" height="64"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="1aq-NH-AaS"/>
@@ -1471,7 +1471,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEN-I5-5Z1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="SMM-PG-ri2"/>
             </objects>
-            <point key="canvasLocation" x="2162" y="5121"/>
+            <point key="canvasLocation" x="2767.3600000000001" y="8739.8400000000001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qMA-Mj-uce">
@@ -1482,14 +1482,14 @@
                         <viewControllerLayoutGuide type="bottom" id="pTm-sY-bm7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Fnv-38-Dpm">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dZg-4N-DvM">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RZQ-gc-3eD">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="1Pa-qo-Nfc"/>
@@ -1498,7 +1498,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nb5-5X-Rue">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="1hH-f2-MWQ"/>
@@ -1527,7 +1527,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aa3-JI-NzO">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="80n-1u-3Sc">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1549,10 +1549,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0PC-m7-f1m">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cux-4o-4MC">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="BxS-SL-kaz"/>
@@ -1561,7 +1561,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What Do Your Blood Sugar Levels Mean?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pUq-9e-3gm">
-                                        <rect key="frame" x="119" y="60" width="362" height="64"/>
+                                        <rect key="frame" x="119" y="60" width="530" height="64"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="2RQ-xm-phG"/>
@@ -1607,7 +1607,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v98-oe-hIo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="dW6-9W-uec"/>
             </objects>
-            <point key="canvasLocation" x="2862" y="5121"/>
+            <point key="canvasLocation" x="3663.3600000000001" y="8739.8400000000001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nRN-fC-D3v">
@@ -1618,14 +1618,14 @@
                         <viewControllerLayoutGuide type="bottom" id="Aqx-SW-dOc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="22w-gv-IKe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BSb-tO-ixp">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kpK-ZT-sbO">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="HUM-AB-6kV"/>
@@ -1634,7 +1634,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gIQ-CU-7T9">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="1BA-9l-dwO"/>
@@ -1663,7 +1663,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9I5-Q9-iPe">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="gKz-WG-DAU">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1685,10 +1685,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nei-po-O03">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Og1-jP-hOb">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="Fb7-tB-6cx"/>
@@ -1697,7 +1697,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DVu-ed-wAc">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Wtw-9r-fsj"/>
@@ -1743,7 +1743,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79F-So-4iy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="LgO-0u-MCI"/>
             </objects>
-            <point key="canvasLocation" x="2830" y="4078"/>
+            <point key="canvasLocation" x="3622.4000000000001" y="6959.7866666666669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ebY-z9-Q1L">
@@ -1754,14 +1754,14 @@
                         <viewControllerLayoutGuide type="bottom" id="G3d-qv-fxV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="42S-E9-D2Z">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z8q-UK-mXP">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="e3c-qc-K3c">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="p1P-jU-tkE"/>
@@ -1770,7 +1770,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cWg-3i-YJ5">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="F0L-N3-Ztg"/>
@@ -1800,7 +1800,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dv9-Wb-Gum">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="xnQ-TU-cKx">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1822,10 +1822,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIF-XR-seU">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hfh-2p-Xhh">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="jtG-z9-n2P"/>
@@ -1834,7 +1834,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F0K-OK-93m">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="J0r-hJ-sKA"/>
@@ -1880,7 +1880,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="214-0W-tVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="0KO-SH-dsi"/>
             </objects>
-            <point key="canvasLocation" x="3482" y="4078"/>
+            <point key="canvasLocation" x="4456.96" y="6959.7866666666669"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="4zY-YC-ta7">
@@ -1891,11 +1891,11 @@
                         <viewControllerLayoutGuide type="bottom" id="FnN-7F-8rp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hVV-CJ-XWR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6CS-D2-z2M">
-                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <rect key="frame" x="264" y="0.0" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="5P9-rX-loS"/>
@@ -1905,7 +1905,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="What Do Your Blood Sugar Levels Mean?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3bZ-8G-j1b">
-                                <rect key="frame" x="180" y="51" width="240" height="64"/>
+                                <rect key="frame" x="264" y="51" width="240" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="jnp-oo-Obi"/>
@@ -1914,7 +1914,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gP-3x-vHU">
-                                <rect key="frame" x="221" y="228" width="158" height="69"/>
+                                <rect key="frame" x="305" y="652" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="GOz-ch-1pR"/>
@@ -1923,7 +1923,7 @@
                                 <state key="normal" title="Try again"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MML-if-Wdg">
-                                <rect key="frame" x="174" y="349" width="252" height="69"/>
+                                <rect key="frame" x="258" y="773" width="252" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="252" id="08c-zS-soa"/>
@@ -1931,11 +1931,11 @@
                                 </constraints>
                                 <state key="normal" title="To &quot;How to Check Your Blood Sugar&quot;"/>
                                 <connections>
-                                    <segue destination="kH4-dT-dS5" kind="show" id="xXM-Nl-1r3"/>
+                                    <segue destination="kH4-dT-dS5" kind="modal" id="xXM-Nl-1r3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51I-HO-sQ6">
-                                <rect key="frame" x="221" y="466" width="158" height="69"/>
+                                <rect key="frame" x="305" y="890" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="158" id="saa-4e-KID"/>
@@ -1970,7 +1970,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6y-sk-LZC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="HoU-SC-ZpW"/>
             </objects>
-            <point key="canvasLocation" x="3546" y="5121"/>
+            <point key="canvasLocation" x="4538.8800000000001" y="8739.8400000000001"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="gEI-i5-A3M">
@@ -1981,11 +1981,11 @@
                         <viewControllerLayoutGuide type="bottom" id="2Nt-na-ZBW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Kds-SB-k6b">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hGy-JS-Q4q">
-                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <rect key="frame" x="264" y="0.0" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="CVg-JY-yGm"/>
@@ -1995,7 +1995,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eLn-H8-dDM">
-                                <rect key="frame" x="180" y="51" width="240" height="64"/>
+                                <rect key="frame" x="264" y="51" width="240" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="KQQ-11-ID3"/>
@@ -2004,7 +2004,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIq-0B-74N">
-                                <rect key="frame" x="221" y="228" width="158" height="69"/>
+                                <rect key="frame" x="305" y="652" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="IwV-rC-xoo"/>
@@ -2013,7 +2013,7 @@
                                 <state key="normal" title="Try again"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxA-J5-fA9">
-                                <rect key="frame" x="144" y="349" width="312" height="69"/>
+                                <rect key="frame" x="228" y="773" width="312" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="312" id="K3i-gi-uFN"/>
@@ -2021,11 +2021,11 @@
                                 </constraints>
                                 <state key="normal" title="To &quot;What Do Your Blood Sugar Levels Mean?&quot;"/>
                                 <connections>
-                                    <segue destination="5X9-JZ-0Ek" kind="show" id="qg1-NT-U14"/>
+                                    <segue destination="5X9-JZ-0Ek" kind="modal" id="qg1-NT-U14"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RH1-pG-Hc0">
-                                <rect key="frame" x="221" y="466" width="158" height="69"/>
+                                <rect key="frame" x="305" y="890" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="158" id="6aT-1k-Hhm"/>
@@ -2060,7 +2060,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9oK-JV-dks" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="xzE-Ix-rpB"/>
             </objects>
-            <point key="canvasLocation" x="4188" y="4089"/>
+            <point key="canvasLocation" x="5360.6400000000003" y="6978.5600000000004"/>
         </scene>
     </scenes>
     <resources>
@@ -2069,7 +2069,7 @@
         <image name="takingBloodSugar" width="570" height="270"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qg1-NT-U14"/>
         <segue reference="xXM-Nl-1r3"/>
+        <segue reference="qg1-NT-U14"/>
     </inferredMetricsTieBreakers>
 </document>
