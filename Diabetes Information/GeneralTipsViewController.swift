@@ -14,8 +14,9 @@ class GeneralTipsViewController: UIPageViewController{
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [self.newViewController("GeneralTips1"),
             self.newViewController("GeneralTips2"),
-            //self.newViewController("GeneralTips3"),
+            self.newViewController("GeneralTips3"),
             self.newViewController("GeneralTips4"),
+            self.newViewController("GeneralTips5"),
             self.newViewController("GeneralTipsFinal")]
     }()
     
