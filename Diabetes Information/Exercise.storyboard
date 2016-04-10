@@ -109,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEu-Uk-H3q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2613.7600000000002" y="9784.3200000000015"/>
+            <point key="canvasLocation" x="-3494" y="7978"/>
         </scene>
         <!--GeneralTipsViewController-->
         <scene sceneID="amm-gB-FgF">
@@ -117,7 +117,7 @@
                 <pageViewController storyboardIdentifier="ExerciseGeneralTipsViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="KNq-vf-bkY" userLabel="GeneralTipsViewController" customClass="ExerciseGeneralTipsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YoA-21-Mjc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1460.48" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="-2341" y="7447"/>
         </scene>
         <!--ExerciseAndBloodViewController-->
         <scene sceneID="5Px-30-pRI">
@@ -125,7 +125,7 @@
                 <pageViewController storyboardIdentifier="ExerciseandBloodViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="1Qu-cD-yLY" userLabel="ExerciseAndBloodViewController" customClass="ExerciseAndBloodViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyv-df-V86" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1450.24" y="10473.813333333334"/>
+            <point key="canvasLocation" x="-2331" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TEV-dY-1Wx">
@@ -243,7 +243,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4lc-mH-ZRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="SHa-12-Tgw"/>
             </objects>
-            <point key="canvasLocation" x="-546.56000000000006" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="-1427" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZIN-mO-ftp">
@@ -360,7 +360,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2B-N2-mh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="llD-hq-fNN"/>
             </objects>
-            <point key="canvasLocation" x="321.28000000000003" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="-559" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fvH-A8-haL">
@@ -477,7 +477,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUQ-5y-xuo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="VAR-g9-FBH"/>
             </objects>
-            <point key="canvasLocation" x="1172.48" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="292" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="99e-ME-7yc">
@@ -594,7 +594,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czv-N9-J4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="PCJ-jD-iGQ"/>
             </objects>
-            <point key="canvasLocation" x="2018.5599999999999" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="1138" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ywf-g5-nHi">
@@ -724,7 +724,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Tu-kL-0U0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="3YB-cI-9k7"/>
             </objects>
-            <point key="canvasLocation" x="2864.6399999999999" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="1984" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fTe-gV-6hj">
@@ -854,7 +854,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krr-ic-fFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="seF-AF-IE9"/>
             </objects>
-            <point key="canvasLocation" x="3691.52" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="2811" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rHK-a0-M9E">
@@ -982,7 +982,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPx-Xt-7ah" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="xz0-tP-PkD"/>
             </objects>
-            <point key="canvasLocation" x="4569.6000000000004" y="9253.5466666666671"/>
+            <point key="canvasLocation" x="3689" y="7447"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="BCU-0V-J2R">
@@ -1068,7 +1068,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kk7-PL-OEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5628.1599999999999" y="9207.4666666666672"/>
+            <point key="canvasLocation" x="4748" y="7401"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2D1-wD-fcm">
@@ -1200,7 +1200,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVh-nT-0AL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Vo6-Ci-qcq"/>
             </objects>
-            <point key="canvasLocation" x="-565.75999999999999" y="10473.813333333334"/>
+            <point key="canvasLocation" x="-1446" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cn1-CK-lgm">
@@ -1332,7 +1332,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Po-ZL-m1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="2Q7-Th-Ucq"/>
             </objects>
-            <point key="canvasLocation" x="328.95999999999998" y="10473.813333333334"/>
+            <point key="canvasLocation" x="-552" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bm9-Hu-WBw">
@@ -1465,7 +1465,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KM2-pc-Xgq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="fPf-5f-FOx"/>
             </objects>
-            <point key="canvasLocation" x="1172.48" y="10473.813333333334"/>
+            <point key="canvasLocation" x="292" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wdc-cG-WDo">
@@ -1595,7 +1595,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DM2-Yl-95D" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="62C-x0-Ty4"/>
             </objects>
-            <point key="canvasLocation" x="2019.8400000000001" y="10473.813333333334"/>
+            <point key="canvasLocation" x="1139" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jsB-3H-2iT">
@@ -1725,7 +1725,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="794-0G-ieE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Clj-3H-gga"/>
             </objects>
-            <point key="canvasLocation" x="2864.6399999999999" y="10473.813333333334"/>
+            <point key="canvasLocation" x="1984" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="14r-at-931">
@@ -1857,7 +1857,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAM-Tp-UuE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="hAq-iD-G8I"/>
             </objects>
-            <point key="canvasLocation" x="3691.52" y="10473.813333333334"/>
+            <point key="canvasLocation" x="2811" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2pq-2z-iFP">
@@ -1985,7 +1985,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hak-XH-S7E" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="6Fo-1X-BG4"/>
             </objects>
-            <point key="canvasLocation" x="4569.6000000000004" y="10473.813333333334"/>
+            <point key="canvasLocation" x="3689" y="8667"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="fjl-1b-3dh">
@@ -2075,11 +2075,11 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llm-qM-vgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="dUB-Sw-r6N"/>
             </objects>
-            <point key="canvasLocation" x="5422.0799999999999" y="10473.813333333334"/>
+            <point key="canvasLocation" x="4542" y="8667"/>
         </scene>
     </scenes>
     <resources>
-        <image name="halfCupOfOats.jpg" width="300" height="300"/>
+        <image name="halfCupOfOats.jpg" width="570" height="270"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="k0a-8k-Fwm"/>
