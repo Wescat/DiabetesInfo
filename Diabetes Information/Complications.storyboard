@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="YIo-SV-9eK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="YIo-SV-9eK">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -499,10 +499,10 @@
                                     <constraint firstItem="SFq-Tq-3iI" firstAttribute="top" secondItem="9yf-Dx-tXF" secondAttribute="bottom" constant="-3" id="xl1-MK-Y6j"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRv-FC-b27">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dRv-FC-b27">
                                 <rect key="frame" x="0.0" y="115" width="600" height="430"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="To avoid problems with your eyes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sei-i6-rG3">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="To avoid problems with your eyes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sei-i6-rG3">
                                         <rect key="frame" x="80" y="8" width="441" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -511,7 +511,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nU-Yw-T0l">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nU-Yw-T0l">
                                         <rect key="frame" x="79" y="88" width="442" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1695,6 +1695,9 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eyes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wog-tY-Ee9">
                                 <rect key="frame" x="69" y="0.0" width="154" height="79"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="0.021565701810000001" green="0.01354353596" blue="0.97763270140000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1716,7 +1719,7 @@
                                     <color key="titleColor" red="1" green="0.099341430849999995" blue="0.14697589019999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fWt-UW-h8H" kind="modal" id="eQW-GE-w7a"/>
+                                    <segue destination="fWt-UW-h8H" kind="modal" id="WD6-Tw-IUp"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="x" translatesAutoresizingMaskIntoConstraints="NO" id="Bjt-O7-c3g">
@@ -1734,7 +1737,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BPA-cP-POi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2275" y="1362"/>
+            <point key="canvasLocation" x="2527" y="1974"/>
         </scene>
         <!--Feet-->
         <scene sceneID="CLT-0r-fd7">
@@ -2137,6 +2140,7 @@
                             <outletCollection property="gestureRecognizers" destination="I4Y-FR-DYb" appends="YES" id="Bks-Nv-AA3"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="7nO-Mf-9uc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNZ-HI-f7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="I4Y-FR-DYb"/>
@@ -2163,16 +2167,27 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Question_Mark_Icon.png" width="175" height="175"/>
-        <image name="blueflops.jpg" width="248" height="232"/>
-        <image name="check.png" width="2000" height="2000"/>
-        <image name="diabetes-777001_1920.jpg" width="1920" height="1280"/>
+        <image name="Question_Mark_Icon" width="175" height="175"/>
+        <image name="blueflops" width="248" height="232"/>
+        <image name="check" width="2000" height="2000"/>
+        <image name="diabetes-777001_1920" width="1920" height="1280"/>
+        <image name="diabetesshot" width="200" height="291"/>
         <image name="diabeticRetinopathy.PNG" width="299" height="199"/>
+        <image name="dressshoes" width="1280" height="960"/>
+        <image name="eye_exam_ref­raction" width="1920" height="1080"/>
+        <image name="foot_exam" width="980" height="653"/>
+        <image name="heels" width="550" height="550"/>
+        <image name="lotion" width="640" height="426"/>
+        <image name="man" width="791" height="1415"/>
         <image name="normalVision.PNG" width="389" height="308"/>
+        <image name="sandals" width="888" height="986"/>
+        <image name="sneaker" width="537" height="402"/>
+        <image name="wrong" width="600" height="569"/>
+        <image name="x" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HbX-yd-JZM"/>
-        <segue reference="RdZ-Uk-wVi"/>
         <segue reference="Qqz-CP-Db5"/>
+        <segue reference="RdZ-Uk-wVi"/>
+        <segue reference="HbX-yd-JZM"/>
     </inferredMetricsTieBreakers>
 </document>
