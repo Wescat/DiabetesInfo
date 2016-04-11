@@ -21,39 +21,41 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnL-do-CNX">
                                 <rect key="frame" x="0.0" y="83" width="768" height="941"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNc-yJ-JdV">
-                                        <rect key="frame" x="195" y="436" width="378" height="70"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="5tC-ho-bcE"/>
-                                        </constraints>
-                                        <state key="normal" title="Exercise and Your Blood Sugar"/>
-                                        <connections>
-                                            <segue destination="1Qu-cD-yLY" kind="modal" id="Kx4-SM-Ecw"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vm8-oP-uYY">
-                                        <rect key="frame" x="174" y="306" width="420" height="70"/>
+                                        <rect key="frame" x="192" y="145" width="385" height="230"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="jdF-Hy-Gpf"/>
+                                            <constraint firstAttribute="height" constant="230" id="jdF-Hy-Gpf"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                         <state key="normal" title="General Tips"/>
                                         <connections>
                                             <segue destination="KNq-vf-bkY" kind="modal" id="J4L-tq-qFT"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNc-yJ-JdV">
+                                        <rect key="frame" x="192" y="467" width="385" height="230"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="230" id="5tC-ho-bcE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="Exercise and Your Blood Sugar"/>
+                                        <connections>
+                                            <segue destination="1Qu-cD-yLY" kind="modal" id="Kx4-SM-Ecw"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="60" id="I36-Qh-zLt"/>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="centerY" secondItem="wnL-do-CNX" secondAttribute="centerY" id="MLa-z4-Pwi"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vm8-oP-uYY" secondAttribute="trailing" constant="174" id="XYP-Wz-qX4"/>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="195" id="iY9-hK-oGO"/>
-                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="60" id="kj9-LA-wJ5"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="92" id="I36-Qh-zLt"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="centerY" secondItem="wnL-do-CNX" secondAttribute="centerY" constant="111.5" id="MLa-z4-Pwi"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vm8-oP-uYY" secondAttribute="trailing" constant="191" id="XYP-Wz-qX4"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="192" id="iY9-hK-oGO"/>
+                                    <constraint firstItem="nNc-yJ-JdV" firstAttribute="top" secondItem="Vm8-oP-uYY" secondAttribute="bottom" constant="92" id="kj9-LA-wJ5"/>
                                     <constraint firstItem="Vm8-oP-uYY" firstAttribute="centerX" secondItem="nNc-yJ-JdV" secondAttribute="centerX" id="nZm-wr-arY"/>
-                                    <constraint firstItem="Vm8-oP-uYY" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="174" id="nut-YL-bcc"/>
-                                    <constraint firstAttribute="trailing" secondItem="nNc-yJ-JdV" secondAttribute="trailing" constant="195" id="y5B-su-mZI"/>
+                                    <constraint firstItem="Vm8-oP-uYY" firstAttribute="leading" secondItem="wnL-do-CNX" secondAttribute="leading" constant="192" id="nut-YL-bcc"/>
+                                    <constraint firstAttribute="trailing" secondItem="nNc-yJ-JdV" secondAttribute="trailing" constant="191" id="y5B-su-mZI"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAj-6a-r5p">
@@ -66,7 +68,7 @@
                                             <constraint firstAttribute="width" constant="213" id="VMB-dJ-O6x"/>
                                             <constraint firstAttribute="height" constant="75" id="xJY-Tn-IWs"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8d-mg-SQU">
@@ -150,7 +152,7 @@
                                         </constraints>
                                         <string key="text">Exercise in people with Type 2 Diabetes can help control you blood sugar, increase muscle strength, and improve cardiovascular function. 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -166,7 +168,7 @@
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="vgu-V7-stz">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="JQx-2e-iHU"/>
@@ -178,8 +180,8 @@
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="IsH-6o-9Qc"/>
-                                    <constraint firstAttribute="trailing" secondItem="vgu-V7-stz" secondAttribute="trailing" constant="239" id="KNa-lG-VXB"/>
-                                    <constraint firstItem="vgu-V7-stz" firstAttribute="leading" secondItem="VHs-aT-Ekd" secondAttribute="leading" constant="240" id="hy0-9q-8fV"/>
+                                    <constraint firstAttribute="trailing" secondItem="vgu-V7-stz" secondAttribute="trailing" constant="323" id="KNa-lG-VXB"/>
+                                    <constraint firstItem="vgu-V7-stz" firstAttribute="leading" secondItem="VHs-aT-Ekd" secondAttribute="leading" constant="324" id="hy0-9q-8fV"/>
                                     <constraint firstItem="vgu-V7-stz" firstAttribute="top" secondItem="VHs-aT-Ekd" secondAttribute="top" constant="9" id="msE-I0-XKJ"/>
                                     <constraint firstAttribute="bottom" secondItem="vgu-V7-stz" secondAttribute="bottom" constant="9" id="p6c-Le-I2p"/>
                                 </constraints>
@@ -187,35 +189,35 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIc-2V-TuT">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aGt-30-vJB">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aGt-30-vJB">
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="kFc-YK-psq"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GTC-Wm-QPb">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="mt7-wR-FeR"/>
+                                            <constraint firstAttribute="height" constant="49" id="mt7-wR-FeR"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="GTC-Wm-QPb" secondAttribute="bottom" constant="2" id="BpN-Q0-nfk"/>
+                                    <constraint firstAttribute="bottom" secondItem="GTC-Wm-QPb" secondAttribute="bottom" constant="8" id="BpN-Q0-nfk"/>
                                     <constraint firstItem="aGt-30-vJB" firstAttribute="leading" secondItem="xIc-2V-TuT" secondAttribute="leading" constant="180" id="DIv-Jd-JV1"/>
-                                    <constraint firstItem="GTC-Wm-QPb" firstAttribute="top" secondItem="aGt-30-vJB" secondAttribute="bottom" constant="12" id="G87-Xv-eum"/>
-                                    <constraint firstItem="GTC-Wm-QPb" firstAttribute="top" secondItem="aGt-30-vJB" secondAttribute="bottom" constant="12" id="MNZ-GK-wd2"/>
+                                    <constraint firstItem="GTC-Wm-QPb" firstAttribute="top" secondItem="aGt-30-vJB" secondAttribute="bottom" constant="-3" id="G87-Xv-eum"/>
+                                    <constraint firstItem="GTC-Wm-QPb" firstAttribute="top" secondItem="aGt-30-vJB" secondAttribute="bottom" constant="-3" id="MNZ-GK-wd2"/>
                                     <constraint firstAttribute="trailing" secondItem="aGt-30-vJB" secondAttribute="trailing" constant="180" id="NKI-tw-gBy"/>
-                                    <constraint firstItem="GTC-Wm-QPb" firstAttribute="leading" secondItem="xIc-2V-TuT" secondAttribute="leading" constant="119" id="PwF-nB-GCj"/>
+                                    <constraint firstItem="GTC-Wm-QPb" firstAttribute="leading" secondItem="xIc-2V-TuT" secondAttribute="leading" constant="180" id="PwF-nB-GCj"/>
                                     <constraint firstItem="aGt-30-vJB" firstAttribute="top" secondItem="xIc-2V-TuT" secondAttribute="top" constant="8" id="ioJ-qf-xZ0"/>
-                                    <constraint firstAttribute="trailing" secondItem="GTC-Wm-QPb" secondAttribute="trailing" constant="119" id="ujd-GI-2y7"/>
+                                    <constraint firstAttribute="trailing" secondItem="GTC-Wm-QPb" secondAttribute="trailing" constant="180" id="ujd-GI-2y7"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -268,7 +270,7 @@
                                         </constraints>
                                         <string key="text">If you have not exercised recently or are starting for the first time, consult your health care team to decide what activities are right for you 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -283,7 +285,7 @@
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="t2P-cx-eS3">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="zVK-Jc-2JX"/>
@@ -295,43 +297,43 @@
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="5Dp-fV-Hj2"/>
-                                    <constraint firstItem="t2P-cx-eS3" firstAttribute="leading" secondItem="7ck-qJ-9UR" secondAttribute="leading" constant="240" id="Vi1-QO-leL"/>
+                                    <constraint firstItem="t2P-cx-eS3" firstAttribute="leading" secondItem="7ck-qJ-9UR" secondAttribute="leading" constant="324" id="Vi1-QO-leL"/>
                                     <constraint firstItem="t2P-cx-eS3" firstAttribute="top" secondItem="7ck-qJ-9UR" secondAttribute="top" constant="9" id="mZR-g4-3If"/>
                                     <constraint firstAttribute="bottom" secondItem="t2P-cx-eS3" secondAttribute="bottom" constant="9" id="p9v-rw-j6C"/>
-                                    <constraint firstAttribute="trailing" secondItem="t2P-cx-eS3" secondAttribute="trailing" constant="239" id="shF-jQ-SDT"/>
+                                    <constraint firstAttribute="trailing" secondItem="t2P-cx-eS3" secondAttribute="trailing" constant="323" id="shF-jQ-SDT"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7K-VR-PZy">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t2s-nx-cRV">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="a5X-ZZ-Cjo"/>
+                                            <constraint firstAttribute="height" constant="61" id="a5X-ZZ-Cjo"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="urA-IW-7ww">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="ckq-hW-ovP"/>
+                                            <constraint firstAttribute="height" constant="49" id="ckq-hW-ovP"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="t2s-nx-cRV" firstAttribute="leading" secondItem="l7K-VR-PZy" secondAttribute="leading" constant="180" id="1EX-v4-yc0"/>
-                                    <constraint firstItem="urA-IW-7ww" firstAttribute="top" secondItem="t2s-nx-cRV" secondAttribute="bottom" constant="12" id="DrP-iL-qIo"/>
-                                    <constraint firstAttribute="trailing" secondItem="urA-IW-7ww" secondAttribute="trailing" constant="119" id="Jir-6M-Gng"/>
-                                    <constraint firstItem="t2s-nx-cRV" firstAttribute="top" secondItem="l7K-VR-PZy" secondAttribute="top" constant="8" id="Pl6-vf-FUc"/>
-                                    <constraint firstItem="urA-IW-7ww" firstAttribute="leading" secondItem="l7K-VR-PZy" secondAttribute="leading" constant="119" id="UQX-Rv-ueA"/>
-                                    <constraint firstAttribute="bottom" secondItem="urA-IW-7ww" secondAttribute="bottom" constant="2" id="fCP-dd-Yn0"/>
-                                    <constraint firstItem="urA-IW-7ww" firstAttribute="top" secondItem="t2s-nx-cRV" secondAttribute="bottom" constant="12" id="nQe-ah-eEB"/>
+                                    <constraint firstItem="urA-IW-7ww" firstAttribute="top" secondItem="t2s-nx-cRV" secondAttribute="bottom" constant="-3" id="DrP-iL-qIo"/>
+                                    <constraint firstAttribute="trailing" secondItem="urA-IW-7ww" secondAttribute="trailing" constant="180" id="Jir-6M-Gng"/>
+                                    <constraint firstItem="t2s-nx-cRV" firstAttribute="top" secondItem="l7K-VR-PZy" secondAttribute="top" id="Pl6-vf-FUc"/>
+                                    <constraint firstItem="urA-IW-7ww" firstAttribute="leading" secondItem="l7K-VR-PZy" secondAttribute="leading" constant="180" id="UQX-Rv-ueA"/>
+                                    <constraint firstAttribute="bottom" secondItem="urA-IW-7ww" secondAttribute="bottom" constant="8" id="fCP-dd-Yn0"/>
+                                    <constraint firstItem="urA-IW-7ww" firstAttribute="top" secondItem="t2s-nx-cRV" secondAttribute="bottom" constant="-3" id="nQe-ah-eEB"/>
                                     <constraint firstAttribute="trailing" secondItem="t2s-nx-cRV" secondAttribute="trailing" constant="180" id="sLe-lt-010"/>
                                 </constraints>
                             </view>
@@ -385,7 +387,7 @@
                                         </constraints>
                                         <string key="text">Always remember to check your blood sugar before and after you exercise because certain activities can lower your blood sugar 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -400,7 +402,7 @@
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="snj-L9-Fmc">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="Y6Z-hp-Yq8"/>
@@ -411,8 +413,8 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="snj-L9-Fmc" secondAttribute="trailing" constant="239" id="4LN-0b-vxM"/>
-                                    <constraint firstItem="snj-L9-Fmc" firstAttribute="leading" secondItem="nsR-G4-HoE" secondAttribute="leading" constant="240" id="PM2-SH-fAW"/>
+                                    <constraint firstAttribute="trailing" secondItem="snj-L9-Fmc" secondAttribute="trailing" constant="323" id="4LN-0b-vxM"/>
+                                    <constraint firstItem="snj-L9-Fmc" firstAttribute="leading" secondItem="nsR-G4-HoE" secondAttribute="leading" constant="324" id="PM2-SH-fAW"/>
                                     <constraint firstAttribute="height" constant="55" id="aJv-Yl-aNv"/>
                                     <constraint firstItem="snj-L9-Fmc" firstAttribute="top" secondItem="nsR-G4-HoE" secondAttribute="top" constant="9" id="dSW-yd-Zqg"/>
                                     <constraint firstAttribute="bottom" secondItem="snj-L9-Fmc" secondAttribute="bottom" constant="9" id="zVE-0J-Gao"/>
@@ -422,33 +424,33 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LVc-h8-HIK">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="cL3-eq-bjK"/>
+                                            <constraint firstAttribute="height" constant="61" id="cL3-eq-bjK"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dwb-6k-ifU">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="G04-vK-vnd"/>
+                                            <constraint firstAttribute="height" constant="49" id="G04-vK-vnd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="dwb-6k-ifU" firstAttribute="top" secondItem="LVc-h8-HIK" secondAttribute="bottom" constant="12" id="7xH-tt-jS2"/>
-                                    <constraint firstAttribute="bottom" secondItem="dwb-6k-ifU" secondAttribute="bottom" constant="2" id="FJk-Qu-oFJ"/>
+                                    <constraint firstItem="dwb-6k-ifU" firstAttribute="top" secondItem="LVc-h8-HIK" secondAttribute="bottom" constant="-3" id="7xH-tt-jS2"/>
+                                    <constraint firstAttribute="bottom" secondItem="dwb-6k-ifU" secondAttribute="bottom" constant="8" id="FJk-Qu-oFJ"/>
                                     <constraint firstItem="LVc-h8-HIK" firstAttribute="leading" secondItem="VqW-6f-U9r" secondAttribute="leading" constant="180" id="Fbi-rX-cxI"/>
-                                    <constraint firstItem="dwb-6k-ifU" firstAttribute="top" secondItem="LVc-h8-HIK" secondAttribute="bottom" constant="12" id="GIl-Jc-Uxw"/>
-                                    <constraint firstAttribute="trailing" secondItem="dwb-6k-ifU" secondAttribute="trailing" constant="119" id="Jt6-pk-5Po"/>
-                                    <constraint firstItem="LVc-h8-HIK" firstAttribute="top" secondItem="VqW-6f-U9r" secondAttribute="top" constant="8" id="TmJ-qT-Jxv"/>
-                                    <constraint firstItem="dwb-6k-ifU" firstAttribute="leading" secondItem="VqW-6f-U9r" secondAttribute="leading" constant="119" id="U3J-Iq-8nS"/>
+                                    <constraint firstItem="dwb-6k-ifU" firstAttribute="top" secondItem="LVc-h8-HIK" secondAttribute="bottom" constant="-3" id="GIl-Jc-Uxw"/>
+                                    <constraint firstAttribute="trailing" secondItem="dwb-6k-ifU" secondAttribute="trailing" constant="180" id="Jt6-pk-5Po"/>
+                                    <constraint firstItem="LVc-h8-HIK" firstAttribute="top" secondItem="VqW-6f-U9r" secondAttribute="top" id="TmJ-qT-Jxv"/>
+                                    <constraint firstItem="dwb-6k-ifU" firstAttribute="leading" secondItem="VqW-6f-U9r" secondAttribute="leading" constant="180" id="U3J-Iq-8nS"/>
                                     <constraint firstAttribute="trailing" secondItem="LVc-h8-HIK" secondAttribute="trailing" constant="180" id="enh-Ow-8Pr"/>
                                 </constraints>
                             </view>
@@ -502,7 +504,7 @@
                                         </constraints>
                                         <string key="text">It is recommended that 30 minutes a day should be spent doing aerobic exercise at least 5 days a week for a total of 150 mintues per week 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -517,7 +519,7 @@
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="DSZ-Ml-r2h">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="kKN-BL-rGc"/>
@@ -529,8 +531,8 @@
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="DSZ-Ml-r2h" firstAttribute="top" secondItem="sz6-SS-uaa" secondAttribute="top" constant="9" id="HsV-gx-9DT"/>
-                                    <constraint firstAttribute="trailing" secondItem="DSZ-Ml-r2h" secondAttribute="trailing" constant="239" id="bcu-zl-RH9"/>
-                                    <constraint firstItem="DSZ-Ml-r2h" firstAttribute="leading" secondItem="sz6-SS-uaa" secondAttribute="leading" constant="240" id="cOT-6Y-nWR"/>
+                                    <constraint firstAttribute="trailing" secondItem="DSZ-Ml-r2h" secondAttribute="trailing" constant="323" id="bcu-zl-RH9"/>
+                                    <constraint firstItem="DSZ-Ml-r2h" firstAttribute="leading" secondItem="sz6-SS-uaa" secondAttribute="leading" constant="324" id="cOT-6Y-nWR"/>
                                     <constraint firstAttribute="bottom" secondItem="DSZ-Ml-r2h" secondAttribute="bottom" constant="9" id="saP-su-MHD"/>
                                     <constraint firstAttribute="height" constant="55" id="zfB-Vy-z6a"/>
                                 </constraints>
@@ -539,34 +541,34 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ve0-VH-tFx">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="2gL-P1-KXz"/>
+                                            <constraint firstAttribute="height" constant="61" id="2gL-P1-KXz"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Su3-Eo-qeM">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="zUL-6f-k4k"/>
+                                            <constraint firstAttribute="height" constant="49" id="zUL-6f-k4k"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Su3-Eo-qeM" secondAttribute="trailing" constant="119" id="6cx-Ae-es4"/>
-                                    <constraint firstItem="Su3-Eo-qeM" firstAttribute="top" secondItem="ve0-VH-tFx" secondAttribute="bottom" constant="12" id="Bkk-QM-U8W"/>
+                                    <constraint firstAttribute="trailing" secondItem="Su3-Eo-qeM" secondAttribute="trailing" constant="180" id="6cx-Ae-es4"/>
+                                    <constraint firstItem="Su3-Eo-qeM" firstAttribute="top" secondItem="ve0-VH-tFx" secondAttribute="bottom" constant="-3" id="Bkk-QM-U8W"/>
                                     <constraint firstAttribute="trailing" secondItem="ve0-VH-tFx" secondAttribute="trailing" constant="180" id="Wwd-b5-uQC"/>
-                                    <constraint firstItem="Su3-Eo-qeM" firstAttribute="leading" secondItem="atE-m2-i2X" secondAttribute="leading" constant="119" id="rZW-c5-kWa"/>
-                                    <constraint firstItem="Su3-Eo-qeM" firstAttribute="top" secondItem="ve0-VH-tFx" secondAttribute="bottom" constant="12" id="u28-Gi-cvU"/>
+                                    <constraint firstItem="Su3-Eo-qeM" firstAttribute="leading" secondItem="atE-m2-i2X" secondAttribute="leading" constant="180" id="rZW-c5-kWa"/>
+                                    <constraint firstItem="Su3-Eo-qeM" firstAttribute="top" secondItem="ve0-VH-tFx" secondAttribute="bottom" constant="-3" id="u28-Gi-cvU"/>
                                     <constraint firstItem="ve0-VH-tFx" firstAttribute="leading" secondItem="atE-m2-i2X" secondAttribute="leading" constant="180" id="vFY-x6-GNB"/>
-                                    <constraint firstItem="ve0-VH-tFx" firstAttribute="top" secondItem="atE-m2-i2X" secondAttribute="top" constant="8" id="vW8-da-DjU"/>
-                                    <constraint firstAttribute="bottom" secondItem="Su3-Eo-qeM" secondAttribute="bottom" constant="2" id="yEK-6c-oCA"/>
+                                    <constraint firstItem="ve0-VH-tFx" firstAttribute="top" secondItem="atE-m2-i2X" secondAttribute="top" id="vW8-da-DjU"/>
+                                    <constraint firstAttribute="bottom" secondItem="Su3-Eo-qeM" secondAttribute="bottom" constant="8" id="yEK-6c-oCA"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -628,7 +630,7 @@
                                         </constraints>
                                         <string key="text">Always start slow with a 5 minute low intensity warm-up before exercise and a 5 minute cool down after your exercise
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -647,7 +649,7 @@
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="rRg-rw-tFG">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="EUA-6c-zlz"/>
@@ -659,9 +661,9 @@
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="rRg-rw-tFG" secondAttribute="bottom" constant="9" id="EHi-bd-S4j"/>
-                                    <constraint firstAttribute="trailing" secondItem="rRg-rw-tFG" secondAttribute="trailing" constant="239" id="F5M-w6-gBi"/>
+                                    <constraint firstAttribute="trailing" secondItem="rRg-rw-tFG" secondAttribute="trailing" constant="323" id="F5M-w6-gBi"/>
                                     <constraint firstAttribute="height" constant="55" id="SbK-D7-ESa"/>
-                                    <constraint firstItem="rRg-rw-tFG" firstAttribute="leading" secondItem="4y5-Fd-3Cx" secondAttribute="leading" constant="240" id="TrT-D7-k0i"/>
+                                    <constraint firstItem="rRg-rw-tFG" firstAttribute="leading" secondItem="4y5-Fd-3Cx" secondAttribute="leading" constant="324" id="TrT-D7-k0i"/>
                                     <constraint firstItem="rRg-rw-tFG" firstAttribute="top" secondItem="4y5-Fd-3Cx" secondAttribute="top" constant="9" id="cxi-yR-Vw8"/>
                                 </constraints>
                             </view>
@@ -669,33 +671,33 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0HK-BQ-YV6">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="1se-Le-KVa"/>
+                                            <constraint firstAttribute="height" constant="61" id="1se-Le-KVa"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4f8-Dk-94i">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="hk3-Ws-zff"/>
+                                            <constraint firstAttribute="height" constant="49" id="hk3-Ws-zff"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="4f8-Dk-94i" secondAttribute="bottom" constant="2" id="6F1-OM-c37"/>
+                                    <constraint firstAttribute="bottom" secondItem="4f8-Dk-94i" secondAttribute="bottom" constant="8" id="6F1-OM-c37"/>
                                     <constraint firstAttribute="trailing" secondItem="0HK-BQ-YV6" secondAttribute="trailing" constant="180" id="8Uh-16-zb6"/>
-                                    <constraint firstItem="0HK-BQ-YV6" firstAttribute="top" secondItem="Ocf-p9-26J" secondAttribute="top" constant="8" id="JKO-VB-6Ru"/>
-                                    <constraint firstAttribute="trailing" secondItem="4f8-Dk-94i" secondAttribute="trailing" constant="119" id="af4-GL-BNM"/>
-                                    <constraint firstItem="4f8-Dk-94i" firstAttribute="top" secondItem="0HK-BQ-YV6" secondAttribute="bottom" constant="12" id="c6g-zQ-vfN"/>
-                                    <constraint firstItem="4f8-Dk-94i" firstAttribute="top" secondItem="0HK-BQ-YV6" secondAttribute="bottom" constant="12" id="g7E-ej-1cD"/>
-                                    <constraint firstItem="4f8-Dk-94i" firstAttribute="leading" secondItem="Ocf-p9-26J" secondAttribute="leading" constant="119" id="hgk-ro-75U"/>
+                                    <constraint firstItem="0HK-BQ-YV6" firstAttribute="top" secondItem="Ocf-p9-26J" secondAttribute="top" id="JKO-VB-6Ru"/>
+                                    <constraint firstAttribute="trailing" secondItem="4f8-Dk-94i" secondAttribute="trailing" constant="180" id="af4-GL-BNM"/>
+                                    <constraint firstItem="4f8-Dk-94i" firstAttribute="top" secondItem="0HK-BQ-YV6" secondAttribute="bottom" constant="-3" id="c6g-zQ-vfN"/>
+                                    <constraint firstItem="4f8-Dk-94i" firstAttribute="top" secondItem="0HK-BQ-YV6" secondAttribute="bottom" constant="-3" id="g7E-ej-1cD"/>
+                                    <constraint firstItem="4f8-Dk-94i" firstAttribute="leading" secondItem="Ocf-p9-26J" secondAttribute="leading" constant="180" id="hgk-ro-75U"/>
                                     <constraint firstItem="0HK-BQ-YV6" firstAttribute="leading" secondItem="Ocf-p9-26J" secondAttribute="leading" constant="180" id="stb-PB-olK"/>
                                 </constraints>
                             </view>
@@ -758,7 +760,7 @@
                                         </constraints>
                                         <string key="text">Some examples of aerobic exercises include brisk walking, bicycling, dancing, swimming, running, hiking, heavy gardening
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -777,7 +779,7 @@
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="Vxh-dN-1yL">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="5Zu-4U-ySd"/>
@@ -790,8 +792,8 @@
                                 <constraints>
                                     <constraint firstItem="Vxh-dN-1yL" firstAttribute="top" secondItem="5Hl-4a-EvD" secondAttribute="top" constant="9" id="4wq-cC-xLT"/>
                                     <constraint firstAttribute="bottom" secondItem="Vxh-dN-1yL" secondAttribute="bottom" constant="9" id="KhN-sg-z3i"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vxh-dN-1yL" secondAttribute="trailing" constant="239" id="Qwj-tP-Oxp"/>
-                                    <constraint firstItem="Vxh-dN-1yL" firstAttribute="leading" secondItem="5Hl-4a-EvD" secondAttribute="leading" constant="240" id="YGt-7y-Oca"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vxh-dN-1yL" secondAttribute="trailing" constant="323" id="Qwj-tP-Oxp"/>
+                                    <constraint firstItem="Vxh-dN-1yL" firstAttribute="leading" secondItem="5Hl-4a-EvD" secondAttribute="leading" constant="324" id="YGt-7y-Oca"/>
                                     <constraint firstAttribute="height" constant="55" id="nAw-9k-Zjt"/>
                                 </constraints>
                             </view>
@@ -799,34 +801,34 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iaD-Qd-pOG">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="W96-xn-GMB"/>
+                                            <constraint firstAttribute="height" constant="61" id="W96-xn-GMB"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JMS-Uf-Yeu">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="PUz-CG-mqL"/>
+                                            <constraint firstAttribute="height" constant="49" id="PUz-CG-mqL"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="iaD-Qd-pOG" secondAttribute="trailing" constant="180" id="1Ug-bv-cvN"/>
-                                    <constraint firstItem="JMS-Uf-Yeu" firstAttribute="top" secondItem="iaD-Qd-pOG" secondAttribute="bottom" constant="12" id="hEq-NW-CcL"/>
-                                    <constraint firstItem="JMS-Uf-Yeu" firstAttribute="leading" secondItem="gvX-Zz-nBB" secondAttribute="leading" constant="119" id="hv4-eD-rg2"/>
-                                    <constraint firstAttribute="bottom" secondItem="JMS-Uf-Yeu" secondAttribute="bottom" constant="2" id="j9M-GR-iy2"/>
+                                    <constraint firstItem="JMS-Uf-Yeu" firstAttribute="top" secondItem="iaD-Qd-pOG" secondAttribute="bottom" constant="-3" id="hEq-NW-CcL"/>
+                                    <constraint firstItem="JMS-Uf-Yeu" firstAttribute="leading" secondItem="gvX-Zz-nBB" secondAttribute="leading" constant="180" id="hv4-eD-rg2"/>
+                                    <constraint firstAttribute="bottom" secondItem="JMS-Uf-Yeu" secondAttribute="bottom" constant="8" id="j9M-GR-iy2"/>
                                     <constraint firstItem="iaD-Qd-pOG" firstAttribute="leading" secondItem="gvX-Zz-nBB" secondAttribute="leading" constant="180" id="mNh-Zy-l4v"/>
-                                    <constraint firstItem="JMS-Uf-Yeu" firstAttribute="top" secondItem="iaD-Qd-pOG" secondAttribute="bottom" constant="12" id="pKk-C6-sHt"/>
-                                    <constraint firstAttribute="trailing" secondItem="JMS-Uf-Yeu" secondAttribute="trailing" constant="119" id="sAT-ht-l4m"/>
-                                    <constraint firstItem="iaD-Qd-pOG" firstAttribute="top" secondItem="gvX-Zz-nBB" secondAttribute="top" constant="8" id="zbC-zw-CHJ"/>
+                                    <constraint firstItem="JMS-Uf-Yeu" firstAttribute="top" secondItem="iaD-Qd-pOG" secondAttribute="bottom" constant="-3" id="pKk-C6-sHt"/>
+                                    <constraint firstAttribute="trailing" secondItem="JMS-Uf-Yeu" secondAttribute="trailing" constant="180" id="sAT-ht-l4m"/>
+                                    <constraint firstItem="iaD-Qd-pOG" firstAttribute="top" secondItem="gvX-Zz-nBB" secondAttribute="top" id="zbC-zw-CHJ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -904,8 +906,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtl-qI-M80">
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="nW5-ba-ZRs">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="nW5-ba-ZRs">
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="RBb-6Q-86Z"/>
@@ -1095,16 +1097,16 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="S05-mr-ylp">
-                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="367"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="9ni-dU-PIJ"/>
+                                            <constraint firstAttribute="height" constant="367" id="9ni-dU-PIJ"/>
                                         </constraints>
                                         <string key="text">Exercise is an important part of managing your diabetes
 
 Exercise may decrease the amount of insulin or other medication you need to control your blood sugar
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -1123,7 +1125,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="Yji-Bm-vlL">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="8bz-XS-6cS"/>
@@ -1134,45 +1136,45 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Yji-Bm-vlL" secondAttribute="trailing" constant="239" id="1je-el-r8v"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yji-Bm-vlL" secondAttribute="trailing" constant="323" id="1je-el-r8v"/>
                                     <constraint firstAttribute="bottom" secondItem="Yji-Bm-vlL" secondAttribute="bottom" constant="9" id="4O3-Hi-AHl"/>
                                     <constraint firstItem="Yji-Bm-vlL" firstAttribute="top" secondItem="5Ee-0h-ciq" secondAttribute="top" constant="9" id="TZe-mU-Ajx"/>
                                     <constraint firstAttribute="height" constant="55" id="Ws7-zc-Ypf"/>
-                                    <constraint firstItem="Yji-Bm-vlL" firstAttribute="leading" secondItem="5Ee-0h-ciq" secondAttribute="leading" constant="240" id="sFg-oR-NJm"/>
+                                    <constraint firstItem="Yji-Bm-vlL" firstAttribute="leading" secondItem="5Ee-0h-ciq" secondAttribute="leading" constant="324" id="sFg-oR-NJm"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfd-St-eIn">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wbQ-as-KeZ">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="MiY-3V-1wt"/>
+                                            <constraint firstAttribute="height" constant="61" id="MiY-3V-1wt"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="miU-u8-N9A">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="8D6-VA-phd"/>
+                                            <constraint firstAttribute="height" constant="49" id="8D6-VA-phd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="miU-u8-N9A" firstAttribute="top" secondItem="wbQ-as-KeZ" secondAttribute="bottom" constant="12" id="PFc-qL-CQ2"/>
-                                    <constraint firstItem="miU-u8-N9A" firstAttribute="top" secondItem="wbQ-as-KeZ" secondAttribute="bottom" constant="12" id="XtT-sL-lcx"/>
-                                    <constraint firstAttribute="trailing" secondItem="miU-u8-N9A" secondAttribute="trailing" constant="119" id="i0q-gW-nRe"/>
-                                    <constraint firstItem="miU-u8-N9A" firstAttribute="leading" secondItem="kfd-St-eIn" secondAttribute="leading" constant="119" id="lhr-ct-WTb"/>
+                                    <constraint firstItem="miU-u8-N9A" firstAttribute="top" secondItem="wbQ-as-KeZ" secondAttribute="bottom" constant="-3" id="PFc-qL-CQ2"/>
+                                    <constraint firstItem="miU-u8-N9A" firstAttribute="top" secondItem="wbQ-as-KeZ" secondAttribute="bottom" constant="-3" id="XtT-sL-lcx"/>
+                                    <constraint firstAttribute="trailing" secondItem="miU-u8-N9A" secondAttribute="trailing" constant="180" id="i0q-gW-nRe"/>
+                                    <constraint firstItem="miU-u8-N9A" firstAttribute="leading" secondItem="kfd-St-eIn" secondAttribute="leading" constant="180" id="lhr-ct-WTb"/>
                                     <constraint firstItem="wbQ-as-KeZ" firstAttribute="leading" secondItem="kfd-St-eIn" secondAttribute="leading" constant="180" id="rvo-Ll-sDk"/>
                                     <constraint firstAttribute="trailing" secondItem="wbQ-as-KeZ" secondAttribute="trailing" constant="180" id="smJ-vF-DiZ"/>
-                                    <constraint firstItem="wbQ-as-KeZ" firstAttribute="top" secondItem="kfd-St-eIn" secondAttribute="top" constant="8" id="tCf-0e-3be"/>
-                                    <constraint firstAttribute="bottom" secondItem="miU-u8-N9A" secondAttribute="bottom" constant="2" id="wjL-Fs-CTV"/>
+                                    <constraint firstItem="wbQ-as-KeZ" firstAttribute="top" secondItem="kfd-St-eIn" secondAttribute="top" id="tCf-0e-3be"/>
+                                    <constraint firstAttribute="bottom" secondItem="miU-u8-N9A" secondAttribute="bottom" constant="8" id="wjL-Fs-CTV"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1227,16 +1229,16 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k6d-yb-7GF">
-                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="543"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="lSx-pI-YCk"/>
+                                            <constraint firstAttribute="height" constant="543" id="lSx-pI-YCk"/>
                                         </constraints>
                                         <string key="text">You need to monitor your blood sugar more frequently when you exericise, especially before and after exercise 
 
 More activity than normal can cause your blood sugar levels to drop, which may mean that you will need to give yourself less insulin or eat extra carbohydrates before exercise 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -1255,7 +1257,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="mAj-tG-QWZ">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="TEN-MO-GbY"/>
@@ -1268,43 +1270,43 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="mAj-tG-QWZ" secondAttribute="bottom" constant="9" id="3ae-CW-aPz"/>
                                     <constraint firstAttribute="height" constant="55" id="5S1-W2-10G"/>
-                                    <constraint firstAttribute="trailing" secondItem="mAj-tG-QWZ" secondAttribute="trailing" constant="239" id="aWB-zr-U48"/>
+                                    <constraint firstAttribute="trailing" secondItem="mAj-tG-QWZ" secondAttribute="trailing" constant="323" id="aWB-zr-U48"/>
                                     <constraint firstItem="mAj-tG-QWZ" firstAttribute="top" secondItem="26o-x3-Z03" secondAttribute="top" constant="9" id="bJi-nY-0w2"/>
-                                    <constraint firstItem="mAj-tG-QWZ" firstAttribute="leading" secondItem="26o-x3-Z03" secondAttribute="leading" constant="240" id="oMg-Wc-X1J"/>
+                                    <constraint firstItem="mAj-tG-QWZ" firstAttribute="leading" secondItem="26o-x3-Z03" secondAttribute="leading" constant="324" id="oMg-Wc-X1J"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8G-hi-mZg">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gyl-ES-p7H">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="3AW-HP-OQJ"/>
+                                            <constraint firstAttribute="height" constant="61" id="3AW-HP-OQJ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Tq-40-EqF">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="jvl-XW-1Ld"/>
+                                            <constraint firstAttribute="height" constant="49" id="jvl-XW-1Ld"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Gyl-ES-p7H" secondAttribute="trailing" constant="180" id="BMu-UB-MWD"/>
-                                    <constraint firstAttribute="bottom" secondItem="1Tq-40-EqF" secondAttribute="bottom" constant="2" id="VlV-yX-aax"/>
-                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="top" secondItem="Gyl-ES-p7H" secondAttribute="bottom" constant="12" id="h0U-dr-oNe"/>
+                                    <constraint firstAttribute="bottom" secondItem="1Tq-40-EqF" secondAttribute="bottom" constant="8" id="VlV-yX-aax"/>
+                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="top" secondItem="Gyl-ES-p7H" secondAttribute="bottom" constant="-3" id="h0U-dr-oNe"/>
                                     <constraint firstItem="Gyl-ES-p7H" firstAttribute="leading" secondItem="T8G-hi-mZg" secondAttribute="leading" constant="180" id="htj-wM-Dfb"/>
-                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="top" secondItem="Gyl-ES-p7H" secondAttribute="bottom" constant="12" id="jj8-fa-yar"/>
-                                    <constraint firstItem="Gyl-ES-p7H" firstAttribute="top" secondItem="T8G-hi-mZg" secondAttribute="top" constant="8" id="u3P-Pd-Mi4"/>
-                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="leading" secondItem="T8G-hi-mZg" secondAttribute="leading" constant="119" id="uk1-me-yma"/>
-                                    <constraint firstAttribute="trailing" secondItem="1Tq-40-EqF" secondAttribute="trailing" constant="119" id="wLC-8H-E93"/>
+                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="top" secondItem="Gyl-ES-p7H" secondAttribute="bottom" constant="-3" id="jj8-fa-yar"/>
+                                    <constraint firstItem="Gyl-ES-p7H" firstAttribute="top" secondItem="T8G-hi-mZg" secondAttribute="top" id="u3P-Pd-Mi4"/>
+                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="leading" secondItem="T8G-hi-mZg" secondAttribute="leading" constant="180" id="uk1-me-yma"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Tq-40-EqF" secondAttribute="trailing" constant="180" id="wLC-8H-E93"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1358,19 +1360,23 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZMj-gD-Sn7">
-                                        <rect key="frame" x="80" y="88" width="610" height="334"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZMj-gD-Sn7">
+                                        <rect key="frame" x="80" y="88" width="610" height="414"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="oMn-K1-p47"/>
+                                            <constraint firstAttribute="height" constant="414" id="oMn-K1-p47"/>
                                         </constraints>
                                         <string key="text">A carb snack that contains about 15 grams of carb should be kept with you when you exercise in case your glucose goes too low.  This may include about 5 hard candies, half of a regular soda, half of a bottle of a sports drink, or glucose tabs 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="halfCupOfOats.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wqG-GX-cYl">
-                                        <rect key="frame" x="160" y="234" width="282" height="162"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="halfCupOfOats.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wqG-GX-cYl">
+                                        <rect key="frame" x="280" y="574" width="282" height="162"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="282" id="73n-of-crQ"/>
+                                            <constraint firstAttribute="height" constant="162" id="kFM-nz-d3p"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -1378,17 +1384,19 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                     <constraint firstItem="ZMj-gD-Sn7" firstAttribute="top" secondItem="K9C-fk-vyh" secondAttribute="bottom" constant="40" id="0dW-UK-ogP"/>
                                     <constraint firstItem="K9C-fk-vyh" firstAttribute="top" secondItem="Ug6-d3-phT" secondAttribute="top" constant="8" id="Ah0-qs-cFY"/>
                                     <constraint firstAttribute="trailing" secondItem="K9C-fk-vyh" secondAttribute="trailing" constant="510" id="Fvo-yW-CAF"/>
-                                    <constraint firstAttribute="trailing" secondItem="ZMj-gD-Sn7" secondAttribute="trailing" constant="79" id="MAN-5o-yU1"/>
+                                    <constraint firstItem="wqG-GX-cYl" firstAttribute="leading" secondItem="Ug6-d3-phT" secondAttribute="leading" constant="280" id="H5v-Te-737"/>
+                                    <constraint firstItem="wqG-GX-cYl" firstAttribute="top" secondItem="ZMj-gD-Sn7" secondAttribute="bottom" constant="72" id="JUR-76-aea"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZMj-gD-Sn7" secondAttribute="trailing" constant="78" id="MAN-5o-yU1"/>
                                     <constraint firstItem="K9C-fk-vyh" firstAttribute="leading" secondItem="Ug6-d3-phT" secondAttribute="leading" constant="80" id="Xny-2g-1ml"/>
                                     <constraint firstItem="ZMj-gD-Sn7" firstAttribute="top" secondItem="K9C-fk-vyh" secondAttribute="bottom" constant="40" id="aW6-DW-90m"/>
-                                    <constraint firstItem="ZMj-gD-Sn7" firstAttribute="leading" secondItem="Ug6-d3-phT" secondAttribute="leading" constant="79" id="zxW-vj-Vhx"/>
+                                    <constraint firstItem="ZMj-gD-Sn7" firstAttribute="leading" secondItem="Ug6-d3-phT" secondAttribute="leading" constant="80" id="zxW-vj-Vhx"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NUB-1L-GxG">
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="YyP-Jf-gCZ">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="qSn-QQ-VKW"/>
@@ -1399,8 +1407,8 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="YyP-Jf-gCZ" firstAttribute="leading" secondItem="NUB-1L-GxG" secondAttribute="leading" constant="240" id="EZY-Dr-Gvb"/>
-                                    <constraint firstAttribute="trailing" secondItem="YyP-Jf-gCZ" secondAttribute="trailing" constant="239" id="Sfo-l6-J6V"/>
+                                    <constraint firstItem="YyP-Jf-gCZ" firstAttribute="leading" secondItem="NUB-1L-GxG" secondAttribute="leading" constant="324" id="EZY-Dr-Gvb"/>
+                                    <constraint firstAttribute="trailing" secondItem="YyP-Jf-gCZ" secondAttribute="trailing" constant="323" id="Sfo-l6-J6V"/>
                                     <constraint firstAttribute="bottom" secondItem="YyP-Jf-gCZ" secondAttribute="bottom" constant="9" id="nbJ-ay-xNd"/>
                                     <constraint firstAttribute="height" constant="55" id="rma-nJ-nlG"/>
                                     <constraint firstItem="YyP-Jf-gCZ" firstAttribute="top" secondItem="NUB-1L-GxG" secondAttribute="top" constant="9" id="wO8-D4-fj4"/>
@@ -1410,34 +1418,34 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XJa-XH-SdP">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="dpQ-wl-3o9"/>
+                                            <constraint firstAttribute="height" constant="61" id="dpQ-wl-3o9"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EBo-uH-SaK">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="mbJ-6U-Oev"/>
+                                            <constraint firstAttribute="height" constant="49" id="mbJ-6U-Oev"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="leading" secondItem="utm-oz-gvV" secondAttribute="leading" constant="119" id="0Lj-F0-5u4"/>
-                                    <constraint firstAttribute="trailing" secondItem="EBo-uH-SaK" secondAttribute="trailing" constant="119" id="2Uy-2F-o91"/>
+                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="leading" secondItem="utm-oz-gvV" secondAttribute="leading" constant="180" id="0Lj-F0-5u4"/>
+                                    <constraint firstAttribute="trailing" secondItem="EBo-uH-SaK" secondAttribute="trailing" constant="180" id="2Uy-2F-o91"/>
                                     <constraint firstItem="XJa-XH-SdP" firstAttribute="leading" secondItem="utm-oz-gvV" secondAttribute="leading" constant="180" id="2ka-MC-SKb"/>
-                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="top" secondItem="XJa-XH-SdP" secondAttribute="bottom" constant="12" id="Feu-3k-HWj"/>
-                                    <constraint firstAttribute="bottom" secondItem="EBo-uH-SaK" secondAttribute="bottom" constant="2" id="Sns-eF-dJS"/>
+                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="top" secondItem="XJa-XH-SdP" secondAttribute="bottom" constant="-3" id="Feu-3k-HWj"/>
+                                    <constraint firstAttribute="bottom" secondItem="EBo-uH-SaK" secondAttribute="bottom" constant="8" id="Sns-eF-dJS"/>
                                     <constraint firstAttribute="trailing" secondItem="XJa-XH-SdP" secondAttribute="trailing" constant="180" id="Xfs-Uo-owE"/>
-                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="top" secondItem="XJa-XH-SdP" secondAttribute="bottom" constant="12" id="i78-NM-V7z"/>
-                                    <constraint firstItem="XJa-XH-SdP" firstAttribute="top" secondItem="utm-oz-gvV" secondAttribute="top" constant="8" id="pph-7a-riO"/>
+                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="top" secondItem="XJa-XH-SdP" secondAttribute="bottom" constant="-3" id="i78-NM-V7z"/>
+                                    <constraint firstItem="XJa-XH-SdP" firstAttribute="top" secondItem="utm-oz-gvV" secondAttribute="top" id="pph-7a-riO"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1499,7 +1507,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         </constraints>
                                         <string key="text">When you first begin an exercise program, record your blood sugar before, during, and after different types of exercises to see how exercise affects you 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -1518,7 +1526,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="vEr-dN-fhr">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="c7d-sw-Nta"/>
@@ -1529,8 +1537,8 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="vEr-dN-fhr" firstAttribute="leading" secondItem="BOw-rS-syC" secondAttribute="leading" constant="240" id="Adu-ix-wa2"/>
-                                    <constraint firstAttribute="trailing" secondItem="vEr-dN-fhr" secondAttribute="trailing" constant="239" id="F4T-gk-jaz"/>
+                                    <constraint firstItem="vEr-dN-fhr" firstAttribute="leading" secondItem="BOw-rS-syC" secondAttribute="leading" constant="324" id="Adu-ix-wa2"/>
+                                    <constraint firstAttribute="trailing" secondItem="vEr-dN-fhr" secondAttribute="trailing" constant="323" id="F4T-gk-jaz"/>
                                     <constraint firstAttribute="height" constant="55" id="JeF-Wr-JjS"/>
                                     <constraint firstAttribute="bottom" secondItem="vEr-dN-fhr" secondAttribute="bottom" constant="9" id="Jsf-Yw-MeN"/>
                                     <constraint firstItem="vEr-dN-fhr" firstAttribute="top" secondItem="BOw-rS-syC" secondAttribute="top" constant="9" id="Qfm-jd-gZC"/>
@@ -1540,32 +1548,32 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UHg-ta-rf9">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="0oV-ci-QlU"/>
+                                            <constraint firstAttribute="height" constant="61" id="0oV-ci-QlU"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6iG-ve-C79">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="ynI-tB-sKK"/>
+                                            <constraint firstAttribute="height" constant="49" id="ynI-tB-sKK"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="6iG-ve-C79" firstAttribute="top" secondItem="UHg-ta-rf9" secondAttribute="bottom" constant="12" id="KUd-nv-3IF"/>
-                                    <constraint firstItem="6iG-ve-C79" firstAttribute="leading" secondItem="TnV-4T-OfT" secondAttribute="leading" constant="119" id="No1-zx-lmk"/>
-                                    <constraint firstAttribute="trailing" secondItem="6iG-ve-C79" secondAttribute="trailing" constant="119" id="U6E-ob-JYB"/>
-                                    <constraint firstAttribute="bottom" secondItem="6iG-ve-C79" secondAttribute="bottom" constant="2" id="ZAC-YA-aN0"/>
-                                    <constraint firstItem="UHg-ta-rf9" firstAttribute="top" secondItem="TnV-4T-OfT" secondAttribute="top" constant="8" id="eYg-Xq-8do"/>
-                                    <constraint firstItem="6iG-ve-C79" firstAttribute="top" secondItem="UHg-ta-rf9" secondAttribute="bottom" constant="12" id="uOJ-os-kQj"/>
+                                    <constraint firstItem="6iG-ve-C79" firstAttribute="top" secondItem="UHg-ta-rf9" secondAttribute="bottom" constant="-3" id="KUd-nv-3IF"/>
+                                    <constraint firstItem="6iG-ve-C79" firstAttribute="leading" secondItem="TnV-4T-OfT" secondAttribute="leading" constant="180" id="No1-zx-lmk"/>
+                                    <constraint firstAttribute="trailing" secondItem="6iG-ve-C79" secondAttribute="trailing" constant="180" id="U6E-ob-JYB"/>
+                                    <constraint firstAttribute="bottom" secondItem="6iG-ve-C79" secondAttribute="bottom" constant="8" id="ZAC-YA-aN0"/>
+                                    <constraint firstItem="UHg-ta-rf9" firstAttribute="top" secondItem="TnV-4T-OfT" secondAttribute="top" id="eYg-Xq-8do"/>
+                                    <constraint firstItem="6iG-ve-C79" firstAttribute="top" secondItem="UHg-ta-rf9" secondAttribute="bottom" constant="-3" id="uOJ-os-kQj"/>
                                     <constraint firstAttribute="trailing" secondItem="UHg-ta-rf9" secondAttribute="trailing" constant="180" id="xRt-q7-oNd"/>
                                     <constraint firstItem="UHg-ta-rf9" firstAttribute="leading" secondItem="TnV-4T-OfT" secondAttribute="leading" constant="180" id="zDR-tm-5Yj"/>
                                 </constraints>
@@ -1629,7 +1637,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         </constraints>
                                         <string key="text">If your blood sugar is less than 100 mg/dl, or you think you are going to exercise for more than 30 mintues, eat a carbohydrate snack to reduce the chance for low blood sugar
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -1648,7 +1656,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="xAh-bz-95s">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="5sG-j7-wvy"/>
@@ -1661,43 +1669,43 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="61R-FD-mSi"/>
                                     <constraint firstAttribute="bottom" secondItem="xAh-bz-95s" secondAttribute="bottom" constant="9" id="O8F-XL-y8F"/>
-                                    <constraint firstItem="xAh-bz-95s" firstAttribute="leading" secondItem="LWF-Hq-WwC" secondAttribute="leading" constant="240" id="VeH-gy-gli"/>
+                                    <constraint firstItem="xAh-bz-95s" firstAttribute="leading" secondItem="LWF-Hq-WwC" secondAttribute="leading" constant="324" id="VeH-gy-gli"/>
                                     <constraint firstItem="xAh-bz-95s" firstAttribute="top" secondItem="LWF-Hq-WwC" secondAttribute="top" constant="9" id="YPT-c7-38r"/>
-                                    <constraint firstAttribute="trailing" secondItem="xAh-bz-95s" secondAttribute="trailing" constant="239" id="uIu-En-GLF"/>
+                                    <constraint firstAttribute="trailing" secondItem="xAh-bz-95s" secondAttribute="trailing" constant="323" id="uIu-En-GLF"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7BC-jy-1yf">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2aH-8M-ilq">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="dol-nL-fIF"/>
+                                            <constraint firstAttribute="height" constant="61" id="dol-nL-fIF"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hZs-C4-nZE">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="9ot-YV-dzN"/>
+                                            <constraint firstAttribute="height" constant="49" id="9ot-YV-dzN"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="hZs-C4-nZE" secondAttribute="trailing" constant="119" id="2UM-en-eQu"/>
+                                    <constraint firstAttribute="trailing" secondItem="hZs-C4-nZE" secondAttribute="trailing" constant="180" id="2UM-en-eQu"/>
                                     <constraint firstAttribute="trailing" secondItem="2aH-8M-ilq" secondAttribute="trailing" constant="180" id="3QJ-Ix-gd3"/>
-                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="top" secondItem="2aH-8M-ilq" secondAttribute="bottom" constant="12" id="4y2-ey-evm"/>
-                                    <constraint firstItem="2aH-8M-ilq" firstAttribute="top" secondItem="7BC-jy-1yf" secondAttribute="top" constant="8" id="Qf3-nt-sI1"/>
-                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="leading" secondItem="7BC-jy-1yf" secondAttribute="leading" constant="119" id="d73-sB-jcN"/>
+                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="top" secondItem="2aH-8M-ilq" secondAttribute="bottom" constant="-3" id="4y2-ey-evm"/>
+                                    <constraint firstItem="2aH-8M-ilq" firstAttribute="top" secondItem="7BC-jy-1yf" secondAttribute="top" id="Qf3-nt-sI1"/>
+                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="leading" secondItem="7BC-jy-1yf" secondAttribute="leading" constant="180" id="d73-sB-jcN"/>
                                     <constraint firstItem="2aH-8M-ilq" firstAttribute="leading" secondItem="7BC-jy-1yf" secondAttribute="leading" constant="180" id="l9g-KZ-Iad"/>
-                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="top" secondItem="2aH-8M-ilq" secondAttribute="bottom" constant="12" id="wA4-gj-zVe"/>
-                                    <constraint firstAttribute="bottom" secondItem="hZs-C4-nZE" secondAttribute="bottom" constant="2" id="xpa-Fu-EMf"/>
+                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="top" secondItem="2aH-8M-ilq" secondAttribute="bottom" constant="-3" id="wA4-gj-zVe"/>
+                                    <constraint firstAttribute="bottom" secondItem="hZs-C4-nZE" secondAttribute="bottom" constant="8" id="xpa-Fu-EMf"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1761,7 +1769,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
 
 If your blood sugar is still lower than 100 mg/dl, eat another small snack and check again in 15-20 minutes
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -1780,7 +1788,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="s6n-bj-8oW">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="Jvy-M9-HfF"/>
@@ -1792,43 +1800,43 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="s6n-bj-8oW" secondAttribute="bottom" constant="9" id="Eeo-ji-xcl"/>
-                                    <constraint firstItem="s6n-bj-8oW" firstAttribute="leading" secondItem="fl6-Xu-wI6" secondAttribute="leading" constant="240" id="QX4-tW-3O4"/>
+                                    <constraint firstItem="s6n-bj-8oW" firstAttribute="leading" secondItem="fl6-Xu-wI6" secondAttribute="leading" constant="324" id="QX4-tW-3O4"/>
                                     <constraint firstAttribute="height" constant="55" id="bmE-fy-QXe"/>
                                     <constraint firstItem="s6n-bj-8oW" firstAttribute="top" secondItem="fl6-Xu-wI6" secondAttribute="top" constant="9" id="db9-aS-FHr"/>
-                                    <constraint firstAttribute="trailing" secondItem="s6n-bj-8oW" secondAttribute="trailing" constant="239" id="fXG-aF-UXH"/>
+                                    <constraint firstAttribute="trailing" secondItem="s6n-bj-8oW" secondAttribute="trailing" constant="323" id="fXG-aF-UXH"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEb-Ru-vfC">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yfj-Ie-nKl">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="PJp-OD-KEG"/>
+                                            <constraint firstAttribute="height" constant="61" id="PJp-OD-KEG"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sad-Im-t4X">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="5W0-64-HBg"/>
+                                            <constraint firstAttribute="height" constant="49" id="5W0-64-HBg"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Sad-Im-t4X" secondAttribute="bottom" constant="2" id="0bn-eB-u0s"/>
-                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="top" secondItem="Yfj-Ie-nKl" secondAttribute="bottom" constant="12" id="1pK-n7-FUC"/>
-                                    <constraint firstAttribute="trailing" secondItem="Sad-Im-t4X" secondAttribute="trailing" constant="119" id="3kn-d8-PEw"/>
-                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="top" secondItem="Yfj-Ie-nKl" secondAttribute="bottom" constant="12" id="Rla-OO-80N"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sad-Im-t4X" secondAttribute="bottom" constant="8" id="0bn-eB-u0s"/>
+                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="top" secondItem="Yfj-Ie-nKl" secondAttribute="bottom" constant="-3" id="1pK-n7-FUC"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sad-Im-t4X" secondAttribute="trailing" constant="180" id="3kn-d8-PEw"/>
+                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="top" secondItem="Yfj-Ie-nKl" secondAttribute="bottom" constant="-3" id="Rla-OO-80N"/>
                                     <constraint firstAttribute="trailing" secondItem="Yfj-Ie-nKl" secondAttribute="trailing" constant="180" id="Rqb-ir-40F"/>
-                                    <constraint firstItem="Yfj-Ie-nKl" firstAttribute="top" secondItem="FEb-Ru-vfC" secondAttribute="top" constant="8" id="biE-R0-Ptk"/>
-                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="leading" secondItem="FEb-Ru-vfC" secondAttribute="leading" constant="119" id="dHh-tH-UDL"/>
+                                    <constraint firstItem="Yfj-Ie-nKl" firstAttribute="top" secondItem="FEb-Ru-vfC" secondAttribute="top" id="biE-R0-Ptk"/>
+                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="leading" secondItem="FEb-Ru-vfC" secondAttribute="leading" constant="180" id="dHh-tH-UDL"/>
                                     <constraint firstItem="Yfj-Ie-nKl" firstAttribute="leading" secondItem="FEb-Ru-vfC" secondAttribute="leading" constant="180" id="lRd-gv-cbd"/>
                                 </constraints>
                             </view>
@@ -1889,7 +1897,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="rMA-gO-uRw"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -1908,7 +1916,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="dnC-KN-i1f">
-                                        <rect key="frame" x="240" y="9" width="121" height="37"/>
+                                        <rect key="frame" x="324" y="9" width="121" height="37"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="n9H-8c-fA5"/>
@@ -1919,9 +1927,9 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="dnC-KN-i1f" secondAttribute="trailing" constant="239" id="5AE-gv-9mc"/>
+                                    <constraint firstAttribute="trailing" secondItem="dnC-KN-i1f" secondAttribute="trailing" constant="323" id="5AE-gv-9mc"/>
                                     <constraint firstAttribute="bottom" secondItem="dnC-KN-i1f" secondAttribute="bottom" constant="9" id="A3Q-Bm-BNJ"/>
-                                    <constraint firstItem="dnC-KN-i1f" firstAttribute="leading" secondItem="Ni7-cr-oP7" secondAttribute="leading" constant="240" id="S9K-Bk-WkZ"/>
+                                    <constraint firstItem="dnC-KN-i1f" firstAttribute="leading" secondItem="Ni7-cr-oP7" secondAttribute="leading" constant="324" id="S9K-Bk-WkZ"/>
                                     <constraint firstItem="dnC-KN-i1f" firstAttribute="top" secondItem="Ni7-cr-oP7" secondAttribute="top" constant="9" id="SMH-uR-Odb"/>
                                     <constraint firstAttribute="height" constant="55" id="ca2-X8-qIb"/>
                                 </constraints>
@@ -1930,21 +1938,21 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="urC-C2-diP">
-                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="hfj-ka-2ft"/>
+                                            <constraint firstAttribute="height" constant="61" id="hfj-ka-2ft"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F0Z-oK-ePW">
-                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="w9M-nO-v8W"/>
+                                            <constraint firstAttribute="height" constant="49" id="w9M-nO-v8W"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -1952,12 +1960,12 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <constraints>
                                     <constraint firstItem="urC-C2-diP" firstAttribute="leading" secondItem="aHP-c4-mDF" secondAttribute="leading" constant="180" id="3I3-tI-oea"/>
                                     <constraint firstAttribute="trailing" secondItem="urC-C2-diP" secondAttribute="trailing" constant="180" id="74E-DK-0gG"/>
-                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="top" secondItem="urC-C2-diP" secondAttribute="bottom" constant="12" id="9jO-Wt-nhO"/>
-                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="top" secondItem="urC-C2-diP" secondAttribute="bottom" constant="12" id="ARa-FZ-UCh"/>
-                                    <constraint firstAttribute="bottom" secondItem="F0Z-oK-ePW" secondAttribute="bottom" constant="2" id="T7S-Ss-pNl"/>
-                                    <constraint firstItem="urC-C2-diP" firstAttribute="top" secondItem="aHP-c4-mDF" secondAttribute="top" constant="8" id="bWc-Rz-zox"/>
-                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="leading" secondItem="aHP-c4-mDF" secondAttribute="leading" constant="119" id="qda-CW-zJd"/>
-                                    <constraint firstAttribute="trailing" secondItem="F0Z-oK-ePW" secondAttribute="trailing" constant="119" id="w8N-ua-a0a"/>
+                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="top" secondItem="urC-C2-diP" secondAttribute="bottom" constant="-3" id="9jO-Wt-nhO"/>
+                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="top" secondItem="urC-C2-diP" secondAttribute="bottom" constant="-3" id="ARa-FZ-UCh"/>
+                                    <constraint firstAttribute="bottom" secondItem="F0Z-oK-ePW" secondAttribute="bottom" constant="8" id="T7S-Ss-pNl"/>
+                                    <constraint firstItem="urC-C2-diP" firstAttribute="top" secondItem="aHP-c4-mDF" secondAttribute="top" id="bWc-Rz-zox"/>
+                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="leading" secondItem="aHP-c4-mDF" secondAttribute="leading" constant="180" id="qda-CW-zJd"/>
+                                    <constraint firstAttribute="trailing" secondItem="F0Z-oK-ePW" secondAttribute="trailing" constant="180" id="w8N-ua-a0a"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -2079,10 +2087,10 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         </scene>
     </scenes>
     <resources>
-        <image name="halfCupOfOats.jpg" width="570" height="270"/>
+        <image name="halfCupOfOats.jpg" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="k0a-8k-Fwm"/>
         <segue reference="Kx4-SM-Ecw"/>
+        <segue reference="J4L-tq-qFT"/>
     </inferredMetricsTieBreakers>
 </document>
