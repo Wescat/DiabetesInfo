@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="np4-K2-6v3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="np4-K2-6v3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,32 +15,32 @@
                         <viewControllerLayoutGuide type="bottom" id="cV1-Yc-3MX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7pg-6K-Z0v">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnL-do-CNX">
-                                <rect key="frame" x="0.0" y="83" width="600" height="517"/>
+                                <rect key="frame" x="0.0" y="83" width="768" height="941"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNc-yJ-JdV">
-                                        <rect key="frame" x="195" y="224" width="210" height="70"/>
+                                        <rect key="frame" x="195" y="436" width="378" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="5tC-ho-bcE"/>
                                         </constraints>
                                         <state key="normal" title="Exercise and Your Blood Sugar"/>
                                         <connections>
-                                            <segue destination="1Qu-cD-yLY" kind="show" id="Kx4-SM-Ecw"/>
+                                            <segue destination="1Qu-cD-yLY" kind="modal" id="Kx4-SM-Ecw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vm8-oP-uYY">
-                                        <rect key="frame" x="174" y="94" width="252" height="70"/>
+                                        <rect key="frame" x="174" y="306" width="420" height="70"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="jdF-Hy-Gpf"/>
                                         </constraints>
                                         <state key="normal" title="General Tips"/>
                                         <connections>
-                                            <segue destination="KNq-vf-bkY" kind="show" id="J4L-tq-qFT"/>
+                                            <segue destination="KNq-vf-bkY" kind="modal" id="J4L-tq-qFT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -57,10 +57,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAj-6a-r5p">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="75"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rmp-Ib-H9O">
-                                        <rect key="frame" x="194" y="0.0" width="213" height="75"/>
+                                        <rect key="frame" x="278" y="0.0" width="213" height="75"/>
                                         <color key="backgroundColor" red="0.99215686270000003" green="0.46666666670000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="213" id="VMB-dJ-O6x"/>
@@ -109,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEu-Uk-H3q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2042" y="5733"/>
+            <point key="canvasLocation" x="-3494" y="7978"/>
         </scene>
         <!--GeneralTipsViewController-->
         <scene sceneID="amm-gB-FgF">
@@ -117,7 +117,7 @@
                 <pageViewController storyboardIdentifier="ExerciseGeneralTipsViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="KNq-vf-bkY" userLabel="GeneralTipsViewController" customClass="ExerciseGeneralTipsViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YoA-21-Mjc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1141" y="5422"/>
+            <point key="canvasLocation" x="-2341" y="7447"/>
         </scene>
         <!--ExerciseAndBloodViewController-->
         <scene sceneID="5Px-30-pRI">
@@ -125,7 +125,7 @@
                 <pageViewController storyboardIdentifier="ExerciseandBloodViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="1Qu-cD-yLY" userLabel="ExerciseAndBloodViewController" customClass="ExerciseAndBloodViewController" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyv-df-V86" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1133" y="6137"/>
+            <point key="canvasLocation" x="-2331" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TEV-dY-1Wx">
@@ -136,14 +136,14 @@
                         <viewControllerLayoutGuide type="bottom" id="yuB-BW-7bG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8XM-hu-yKE">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60h-TL-eMw">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zMj-aj-Nk8">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="G04-P2-xko"/>
@@ -163,7 +163,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHs-aT-Ekd">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="vgu-V7-stz">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -185,10 +185,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIc-2V-TuT">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aGt-30-vJB">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="kFc-YK-psq"/>
@@ -197,7 +197,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GTC-Wm-QPb">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="mt7-wR-FeR"/>
@@ -243,7 +243,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4lc-mH-ZRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="SHa-12-Tgw"/>
             </objects>
-            <point key="canvasLocation" x="-427" y="5422"/>
+            <point key="canvasLocation" x="-1427" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZIN-mO-ftp">
@@ -254,14 +254,14 @@
                         <viewControllerLayoutGuide type="bottom" id="7sn-19-unv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ewo-Af-KTk">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lju-OH-yMv">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RCI-nn-KBe">
-                                        <rect key="frame" x="114" y="88" width="373" height="334"/>
+                                        <rect key="frame" x="114" y="88" width="541" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="U6M-HJ-PpO"/>
@@ -280,7 +280,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ck-qJ-9UR">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="t2P-cx-eS3">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -302,10 +302,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l7K-VR-PZy">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t2s-nx-cRV">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="a5X-ZZ-Cjo"/>
@@ -314,7 +314,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="urA-IW-7ww">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="ckq-hW-ovP"/>
@@ -360,7 +360,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2B-N2-mh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="llD-hq-fNN"/>
             </objects>
-            <point key="canvasLocation" x="251" y="5422"/>
+            <point key="canvasLocation" x="-559" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fvH-A8-haL">
@@ -371,14 +371,14 @@
                         <viewControllerLayoutGuide type="bottom" id="Kkl-Kd-eyV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tvu-sh-Bd5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pX-OV-JLE">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LRo-AC-bKh">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="v2z-lq-sQj"/>
@@ -397,7 +397,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsR-G4-HoE">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="snj-L9-Fmc">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -419,10 +419,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VqW-6f-U9r">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LVc-h8-HIK">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="cL3-eq-bjK"/>
@@ -431,7 +431,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dwb-6k-ifU">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="G04-vK-vnd"/>
@@ -477,7 +477,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUQ-5y-xuo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="VAR-g9-FBH"/>
             </objects>
-            <point key="canvasLocation" x="916" y="5422"/>
+            <point key="canvasLocation" x="292" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="99e-ME-7yc">
@@ -488,14 +488,14 @@
                         <viewControllerLayoutGuide type="bottom" id="mjJ-Gf-WNu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HfZ-i1-u8V">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YnS-CJ-sEO">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KaO-kU-7pa">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="a36-TV-emS"/>
@@ -514,7 +514,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sz6-SS-uaa">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="DSZ-Ml-r2h">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -536,10 +536,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atE-m2-i2X">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ve0-VH-tFx">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="2gL-P1-KXz"/>
@@ -548,7 +548,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Su3-Eo-qeM">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="zUL-6f-k4k"/>
@@ -594,7 +594,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czv-N9-J4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="PCJ-jD-iGQ"/>
             </objects>
-            <point key="canvasLocation" x="1577" y="5422"/>
+            <point key="canvasLocation" x="1138" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ywf-g5-nHi">
@@ -605,14 +605,14 @@
                         <viewControllerLayoutGuide type="bottom" id="oZA-f5-GXk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gPY-ZK-28Y">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="STV-FM-sgz">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JT7-BT-LhM">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="IMR-Sy-kpN"/>
@@ -621,7 +621,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CZG-pX-Vwc">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="r9p-Ws-c4K"/>
@@ -644,7 +644,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4y5-Fd-3Cx">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="rRg-rw-tFG">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -666,10 +666,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ocf-p9-26J">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0HK-BQ-YV6">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="1se-Le-KVa"/>
@@ -678,7 +678,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4f8-Dk-94i">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="hk3-Ws-zff"/>
@@ -724,7 +724,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Tu-kL-0U0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="3YB-cI-9k7"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="5422"/>
+            <point key="canvasLocation" x="1984" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fTe-gV-6hj">
@@ -735,14 +735,14 @@
                         <viewControllerLayoutGuide type="bottom" id="p8M-tC-dtJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Yhq-Ze-V80">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZB-uO-gHQ">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iDQ-qI-4lw">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Ysd-5A-LGU"/>
@@ -751,7 +751,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TYz-HN-cX2">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="1BY-JU-eDG"/>
@@ -774,7 +774,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Hl-4a-EvD">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="Vxh-dN-1yL">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -796,10 +796,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gvX-Zz-nBB">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iaD-Qd-pOG">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="W96-xn-GMB"/>
@@ -808,7 +808,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JMS-Uf-Yeu">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="PUz-CG-mqL"/>
@@ -854,7 +854,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krr-ic-fFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="seF-AF-IE9"/>
             </objects>
-            <point key="canvasLocation" x="2884" y="5422"/>
+            <point key="canvasLocation" x="2811" y="7447"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rHK-a0-M9E">
@@ -865,14 +865,14 @@
                         <viewControllerLayoutGuide type="bottom" id="JGD-O3-MOu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gkx-tc-230">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhv-C2-E6g">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W3W-5V-GZu">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="qtR-Aj-DWi"/>
@@ -881,7 +881,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Activity" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oOo-wC-Nil">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="D96-5R-RNw"/>
@@ -902,7 +902,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtl-qI-M80">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="nW5-ba-ZRs">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -924,10 +924,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Tf-G7-qKB">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zq9-ie-dq1">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="yhi-F5-I5m"/>
@@ -936,7 +936,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BLm-ze-UO5">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="muh-Fk-7uJ"/>
@@ -982,7 +982,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPx-Xt-7ah" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="xz0-tP-PkD"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="5422"/>
+            <point key="canvasLocation" x="3689" y="7447"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="BCU-0V-J2R">
@@ -993,11 +993,11 @@
                         <viewControllerLayoutGuide type="bottom" id="tKY-C0-P0f"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QN7-D5-YR7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Mbq-lg-ruY">
-                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <rect key="frame" x="264" y="0.0" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="QlV-Vv-0jM"/>
@@ -1007,7 +1007,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qze-Rz-cED">
-                                <rect key="frame" x="180" y="51" width="240" height="40"/>
+                                <rect key="frame" x="264" y="51" width="240" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="onU-eW-p8g"/>
@@ -1016,7 +1016,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsS-8H-ufa">
-                                <rect key="frame" x="170" y="228" width="259" height="69"/>
+                                <rect key="frame" x="254" y="652" width="259" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="259" id="GqW-Df-IMX"/>
@@ -1025,7 +1025,7 @@
                                 <state key="normal" title="Try again"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTF-Mc-V49">
-                                <rect key="frame" x="170" y="466" width="259" height="69"/>
+                                <rect key="frame" x="254" y="890" width="259" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="R4W-cz-6Mx"/>
@@ -1037,7 +1037,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qy2-c8-kIt">
-                                <rect key="frame" x="170" y="349" width="259" height="69"/>
+                                <rect key="frame" x="254" y="773" width="259" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="259" id="GUJ-Lr-YmE"/>
@@ -1045,7 +1045,7 @@
                                 </constraints>
                                 <state key="normal" title="To &quot;Exercise and Your Blood Sugar"/>
                                 <connections>
-                                    <segue destination="1Qu-cD-yLY" kind="presentation" id="6ub-Ih-hJ6"/>
+                                    <segue destination="1Qu-cD-yLY" kind="modal" id="6ub-Ih-hJ6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1068,7 +1068,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kk7-PL-OEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4397" y="5395"/>
+            <point key="canvasLocation" x="4748" y="7401"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2D1-wD-fcm">
@@ -1079,14 +1079,14 @@
                         <viewControllerLayoutGuide type="bottom" id="uKD-49-CIG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JdY-4h-Bfo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X38-AN-NIA">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a2D-kY-T70">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="ehw-oS-qzm"/>
@@ -1095,7 +1095,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="S05-mr-ylp">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="9ni-dU-PIJ"/>
@@ -1120,7 +1120,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ee-0h-ciq">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" translatesAutoresizingMaskIntoConstraints="NO" id="Yji-Bm-vlL">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1142,10 +1142,10 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfd-St-eIn">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wbQ-as-KeZ">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="MiY-3V-1wt"/>
@@ -1154,7 +1154,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="miU-u8-N9A">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="8D6-VA-phd"/>
@@ -1200,7 +1200,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVh-nT-0AL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Vo6-Ci-qcq"/>
             </objects>
-            <point key="canvasLocation" x="-442" y="6137"/>
+            <point key="canvasLocation" x="-1446" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cn1-CK-lgm">
@@ -1211,14 +1211,14 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                         <viewControllerLayoutGuide type="bottom" id="7i9-DJ-v35"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VC5-XB-Rey">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wyq-4e-fle">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2xe-s4-eh3">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="YZf-d3-T7O"/>
@@ -1227,7 +1227,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k6d-yb-7GF">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="lSx-pI-YCk"/>
@@ -1252,7 +1252,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26o-x3-Z03">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="mAj-tG-QWZ">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1274,10 +1274,10 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8G-hi-mZg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gyl-ES-p7H">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="3AW-HP-OQJ"/>
@@ -1286,7 +1286,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Tq-40-EqF">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="jvl-XW-1Ld"/>
@@ -1332,7 +1332,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Po-ZL-m1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="2Q7-Th-Ucq"/>
             </objects>
-            <point key="canvasLocation" x="257" y="6137"/>
+            <point key="canvasLocation" x="-552" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bm9-Hu-WBw">
@@ -1343,14 +1343,14 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                         <viewControllerLayoutGuide type="bottom" id="21G-jb-QbT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="UnM-C2-hRi">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ug6-d3-phT">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="K9C-fk-vyh">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Lyx-d8-DjE"/>
@@ -1359,7 +1359,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZMj-gD-Sn7">
-                                        <rect key="frame" x="80" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="80" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="oMn-K1-p47"/>
@@ -1385,7 +1385,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NUB-1L-GxG">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="YyP-Jf-gCZ">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1407,10 +1407,10 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="utm-oz-gvV">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XJa-XH-SdP">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="dpQ-wl-3o9"/>
@@ -1419,7 +1419,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EBo-uH-SaK">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="mbJ-6U-Oev"/>
@@ -1465,7 +1465,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KM2-pc-Xgq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="fPf-5f-FOx"/>
             </objects>
-            <point key="canvasLocation" x="916" y="6137"/>
+            <point key="canvasLocation" x="292" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wdc-cG-WDo">
@@ -1476,14 +1476,14 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                         <viewControllerLayoutGuide type="bottom" id="JH1-5p-zcv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aCn-yG-PfR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTf-TB-lDy">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="x6z-4l-g3H">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="0YK-cb-vMb"/>
@@ -1492,7 +1492,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="14t-1e-7tR">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="qHo-LL-PRm"/>
@@ -1515,7 +1515,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BOw-rS-syC">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="vEr-dN-fhr">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1537,10 +1537,10 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TnV-4T-OfT">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UHg-ta-rf9">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="0oV-ci-QlU"/>
@@ -1549,7 +1549,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6iG-ve-C79">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="ynI-tB-sKK"/>
@@ -1595,7 +1595,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DM2-Yl-95D" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="62C-x0-Ty4"/>
             </objects>
-            <point key="canvasLocation" x="1578" y="6137"/>
+            <point key="canvasLocation" x="1139" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jsB-3H-2iT">
@@ -1606,14 +1606,14 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                         <viewControllerLayoutGuide type="bottom" id="R6R-JZ-kMD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8U6-Dh-NBe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lmu-Ou-YR2">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="laO-Xj-OlB">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="E0A-80-PKt"/>
@@ -1622,7 +1622,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="D5v-ez-dh4">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="vYj-t8-N95"/>
@@ -1645,7 +1645,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWF-Hq-WwC">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="xAh-bz-95s">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1667,10 +1667,10 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7BC-jy-1yf">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2aH-8M-ilq">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="dol-nL-fIF"/>
@@ -1679,7 +1679,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hZs-C4-nZE">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="9ot-YV-dzN"/>
@@ -1725,7 +1725,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                 <placeholder placeholderIdentifier="IBFirstResponder" id="794-0G-ieE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Clj-3H-gga"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="6137"/>
+            <point key="canvasLocation" x="1984" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="14r-at-931">
@@ -1736,14 +1736,14 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                         <viewControllerLayoutGuide type="bottom" id="vWQ-GK-4XO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RxL-bz-VIt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DgP-dV-naV">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GiE-86-5mt">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="fkk-Qa-XrC"/>
@@ -1752,7 +1752,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qBJ-0a-4Zq">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="aif-Ke-7Se"/>
@@ -1777,7 +1777,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fl6-Xu-wI6">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="s6n-bj-8oW">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1799,10 +1799,10 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEb-Ru-vfC">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yfj-Ie-nKl">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="PJp-OD-KEG"/>
@@ -1811,7 +1811,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sad-Im-t4X">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="5W0-64-HBg"/>
@@ -1857,7 +1857,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAM-Tp-UuE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="hAq-iD-G8I"/>
             </objects>
-            <point key="canvasLocation" x="2884" y="6137"/>
+            <point key="canvasLocation" x="2811" y="8667"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2pq-2z-iFP">
@@ -1868,14 +1868,14 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                         <viewControllerLayoutGuide type="bottom" id="sgW-RE-qf8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5RY-lr-n5b">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9U2-Q1-8oe">
-                                <rect key="frame" x="0.0" y="115" width="600" height="430"/>
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="j3i-3e-UXp">
-                                        <rect key="frame" x="80" y="8" width="10" height="40"/>
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="olO-o7-Prx"/>
@@ -1884,7 +1884,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="If your blood sugar is higher than 200, consult your healthcare provider and do NOT exercise until the levels are under control" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ry3-HY-sjA">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                        <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="rMA-gO-uRw"/>
@@ -1905,7 +1905,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ni7-cr-oP7">
-                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="7" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="dnC-KN-i1f">
                                         <rect key="frame" x="240" y="9" width="121" height="37"/>
@@ -1927,10 +1927,10 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHP-c4-mDF">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="115"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="urC-C2-diP">
-                                        <rect key="frame" x="180" y="8" width="240" height="53"/>
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="hfj-ka-2ft"/>
@@ -1939,7 +1939,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F0Z-oK-ePW">
-                                        <rect key="frame" x="119" y="73" width="362" height="40"/>
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="w9M-nO-v8W"/>
@@ -1985,7 +1985,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hak-XH-S7E" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="6Fo-1X-BG4"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="6137"/>
+            <point key="canvasLocation" x="3689" y="8667"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="fjl-1b-3dh">
@@ -1996,11 +1996,11 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                         <viewControllerLayoutGuide type="bottom" id="38A-I8-B5v"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="exH-WQ-Bmy">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l4d-TL-ZV4">
-                                <rect key="frame" x="180" y="0.0" width="240" height="53"/>
+                                <rect key="frame" x="264" y="0.0" width="240" height="53"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="KIR-Zo-tfj"/>
@@ -2010,7 +2010,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zad-Sh-09J">
-                                <rect key="frame" x="180" y="51" width="240" height="64"/>
+                                <rect key="frame" x="264" y="51" width="240" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="9MQ-N8-9Td"/>
@@ -2019,7 +2019,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu0-cN-9LH">
-                                <rect key="frame" x="221" y="228" width="158" height="69"/>
+                                <rect key="frame" x="305" y="652" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="6kn-To-6a2"/>
@@ -2028,7 +2028,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <state key="normal" title="Try again"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55F-LB-Dgs">
-                                <rect key="frame" x="221" y="349" width="158" height="69"/>
+                                <rect key="frame" x="305" y="773" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="158" id="HO9-Or-TcS"/>
@@ -2036,11 +2036,11 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 </constraints>
                                 <state key="normal" title="To &quot;General Tips&quot;"/>
                                 <connections>
-                                    <segue destination="KNq-vf-bkY" kind="presentation" id="k0a-8k-Fwm"/>
+                                    <segue destination="KNq-vf-bkY" kind="modal" id="k0a-8k-Fwm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QK7-td-iN1">
-                                <rect key="frame" x="221" y="466" width="158" height="69"/>
+                                <rect key="frame" x="305" y="890" width="158" height="69"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="Rys-xK-eZi"/>
@@ -2075,14 +2075,14 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llm-qM-vgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="dUB-Sw-r6N"/>
             </objects>
-            <point key="canvasLocation" x="4236" y="6137"/>
+            <point key="canvasLocation" x="4542" y="8667"/>
         </scene>
     </scenes>
     <resources>
-        <image name="halfCupOfOats.jpg" width="1920" height="1280"/>
+        <image name="halfCupOfOats.jpg" width="570" height="270"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kx4-SM-Ecw"/>
         <segue reference="k0a-8k-Fwm"/>
+        <segue reference="Kx4-SM-Ecw"/>
     </inferredMetricsTieBreakers>
 </document>
