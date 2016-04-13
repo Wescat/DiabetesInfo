@@ -34,7 +34,6 @@
 		73B9B1A31CB1C683001AB736 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9B1A21CB1C683001AB736 /* GameScene.swift */; };
 		73B9B1A51CB1C68F001AB736 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73B9B1A41CB1C68F001AB736 /* GameScene.sks */; };
 		73B9B1A71CB1C69A001AB736 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9B1A61CB1C69A001AB736 /* GameViewController.swift */; };
-		73C8A0591CBED63E00385C64 /* updatedLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73C8A0581CBED63E00385C64 /* updatedLogo.jpg */; };
 		73C8ED0A1C8E108500A4FCEE /* SickDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */; };
 		73C8ED0D1C8E1CCB00A4FCEE /* Exercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */; };
 		73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */; };
@@ -100,7 +99,6 @@
 		73B9B1A21CB1C683001AB736 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		73B9B1A41CB1C68F001AB736 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		73B9B1A61CB1C69A001AB736 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		73C8A0581CBED63E00385C64 /* updatedLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = updatedLogo.jpg; sourceTree = "<group>"; };
 		73C8ED091C8E108500A4FCEE /* SickDaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SickDaysViewController.swift; sourceTree = "<group>"; };
 		73C8ED0C1C8E1CCB00A4FCEE /* Exercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Exercise.storyboard; sourceTree = "<group>"; };
 		73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiabetesInformationQuizModel.swift; path = ../DiabetesInformationQuizModel.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 				F90E8D7B1CB1A664007DF51D /* NoFreezer.png */,
 				F90E8D791CB1A660007DF51D /* no-cars1.png */,
 				739FB60C1CB32259006A654C /* Assets.xcassets */,
-				73C8A0581CBED63E00385C64 /* updatedLogo.jpg */,
 				F90E8D771CB1A65B007DF51D /* insulincooler.png */,
 				F90E8D7D1CB1A7FE007DF51D /* insulinvial.png */,
 				F90E8D731CB1A642007DF51D /* FDA_Nutrition_Facts_Label_2006.png */,
@@ -378,7 +375,6 @@
 			files = (
 				A9E722401CB32622009002C4 /* ComplicationMedia.xcassets in Resources */,
 				40E497EA1C5EBB8C00ECB5F1 /* LaunchScreen.storyboard in Resources */,
-				73C8A0591CBED63E00385C64 /* updatedLogo.jpg in Resources */,
 				739FB60D1CB32259006A654C /* Assets.xcassets in Resources */,
 				F90E8D721CB1A63B007DF51D /* snickers.png in Resources */,
 				F90E8D7C1CB1A664007DF51D /* NoFreezer.png in Resources */,
