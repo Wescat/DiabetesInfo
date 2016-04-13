@@ -2147,24 +2147,6 @@
             </objects>
             <point key="canvasLocation" x="1269" y="2628"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="sU0-3U-bFX">
-            <objects>
-                <viewController id="Raw-TL-qBM" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="J6k-ea-xBz"/>
-                        <viewControllerLayoutGuide type="bottom" id="8YC-Is-qGu"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vS2-h1-b7u">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Usj-LI-9IU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="596" y="-611"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Question_Mark_Icon" width="175" height="175"/>
