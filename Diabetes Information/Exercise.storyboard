@@ -1156,7 +1156,7 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="miU-u8-N9A">
-                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="8D6-VA-phd"/>
@@ -1169,8 +1169,8 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                 <constraints>
                                     <constraint firstItem="miU-u8-N9A" firstAttribute="top" secondItem="wbQ-as-KeZ" secondAttribute="bottom" constant="-3" id="PFc-qL-CQ2"/>
                                     <constraint firstItem="miU-u8-N9A" firstAttribute="top" secondItem="wbQ-as-KeZ" secondAttribute="bottom" constant="-3" id="XtT-sL-lcx"/>
-                                    <constraint firstAttribute="trailing" secondItem="miU-u8-N9A" secondAttribute="trailing" constant="180" id="i0q-gW-nRe"/>
-                                    <constraint firstItem="miU-u8-N9A" firstAttribute="leading" secondItem="kfd-St-eIn" secondAttribute="leading" constant="180" id="lhr-ct-WTb"/>
+                                    <constraint firstAttribute="trailing" secondItem="miU-u8-N9A" secondAttribute="trailing" constant="160" id="i0q-gW-nRe"/>
+                                    <constraint firstItem="miU-u8-N9A" firstAttribute="leading" secondItem="kfd-St-eIn" secondAttribute="leading" constant="160" id="lhr-ct-WTb"/>
                                     <constraint firstItem="wbQ-as-KeZ" firstAttribute="leading" secondItem="kfd-St-eIn" secondAttribute="leading" constant="180" id="rvo-Ll-sDk"/>
                                     <constraint firstAttribute="trailing" secondItem="wbQ-as-KeZ" secondAttribute="trailing" constant="180" id="smJ-vF-DiZ"/>
                                     <constraint firstItem="wbQ-as-KeZ" firstAttribute="top" secondItem="kfd-St-eIn" secondAttribute="top" id="tCf-0e-3be"/>
@@ -1288,7 +1288,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Tq-40-EqF">
-                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="jvl-XW-1Ld"/>
@@ -1305,8 +1305,8 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                     <constraint firstItem="Gyl-ES-p7H" firstAttribute="leading" secondItem="T8G-hi-mZg" secondAttribute="leading" constant="180" id="htj-wM-Dfb"/>
                                     <constraint firstItem="1Tq-40-EqF" firstAttribute="top" secondItem="Gyl-ES-p7H" secondAttribute="bottom" constant="-3" id="jj8-fa-yar"/>
                                     <constraint firstItem="Gyl-ES-p7H" firstAttribute="top" secondItem="T8G-hi-mZg" secondAttribute="top" id="u3P-Pd-Mi4"/>
-                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="leading" secondItem="T8G-hi-mZg" secondAttribute="leading" constant="180" id="uk1-me-yma"/>
-                                    <constraint firstAttribute="trailing" secondItem="1Tq-40-EqF" secondAttribute="trailing" constant="180" id="wLC-8H-E93"/>
+                                    <constraint firstItem="1Tq-40-EqF" firstAttribute="leading" secondItem="T8G-hi-mZg" secondAttribute="leading" constant="160" id="uk1-me-yma"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Tq-40-EqF" secondAttribute="trailing" constant="160" id="wLC-8H-E93"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1427,7 +1427,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EBo-uH-SaK">
-                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="mbJ-6U-Oev"/>
@@ -1438,8 +1438,8 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="leading" secondItem="utm-oz-gvV" secondAttribute="leading" constant="180" id="0Lj-F0-5u4"/>
-                                    <constraint firstAttribute="trailing" secondItem="EBo-uH-SaK" secondAttribute="trailing" constant="180" id="2Uy-2F-o91"/>
+                                    <constraint firstItem="EBo-uH-SaK" firstAttribute="leading" secondItem="utm-oz-gvV" secondAttribute="leading" constant="160" id="0Lj-F0-5u4"/>
+                                    <constraint firstAttribute="trailing" secondItem="EBo-uH-SaK" secondAttribute="trailing" constant="160" id="2Uy-2F-o91"/>
                                     <constraint firstItem="XJa-XH-SdP" firstAttribute="leading" secondItem="utm-oz-gvV" secondAttribute="leading" constant="180" id="2ka-MC-SKb"/>
                                     <constraint firstItem="EBo-uH-SaK" firstAttribute="top" secondItem="XJa-XH-SdP" secondAttribute="bottom" constant="-3" id="Feu-3k-HWj"/>
                                     <constraint firstAttribute="bottom" secondItem="EBo-uH-SaK" secondAttribute="bottom" constant="8" id="Sns-eF-dJS"/>
@@ -1557,7 +1557,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6iG-ve-C79">
-                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="ynI-tB-sKK"/>
@@ -1569,8 +1569,8 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="6iG-ve-C79" firstAttribute="top" secondItem="UHg-ta-rf9" secondAttribute="bottom" constant="-3" id="KUd-nv-3IF"/>
-                                    <constraint firstItem="6iG-ve-C79" firstAttribute="leading" secondItem="TnV-4T-OfT" secondAttribute="leading" constant="180" id="No1-zx-lmk"/>
-                                    <constraint firstAttribute="trailing" secondItem="6iG-ve-C79" secondAttribute="trailing" constant="180" id="U6E-ob-JYB"/>
+                                    <constraint firstItem="6iG-ve-C79" firstAttribute="leading" secondItem="TnV-4T-OfT" secondAttribute="leading" constant="160" id="No1-zx-lmk"/>
+                                    <constraint firstAttribute="trailing" secondItem="6iG-ve-C79" secondAttribute="trailing" constant="160" id="U6E-ob-JYB"/>
                                     <constraint firstAttribute="bottom" secondItem="6iG-ve-C79" secondAttribute="bottom" constant="8" id="ZAC-YA-aN0"/>
                                     <constraint firstItem="UHg-ta-rf9" firstAttribute="top" secondItem="TnV-4T-OfT" secondAttribute="top" id="eYg-Xq-8do"/>
                                     <constraint firstItem="6iG-ve-C79" firstAttribute="top" secondItem="UHg-ta-rf9" secondAttribute="bottom" constant="-3" id="uOJ-os-kQj"/>
@@ -1687,7 +1687,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hZs-C4-nZE">
-                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="9ot-YV-dzN"/>
@@ -1698,11 +1698,11 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                 </subviews>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="hZs-C4-nZE" secondAttribute="trailing" constant="180" id="2UM-en-eQu"/>
+                                    <constraint firstAttribute="trailing" secondItem="hZs-C4-nZE" secondAttribute="trailing" constant="160" id="2UM-en-eQu"/>
                                     <constraint firstAttribute="trailing" secondItem="2aH-8M-ilq" secondAttribute="trailing" constant="180" id="3QJ-Ix-gd3"/>
                                     <constraint firstItem="hZs-C4-nZE" firstAttribute="top" secondItem="2aH-8M-ilq" secondAttribute="bottom" constant="-3" id="4y2-ey-evm"/>
                                     <constraint firstItem="2aH-8M-ilq" firstAttribute="top" secondItem="7BC-jy-1yf" secondAttribute="top" id="Qf3-nt-sI1"/>
-                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="leading" secondItem="7BC-jy-1yf" secondAttribute="leading" constant="180" id="d73-sB-jcN"/>
+                                    <constraint firstItem="hZs-C4-nZE" firstAttribute="leading" secondItem="7BC-jy-1yf" secondAttribute="leading" constant="160" id="d73-sB-jcN"/>
                                     <constraint firstItem="2aH-8M-ilq" firstAttribute="leading" secondItem="7BC-jy-1yf" secondAttribute="leading" constant="180" id="l9g-KZ-Iad"/>
                                     <constraint firstItem="hZs-C4-nZE" firstAttribute="top" secondItem="2aH-8M-ilq" secondAttribute="bottom" constant="-3" id="wA4-gj-zVe"/>
                                     <constraint firstAttribute="bottom" secondItem="hZs-C4-nZE" secondAttribute="bottom" constant="8" id="xpa-Fu-EMf"/>
@@ -1819,7 +1819,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sad-Im-t4X">
-                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="5W0-64-HBg"/>
@@ -1832,11 +1832,11 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Sad-Im-t4X" secondAttribute="bottom" constant="8" id="0bn-eB-u0s"/>
                                     <constraint firstItem="Sad-Im-t4X" firstAttribute="top" secondItem="Yfj-Ie-nKl" secondAttribute="bottom" constant="-3" id="1pK-n7-FUC"/>
-                                    <constraint firstAttribute="trailing" secondItem="Sad-Im-t4X" secondAttribute="trailing" constant="180" id="3kn-d8-PEw"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sad-Im-t4X" secondAttribute="trailing" constant="160" id="3kn-d8-PEw"/>
                                     <constraint firstItem="Sad-Im-t4X" firstAttribute="top" secondItem="Yfj-Ie-nKl" secondAttribute="bottom" constant="-3" id="Rla-OO-80N"/>
                                     <constraint firstAttribute="trailing" secondItem="Yfj-Ie-nKl" secondAttribute="trailing" constant="180" id="Rqb-ir-40F"/>
                                     <constraint firstItem="Yfj-Ie-nKl" firstAttribute="top" secondItem="FEb-Ru-vfC" secondAttribute="top" id="biE-R0-Ptk"/>
-                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="leading" secondItem="FEb-Ru-vfC" secondAttribute="leading" constant="180" id="dHh-tH-UDL"/>
+                                    <constraint firstItem="Sad-Im-t4X" firstAttribute="leading" secondItem="FEb-Ru-vfC" secondAttribute="leading" constant="160" id="dHh-tH-UDL"/>
                                     <constraint firstItem="Yfj-Ie-nKl" firstAttribute="leading" secondItem="FEb-Ru-vfC" secondAttribute="leading" constant="180" id="lRd-gv-cbd"/>
                                 </constraints>
                             </view>
@@ -1947,7 +1947,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F0Z-oK-ePW">
-                                        <rect key="frame" x="180" y="58" width="408" height="49"/>
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
                                         <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="49" id="w9M-nO-v8W"/>
@@ -1964,8 +1964,8 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <constraint firstItem="F0Z-oK-ePW" firstAttribute="top" secondItem="urC-C2-diP" secondAttribute="bottom" constant="-3" id="ARa-FZ-UCh"/>
                                     <constraint firstAttribute="bottom" secondItem="F0Z-oK-ePW" secondAttribute="bottom" constant="8" id="T7S-Ss-pNl"/>
                                     <constraint firstItem="urC-C2-diP" firstAttribute="top" secondItem="aHP-c4-mDF" secondAttribute="top" id="bWc-Rz-zox"/>
-                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="leading" secondItem="aHP-c4-mDF" secondAttribute="leading" constant="180" id="qda-CW-zJd"/>
-                                    <constraint firstAttribute="trailing" secondItem="F0Z-oK-ePW" secondAttribute="trailing" constant="180" id="w8N-ua-a0a"/>
+                                    <constraint firstItem="F0Z-oK-ePW" firstAttribute="leading" secondItem="aHP-c4-mDF" secondAttribute="leading" constant="160" id="qda-CW-zJd"/>
+                                    <constraint firstAttribute="trailing" secondItem="F0Z-oK-ePW" secondAttribute="trailing" constant="160" id="w8N-ua-a0a"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -2034,6 +2034,9 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <constraint firstAttribute="width" constant="158" id="Sdl-1J-F9n"/>
                                 </constraints>
                                 <state key="normal" title="Try again"/>
+                                <connections>
+                                    <segue destination="tcq-Pz-fO6" kind="modal" id="ffg-EX-ni1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55F-LB-Dgs">
                                 <rect key="frame" x="305" y="773" width="158" height="69"/>
@@ -2083,14 +2086,331 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llm-qM-vgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="dUB-Sw-r6N"/>
             </objects>
-            <point key="canvasLocation" x="4542" y="8667"/>
+            <point key="canvasLocation" x="4622" y="8595"/>
+        </scene>
+        <!--Exercise Quiz-->
+        <scene sceneID="hKD-xN-oqb">
+            <objects>
+                <viewController id="tcq-Pz-fO6" customClass="ExerciseQuiz" customModule="Diabetes_Information" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XdM-Wv-Et4"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Wu-WZ-GHD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l6f-ZJ-ZBE">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2k-5L-5CK">
+                                <rect key="frame" x="20" y="109" width="728" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kin-gQ-twd">
+                                <rect key="frame" x="318" y="817" width="133" height="21"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mTh-Gv-lhP"/>
+                                    <constraint firstAttribute="width" constant="133" id="uFV-rJ-P1e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNa-dH-goy">
+                                <rect key="frame" x="251" y="649" width="266" height="102"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="kyi-kf-AZG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Check your Blood Sugar"/>
+                                <connections>
+                                    <action selector="quizButton2:" destination="tcq-Pz-fO6" eventType="touchUpInside" id="bM3-aC-TVh"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RsY-R3-3Gy">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ju2-Cr-vSn">
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="408" id="L5k-8s-fDi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sM0-rZ-9eB">
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="448" id="S1A-62-yNZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Ju2-Cr-vSn" firstAttribute="centerX" secondItem="RsY-R3-3Gy" secondAttribute="centerX" id="6I2-sP-0UJ"/>
+                                    <constraint firstItem="Ju2-Cr-vSn" firstAttribute="centerX" secondItem="sM0-rZ-9eB" secondAttribute="centerX" id="8zO-QL-qgR"/>
+                                    <constraint firstItem="sM0-rZ-9eB" firstAttribute="top" secondItem="RsY-R3-3Gy" secondAttribute="top" constant="58" id="9NA-Jz-hgQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ju2-Cr-vSn" secondAttribute="bottom" constant="54" id="EKp-jy-u60"/>
+                                    <constraint firstItem="Ju2-Cr-vSn" firstAttribute="top" secondItem="RsY-R3-3Gy" secondAttribute="top" id="QXS-sq-re7"/>
+                                    <constraint firstItem="sM0-rZ-9eB" firstAttribute="bottom" secondItem="RsY-R3-3Gy" secondAttribute="bottomMargin" id="asi-RT-lIf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A2N-0m-pld">
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJT-ql-dAi">
+                                <rect key="frame" x="335" y="846" width="98" height="63"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="finishButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="Rsl-YB-Ky6"/>
+                                    <constraint firstAttribute="height" constant="63" id="cwF-S1-zH1"/>
+                                </constraints>
+                                <state key="normal" title="Continue"/>
+                                <connections>
+                                    <action selector="Continue:" destination="tcq-Pz-fO6" eventType="touchUpInside" id="YXG-hf-isZ"/>
+                                    <action selector="continue:" destination="tcq-Pz-fO6" eventType="touchUpInside" id="u0B-at-X50"/>
+                                    <segue destination="d6B-Bz-wqT" kind="modal" id="kJJ-aP-dbx"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iBH-XU-G8U">
+                                <rect key="frame" x="20" y="133" width="728" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFT-c6-7fl">
+                                <rect key="frame" x="251" y="401" width="266" height="102"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="49e-gF-j5N"/>
+                                    <constraint firstAttribute="width" constant="266" id="LhA-vw-djo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Start jogging"/>
+                                <connections>
+                                    <action selector="quizButton1:" destination="tcq-Pz-fO6" eventType="touchUpInside" id="Hdh-v6-qhh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="s2k-5L-5CK" firstAttribute="leading" secondItem="l6f-ZJ-ZBE" secondAttribute="leadingMargin" id="4yy-TS-3AD"/>
+                            <constraint firstItem="RsY-R3-3Gy" firstAttribute="leading" secondItem="A2N-0m-pld" secondAttribute="leading" id="5NJ-Ks-Mjo"/>
+                            <constraint firstItem="Kin-gQ-twd" firstAttribute="top" secondItem="eNa-dH-goy" secondAttribute="bottom" constant="66" id="7IY-dr-Rdw"/>
+                            <constraint firstItem="RsY-R3-3Gy" firstAttribute="trailing" secondItem="A2N-0m-pld" secondAttribute="trailing" id="Bh2-jw-9rc"/>
+                            <constraint firstItem="eNa-dH-goy" firstAttribute="centerX" secondItem="Kin-gQ-twd" secondAttribute="centerX" id="Jhl-CA-PyC"/>
+                            <constraint firstItem="NFT-c6-7fl" firstAttribute="trailing" secondItem="eNa-dH-goy" secondAttribute="trailing" id="NEN-Og-jwN"/>
+                            <constraint firstAttribute="bottom" secondItem="RsY-R3-3Gy" secondAttribute="bottom" constant="909" id="QXA-4K-39v"/>
+                            <constraint firstItem="A2N-0m-pld" firstAttribute="top" secondItem="l6f-ZJ-ZBE" secondAttribute="top" constant="969" id="asO-Ba-Jho"/>
+                            <constraint firstItem="A2N-0m-pld" firstAttribute="bottom" secondItem="2Wu-WZ-GHD" secondAttribute="top" id="cj2-ez-KeU"/>
+                            <constraint firstItem="RsY-R3-3Gy" firstAttribute="centerX" secondItem="s2k-5L-5CK" secondAttribute="centerX" id="fJW-f3-zsT"/>
+                            <constraint firstItem="s2k-5L-5CK" firstAttribute="top" secondItem="XdM-Wv-Et4" secondAttribute="bottom" constant="89" id="jzP-Pt-OnY"/>
+                            <constraint firstItem="NFT-c6-7fl" firstAttribute="leading" secondItem="eNa-dH-goy" secondAttribute="leading" id="mGF-9v-2am"/>
+                            <constraint firstItem="iJT-ql-dAi" firstAttribute="centerX" secondItem="A2N-0m-pld" secondAttribute="centerX" id="oAm-1r-jjT"/>
+                            <constraint firstAttribute="trailing" secondItem="RsY-R3-3Gy" secondAttribute="trailing" id="oPe-J3-tHC"/>
+                            <constraint firstItem="RsY-R3-3Gy" firstAttribute="top" secondItem="l6f-ZJ-ZBE" secondAttribute="top" id="q0k-Gh-Z6n"/>
+                            <constraint firstItem="iJT-ql-dAi" firstAttribute="top" secondItem="Kin-gQ-twd" secondAttribute="bottom" constant="8" symbolic="YES" id="rmC-fo-Xyt"/>
+                            <constraint firstItem="RsY-R3-3Gy" firstAttribute="leading" secondItem="l6f-ZJ-ZBE" secondAttribute="leading" id="v5x-L7-fEF"/>
+                            <constraint firstItem="NFT-c6-7fl" firstAttribute="top" secondItem="l6f-ZJ-ZBE" secondAttribute="top" constant="401" id="xJB-ML-EbM"/>
+                            <constraint firstItem="A2N-0m-pld" firstAttribute="top" secondItem="iJT-ql-dAi" secondAttribute="bottom" constant="60" id="xVJ-37-F8v"/>
+                            <constraint firstItem="Kin-gQ-twd" firstAttribute="centerX" secondItem="iJT-ql-dAi" secondAttribute="centerX" id="zr5-gP-RHH"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="wTY-KD-AEX" appends="YES" id="V5J-dm-El4"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="answer1" destination="NFT-c6-7fl" id="qr9-D8-eNh"/>
+                        <outlet property="answer2" destination="eNa-dH-goy" id="gdT-gU-c4v"/>
+                        <outlet property="finishButton" destination="iJT-ql-dAi" id="jqK-GR-CUR"/>
+                        <outlet property="questionBox" destination="iBH-XU-G8U" id="YqC-GO-iDj"/>
+                        <outlet property="quizLabel" destination="s2k-5L-5CK" id="e4M-E0-Bla"/>
+                        <outlet property="quizResponse" destination="Kin-gQ-twd" id="KID-kz-whV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9C-VX-qJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="wTY-KD-AEX"/>
+            </objects>
+            <point key="canvasLocation" x="4837" y="9863"/>
+        </scene>
+        <!--Exercise Quiz2-->
+        <scene sceneID="mnH-Zh-0rH">
+            <objects>
+                <viewController id="d6B-Bz-wqT" customClass="ExerciseQuiz2" customModule="Diabetes_Information" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cr2-QG-lE9"/>
+                        <viewControllerLayoutGuide type="bottom" id="KdO-xK-3iB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WOX-cU-5wy">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l40-6x-mbT">
+                                <rect key="frame" x="20" y="109" width="728" height="0.0"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgZ-8i-5tC">
+                                <rect key="frame" x="318" y="817" width="133" height="21"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cMZ-IR-V6d"/>
+                                    <constraint firstAttribute="width" constant="133" id="yXP-zE-4Bm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E83-zv-mKT">
+                                <rect key="frame" x="251" y="649" width="266" height="102"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="9FN-16-uB5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Start Exercising"/>
+                                <connections>
+                                    <action selector="quizButton2:" destination="d6B-Bz-wqT" eventType="touchUpInside" id="zhe-e9-hsi"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2C-po-XEt">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xv8-ek-FUw">
+                                        <rect key="frame" x="180" y="0.0" width="408" height="61"/>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="408" id="Sgo-8Q-stc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise and Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dxz-7v-Mpk">
+                                        <rect key="frame" x="160" y="58" width="448" height="49"/>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="448" id="BYP-05-HoC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="dxz-7v-Mpk" firstAttribute="bottom" secondItem="c2C-po-XEt" secondAttribute="bottomMargin" id="6xw-ct-p3w"/>
+                                    <constraint firstItem="xv8-ek-FUw" firstAttribute="centerX" secondItem="dxz-7v-Mpk" secondAttribute="centerX" id="A7g-Xk-Mbe"/>
+                                    <constraint firstItem="xv8-ek-FUw" firstAttribute="top" secondItem="c2C-po-XEt" secondAttribute="top" id="AMy-N2-E8a"/>
+                                    <constraint firstItem="dxz-7v-Mpk" firstAttribute="top" secondItem="c2C-po-XEt" secondAttribute="top" constant="58" id="EFt-bl-8VO"/>
+                                    <constraint firstAttribute="bottom" secondItem="xv8-ek-FUw" secondAttribute="bottom" constant="54" id="KXg-bU-009"/>
+                                    <constraint firstItem="xv8-ek-FUw" firstAttribute="centerX" secondItem="c2C-po-XEt" secondAttribute="centerX" id="nnP-uO-PHP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mo3-e1-d9A">
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81V-IX-yzR">
+                                <rect key="frame" x="335" y="846" width="98" height="63"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration" label="finishButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="Hz0-FP-jwx"/>
+                                    <constraint firstAttribute="width" constant="98" id="ayt-eO-Car"/>
+                                </constraints>
+                                <state key="normal" title="Continue"/>
+                                <connections>
+                                    <action selector="Continue:" destination="d6B-Bz-wqT" eventType="touchUpInside" id="mys-Z0-tqe"/>
+                                    <action selector="continue:" destination="d6B-Bz-wqT" eventType="touchUpInside" id="3Zm-Dz-b0m"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fj0-ee-oqn">
+                                <rect key="frame" x="20" y="133" width="728" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbS-R1-qu2">
+                                <rect key="frame" x="251" y="401" width="266" height="102"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="3Lf-1N-JLV"/>
+                                    <constraint firstAttribute="width" constant="266" id="eM8-7F-B8d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Eat a snack"/>
+                                <connections>
+                                    <action selector="quizButton1:" destination="d6B-Bz-wqT" eventType="touchUpInside" id="mWA-aS-zv2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="81V-IX-yzR" firstAttribute="centerX" secondItem="Mo3-e1-d9A" secondAttribute="centerX" id="0d6-sp-byk"/>
+                            <constraint firstItem="Mo3-e1-d9A" firstAttribute="bottom" secondItem="KdO-xK-3iB" secondAttribute="top" id="1Ku-5K-PvC"/>
+                            <constraint firstItem="vbS-R1-qu2" firstAttribute="leading" secondItem="E83-zv-mKT" secondAttribute="leading" id="2I7-Ew-lID"/>
+                            <constraint firstItem="c2C-po-XEt" firstAttribute="top" secondItem="WOX-cU-5wy" secondAttribute="top" id="4lc-PZ-7oD"/>
+                            <constraint firstItem="c2C-po-XEt" firstAttribute="trailing" secondItem="Mo3-e1-d9A" secondAttribute="trailing" id="6Vf-Oe-eN9"/>
+                            <constraint firstItem="81V-IX-yzR" firstAttribute="top" secondItem="RgZ-8i-5tC" secondAttribute="bottom" constant="8" symbolic="YES" id="8Za-od-IgJ"/>
+                            <constraint firstItem="RgZ-8i-5tC" firstAttribute="centerX" secondItem="81V-IX-yzR" secondAttribute="centerX" id="UIc-WA-PNy"/>
+                            <constraint firstItem="Mo3-e1-d9A" firstAttribute="top" secondItem="WOX-cU-5wy" secondAttribute="top" constant="969" id="aps-cc-fzX"/>
+                            <constraint firstItem="l40-6x-mbT" firstAttribute="leading" secondItem="WOX-cU-5wy" secondAttribute="leadingMargin" id="ats-GN-mXA"/>
+                            <constraint firstAttribute="trailing" secondItem="c2C-po-XEt" secondAttribute="trailing" id="cuk-29-FCx"/>
+                            <constraint firstItem="vbS-R1-qu2" firstAttribute="top" secondItem="WOX-cU-5wy" secondAttribute="top" constant="401" id="dPW-Hz-Fhc"/>
+                            <constraint firstItem="Mo3-e1-d9A" firstAttribute="top" secondItem="81V-IX-yzR" secondAttribute="bottom" constant="60" id="e2h-nY-eab"/>
+                            <constraint firstAttribute="bottom" secondItem="c2C-po-XEt" secondAttribute="bottom" constant="909" id="fA9-p9-aVL"/>
+                            <constraint firstItem="vbS-R1-qu2" firstAttribute="trailing" secondItem="E83-zv-mKT" secondAttribute="trailing" id="g8a-2Y-DqQ"/>
+                            <constraint firstItem="c2C-po-XEt" firstAttribute="leading" secondItem="Mo3-e1-d9A" secondAttribute="leading" id="gNY-xk-rqD"/>
+                            <constraint firstItem="RgZ-8i-5tC" firstAttribute="top" secondItem="E83-zv-mKT" secondAttribute="bottom" constant="66" id="lp2-5O-qIQ"/>
+                            <constraint firstItem="E83-zv-mKT" firstAttribute="centerX" secondItem="RgZ-8i-5tC" secondAttribute="centerX" id="qru-xH-qOh"/>
+                            <constraint firstItem="c2C-po-XEt" firstAttribute="leading" secondItem="WOX-cU-5wy" secondAttribute="leading" id="trs-Pd-hIF"/>
+                            <constraint firstItem="l40-6x-mbT" firstAttribute="top" secondItem="cr2-QG-lE9" secondAttribute="bottom" constant="89" id="w8k-o7-Fvq"/>
+                            <constraint firstItem="c2C-po-XEt" firstAttribute="centerX" secondItem="l40-6x-mbT" secondAttribute="centerX" id="xcw-1Z-axS"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="VmP-OW-qRh" appends="YES" id="rLV-Dy-Uvs"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="answer1" destination="vbS-R1-qu2" id="rV7-EV-dgd"/>
+                        <outlet property="answer2" destination="E83-zv-mKT" id="PXL-5f-DM0"/>
+                        <outlet property="finishButton" destination="81V-IX-yzR" id="e6d-iy-k4J"/>
+                        <outlet property="questionBox" destination="fj0-ee-oqn" id="JfT-x2-I82"/>
+                        <outlet property="quizLabel" destination="l40-6x-mbT" id="BkJ-fe-aOk"/>
+                        <outlet property="quizResponse" destination="RgZ-8i-5tC" id="vQb-J9-6Sc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83a-wF-i2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="VmP-OW-qRh"/>
+            </objects>
+            <point key="canvasLocation" x="5767" y="9863"/>
         </scene>
     </scenes>
     <resources>
         <image name="halfCupOfOats.jpg" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="k0a-8k-Fwm"/>
         <segue reference="Kx4-SM-Ecw"/>
-        <segue reference="J4L-tq-qFT"/>
     </inferredMetricsTieBreakers>
 </document>
