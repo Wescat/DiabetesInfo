@@ -2021,7 +2021,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llm-qM-vgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="dUB-Sw-r6N"/>
             </objects>
-            <point key="canvasLocation" x="6590" y="8605"/>
+            <point key="canvasLocation" x="6466" y="8565"/>
         </scene>
         <!--Exercise Quiz-->
         <scene sceneID="hKD-xN-oqb">
@@ -2764,7 +2764,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         </scene>
     </scenes>
     <resources>
-        <image name="halfCupOfOats.jpg" width="1240" height="670"/>
+        <image name="halfCupOfOats.jpg" width="389" height="308"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="k0a-8k-Fwm"/>
