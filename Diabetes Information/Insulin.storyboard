@@ -21,7 +21,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWi-Jt-vvN">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jq0-vl-JbZ">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jq0-vl-JbZ">
                                         <rect key="frame" x="80" y="8" width="609" height="153"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -30,7 +30,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R9W-lD-RUh">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R9W-lD-RUh">
                                         <rect key="frame" x="80" y="161" width="610" height="454"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -160,7 +160,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Insulin occurs naturally in your body and is a hormone made by your pancreas" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64T-Jd-kXz">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Insulin occurs naturally in your body and is a hormone made by your pancreas" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64T-Jd-kXz">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -332,7 +332,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSo-zo-DKj">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oFd-Qj-6iM">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oFd-Qj-6iM">
                                         <rect key="frame" x="100" y="28" width="609" height="153"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -342,7 +342,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lwo-2M-owN">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lwo-2M-owN">
                                         <rect key="frame" x="79" y="184" width="610" height="548"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -414,7 +414,7 @@ Check to make sure it is the right kind on insulin, that the insulin has not exp
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zT3-YD-dXS">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zT3-YD-dXS">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -534,7 +534,7 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LsH-pQ-fNA">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xtp-xz-OMm">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xtp-xz-OMm">
                                         <rect key="frame" x="100" y="28" width="609" height="153"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -544,7 +544,7 @@ People with Type 2 Diabetes bodies do not use the insulin the pancreas makes in 
                                         <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Rl-Ac-M6d">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Rl-Ac-M6d">
                                         <rect key="frame" x="79" y="189" width="610" height="397"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -663,7 +663,7 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KR6-Fh-oEW">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin has three main features:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AYT-ui-9ta">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Insulin has three main features:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AYT-ui-9ta">
                                         <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -672,7 +672,7 @@ With the needle still in the vial, turn the vial upside down and pull back on th
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qC6-xK-wgi">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qC6-xK-wgi">
                                         <rect key="frame" x="79" y="88" width="610" height="717"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -794,7 +794,7 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lak-Pa-SJc">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lqy-Mn-LLi">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" editable="NO" text="Drawing up the insulin into the syringe: When you are giving yourself just one type of insulin:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lqy-Mn-LLi">
                                         <rect key="frame" x="100" y="28" width="609" height="153"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -803,7 +803,7 @@ Duration: the duration of a type of insulin is how long the insulin will keep lo
                                         <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jHx-hA-aC7">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jHx-hA-aC7">
                                         <rect key="frame" x="79" y="189" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -928,7 +928,7 @@ Then, remove the needle from the bottle</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-hV-Usi">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-hV-Usi">
                                         <rect key="frame" x="79" y="88" width="610" height="503"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1046,7 +1046,7 @@ Then, remove the needle from the bottle</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Bt-uH-PJE">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6oQ-rW-BMI">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6oQ-rW-BMI">
                                         <rect key="frame" x="80" y="8" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1055,7 +1055,7 @@ Then, remove the needle from the bottle</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64o-hJ-zxW">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="64o-hJ-zxW">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1185,7 +1185,7 @@ Make sure that area of your skin is clean</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Because insulin is broken down by the digestion in your stomach, it cannot be given in a pill form" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dHc-0s-h2d">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Because insulin is broken down by the digestion in your stomach, it cannot be given in a pill form" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dHc-0s-h2d">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1302,7 +1302,7 @@ Make sure that area of your skin is clean</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pGm-A8-7mO">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hyK-aa-szu">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hyK-aa-szu">
                                         <rect key="frame" x="79" y="88" width="610" height="465"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1316,7 +1316,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S6o-8Z-9Aj">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S6o-8Z-9Aj">
                                         <rect key="frame" x="90" y="18" width="609" height="81"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1433,7 +1433,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yK8-ax-bKo">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Most often, insulin is injected into a layer of fat below your skin called “subcutaneous tissue”" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odY-mq-Ldw">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Most often, insulin is injected into a layer of fat below your skin called “subcutaneous tissue”" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odY-mq-Ldw">
                                         <rect key="frame" x="80" y="8" width="609" height="101"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1442,7 +1442,7 @@ Then let go of your skin and push the plunger down to inject the insulin</string
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HXP-7n-Du2">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HXP-7n-Du2">
                                         <rect key="frame" x="79" y="117" width="610" height="405"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1562,7 +1562,7 @@ Choose an area that you can see and reach and rotate within that area to avoid s
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIT-9h-oq7">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9mt-fc-rlb">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9mt-fc-rlb">
                                         <rect key="frame" x="79" y="88" width="610" height="391"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1574,7 +1574,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dig-iO-3RH">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Giving yourself an insulin shot:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dig-iO-3RH">
                                         <rect key="frame" x="90" y="18" width="609" height="88"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1691,7 +1691,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ImY-by-jfk">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VGh-38-9ie">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VGh-38-9ie">
                                         <rect key="frame" x="80" y="8" width="609" height="153"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1700,7 +1700,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SMr-tK-amL">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SMr-tK-amL">
                                         <rect key="frame" x="79" y="169" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1839,7 +1839,7 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBh-1c-uiQ">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7lJ-SS-ohG">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7lJ-SS-ohG">
                                         <rect key="frame" x="79" y="173" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1857,7 +1857,14 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                             <constraint firstAttribute="width" constant="245" id="EyY-iA-L5M"/>
                                         </constraints>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BVd-VV-wJy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoFreezer.png" translatesAutoresizingMaskIntoConstraints="NO" id="VLy-BA-tsd">
+                                        <rect key="frame" x="79" y="520" width="255" height="173"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="255" id="5sZ-JH-ump"/>
+                                            <constraint firstAttribute="height" constant="173" id="ib5-ka-czt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BVd-VV-wJy">
                                         <rect key="frame" x="90" y="18" width="609" height="153"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1866,13 +1873,6 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoFreezer.png" translatesAutoresizingMaskIntoConstraints="NO" id="VLy-BA-tsd">
-                                        <rect key="frame" x="79" y="520" width="255" height="173"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="255" id="5sZ-JH-ump"/>
-                                            <constraint firstAttribute="height" constant="173" id="ib5-ka-czt"/>
-                                        </constraints>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
