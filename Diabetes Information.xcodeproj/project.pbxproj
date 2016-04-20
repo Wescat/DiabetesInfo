@@ -39,6 +39,7 @@
 		73F8592F1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */; };
 		A95FDC941CB5C38700866D64 /* InsulinMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95FDC931CB5C38700866D64 /* InsulinMedia.xcassets */; };
 		A9E722401CB32622009002C4 /* ComplicationMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E7223F1CB32622009002C4 /* ComplicationMedia.xcassets */; };
+		A9F1E2521CC81E4F003BFACA /* popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1E2511CC81E4F003BFACA /* popover.swift */; };
 		F90E8D721CB1A63B007DF51D /* snickers.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D711CB1A63B007DF51D /* snickers.png */; };
 		F90E8D761CB1A648007DF51D /* cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D751CB1A648007DF51D /* cabinet.png */; };
 		F90E8D781CB1A65B007DF51D /* insulincooler.png in Resources */ = {isa = PBXBuildFile; fileRef = F90E8D771CB1A65B007DF51D /* insulincooler.png */; };
@@ -108,6 +109,7 @@
 		73F8592E1C63BD13003DDFF9 /* DiabetesInformationQuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiabetesInformationQuizModel.swift; path = ../DiabetesInformationQuizModel.swift; sourceTree = "<group>"; };
 		A95FDC931CB5C38700866D64 /* InsulinMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InsulinMedia.xcassets; sourceTree = "<group>"; };
 		A9E7223F1CB32622009002C4 /* ComplicationMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ComplicationMedia.xcassets; sourceTree = "<group>"; };
+		A9F1E2511CC81E4F003BFACA /* popover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popover.swift; sourceTree = "<group>"; };
 		F90E8D6F1CB1A61F007DF51D /* chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chips.png; path = Pics/chips.png; sourceTree = "<group>"; };
 		F90E8D711CB1A63B007DF51D /* snickers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snickers.png; path = Pics/snickers.png; sourceTree = "<group>"; };
 		F90E8D731CB1A642007DF51D /* FDA_Nutrition_Facts_Label_2006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FDA_Nutrition_Facts_Label_2006.png; path = Pics/FDA_Nutrition_Facts_Label_2006.png; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				F9571B461C7A5012003557DA /* InsulinBasicsViewController.swift */,
 				A95FDC931CB5C38700866D64 /* InsulinMedia.xcassets */,
 				7315F6B81C8F7072009D9320 /* Insulin.storyboard */,
+				A9F1E2511CC81E4F003BFACA /* popover.swift */,
 			);
 			name = Insulin;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */,
 				404C8EBF1C691BB8000C676F /* CountingCarbsViewController.swift in Sources */,
 				73B9B1A71CB1C69A001AB736 /* GameViewController.swift in Sources */,
+				A9F1E2521CC81E4F003BFACA /* popover.swift in Sources */,
 				73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */,
 				F94A7A9B1C6FD23C00F4FF0E /* DrawInsulinViewController.swift in Sources */,
 				F958637A1CC5335500D17935 /* ExerciseQuiz.swift in Sources */,
