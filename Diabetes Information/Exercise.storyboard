@@ -144,7 +144,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60h-TL-eMw">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zMj-aj-Nk8">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zMj-aj-Nk8">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -262,7 +262,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lju-OH-yMv">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RCI-nn-KBe">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RCI-nn-KBe">
                                         <rect key="frame" x="114" y="88" width="541" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -379,7 +379,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pX-OV-JLE">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LRo-AC-bKh">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LRo-AC-bKh">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -496,7 +496,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YnS-CJ-sEO">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KaO-kU-7pa">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KaO-kU-7pa">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -622,7 +622,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CZG-pX-Vwc">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CZG-pX-Vwc">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -752,7 +752,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TYz-HN-cX2">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TYz-HN-cX2">
                                         <rect key="frame" x="79" y="88" width="610" height="334"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -985,92 +985,6 @@
                 <swipeGestureRecognizer direction="right" id="xz0-tP-PkD"/>
             </objects>
             <point key="canvasLocation" x="3689" y="7447"/>
-        </scene>
-        <!--View Controller2-->
-        <scene sceneID="BCU-0V-J2R">
-            <objects>
-                <viewController storyboardIdentifier="ExerciseGeneralFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0Q3-KR-ltA" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="h6V-2O-p7K"/>
-                        <viewControllerLayoutGuide type="bottom" id="tKY-C0-P0f"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QN7-D5-YR7">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Mbq-lg-ruY">
-                                <rect key="frame" x="264" y="0.0" width="240" height="53"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="QlV-Vv-0jM"/>
-                                    <constraint firstAttribute="width" constant="240" id="jbr-Uu-c06"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qze-Rz-cED">
-                                <rect key="frame" x="264" y="51" width="240" height="40"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="onU-eW-p8g"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsS-8H-ufa">
-                                <rect key="frame" x="254" y="652" width="259" height="69"/>
-                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="259" id="GqW-Df-IMX"/>
-                                    <constraint firstAttribute="height" constant="69" id="Wyc-J8-zaP"/>
-                                </constraints>
-                                <state key="normal" title="Try again"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTF-Mc-V49">
-                                <rect key="frame" x="254" y="890" width="259" height="69"/>
-                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="R4W-cz-6Mx"/>
-                                    <constraint firstAttribute="width" constant="259" id="RTq-lx-5JK"/>
-                                </constraints>
-                                <state key="normal" title="Main Menu"/>
-                                <connections>
-                                    <action selector="onMainMenuPress:" destination="0Q3-KR-ltA" eventType="touchUpInside" id="yNo-Ob-3eO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qy2-c8-kIt">
-                                <rect key="frame" x="254" y="773" width="259" height="69"/>
-                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="259" id="GUJ-Lr-YmE"/>
-                                    <constraint firstAttribute="height" constant="69" id="M0q-kt-Dgx"/>
-                                </constraints>
-                                <state key="normal" title="To &quot;Exercise and Your Blood Sugar"/>
-                                <connections>
-                                    <segue destination="1Qu-cD-yLY" kind="modal" id="6ub-Ih-hJ6"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="zTF-Mc-V49" firstAttribute="top" secondItem="Qy2-c8-kIt" secondAttribute="bottom" constant="48" id="5LO-q5-JgD"/>
-                            <constraint firstItem="Qze-Rz-cED" firstAttribute="top" secondItem="h6V-2O-p7K" secondAttribute="bottom" constant="31" id="K2F-sc-1NL"/>
-                            <constraint firstItem="CsS-8H-ufa" firstAttribute="leading" secondItem="Qy2-c8-kIt" secondAttribute="leading" id="KCU-zn-niN"/>
-                            <constraint firstItem="zTF-Mc-V49" firstAttribute="centerX" secondItem="QN7-D5-YR7" secondAttribute="centerX" id="KYY-2b-Lx7"/>
-                            <constraint firstItem="Qy2-c8-kIt" firstAttribute="top" secondItem="CsS-8H-ufa" secondAttribute="bottom" constant="52" id="VyU-M8-mFW"/>
-                            <constraint firstItem="tKY-C0-P0f" firstAttribute="top" secondItem="zTF-Mc-V49" secondAttribute="bottom" constant="65" id="X2L-pI-K7Z"/>
-                            <constraint firstItem="Mbq-lg-ruY" firstAttribute="top" secondItem="QN7-D5-YR7" secondAttribute="top" id="Yq9-jN-8qh"/>
-                            <constraint firstItem="Mbq-lg-ruY" firstAttribute="leading" secondItem="Qze-Rz-cED" secondAttribute="leading" id="ZI1-k3-nLM"/>
-                            <constraint firstItem="Qy2-c8-kIt" firstAttribute="leading" secondItem="zTF-Mc-V49" secondAttribute="leading" id="aJ8-fz-dHT"/>
-                            <constraint firstItem="CsS-8H-ufa" firstAttribute="centerX" secondItem="Qze-Rz-cED" secondAttribute="centerX" id="dTp-cl-7lL"/>
-                            <constraint firstItem="Mbq-lg-ruY" firstAttribute="trailing" secondItem="Qze-Rz-cED" secondAttribute="trailing" id="xRT-OO-meG"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kk7-PL-OEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4748" y="7401"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2D1-wD-fcm">
@@ -2008,11 +1922,11 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu0-cN-9LH">
-                                <rect key="frame" x="305" y="652" width="158" height="69"/>
+                                <rect key="frame" x="251" y="250" width="266" height="102"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="6kn-To-6a2"/>
-                                    <constraint firstAttribute="width" constant="158" id="Sdl-1J-F9n"/>
+                                    <constraint firstAttribute="height" constant="102" id="6kn-To-6a2"/>
+                                    <constraint firstAttribute="width" constant="266" id="Sdl-1J-F9n"/>
                                 </constraints>
                                 <state key="normal" title="Try again"/>
                                 <connections>
@@ -2020,27 +1934,15 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55F-LB-Dgs">
-                                <rect key="frame" x="305" y="773" width="158" height="69"/>
+                                <rect key="frame" x="251" y="461" width="266" height="102"/>
                                 <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="158" id="HO9-Or-TcS"/>
-                                    <constraint firstAttribute="height" constant="69" id="tPO-IC-IFf"/>
+                                    <constraint firstAttribute="width" constant="266" id="HO9-Or-TcS"/>
+                                    <constraint firstAttribute="height" constant="102" id="tPO-IC-IFf"/>
                                 </constraints>
                                 <state key="normal" title="To &quot;General Tips&quot;"/>
                                 <connections>
                                     <segue destination="KNq-vf-bkY" kind="modal" id="k0a-8k-Fwm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QK7-td-iN1">
-                                <rect key="frame" x="305" y="890" width="158" height="69"/>
-                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="Rys-xK-eZi"/>
-                                    <constraint firstAttribute="width" constant="158" id="p8Y-nW-7ei"/>
-                                </constraints>
-                                <state key="normal" title="Main Menu"/>
-                                <connections>
-                                    <action selector="onMainMenuPress:" destination="Zca-bt-vZe" eventType="touchUpInside" id="3zC-hK-BAf"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4A-a9-c6V">
@@ -2081,17 +1983,29 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QK7-td-iN1">
+                                <rect key="frame" x="251" y="672" width="266" height="102"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="Rys-xK-eZi"/>
+                                    <constraint firstAttribute="width" constant="266" id="p8Y-nW-7ei"/>
+                                </constraints>
+                                <state key="normal" title="Main Menu"/>
+                                <connections>
+                                    <action selector="onMainMenuPress:" destination="Zca-bt-vZe" eventType="touchUpInside" id="3zC-hK-BAf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="55F-LB-Dgs" firstAttribute="top" secondItem="xu0-cN-9LH" secondAttribute="bottom" constant="52" id="3Uz-Kp-awz"/>
+                            <constraint firstItem="55F-LB-Dgs" firstAttribute="top" secondItem="xu0-cN-9LH" secondAttribute="bottom" constant="109" id="3Uz-Kp-awz"/>
                             <constraint firstItem="55F-LB-Dgs" firstAttribute="centerX" secondItem="exH-WQ-Bmy" secondAttribute="centerX" id="8kV-Lt-rPz"/>
                             <constraint firstItem="I2N-Al-mOR" firstAttribute="bottom" secondItem="38A-I8-B5v" secondAttribute="top" id="CBW-e1-yqB"/>
-                            <constraint firstItem="I2N-Al-mOR" firstAttribute="top" secondItem="QK7-td-iN1" secondAttribute="bottom" constant="10" id="Fct-Ly-EKs"/>
+                            <constraint firstItem="I2N-Al-mOR" firstAttribute="top" secondItem="QK7-td-iN1" secondAttribute="bottom" constant="195" id="Fct-Ly-EKs"/>
                             <constraint firstItem="55F-LB-Dgs" firstAttribute="leading" secondItem="QK7-td-iN1" secondAttribute="leading" id="Tb2-s4-yn7"/>
-                            <constraint firstItem="QK7-td-iN1" firstAttribute="top" secondItem="55F-LB-Dgs" secondAttribute="bottom" constant="48" id="TkO-xp-G9A"/>
-                            <constraint firstItem="38A-I8-B5v" firstAttribute="top" secondItem="QK7-td-iN1" secondAttribute="bottom" constant="65" id="d3A-Zi-EEI"/>
+                            <constraint firstItem="QK7-td-iN1" firstAttribute="top" secondItem="55F-LB-Dgs" secondAttribute="bottom" constant="109" id="TkO-xp-G9A"/>
+                            <constraint firstItem="38A-I8-B5v" firstAttribute="top" secondItem="QK7-td-iN1" secondAttribute="bottom" constant="250" id="d3A-Zi-EEI"/>
                             <constraint firstItem="j4A-a9-c6V" firstAttribute="trailing" secondItem="I2N-Al-mOR" secondAttribute="trailing" id="js0-Ty-CQi"/>
                             <constraint firstItem="j4A-a9-c6V" firstAttribute="top" secondItem="exH-WQ-Bmy" secondAttribute="top" id="lQ5-bG-nxC"/>
                             <constraint firstItem="xu0-cN-9LH" firstAttribute="leading" secondItem="55F-LB-Dgs" secondAttribute="leading" id="o0k-Ia-5f4"/>
@@ -2737,12 +2651,123 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
             </objects>
             <point key="canvasLocation" x="7565" y="9863"/>
         </scene>
+        <!--View Controller2-->
+        <scene sceneID="3ha-f1-XCi">
+            <objects>
+                <viewController storyboardIdentifier="ExerciseGeneralFinal" id="JrW-0S-64Z" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E4J-aN-2VM"/>
+                        <viewControllerLayoutGuide type="bottom" id="umD-yk-Vma"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yhE-EI-3ul">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6U-Dp-1PT">
+                                <rect key="frame" x="251" y="250" width="266" height="102"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="TxJ-Z1-OMF"/>
+                                    <constraint firstAttribute="width" constant="266" id="hP2-yy-WsV"/>
+                                </constraints>
+                                <state key="normal" title="Try again"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhh-VN-lGx">
+                                <rect key="frame" x="251" y="672" width="266" height="102"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="SAh-Uu-cQm"/>
+                                    <constraint firstAttribute="width" constant="266" id="gCa-2l-wlY"/>
+                                </constraints>
+                                <state key="normal" title="Main Menu"/>
+                                <connections>
+                                    <action selector="onMainMenuPress:" destination="JrW-0S-64Z" eventType="touchUpInside" id="f3U-J2-4f7"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJ4-Pw-fW7">
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSr-EF-XxR">
+                                <rect key="frame" x="251" y="461" width="266" height="102"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="aVl-fb-RZR"/>
+                                    <constraint firstAttribute="height" constant="69" id="eJN-kK-qky"/>
+                                </constraints>
+                                <state key="normal" title="To &quot;Exercise and Your Blood Sugar"/>
+                                <connections>
+                                    <segue destination="1Qu-cD-yLY" kind="modal" id="39z-9j-PvZ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oSf-Wr-2KX">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Exercise" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7M1-R3-PPQ">
+                                        <rect key="frame" x="180" y="8" width="408" height="53"/>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="0Aw-k7-Mct"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="General Tips" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f7t-hI-QcJ">
+                                        <rect key="frame" x="119" y="73" width="530" height="40"/>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="BTY-oG-dl9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="f7t-hI-QcJ" secondAttribute="bottom" constant="2" id="2eY-r5-zTI"/>
+                                    <constraint firstItem="f7t-hI-QcJ" firstAttribute="top" secondItem="7M1-R3-PPQ" secondAttribute="bottom" constant="12" id="J9y-ml-hHU"/>
+                                    <constraint firstItem="7M1-R3-PPQ" firstAttribute="leading" secondItem="oSf-Wr-2KX" secondAttribute="leading" constant="180" id="SGZ-9l-zbT"/>
+                                    <constraint firstItem="7M1-R3-PPQ" firstAttribute="top" secondItem="oSf-Wr-2KX" secondAttribute="top" constant="8" id="cD7-rJ-Grn"/>
+                                    <constraint firstItem="f7t-hI-QcJ" firstAttribute="top" secondItem="7M1-R3-PPQ" secondAttribute="bottom" constant="12" id="oV5-5d-Suv"/>
+                                    <constraint firstItem="f7t-hI-QcJ" firstAttribute="leading" secondItem="oSf-Wr-2KX" secondAttribute="leading" constant="119" id="pEU-An-U72"/>
+                                    <constraint firstAttribute="trailing" secondItem="7M1-R3-PPQ" secondAttribute="trailing" constant="180" id="pEe-qy-ZzH"/>
+                                    <constraint firstAttribute="trailing" secondItem="f7t-hI-QcJ" secondAttribute="trailing" constant="119" id="rX9-YJ-k7I"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="oSf-Wr-2KX" firstAttribute="top" secondItem="yhE-EI-3ul" secondAttribute="top" id="3Kj-qd-Uhh"/>
+                            <constraint firstItem="oSf-Wr-2KX" firstAttribute="leading" secondItem="yhE-EI-3ul" secondAttribute="leading" id="7FA-aL-R9Z"/>
+                            <constraint firstAttribute="trailing" secondItem="oSf-Wr-2KX" secondAttribute="trailing" id="9C6-9U-Rx7"/>
+                            <constraint firstItem="i6U-Dp-1PT" firstAttribute="top" secondItem="yhE-EI-3ul" secondAttribute="top" constant="250" id="A12-Gp-cp2"/>
+                            <constraint firstItem="i6U-Dp-1PT" firstAttribute="leading" secondItem="rSr-EF-XxR" secondAttribute="leading" id="Cd0-lr-ePm"/>
+                            <constraint firstItem="rSr-EF-XxR" firstAttribute="leading" secondItem="lhh-VN-lGx" secondAttribute="leading" id="FQz-N6-tut"/>
+                            <constraint firstItem="umD-yk-Vma" firstAttribute="top" secondItem="lhh-VN-lGx" secondAttribute="bottom" constant="250" id="HtW-PV-v6n"/>
+                            <constraint firstItem="oSf-Wr-2KX" firstAttribute="leading" secondItem="UJ4-Pw-fW7" secondAttribute="leading" id="Oq5-ej-yce"/>
+                            <constraint firstItem="rSr-EF-XxR" firstAttribute="centerY" secondItem="yhE-EI-3ul" secondAttribute="centerY" id="c4J-m3-cHO"/>
+                            <constraint firstItem="UJ4-Pw-fW7" firstAttribute="bottom" secondItem="umD-yk-Vma" secondAttribute="top" id="u09-3V-noH"/>
+                            <constraint firstItem="UJ4-Pw-fW7" firstAttribute="centerX" secondItem="lhh-VN-lGx" secondAttribute="centerX" id="uT1-h1-zux"/>
+                            <constraint firstItem="UJ4-Pw-fW7" firstAttribute="top" secondItem="lhh-VN-lGx" secondAttribute="bottom" constant="195" id="vto-5T-YRT"/>
+                            <constraint firstItem="oSf-Wr-2KX" firstAttribute="trailing" secondItem="UJ4-Pw-fW7" secondAttribute="trailing" id="ySb-CE-QlS"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Tbr-VW-UUr" appends="YES" id="t60-sH-cJH"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41K-tc-dOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Tbr-VW-UUr"/>
+            </objects>
+            <point key="canvasLocation" x="4540" y="7447"/>
+        </scene>
     </scenes>
     <resources>
         <image name="halfCupOfOats.jpg" width="1240" height="670"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="k0a-8k-Fwm"/>
-        <segue reference="Kx4-SM-Ecw"/>
+        <segue reference="39z-9j-PvZ"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -163,7 +163,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="crI-l8-Qgg">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="crI-l8-Qgg">
                                         <rect key="frame" x="114" y="88" width="541" height="346"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -293,7 +293,7 @@ Foods that contain carbs turn into sugar in the blood stream</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7HR-gz-8zb">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7HR-gz-8zb">
                                         <rect key="frame" x="114" y="88" width="541" height="453"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -434,7 +434,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TUd-9J-fe4">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You will need to limit portion sizes and watch how much you eat" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VuR-kw-mig">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="You will need to limit portion sizes and watch how much you eat" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="VuR-kw-mig">
                                         <rect key="frame" x="119" y="680" width="531" height="151"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -443,7 +443,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You can still eat your favorite foods and eat out at restuarants if you have diabetes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DQK-lG-etU">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="You can still eat your favorite foods and eat out at restuarants if you have diabetes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DQK-lG-etU">
                                         <rect key="frame" x="119" y="8" width="531" height="196"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -543,7 +543,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yBb-ru-FEN">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Helpful tips to avoid bad eating habits:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hsV-kE-FNU">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Helpful tips to avoid bad eating habits:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hsV-kE-FNU">
                                         <rect key="frame" x="114" y="8" width="541" height="110"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -552,7 +552,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kbm-ZX-U31">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kbm-ZX-U31">
                                         <rect key="frame" x="114" y="120" width="541" height="702"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -683,7 +683,7 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="964-d3-OIJ">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="964-d3-OIJ">
                                         <rect key="frame" x="114" y="88" width="541" height="543"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -839,7 +839,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r3y-Ew-Ifu">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="When you eat out or have fast food:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o2Q-12-IsH">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="When you eat out or have fast food:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o2Q-12-IsH">
                                         <rect key="frame" x="115" y="8" width="538" height="106"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -848,7 +848,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oO5-l0-XnM">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oO5-l0-XnM">
                                         <rect key="frame" x="114" y="120" width="541" height="622"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -919,82 +919,6 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
             </objects>
             <point key="canvasLocation" x="5253" y="-1583"/>
         </scene>
-        <!--View Controller2-->
-        <scene sceneID="MrA-2f-YgS">
-            <objects>
-                <viewController storyboardIdentifier="GeneralTipsFinal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="V7t-XD-15t" customClass="ViewController2" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nNm-4h-JZF"/>
-                        <viewControllerLayoutGuide type="bottom" id="35G-LH-UHc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cRO-6Y-SxB">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Healthy Eating" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vqb-H3-AJi">
-                                <rect key="frame" x="264" y="20" width="240" height="53"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="OjY-8n-MZt"/>
-                                    <constraint firstAttribute="width" constant="240" id="bpN-R8-wxh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Activity" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lJB-nK-m8F">
-                                <rect key="frame" x="264" y="81" width="240" height="40"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="cyf-Mv-n6H"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="YOU WIN!!!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qXC-nB-Qxc">
-                                <rect key="frame" x="65" y="187" width="639" height="558"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="84"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kcn-h7-geX">
-                                <rect key="frame" x="271" y="885" width="76" height="30"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Main Menu"/>
-                                <connections>
-                                    <action selector="onMainMenuPress:" destination="V7t-XD-15t" eventType="touchUpInside" id="Ua4-41-bfF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBx-fb-Iek">
-                                <rect key="frame" x="314" y="777" width="141" height="30"/>
-                                <state key="normal" title="To &quot;Counting Carbs&quot;"/>
-                                <connections>
-                                    <segue destination="bLo-OU-SL1" kind="modal" id="2Gv-vz-64H"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <constraints>
-                            <constraint firstItem="vqb-H3-AJi" firstAttribute="top" secondItem="nNm-4h-JZF" secondAttribute="bottom" id="2Ha-Wf-4ra"/>
-                            <constraint firstItem="vqb-H3-AJi" firstAttribute="leading" secondItem="lJB-nK-m8F" secondAttribute="leading" id="Acy-gA-hYb"/>
-                            <constraint firstItem="vqb-H3-AJi" firstAttribute="trailing" secondItem="lJB-nK-m8F" secondAttribute="trailing" id="Cal-AM-cIq"/>
-                            <constraint firstItem="lJB-nK-m8F" firstAttribute="centerX" secondItem="qXC-nB-Qxc" secondAttribute="centerX" id="E0N-7w-oHg"/>
-                            <constraint firstItem="qXC-nB-Qxc" firstAttribute="top" secondItem="lJB-nK-m8F" secondAttribute="bottom" constant="66" id="GUW-R1-SuX"/>
-                            <constraint firstItem="qXC-nB-Qxc" firstAttribute="centerX" secondItem="WBx-fb-Iek" secondAttribute="centerX" id="MO1-vp-H0E"/>
-                            <constraint firstItem="WBx-fb-Iek" firstAttribute="top" secondItem="qXC-nB-Qxc" secondAttribute="bottom" constant="32" id="NX5-St-dfZ"/>
-                            <constraint firstItem="qXC-nB-Qxc" firstAttribute="leading" secondItem="cRO-6Y-SxB" secondAttribute="leadingMargin" constant="45" id="Nl8-2z-xfx"/>
-                            <constraint firstItem="lJB-nK-m8F" firstAttribute="centerX" secondItem="cRO-6Y-SxB" secondAttribute="centerX" id="RIH-cF-ki7"/>
-                            <constraint firstItem="Kcn-h7-geX" firstAttribute="leading" secondItem="cRO-6Y-SxB" secondAttribute="leading" constant="271" id="VzX-FY-wNs"/>
-                            <constraint firstItem="Kcn-h7-geX" firstAttribute="top" secondItem="WBx-fb-Iek" secondAttribute="bottom" constant="78" id="eXT-Jd-WHX"/>
-                            <constraint firstItem="lJB-nK-m8F" firstAttribute="top" secondItem="vqb-H3-AJi" secondAttribute="bottom" constant="8" symbolic="YES" id="t25-Dr-oWp"/>
-                            <constraint firstItem="35G-LH-UHc" firstAttribute="top" secondItem="Kcn-h7-geX" secondAttribute="bottom" constant="109" id="zS2-xN-oBS"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oV4-i5-z9q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7218" y="-1575"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="jqf-mX-mFJ">
             <objects>
@@ -1019,7 +943,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8el-ax-QVK">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8el-ax-QVK">
                                         <rect key="frame" x="114" y="88" width="541" height="476"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1149,7 +1073,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0v0-jY-oJd">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0v0-jY-oJd">
                                         <rect key="frame" x="114" y="88" width="541" height="689"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1287,13 +1211,13 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="SgX-gp-9Qw">
-                                        <rect key="frame" x="124" y="98" width="376" height="230"/>
+                                        <rect key="frame" x="119" y="225" width="531" height="404"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                         </accessibility>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="376" id="EUe-8n-fHz"/>
-                                            <constraint firstAttribute="height" constant="230" id="bVx-LJ-2PS"/>
+                                            <constraint firstAttribute="width" constant="531" id="EUe-8n-fHz"/>
+                                            <constraint firstAttribute="height" constant="404" id="bVx-LJ-2PS"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -1305,15 +1229,15 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                     <constraint firstItem="elZ-Ue-R9P" firstAttribute="leading" secondItem="TET-4T-L6f" secondAttribute="leading" constant="114" id="dcD-sE-Mxl"/>
                                     <constraint firstItem="elZ-Ue-R9P" firstAttribute="top" secondItem="TET-4T-L6f" secondAttribute="top" constant="8" id="dmE-HY-DBE"/>
                                     <constraint firstAttribute="trailing" secondItem="N89-RO-saJ" secondAttribute="trailing" constant="113" id="h26-6S-oiY"/>
-                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="top" secondItem="elZ-Ue-R9P" secondAttribute="bottom" constant="35" id="hWc-ch-Yg8"/>
-                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="leading" secondItem="TET-4T-L6f" secondAttribute="leading" constant="124" id="qca-tA-mk2"/>
+                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="top" secondItem="elZ-Ue-R9P" secondAttribute="bottom" constant="162" id="hWc-ch-Yg8"/>
+                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="leading" secondItem="TET-4T-L6f" secondAttribute="leading" constant="119" id="qca-tA-mk2"/>
                                     <constraint firstAttribute="trailing" secondItem="elZ-Ue-R9P" secondAttribute="trailing" constant="113" id="rhI-Ic-QeT"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="he2-H4-WEz">
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
-                                    <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="Y0D-S2-rj6">
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="Y0D-S2-rj6">
                                         <rect key="frame" x="324" y="10" width="121" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="121" id="dKy-rZ-mNi"/>
@@ -1324,11 +1248,11 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Y0D-S2-rj6" secondAttribute="trailing" constant="239" id="3gA-vP-2lm"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y0D-S2-rj6" secondAttribute="trailing" constant="323" id="3gA-vP-2lm"/>
                                     <constraint firstAttribute="height" constant="55" id="7Br-wY-dNZ"/>
-                                    <constraint firstItem="Y0D-S2-rj6" firstAttribute="leading" secondItem="he2-H4-WEz" secondAttribute="leading" constant="240" id="BVP-he-Lh2"/>
-                                    <constraint firstAttribute="bottom" secondItem="Y0D-S2-rj6" secondAttribute="bottom" constant="9" id="W4w-Xg-0WP"/>
-                                    <constraint firstItem="Y0D-S2-rj6" firstAttribute="top" secondItem="he2-H4-WEz" secondAttribute="top" constant="9" id="xsA-i3-BX5"/>
+                                    <constraint firstItem="Y0D-S2-rj6" firstAttribute="leading" secondItem="he2-H4-WEz" secondAttribute="leading" constant="324" id="BVP-he-Lh2"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y0D-S2-rj6" secondAttribute="bottom" constant="8" id="W4w-Xg-0WP"/>
+                                    <constraint firstItem="Y0D-S2-rj6" firstAttribute="top" secondItem="he2-H4-WEz" secondAttribute="top" constant="10" id="xsA-i3-BX5"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-6z-dUD">
@@ -1416,7 +1340,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ibd-2d-vHS">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ibd-2d-vHS">
                                         <rect key="frame" x="114" y="0.0" width="541" height="809"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1887,7 +1811,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SgM-1y-8z3">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Helpful tips to avoid bad eating habits:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KTS-5b-clc">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Helpful tips to avoid bad eating habits:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KTS-5b-clc">
                                         <rect key="frame" x="114" y="8" width="541" height="110"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1896,7 +1820,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="swX-02-bG7">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="swX-02-bG7">
                                         <rect key="frame" x="114" y="120" width="541" height="702"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2053,7 +1977,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mze-4s-XVh">
                                 <rect key="frame" x="0.0" y="115" width="768" height="854"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="When you eat out or have fast food:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d50-Nx-sN0">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="When you eat out or have fast food:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d50-Nx-sN0">
                                         <rect key="frame" x="115" y="8" width="538" height="106"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2062,7 +1986,7 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qqp-yf-dtj">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qqp-yf-dtj">
                                         <rect key="frame" x="114" y="120" width="541" height="622"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -2136,6 +2060,5 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kLn-Dn-a7x"/>
-        <segue reference="2Gv-vz-64H"/>
     </inferredMetricsTieBreakers>
 </document>
