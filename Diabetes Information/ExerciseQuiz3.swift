@@ -10,12 +10,12 @@ import Foundation
 import UIKit
 
 
-class ExerciseQuiz2: UIViewController{
+class ExerciseQuiz3: UIViewController{
     @IBOutlet weak var quizLabel: UILabel!
     @IBOutlet weak var quizResponse: UILabel!
     
     
-    let dbqm2 = DiabetesInformationQuizModel(question: "Your blood sugar is between 80 and 100. What should you do now?", correctAnswer:"1")
+    let dbqm3 = DiabetesInformationQuizModel(question: "What type of snack should you have?", correctAnswer:"1")
     @IBOutlet weak var finishButton: UIButton!
     @IBOutlet weak var answer1: UIButton!
     @IBOutlet weak var answer2: UIButton!
@@ -26,7 +26,7 @@ class ExerciseQuiz2: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        questionBox.text = dbqm2.printQuestion()
+        questionBox.text = dbqm3.printQuestion()
         quizResponse.text = ""
         finishButton.hidden = true
     }
@@ -37,7 +37,7 @@ class ExerciseQuiz2: UIViewController{
     }
     
     @IBAction func quizButton1(sender: UIButton) {
-        if(dbqm2.guessAnswer("1") == false)
+        if(dbqm3.guessAnswer("1") == false)
         {
             quizResponse.text = "Try Again!"
         }
@@ -51,7 +51,7 @@ class ExerciseQuiz2: UIViewController{
     
     
     @IBAction func quizButton2(sender: UIButton) {
-        if(dbqm2.guessAnswer("2") == false)
+        if(dbqm3.guessAnswer("2") == false)
         {
             quizResponse.text = "Try Again!"
         }
