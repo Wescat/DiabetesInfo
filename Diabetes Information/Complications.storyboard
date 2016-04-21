@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="YIo-SV-9eK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="YIo-SV-9eK">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -203,6 +203,16 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rWX-WR-YxN">
+                                        <rect key="frame" x="130" y="415" width="509" height="349"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preventComplications1" translatesAutoresizingMaskIntoConstraints="NO" id="eoh-P2-NF9">
+                                                <rect key="frame" x="0.0" y="0.0" width="509" height="349"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -338,6 +348,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caL-Ad-GCr">
+                                        <rect key="frame" x="201" y="619" width="367" height="203"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="preventComplications2" translatesAutoresizingMaskIntoConstraints="NO" id="njy-pR-rqq">
+                                                <rect key="frame" x="0.0" y="0.0" width="367" height="203"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -500,7 +519,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dRv-FC-b27">
-                                <rect key="frame" x="0.0" y="115" width="768" height="857"/>
+                                <rect key="frame" x="0.0" y="114" width="768" height="857"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="To avoid problems with your eyes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sei-i6-rG3">
                                         <rect key="frame" x="80" y="8" width="609" height="88"/>
@@ -511,8 +530,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nU-Yw-T0l">
-                                        <rect key="frame" x="79" y="88" width="442" height="334"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7nU-Yw-T0l">
+                                        <rect key="frame" x="79" y="88" width="442" height="351"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="334" id="LqU-Qh-gUv"/>
@@ -522,96 +541,39 @@
 • Wear sunglasses when outside
 
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YZY-qR-7uS">
-                                        <rect key="frame" x="48" y="232" width="240" height="128"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-cF-ipW">
+                                        <rect key="frame" x="227" y="634" width="314" height="190"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="normalVision.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="GaT-0u-86e">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="diabeticRetinopathy" translatesAutoresizingMaskIntoConstraints="NO" id="PRR-eC-iVm">
+                                                <rect key="frame" x="0.0" y="0.0" width="314" height="190"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="GaT-0u-86e" secondAttribute="height" multiplier="15:8" id="59P-aY-H5G"/>
-                                                    <constraint firstAttribute="height" constant="128" id="DVx-pf-OLS"/>
+                                                    <constraint firstAttribute="height" constant="190" id="7Gs-gD-mee"/>
+                                                    <constraint firstAttribute="width" constant="314" id="OtG-IM-Ndu"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="2Oi-VC-wa2"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="2sG-IY-nkP"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="3MM-gF-EMf"/>
-                                            <constraint firstAttribute="trailing" secondItem="GaT-0u-86e" secondAttribute="trailing" id="4Qa-9S-Be8"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="9Uz-qY-RRy"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="BAC-hQ-919"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="centerY" secondItem="YZY-qR-7uS" secondAttribute="centerY" id="Cfg-23-Gt0"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="Edi-WM-dps"/>
-                                            <constraint firstAttribute="bottom" secondItem="GaT-0u-86e" secondAttribute="bottom" id="GyR-Sc-Y0G"/>
-                                            <constraint firstAttribute="trailing" secondItem="GaT-0u-86e" secondAttribute="trailing" id="JDL-pE-1Zm"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="KUz-Bc-7L7"/>
-                                            <constraint firstAttribute="trailing" secondItem="GaT-0u-86e" secondAttribute="trailing" id="Kg2-T1-mJG"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="centerY" secondItem="YZY-qR-7uS" secondAttribute="centerY" id="LDM-P2-BDs"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="MS3-Ox-bc9"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="Mf7-Sg-xEZ"/>
-                                            <constraint firstAttribute="bottom" secondItem="GaT-0u-86e" secondAttribute="bottom" id="MyB-qG-9qT"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="NNA-4B-r9G"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="centerX" secondItem="YZY-qR-7uS" secondAttribute="centerX" id="NSp-t2-NWO"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="Oux-da-eM6"/>
-                                            <constraint firstAttribute="bottom" secondItem="GaT-0u-86e" secondAttribute="bottom" id="P24-XS-tLS"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="centerX" secondItem="YZY-qR-7uS" secondAttribute="centerX" id="W76-Cz-q3c"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="leading" secondItem="YZY-qR-7uS" secondAttribute="leading" id="ZHC-mG-pqy"/>
-                                            <constraint firstAttribute="bottom" secondItem="GaT-0u-86e" secondAttribute="bottom" id="Zpd-8X-0Kt"/>
-                                            <constraint firstAttribute="trailing" secondItem="GaT-0u-86e" secondAttribute="trailing" id="bKL-Fe-anc"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="e36-HX-l9h"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="ffA-ch-lkB"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="iNm-aD-0eC"/>
-                                            <constraint firstItem="GaT-0u-86e" firstAttribute="top" secondItem="YZY-qR-7uS" secondAttribute="top" id="s4S-BO-hnb"/>
-                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-cF-ipW">
-                                        <rect key="frame" x="325" y="232" width="240" height="128"/>
+                                    <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YZY-qR-7uS">
+                                        <rect key="frame" x="227" y="392" width="314" height="190"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="diabeticRetinopathy.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="PRR-eC-iVm">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="normalVision" translatesAutoresizingMaskIntoConstraints="NO" id="GaT-0u-86e">
+                                                <rect key="frame" x="0.0" y="0.0" width="314" height="190"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                                </accessibility>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="128" id="7Gs-gD-mee"/>
-                                                    <constraint firstAttribute="width" constant="240" id="OtG-IM-Ndu"/>
+                                                    <constraint firstAttribute="width" secondItem="GaT-0u-86e" secondAttribute="height" multiplier="15:8" constant="-42.200000000000003" id="59P-aY-H5G"/>
+                                                    <constraint firstAttribute="height" constant="190" id="DVx-pf-OLS"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="15v-oQ-wXr"/>
-                                            <constraint firstAttribute="trailing" secondItem="PRR-eC-iVm" secondAttribute="trailing" id="2EL-fT-8PS"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="centerX" secondItem="i4c-cF-ipW" secondAttribute="centerX" id="3FJ-1D-cLx"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="3MF-hf-cP1"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="3OU-Yz-DUi"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="BCV-5i-c5F"/>
-                                            <constraint firstAttribute="trailing" secondItem="PRR-eC-iVm" secondAttribute="trailing" id="Dx7-Bp-SzD"/>
-                                            <constraint firstAttribute="bottom" secondItem="PRR-eC-iVm" secondAttribute="bottom" id="LCH-Vg-6kC"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="centerY" secondItem="i4c-cF-ipW" secondAttribute="centerY" id="Met-nI-lyQ"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="centerX" secondItem="i4c-cF-ipW" secondAttribute="centerX" id="QIV-Te-hbm"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="RKL-EC-ifJ"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="VhT-hE-Dcp"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="VuU-cE-ZlO"/>
-                                            <constraint firstAttribute="bottom" secondItem="PRR-eC-iVm" secondAttribute="bottom" id="WGE-fa-fXR"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="ZYC-La-jsb"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="acK-fS-p1V"/>
-                                            <constraint firstAttribute="bottom" secondItem="PRR-eC-iVm" secondAttribute="bottom" id="bPc-Nr-GbX"/>
-                                            <constraint firstAttribute="trailing" secondItem="PRR-eC-iVm" secondAttribute="trailing" id="dhb-2G-uWL"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="enE-Vo-Lj8"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="centerY" secondItem="i4c-cF-ipW" secondAttribute="centerY" id="fpY-Bo-W1i"/>
-                                            <constraint firstAttribute="trailing" secondItem="PRR-eC-iVm" secondAttribute="trailing" id="h4r-w2-r9k"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="hlB-7o-ixj"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="mat-uY-b6M"/>
-                                            <constraint firstAttribute="bottom" secondItem="PRR-eC-iVm" secondAttribute="bottom" id="nPg-py-xxt"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="omT-1a-Ua3"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="rvS-t9-QGm"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="top" secondItem="i4c-cF-ipW" secondAttribute="top" id="st9-eN-HSj"/>
-                                            <constraint firstItem="PRR-eC-iVm" firstAttribute="leading" secondItem="i4c-cF-ipW" secondAttribute="leading" id="yut-tW-CqH"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -821,6 +783,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="odj-QW-e7n">
+                                        <rect key="frame" x="117" y="311" width="535" height="440"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sickDays1" translatesAutoresizingMaskIntoConstraints="NO" id="dBL-Vf-yTb">
+                                                <rect key="frame" x="0.0" y="0.0" width="535" height="440"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -948,6 +919,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="462-4o-cLp">
+                                        <rect key="frame" x="111" y="303" width="547" height="376"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sickDays2" translatesAutoresizingMaskIntoConstraints="NO" id="aNr-Gk-wxY">
+                                                <rect key="frame" x="0.0" y="0.0" width="547" height="376"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1075,24 +1055,25 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diabetes-777001_1920" translatesAutoresizingMaskIntoConstraints="NO" id="bKH-5I-fwJ">
-                                        <rect key="frame" x="223" y="362" width="322" height="192"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="322" id="XOJ-Fq-OYM"/>
-                                            <constraint firstAttribute="height" constant="192" id="lPh-kB-QgH"/>
-                                        </constraints>
-                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="41r-hJ-tqy">
+                                        <rect key="frame" x="158" y="370" width="453" height="350"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diabetes-777001_1920" translatesAutoresizingMaskIntoConstraints="NO" id="Cjv-9l-auK">
+                                                <rect key="frame" x="0.0" y="0.0" width="453" height="350"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="PbM-w9-fxf" firstAttribute="top" secondItem="cYa-Zz-sNg" secondAttribute="bottom" constant="55" id="2Fe-gY-81b"/>
-                                    <constraint firstItem="bKH-5I-fwJ" firstAttribute="top" secondItem="SbZ-ww-L1a" secondAttribute="top" constant="362" id="8cr-Vj-ioB"/>
                                     <constraint firstItem="cYa-Zz-sNg" firstAttribute="leading" secondItem="SbZ-ww-L1a" secondAttribute="leading" constant="80" id="T5C-Xe-7dA"/>
                                     <constraint firstAttribute="trailing" secondItem="PbM-w9-fxf" secondAttribute="trailing" constant="79" id="VJS-VG-AY8"/>
                                     <constraint firstItem="PbM-w9-fxf" firstAttribute="leading" secondItem="SbZ-ww-L1a" secondAttribute="leading" constant="79" id="cWv-RR-Vzo"/>
                                     <constraint firstAttribute="trailing" secondItem="cYa-Zz-sNg" secondAttribute="trailing" constant="79" id="cf3-Ol-My9"/>
                                     <constraint firstItem="cYa-Zz-sNg" firstAttribute="top" secondItem="SbZ-ww-L1a" secondAttribute="top" constant="8" id="gdM-R4-N2f"/>
-                                    <constraint firstItem="bKH-5I-fwJ" firstAttribute="centerX" secondItem="PbM-w9-fxf" secondAttribute="centerX" id="hJN-Ci-53c"/>
                                     <constraint firstItem="PbM-w9-fxf" firstAttribute="top" secondItem="cYa-Zz-sNg" secondAttribute="bottom" constant="55" id="seh-B4-lUT"/>
                                 </constraints>
                             </view>
@@ -1204,6 +1185,16 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ol-qS-1l4">
+                                        <rect key="frame" x="145" y="355" width="478" height="348"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sickDays4" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-lP-1Vi">
+                                                <rect key="frame" x="0.0" y="0.0" width="478" height="348"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1306,28 +1297,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AsQ-iq-GMt">
-                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vJU-ZQ-yKA">
-                                        <rect key="frame" x="80" y="8" width="609" height="316"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="316" id="cTa-r4-7Ca"/>
-                                        </constraints>
-                                        <string key="text">You should also wear a medical ID, like a bracelet, that will let other people know how to help you in case you get in an accident or suffer from another medical emergency 
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="vJU-ZQ-yKA" firstAttribute="leading" secondItem="AsQ-iq-GMt" secondAttribute="leading" constant="80" id="0JL-LR-12Z"/>
-                                    <constraint firstItem="vJU-ZQ-yKA" firstAttribute="top" secondItem="AsQ-iq-GMt" secondAttribute="top" constant="8" id="GEb-tV-Vch"/>
-                                    <constraint firstAttribute="trailing" secondItem="vJU-ZQ-yKA" secondAttribute="trailing" constant="79" id="a1r-OR-vBd"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ZD-uI-MVs">
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
@@ -1381,6 +1350,38 @@
                                     <constraint firstItem="y8r-Jn-5OX" firstAttribute="leading" secondItem="TG5-MJ-ncy" secondAttribute="leading" constant="180" id="pMY-wf-72F"/>
                                     <constraint firstItem="KSc-bC-e3G" firstAttribute="leading" secondItem="TG5-MJ-ncy" secondAttribute="leading" constant="119" id="vfk-DH-q8B"/>
                                     <constraint firstItem="KSc-bC-e3G" firstAttribute="top" secondItem="y8r-Jn-5OX" secondAttribute="bottom" constant="-3" id="vnj-LI-l66"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AsQ-iq-GMt">
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vJU-ZQ-yKA">
+                                        <rect key="frame" x="80" y="8" width="609" height="316"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="316" id="cTa-r4-7Ca"/>
+                                        </constraints>
+                                        <string key="text">You should also wear a medical ID, like a bracelet, that will let other people know how to help you in case you get in an accident or suffer from another medical emergency 
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7vs-UI-SvG">
+                                        <rect key="frame" x="103" y="332" width="562" height="427"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sickDays5" translatesAutoresizingMaskIntoConstraints="NO" id="FL5-NF-n33">
+                                                <rect key="frame" x="0.0" y="0.0" width="562" height="427"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="vJU-ZQ-yKA" firstAttribute="leading" secondItem="AsQ-iq-GMt" secondAttribute="leading" constant="80" id="0JL-LR-12Z"/>
+                                    <constraint firstItem="vJU-ZQ-yKA" firstAttribute="top" secondItem="AsQ-iq-GMt" secondAttribute="top" constant="8" id="GEb-tV-Vch"/>
+                                    <constraint firstAttribute="trailing" secondItem="vJU-ZQ-yKA" secondAttribute="trailing" constant="79" id="a1r-OR-vBd"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -2154,15 +2155,21 @@
         <image name="check" width="2000" height="2000"/>
         <image name="diabetes-777001_1920" width="1920" height="1280"/>
         <image name="diabetesshot" width="200" height="291"/>
-        <image name="diabeticRetinopathy.PNG" width="299" height="199"/>
+        <image name="diabeticRetinopathy" width="299" height="199"/>
         <image name="dressshoes" width="1280" height="960"/>
         <image name="eye_exam_ref­raction" width="1920" height="1080"/>
         <image name="foot_exam" width="980" height="653"/>
         <image name="heels" width="550" height="550"/>
         <image name="lotion" width="640" height="426"/>
         <image name="man" width="791" height="1415"/>
-        <image name="normalVision.PNG" width="389" height="308"/>
+        <image name="normalVision" width="389" height="308"/>
+        <image name="preventComplications1" width="624" height="318"/>
+        <image name="preventComplications2" width="1920" height="1280"/>
         <image name="sandals" width="888" height="986"/>
+        <image name="sickDays1" width="1000" height="700"/>
+        <image name="sickDays2" width="1000" height="667"/>
+        <image name="sickDays4" width="400" height="225"/>
+        <image name="sickDays5" width="300" height="300"/>
         <image name="sneaker" width="537" height="402"/>
         <image name="wrong" width="600" height="569"/>
         <image name="x" width="64" height="64"/>
