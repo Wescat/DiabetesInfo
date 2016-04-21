@@ -2071,20 +2071,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kin-gQ-twd">
-                                <rect key="frame" x="318" y="817" width="133" height="21"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="mTh-Gv-lhP"/>
-                                    <constraint firstAttribute="width" constant="133" id="uFV-rJ-P1e"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNa-dH-goy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNa-dH-goy">
                                 <rect key="frame" x="251" y="671" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -2154,12 +2141,6 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="38p-bK-1eU">
-                                <rect key="frame" x="229" y="179" width="310" height="222"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="310" id="FEc-QS-KFv"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFT-c6-7fl">
                                 <rect key="frame" x="251" y="409" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2173,6 +2154,25 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <action selector="quizButton1:" destination="tcq-Pz-fO6" eventType="touchUpInside" id="Hdh-v6-qhh"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="38p-bK-1eU">
+                                <rect key="frame" x="229" y="179" width="310" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="FEc-QS-KFv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kin-gQ-twd">
+                                <rect key="frame" x="318" y="817" width="133" height="21"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mTh-Gv-lhP"/>
+                                    <constraint firstAttribute="width" constant="133" id="uFV-rJ-P1e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -2181,7 +2181,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                             <constraint firstItem="iBH-XU-G8U" firstAttribute="leading" secondItem="s2k-5L-5CK" secondAttribute="leading" id="1vK-jU-bkY"/>
                             <constraint firstItem="s2k-5L-5CK" firstAttribute="leading" secondItem="l6f-ZJ-ZBE" secondAttribute="leadingMargin" id="4yy-TS-3AD"/>
                             <constraint firstItem="RsY-R3-3Gy" firstAttribute="leading" secondItem="A2N-0m-pld" secondAttribute="leading" id="5NJ-Ks-Mjo"/>
-                            <constraint firstItem="Kin-gQ-twd" firstAttribute="top" secondItem="eNa-dH-goy" secondAttribute="bottom" constant="66" id="7IY-dr-Rdw"/>
+                            <constraint firstItem="Kin-gQ-twd" firstAttribute="top" secondItem="eNa-dH-goy" secondAttribute="bottom" constant="44" id="7IY-dr-Rdw"/>
                             <constraint firstItem="RsY-R3-3Gy" firstAttribute="trailing" secondItem="A2N-0m-pld" secondAttribute="trailing" id="Bh2-jw-9rc"/>
                             <constraint firstItem="iBH-XU-G8U" firstAttribute="top" secondItem="RsY-R3-3Gy" secondAttribute="bottom" constant="18" id="F1G-Mt-RzM"/>
                             <constraint firstItem="eNa-dH-goy" firstAttribute="centerX" secondItem="Kin-gQ-twd" secondAttribute="centerX" id="Jhl-CA-PyC"/>
@@ -2243,7 +2243,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgZ-8i-5tC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgZ-8i-5tC">
                                 <rect key="frame" x="318" y="817" width="133" height="21"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
@@ -2252,8 +2252,8 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <constraint firstAttribute="height" constant="21" id="cMZ-IR-V6d"/>
                                     <constraint firstAttribute="width" constant="133" id="yXP-zE-4Bm"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E83-zv-mKT">
@@ -2426,19 +2426,6 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPZ-eO-7WD">
-                                <rect key="frame" x="318" y="817" width="133" height="21"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="133" id="5Oe-6O-LtO"/>
-                                    <constraint firstAttribute="height" constant="21" id="DDv-4d-Bm1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exB-7q-Ljg">
                                 <rect key="frame" x="251" y="671" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2531,6 +2518,19 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juice" translatesAutoresizingMaskIntoConstraints="NO" id="px9-di-3P0">
                                 <rect key="frame" x="251" y="231" width="266" height="177"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPZ-eO-7WD">
+                                <rect key="frame" x="318" y="817" width="133" height="21"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="5Oe-6O-LtO"/>
+                                    <constraint firstAttribute="height" constant="21" id="DDv-4d-Bm1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -2607,7 +2607,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FX-wS-vNj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FX-wS-vNj">
                                 <rect key="frame" x="318" y="817" width="133" height="21"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
@@ -2616,8 +2616,8 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <constraint firstAttribute="width" constant="133" id="Rrf-Lm-XBH"/>
                                     <constraint firstAttribute="height" constant="21" id="VnS-Nq-ahP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6U-QJ-oTQ">
@@ -2885,7 +2885,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         <image name="blood-sugar-chart" width="811" height="493"/>
         <image name="cake" width="640" height="533"/>
         <image name="earbuds" width="620" height="300"/>
-        <image name="halfCupOfOats.jpg" width="389" height="308"/>
+        <image name="halfCupOfOats.jpg" width="500" height="333"/>
         <image name="hardcandy" width="1200" height="754"/>
         <image name="juice" width="1500" height="2048"/>
         <image name="old-man-exercising" width="560" height="375"/>

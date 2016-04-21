@@ -13,7 +13,6 @@ class ExerciseQuiz: UIViewController{
     @IBOutlet weak var quizLabel: UILabel!
     @IBOutlet weak var quizResponse: UILabel!
     
-    
     let dbqm = DiabetesInformationQuizModel(question: "You are on your way to exercise, what do you do first?", correctAnswer:"2")
     @IBOutlet weak var finishButton: UIButton!
     @IBOutlet weak var answer1: UIButton!
