@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="np4-K2-6v3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="np4-K2-6v3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -2057,8 +2057,8 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNa-dH-goy">
-                                <rect key="frame" x="251" y="649" width="266" height="102"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNa-dH-goy">
+                                <rect key="frame" x="251" y="671" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="kyi-kf-AZG"/>
@@ -2118,14 +2118,23 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <segue destination="d6B-Bz-wqT" kind="modal" id="E9H-qn-CdH"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iBH-XU-G8U">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iBH-XU-G8U">
                                 <rect key="frame" x="20" y="133" width="728" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="uMg-nb-7tF"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="38p-bK-1eU">
+                                <rect key="frame" x="229" y="179" width="310" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="FEc-QS-KFv"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFT-c6-7fl">
-                                <rect key="frame" x="251" y="401" width="266" height="102"/>
+                                <rect key="frame" x="251" y="409" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="49e-gF-j5N"/>
@@ -2141,14 +2150,19 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="NFT-c6-7fl" firstAttribute="top" secondItem="38p-bK-1eU" secondAttribute="bottom" constant="8" symbolic="YES" id="0tU-an-nxr"/>
+                            <constraint firstItem="iBH-XU-G8U" firstAttribute="leading" secondItem="s2k-5L-5CK" secondAttribute="leading" id="1vK-jU-bkY"/>
                             <constraint firstItem="s2k-5L-5CK" firstAttribute="leading" secondItem="l6f-ZJ-ZBE" secondAttribute="leadingMargin" id="4yy-TS-3AD"/>
                             <constraint firstItem="RsY-R3-3Gy" firstAttribute="leading" secondItem="A2N-0m-pld" secondAttribute="leading" id="5NJ-Ks-Mjo"/>
                             <constraint firstItem="Kin-gQ-twd" firstAttribute="top" secondItem="eNa-dH-goy" secondAttribute="bottom" constant="66" id="7IY-dr-Rdw"/>
                             <constraint firstItem="RsY-R3-3Gy" firstAttribute="trailing" secondItem="A2N-0m-pld" secondAttribute="trailing" id="Bh2-jw-9rc"/>
+                            <constraint firstItem="iBH-XU-G8U" firstAttribute="top" secondItem="RsY-R3-3Gy" secondAttribute="bottom" constant="18" id="F1G-Mt-RzM"/>
                             <constraint firstItem="eNa-dH-goy" firstAttribute="centerX" secondItem="Kin-gQ-twd" secondAttribute="centerX" id="Jhl-CA-PyC"/>
                             <constraint firstItem="NFT-c6-7fl" firstAttribute="trailing" secondItem="eNa-dH-goy" secondAttribute="trailing" id="NEN-Og-jwN"/>
+                            <constraint firstItem="38p-bK-1eU" firstAttribute="top" secondItem="RsY-R3-3Gy" secondAttribute="bottom" constant="64" id="Q01-gi-lfv"/>
                             <constraint firstAttribute="bottom" secondItem="RsY-R3-3Gy" secondAttribute="bottom" constant="909" id="QXA-4K-39v"/>
                             <constraint firstItem="A2N-0m-pld" firstAttribute="top" secondItem="l6f-ZJ-ZBE" secondAttribute="top" constant="969" id="asO-Ba-Jho"/>
+                            <constraint firstItem="iBH-XU-G8U" firstAttribute="trailing" secondItem="s2k-5L-5CK" secondAttribute="trailing" id="bxA-gX-kF2"/>
                             <constraint firstItem="A2N-0m-pld" firstAttribute="bottom" secondItem="2Wu-WZ-GHD" secondAttribute="top" id="cj2-ez-KeU"/>
                             <constraint firstItem="RsY-R3-3Gy" firstAttribute="centerX" secondItem="s2k-5L-5CK" secondAttribute="centerX" id="fJW-f3-zsT"/>
                             <constraint firstItem="s2k-5L-5CK" firstAttribute="top" secondItem="XdM-Wv-Et4" secondAttribute="bottom" constant="89" id="jzP-Pt-OnY"/>
@@ -2158,8 +2172,9 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                             <constraint firstItem="RsY-R3-3Gy" firstAttribute="top" secondItem="l6f-ZJ-ZBE" secondAttribute="top" id="q0k-Gh-Z6n"/>
                             <constraint firstItem="iJT-ql-dAi" firstAttribute="top" secondItem="Kin-gQ-twd" secondAttribute="bottom" constant="8" symbolic="YES" id="rmC-fo-Xyt"/>
                             <constraint firstItem="RsY-R3-3Gy" firstAttribute="leading" secondItem="l6f-ZJ-ZBE" secondAttribute="leading" id="v5x-L7-fEF"/>
-                            <constraint firstItem="NFT-c6-7fl" firstAttribute="top" secondItem="l6f-ZJ-ZBE" secondAttribute="top" constant="401" id="xJB-ML-EbM"/>
+                            <constraint firstItem="NFT-c6-7fl" firstAttribute="top" secondItem="l6f-ZJ-ZBE" secondAttribute="top" constant="409" id="xJB-ML-EbM"/>
                             <constraint firstItem="A2N-0m-pld" firstAttribute="top" secondItem="iJT-ql-dAi" secondAttribute="bottom" constant="60" id="xVJ-37-F8v"/>
+                            <constraint firstItem="iBH-XU-G8U" firstAttribute="centerX" secondItem="38p-bK-1eU" secondAttribute="centerX" id="xZ8-Vq-zth"/>
                             <constraint firstItem="Kin-gQ-twd" firstAttribute="centerX" secondItem="iJT-ql-dAi" secondAttribute="centerX" id="zr5-gP-RHH"/>
                         </constraints>
                         <connections>
@@ -2215,7 +2230,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E83-zv-mKT">
-                                <rect key="frame" x="251" y="649" width="266" height="102"/>
+                                <rect key="frame" x="251" y="671" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="9FN-16-uB5"/>
@@ -2275,14 +2290,17 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <segue destination="Obm-wo-eZ9" kind="modal" id="hFD-BB-efC"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fj0-ee-oqn">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fj0-ee-oqn">
                                 <rect key="frame" x="20" y="133" width="728" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="eBt-0A-Ogz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbS-R1-qu2">
-                                <rect key="frame" x="251" y="401" width="266" height="102"/>
+                                <rect key="frame" x="251" y="409" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="3Lf-1N-JLV"/>
@@ -2294,6 +2312,18 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <action selector="quizButton1:" destination="d6B-Bz-wqT" eventType="touchUpInside" id="mWA-aS-zv2"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="old-man-exercising" translatesAutoresizingMaskIntoConstraints="NO" id="TYd-eN-vGS">
+                                <rect key="frame" x="228" y="519" width="312" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="312" id="tuh-zu-hRR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snack" translatesAutoresizingMaskIntoConstraints="NO" id="rEw-FR-SCJ">
+                                <rect key="frame" x="254" y="253" width="261" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="0Sc-3b-zXX"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -2301,23 +2331,32 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                             <constraint firstItem="81V-IX-yzR" firstAttribute="centerX" secondItem="Mo3-e1-d9A" secondAttribute="centerX" id="0d6-sp-byk"/>
                             <constraint firstItem="Mo3-e1-d9A" firstAttribute="bottom" secondItem="KdO-xK-3iB" secondAttribute="top" id="1Ku-5K-PvC"/>
                             <constraint firstItem="vbS-R1-qu2" firstAttribute="leading" secondItem="E83-zv-mKT" secondAttribute="leading" id="2I7-Ew-lID"/>
+                            <constraint firstItem="TYd-eN-vGS" firstAttribute="top" secondItem="vbS-R1-qu2" secondAttribute="bottom" constant="8" symbolic="YES" id="3MZ-If-0YW"/>
                             <constraint firstItem="c2C-po-XEt" firstAttribute="top" secondItem="WOX-cU-5wy" secondAttribute="top" id="4lc-PZ-7oD"/>
                             <constraint firstItem="c2C-po-XEt" firstAttribute="trailing" secondItem="Mo3-e1-d9A" secondAttribute="trailing" id="6Vf-Oe-eN9"/>
                             <constraint firstItem="81V-IX-yzR" firstAttribute="top" secondItem="RgZ-8i-5tC" secondAttribute="bottom" constant="8" symbolic="YES" id="8Za-od-IgJ"/>
+                            <constraint firstItem="E83-zv-mKT" firstAttribute="top" secondItem="TYd-eN-vGS" secondAttribute="bottom" constant="8" symbolic="YES" id="Ml5-9i-Kh3"/>
+                            <constraint firstItem="TYd-eN-vGS" firstAttribute="centerX" secondItem="vbS-R1-qu2" secondAttribute="centerX" id="OH4-MD-Tww"/>
                             <constraint firstItem="RgZ-8i-5tC" firstAttribute="centerX" secondItem="81V-IX-yzR" secondAttribute="centerX" id="UIc-WA-PNy"/>
                             <constraint firstItem="Mo3-e1-d9A" firstAttribute="top" secondItem="WOX-cU-5wy" secondAttribute="top" constant="969" id="aps-cc-fzX"/>
                             <constraint firstItem="l40-6x-mbT" firstAttribute="leading" secondItem="WOX-cU-5wy" secondAttribute="leadingMargin" id="ats-GN-mXA"/>
                             <constraint firstAttribute="trailing" secondItem="c2C-po-XEt" secondAttribute="trailing" id="cuk-29-FCx"/>
-                            <constraint firstItem="vbS-R1-qu2" firstAttribute="top" secondItem="WOX-cU-5wy" secondAttribute="top" constant="401" id="dPW-Hz-Fhc"/>
+                            <constraint firstItem="vbS-R1-qu2" firstAttribute="top" secondItem="WOX-cU-5wy" secondAttribute="top" constant="409" id="dPW-Hz-Fhc"/>
                             <constraint firstItem="Mo3-e1-d9A" firstAttribute="top" secondItem="81V-IX-yzR" secondAttribute="bottom" constant="60" id="e2h-nY-eab"/>
                             <constraint firstAttribute="bottom" secondItem="c2C-po-XEt" secondAttribute="bottom" constant="909" id="fA9-p9-aVL"/>
+                            <constraint firstItem="rEw-FR-SCJ" firstAttribute="centerX" secondItem="vbS-R1-qu2" secondAttribute="centerX" id="g6O-Wc-HRp"/>
                             <constraint firstItem="vbS-R1-qu2" firstAttribute="trailing" secondItem="E83-zv-mKT" secondAttribute="trailing" id="g8a-2Y-DqQ"/>
                             <constraint firstItem="c2C-po-XEt" firstAttribute="leading" secondItem="Mo3-e1-d9A" secondAttribute="leading" id="gNY-xk-rqD"/>
-                            <constraint firstItem="RgZ-8i-5tC" firstAttribute="top" secondItem="E83-zv-mKT" secondAttribute="bottom" constant="66" id="lp2-5O-qIQ"/>
+                            <constraint firstItem="fj0-ee-oqn" firstAttribute="top" secondItem="c2C-po-XEt" secondAttribute="bottom" constant="18" id="lHL-yB-BEv"/>
+                            <constraint firstItem="RgZ-8i-5tC" firstAttribute="top" secondItem="E83-zv-mKT" secondAttribute="bottom" constant="44" id="lp2-5O-qIQ"/>
+                            <constraint firstItem="fj0-ee-oqn" firstAttribute="trailing" secondItem="l40-6x-mbT" secondAttribute="trailing" id="mjU-D1-gXE"/>
+                            <constraint firstItem="rEw-FR-SCJ" firstAttribute="top" secondItem="fj0-ee-oqn" secondAttribute="bottom" constant="30" id="qTo-bT-apI"/>
                             <constraint firstItem="E83-zv-mKT" firstAttribute="centerX" secondItem="RgZ-8i-5tC" secondAttribute="centerX" id="qru-xH-qOh"/>
+                            <constraint firstItem="fj0-ee-oqn" firstAttribute="leading" secondItem="l40-6x-mbT" secondAttribute="leading" id="srv-Dl-4dF"/>
                             <constraint firstItem="c2C-po-XEt" firstAttribute="leading" secondItem="WOX-cU-5wy" secondAttribute="leading" id="trs-Pd-hIF"/>
                             <constraint firstItem="l40-6x-mbT" firstAttribute="top" secondItem="cr2-QG-lE9" secondAttribute="bottom" constant="89" id="w8k-o7-Fvq"/>
                             <constraint firstItem="c2C-po-XEt" firstAttribute="centerX" secondItem="l40-6x-mbT" secondAttribute="centerX" id="xcw-1Z-axS"/>
+                            <constraint firstItem="vbS-R1-qu2" firstAttribute="top" secondItem="rEw-FR-SCJ" secondAttribute="bottom" constant="8" symbolic="YES" id="xxg-0B-l4c"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="VmP-OW-qRh" appends="YES" id="rLV-Dy-Uvs"/>
@@ -2326,10 +2365,12 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                     <connections>
                         <outlet property="answer1" destination="vbS-R1-qu2" id="rV7-EV-dgd"/>
                         <outlet property="answer2" destination="E83-zv-mKT" id="PXL-5f-DM0"/>
+                        <outlet property="exercisePic" destination="TYd-eN-vGS" id="UcO-B7-ZYj"/>
                         <outlet property="finishButton" destination="81V-IX-yzR" id="e6d-iy-k4J"/>
                         <outlet property="questionBox" destination="fj0-ee-oqn" id="JfT-x2-I82"/>
                         <outlet property="quizLabel" destination="l40-6x-mbT" id="BkJ-fe-aOk"/>
                         <outlet property="quizResponse" destination="RgZ-8i-5tC" id="vQb-J9-6Sc"/>
+                        <outlet property="snackPic" destination="rEw-FR-SCJ" id="4wn-LD-oL0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83a-wF-i2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2372,7 +2413,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exB-7q-Ljg">
-                                <rect key="frame" x="251" y="649" width="266" height="102"/>
+                                <rect key="frame" x="251" y="671" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="Nq4-Ej-5Gy"/>
@@ -2432,14 +2473,17 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <segue destination="LLT-by-tgd" kind="modal" id="GqK-lW-deZ"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ivf-i5-xFV">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ivf-i5-xFV">
                                 <rect key="frame" x="20" y="133" width="728" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="psl-sX-NO6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zjk-57-tXz">
-                                <rect key="frame" x="251" y="401" width="266" height="102"/>
+                                <rect key="frame" x="251" y="409" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="tlS-HQ-gX6"/>
@@ -2451,28 +2495,47 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <action selector="quizButton1:" destination="Obm-wo-eZ9" eventType="touchUpInside" id="F3k-Nq-B4h"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cake" translatesAutoresizingMaskIntoConstraints="NO" id="bjb-x2-k4u">
+                                <rect key="frame" x="229" y="519" width="311" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="311" id="ukg-mN-oct"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juice" translatesAutoresizingMaskIntoConstraints="NO" id="px9-di-3P0">
+                                <rect key="frame" x="251" y="231" width="266" height="177"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="h3B-PN-Oel" firstAttribute="bottom" secondItem="1Xn-s1-njf" secondAttribute="top" id="1mc-6D-JZl"/>
                             <constraint firstItem="w0a-Jt-XEh" firstAttribute="centerX" secondItem="h3B-PN-Oel" secondAttribute="centerX" id="30t-N2-EBU"/>
+                            <constraint firstItem="Ivf-i5-xFV" firstAttribute="trailing" secondItem="dZ1-fc-y6g" secondAttribute="trailing" id="5he-NN-fNw"/>
                             <constraint firstItem="reR-lg-IfP" firstAttribute="top" secondItem="8ug-zd-86d" secondAttribute="top" id="8KD-p3-aQR"/>
                             <constraint firstItem="reR-lg-IfP" firstAttribute="leading" secondItem="8ug-zd-86d" secondAttribute="leading" id="8ZX-qw-QJo"/>
+                            <constraint firstItem="bjb-x2-k4u" firstAttribute="top" secondItem="Zjk-57-tXz" secondAttribute="bottom" constant="8" symbolic="YES" id="AX8-oa-UgB"/>
                             <constraint firstItem="exB-7q-Ljg" firstAttribute="centerX" secondItem="QPZ-eO-7WD" secondAttribute="centerX" id="Aex-5O-u2T"/>
                             <constraint firstItem="QPZ-eO-7WD" firstAttribute="centerX" secondItem="w0a-Jt-XEh" secondAttribute="centerX" id="Bbd-ZE-UhS"/>
                             <constraint firstItem="dZ1-fc-y6g" firstAttribute="top" secondItem="DMS-hG-BgM" secondAttribute="bottom" constant="89" id="D8h-0M-qs2"/>
                             <constraint firstItem="h3B-PN-Oel" firstAttribute="top" secondItem="w0a-Jt-XEh" secondAttribute="bottom" constant="60" id="Ef4-Zl-2UX"/>
                             <constraint firstItem="Zjk-57-tXz" firstAttribute="leading" secondItem="exB-7q-Ljg" secondAttribute="leading" id="HC8-my-cOZ"/>
                             <constraint firstItem="dZ1-fc-y6g" firstAttribute="leading" secondItem="8ug-zd-86d" secondAttribute="leadingMargin" id="Hii-Lz-PfX"/>
-                            <constraint firstItem="Zjk-57-tXz" firstAttribute="top" secondItem="8ug-zd-86d" secondAttribute="top" constant="401" id="POj-0m-tal"/>
+                            <constraint firstItem="Zjk-57-tXz" firstAttribute="top" secondItem="8ug-zd-86d" secondAttribute="top" constant="409" id="POj-0m-tal"/>
                             <constraint firstItem="reR-lg-IfP" firstAttribute="leading" secondItem="h3B-PN-Oel" secondAttribute="leading" id="PnJ-QT-c96"/>
+                            <constraint firstItem="px9-di-3P0" firstAttribute="top" secondItem="Ivf-i5-xFV" secondAttribute="bottom" constant="8" symbolic="YES" id="SzJ-OL-uhY"/>
+                            <constraint firstItem="Ivf-i5-xFV" firstAttribute="top" secondItem="reR-lg-IfP" secondAttribute="bottom" constant="18" id="W8s-8Z-7uw"/>
+                            <constraint firstItem="px9-di-3P0" firstAttribute="trailing" secondItem="Zjk-57-tXz" secondAttribute="trailing" id="Y87-EY-IdF"/>
+                            <constraint firstItem="Ivf-i5-xFV" firstAttribute="leading" secondItem="dZ1-fc-y6g" secondAttribute="leading" id="bMb-FB-QRo"/>
                             <constraint firstItem="h3B-PN-Oel" firstAttribute="top" secondItem="8ug-zd-86d" secondAttribute="top" constant="969" id="fXD-sr-t4z"/>
                             <constraint firstItem="Zjk-57-tXz" firstAttribute="trailing" secondItem="exB-7q-Ljg" secondAttribute="trailing" id="nrG-Su-OI9"/>
                             <constraint firstItem="reR-lg-IfP" firstAttribute="centerX" secondItem="dZ1-fc-y6g" secondAttribute="centerX" id="pNG-Wa-xPo"/>
-                            <constraint firstItem="QPZ-eO-7WD" firstAttribute="top" secondItem="exB-7q-Ljg" secondAttribute="bottom" constant="66" id="r7r-pN-YSg"/>
+                            <constraint firstItem="QPZ-eO-7WD" firstAttribute="top" secondItem="exB-7q-Ljg" secondAttribute="bottom" constant="44" id="r7r-pN-YSg"/>
                             <constraint firstAttribute="trailing" secondItem="reR-lg-IfP" secondAttribute="trailing" id="uMj-fU-I1V"/>
+                            <constraint firstItem="Zjk-57-tXz" firstAttribute="top" secondItem="px9-di-3P0" secondAttribute="bottom" constant="1" id="uRU-lO-1o6"/>
                             <constraint firstAttribute="bottom" secondItem="reR-lg-IfP" secondAttribute="bottom" constant="909" id="ujy-rV-Lso"/>
+                            <constraint firstItem="bjb-x2-k4u" firstAttribute="centerX" secondItem="exB-7q-Ljg" secondAttribute="centerX" id="vSe-Ds-Ar6"/>
+                            <constraint firstItem="exB-7q-Ljg" firstAttribute="top" secondItem="bjb-x2-k4u" secondAttribute="bottom" constant="2" id="w7p-j2-bcX"/>
+                            <constraint firstItem="px9-di-3P0" firstAttribute="leading" secondItem="Zjk-57-tXz" secondAttribute="leading" id="xnM-Dm-WZQ"/>
                             <constraint firstItem="w0a-Jt-XEh" firstAttribute="top" secondItem="QPZ-eO-7WD" secondAttribute="bottom" constant="8" symbolic="YES" id="xxV-SL-YdR"/>
                             <constraint firstItem="reR-lg-IfP" firstAttribute="trailing" secondItem="h3B-PN-Oel" secondAttribute="trailing" id="z0y-gp-gKw"/>
                         </constraints>
@@ -2483,7 +2546,9 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                     <connections>
                         <outlet property="answer1" destination="Zjk-57-tXz" id="fpn-Ue-YMY"/>
                         <outlet property="answer2" destination="exB-7q-Ljg" id="mc6-6t-ApF"/>
+                        <outlet property="cake" destination="bjb-x2-k4u" id="uOi-Bs-z96"/>
                         <outlet property="finishButton" destination="w0a-Jt-XEh" id="KPn-5N-1Y9"/>
+                        <outlet property="juice" destination="px9-di-3P0" id="Sk2-OD-VAl"/>
                         <outlet property="questionBox" destination="Ivf-i5-xFV" id="T69-y6-wIT"/>
                         <outlet property="quizLabel" destination="dZ1-fc-y6g" id="z72-xT-YOh"/>
                         <outlet property="quizResponse" destination="QPZ-eO-7WD" id="25s-Fn-qbT"/>
@@ -2529,7 +2594,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6U-QJ-oTQ">
-                                <rect key="frame" x="251" y="649" width="266" height="102"/>
+                                <rect key="frame" x="251" y="671" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="102" id="Cvb-Oz-dht"/>
@@ -2589,14 +2654,17 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <segue destination="Zca-bt-vZe" kind="modal" id="ZhZ-lN-VbX"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5WO-C3-qXQ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5WO-C3-qXQ">
                                 <rect key="frame" x="20" y="133" width="728" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="mVI-Ej-bQv"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYg-nj-pao">
-                                <rect key="frame" x="251" y="401" width="266" height="102"/>
+                                <rect key="frame" x="251" y="409" width="266" height="102"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="OV4-rZ-wdW"/>
@@ -2608,30 +2676,51 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                                     <action selector="quizButton1:" destination="LLT-by-tgd" eventType="touchUpInside" id="2yC-gn-LWv"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hardcandy" translatesAutoresizingMaskIntoConstraints="NO" id="fOF-J6-VIo">
+                                <rect key="frame" x="247" y="513" width="274" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="QwZ-kv-fAq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="earbuds" translatesAutoresizingMaskIntoConstraints="NO" id="NZ8-og-r8K">
+                                <rect key="frame" x="264" y="267" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Kdg-oh-DUS"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="NZ8-og-r8K" firstAttribute="top" secondItem="5WO-C3-qXQ" secondAttribute="bottom" constant="44" id="25e-qh-j8q"/>
                             <constraint firstAttribute="bottom" secondItem="Ou5-Zu-9gX" secondAttribute="bottom" constant="909" id="3LE-eg-LSM"/>
                             <constraint firstItem="CmE-8G-GuM" firstAttribute="top" secondItem="0FX-wS-vNj" secondAttribute="bottom" constant="8" symbolic="YES" id="5KI-Of-x2K"/>
-                            <constraint firstItem="pYg-nj-pao" firstAttribute="top" secondItem="KRW-tF-0Jj" secondAttribute="top" constant="401" id="IMd-5n-vOv"/>
+                            <constraint firstItem="pYg-nj-pao" firstAttribute="top" secondItem="KRW-tF-0Jj" secondAttribute="top" constant="409" id="IMd-5n-vOv"/>
                             <constraint firstItem="pYg-nj-pao" firstAttribute="leading" secondItem="Y6U-QJ-oTQ" secondAttribute="leading" id="Kjx-Th-x0X"/>
                             <constraint firstItem="Ou5-Zu-9gX" firstAttribute="top" secondItem="KRW-tF-0Jj" secondAttribute="top" id="Klv-rc-dg7"/>
                             <constraint firstItem="Ou5-Zu-9gX" firstAttribute="leading" secondItem="h8R-fR-e0X" secondAttribute="leading" id="Kna-SP-l62"/>
+                            <constraint firstItem="fOF-J6-VIo" firstAttribute="top" secondItem="pYg-nj-pao" secondAttribute="bottom" constant="2" id="L69-nq-2wp"/>
                             <constraint firstItem="pYg-nj-pao" firstAttribute="trailing" secondItem="Y6U-QJ-oTQ" secondAttribute="trailing" id="LW5-PV-KKs"/>
+                            <constraint firstItem="NZ8-og-r8K" firstAttribute="centerX" secondItem="pYg-nj-pao" secondAttribute="centerX" id="Rn5-bl-hoL"/>
                             <constraint firstItem="Ou5-Zu-9gX" firstAttribute="leading" secondItem="KRW-tF-0Jj" secondAttribute="leading" id="WQV-Bx-sHM"/>
                             <constraint firstAttribute="trailing" secondItem="Ou5-Zu-9gX" secondAttribute="trailing" id="Ysi-Pg-ecP"/>
                             <constraint firstItem="Ou5-Zu-9gX" firstAttribute="trailing" secondItem="h8R-fR-e0X" secondAttribute="trailing" id="bFo-gh-RjW"/>
+                            <constraint firstItem="5WO-C3-qXQ" firstAttribute="trailing" secondItem="sP8-2g-kbd" secondAttribute="trailing" id="bZB-46-qSH"/>
+                            <constraint firstItem="pYg-nj-pao" firstAttribute="top" secondItem="NZ8-og-r8K" secondAttribute="bottom" constant="14" id="bz5-Mm-ucP"/>
                             <constraint firstItem="h8R-fR-e0X" firstAttribute="top" secondItem="KRW-tF-0Jj" secondAttribute="top" constant="969" id="dFB-Fc-OPN"/>
                             <constraint firstItem="Y6U-QJ-oTQ" firstAttribute="centerX" secondItem="0FX-wS-vNj" secondAttribute="centerX" id="fve-qu-2KF"/>
                             <constraint firstItem="h8R-fR-e0X" firstAttribute="bottom" secondItem="yut-TC-OdQ" secondAttribute="top" id="iWb-ii-Q8B"/>
-                            <constraint firstItem="0FX-wS-vNj" firstAttribute="top" secondItem="Y6U-QJ-oTQ" secondAttribute="bottom" constant="66" id="nXb-9J-i7g"/>
+                            <constraint firstItem="0FX-wS-vNj" firstAttribute="top" secondItem="Y6U-QJ-oTQ" secondAttribute="bottom" constant="44" id="nXb-9J-i7g"/>
+                            <constraint firstItem="5WO-C3-qXQ" firstAttribute="top" secondItem="Ou5-Zu-9gX" secondAttribute="bottom" constant="18" id="oBX-CM-Yys"/>
+                            <constraint firstItem="fOF-J6-VIo" firstAttribute="centerX" secondItem="pYg-nj-pao" secondAttribute="centerX" id="osE-VK-RLg"/>
                             <constraint firstItem="CmE-8G-GuM" firstAttribute="centerX" secondItem="h8R-fR-e0X" secondAttribute="centerX" id="pEt-8d-0e1"/>
                             <constraint firstItem="Ou5-Zu-9gX" firstAttribute="centerX" secondItem="sP8-2g-kbd" secondAttribute="centerX" id="uN4-c7-XhQ"/>
                             <constraint firstItem="sP8-2g-kbd" firstAttribute="top" secondItem="bDr-k4-oCQ" secondAttribute="bottom" constant="89" id="ugF-j7-ixp"/>
                             <constraint firstItem="sP8-2g-kbd" firstAttribute="leading" secondItem="KRW-tF-0Jj" secondAttribute="leadingMargin" id="wWC-4l-NJt"/>
                             <constraint firstItem="h8R-fR-e0X" firstAttribute="top" secondItem="CmE-8G-GuM" secondAttribute="bottom" constant="60" id="xIH-1i-9rF"/>
                             <constraint firstItem="0FX-wS-vNj" firstAttribute="centerX" secondItem="CmE-8G-GuM" secondAttribute="centerX" id="xUG-M7-FFh"/>
+                            <constraint firstItem="Y6U-QJ-oTQ" firstAttribute="top" secondItem="fOF-J6-VIo" secondAttribute="bottom" constant="8" symbolic="YES" id="xdy-Hv-zgC"/>
+                            <constraint firstItem="5WO-C3-qXQ" firstAttribute="leading" secondItem="sP8-2g-kbd" secondAttribute="leading" id="xqk-UW-UNS"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="gyp-z1-grx" appends="YES" id="TCT-7F-7Ww"/>
@@ -2640,6 +2729,8 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
                     <connections>
                         <outlet property="answer1" destination="pYg-nj-pao" id="ybS-Mt-wb0"/>
                         <outlet property="answer2" destination="Y6U-QJ-oTQ" id="CxS-ls-BPl"/>
+                        <outlet property="candy" destination="fOF-J6-VIo" id="sdE-LE-TiH"/>
+                        <outlet property="earbuds" destination="NZ8-og-r8K" id="8gT-bR-hVV"/>
                         <outlet property="finishButton" destination="CmE-8G-GuM" id="UgE-rh-Fe8"/>
                         <outlet property="questionBox" destination="5WO-C3-qXQ" id="Pj3-K9-MZf"/>
                         <outlet property="quizLabel" destination="sP8-2g-kbd" id="E18-eL-eEZ"/>
@@ -2764,7 +2855,14 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         </scene>
     </scenes>
     <resources>
+        <image name="cake" width="640" height="533"/>
+        <image name="earbuds" width="620" height="300"/>
         <image name="halfCupOfOats.jpg" width="389" height="308"/>
+        <image name="hardcandy" width="1200" height="754"/>
+        <image name="juice" width="1500" height="2048"/>
+        <image name="old-man-exercising" width="560" height="375"/>
+        <image name="shoes" width="640" height="776"/>
+        <image name="snack" width="236" height="207"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="k0a-8k-Fwm"/>

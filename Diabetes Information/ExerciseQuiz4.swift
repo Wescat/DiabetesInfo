@@ -21,6 +21,8 @@ class ExerciseQuiz4: UIViewController{
     @IBOutlet weak var answer2: UIButton!
     @IBOutlet weak var questionBox: UITextView!
     
+    @IBOutlet weak var earbuds: UIImageView!
+    @IBOutlet weak var candy: UIImageView!
     
     
     override func viewDidLoad() {
@@ -58,6 +60,7 @@ class ExerciseQuiz4: UIViewController{
         else{
             quizResponse.text = "Correct!"
             finishButton.hidden = false
+            earbuds.hidden = true
             answer1.hidden = true
         }
     }

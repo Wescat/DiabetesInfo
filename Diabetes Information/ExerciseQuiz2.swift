@@ -20,6 +20,8 @@ class ExerciseQuiz2: UIViewController{
     @IBOutlet weak var answer1: UIButton!
     @IBOutlet weak var answer2: UIButton!
     @IBOutlet weak var questionBox: UITextView!
+    @IBOutlet weak var snackPic: UIImageView!
+    @IBOutlet weak var exercisePic: UIImageView!
     
     
     
@@ -44,6 +46,7 @@ class ExerciseQuiz2: UIViewController{
         else{
             quizResponse.text = "Correct!"
             finishButton.hidden = false
+            exercisePic.hidden = true
             answer2.hidden = true
         }
         
@@ -58,6 +61,7 @@ class ExerciseQuiz2: UIViewController{
         else{
             quizResponse.text = "Correct!"
             finishButton.hidden = false
+            snackPic.hidden = true
             answer1.hidden = true
         }
     }
