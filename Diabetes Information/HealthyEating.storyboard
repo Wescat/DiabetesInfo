@@ -452,19 +452,19 @@ Foods that have carbs in them are breads, potatoes, noodles, sugars, fruits, mil
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-ec-1fH">
-                                        <rect key="frame" x="141" y="223" width="486" height="435"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="DY5-ec-1fH">
+                                        <rect key="frame" x="68" y="133" width="633" height="587"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="486" id="aI8-PM-WvA"/>
+                                            <constraint firstAttribute="width" constant="633" id="aI8-PM-WvA"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="DY5-ec-1fH" firstAttribute="centerY" secondItem="TUd-9J-fe4" secondAttribute="centerY" constant="13.5" id="5Zk-hQ-Uwq"/>
+                                    <constraint firstItem="DY5-ec-1fH" firstAttribute="centerY" secondItem="TUd-9J-fe4" secondAttribute="centerY" constant="-0.5" id="5Zk-hQ-Uwq"/>
                                     <constraint firstAttribute="bottom" secondItem="VuR-kw-mig" secondAttribute="bottom" constant="23" id="DKJ-0u-i5E"/>
                                     <constraint firstItem="VuR-kw-mig" firstAttribute="leading" secondItem="TUd-9J-fe4" secondAttribute="leading" constant="119" id="E3t-Wz-Nsc"/>
-                                    <constraint firstItem="DY5-ec-1fH" firstAttribute="top" secondItem="DQK-lG-etU" secondAttribute="bottom" constant="19" id="Nqg-xy-1wW"/>
+                                    <constraint firstItem="DY5-ec-1fH" firstAttribute="top" secondItem="DQK-lG-etU" secondAttribute="bottom" constant="-71" id="Nqg-xy-1wW"/>
                                     <constraint firstItem="DQK-lG-etU" firstAttribute="leading" secondItem="TUd-9J-fe4" secondAttribute="leading" constant="119" id="NxD-3f-KrG"/>
                                     <constraint firstAttribute="trailing" secondItem="VuR-kw-mig" secondAttribute="trailing" constant="118" id="Xdj-rs-zGV"/>
                                     <constraint firstItem="DQK-lG-etU" firstAttribute="top" secondItem="TUd-9J-fe4" secondAttribute="top" constant="8" id="bkD-o8-3Mj"/>
@@ -880,7 +880,7 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-yc-D8S">
-                                        <rect key="frame" x="259" y="9" width="289" height="37"/>
+                                        <rect key="frame" x="240" y="9" width="289" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="FcA-ev-ced"/>
                                         </constraints>
@@ -890,8 +890,8 @@ For most men, blood sugar control and weight loss can occur if carb foods are li
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="rXN-yc-D8S" secondAttribute="trailing" constant="220" id="HOV-TH-DJn"/>
-                                    <constraint firstItem="rXN-yc-D8S" firstAttribute="leading" secondItem="IU4-4W-x04" secondAttribute="leading" constant="259" id="JS2-60-S9t"/>
+                                    <constraint firstAttribute="trailing" secondItem="rXN-yc-D8S" secondAttribute="trailing" constant="239" id="HOV-TH-DJn"/>
+                                    <constraint firstItem="rXN-yc-D8S" firstAttribute="leading" secondItem="IU4-4W-x04" secondAttribute="leading" constant="240" id="JS2-60-S9t"/>
                                     <constraint firstAttribute="bottom" secondItem="rXN-yc-D8S" secondAttribute="bottom" constant="9" id="MFZ-sf-L4P"/>
                                     <constraint firstAttribute="height" constant="55" id="Zgd-Cq-AdW"/>
                                     <constraint firstItem="rXN-yc-D8S" firstAttribute="top" secondItem="IU4-4W-x04" secondAttribute="top" constant="9" id="yM9-LI-mwN"/>
@@ -1210,14 +1210,14 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="SgX-gp-9Qw">
-                                        <rect key="frame" x="119" y="225" width="531" height="404"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-02-02 at 8.09.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="SgX-gp-9Qw">
+                                        <rect key="frame" x="44" y="111" width="681" height="631"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                         </accessibility>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="531" id="EUe-8n-fHz"/>
-                                            <constraint firstAttribute="height" constant="404" id="bVx-LJ-2PS"/>
+                                            <constraint firstAttribute="width" constant="681" id="EUe-8n-fHz"/>
+                                            <constraint firstAttribute="height" constant="631" id="bVx-LJ-2PS"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -1229,8 +1229,8 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                     <constraint firstItem="elZ-Ue-R9P" firstAttribute="leading" secondItem="TET-4T-L6f" secondAttribute="leading" constant="114" id="dcD-sE-Mxl"/>
                                     <constraint firstItem="elZ-Ue-R9P" firstAttribute="top" secondItem="TET-4T-L6f" secondAttribute="top" constant="8" id="dmE-HY-DBE"/>
                                     <constraint firstAttribute="trailing" secondItem="N89-RO-saJ" secondAttribute="trailing" constant="113" id="h26-6S-oiY"/>
-                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="top" secondItem="elZ-Ue-R9P" secondAttribute="bottom" constant="162" id="hWc-ch-Yg8"/>
-                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="leading" secondItem="TET-4T-L6f" secondAttribute="leading" constant="119" id="qca-tA-mk2"/>
+                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="top" secondItem="elZ-Ue-R9P" secondAttribute="bottom" constant="48" id="hWc-ch-Yg8"/>
+                                    <constraint firstItem="SgX-gp-9Qw" firstAttribute="leading" secondItem="TET-4T-L6f" secondAttribute="leading" constant="44" id="qca-tA-mk2"/>
                                     <constraint firstAttribute="trailing" secondItem="elZ-Ue-R9P" secondAttribute="trailing" constant="113" id="rhI-Ic-QeT"/>
                                 </constraints>
                             </view>
@@ -1998,24 +1998,40 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="kjc-I1-VyV">
+                                        <rect key="frame" x="115" y="510" width="258" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="4zM-ao-8Gc"/>
+                                            <constraint firstAttribute="width" constant="258" id="niX-8H-FO4"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nosoda" translatesAutoresizingMaskIntoConstraints="NO" id="dqC-OM-1i0">
+                                        <rect key="frame" x="381" y="510" width="316" height="200"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="Qqp-yf-dtj" firstAttribute="top" secondItem="d50-Nx-sN0" secondAttribute="bottom" constant="-3" id="1fD-sO-N3Z"/>
                                     <constraint firstAttribute="trailing" secondItem="Qqp-yf-dtj" secondAttribute="trailing" constant="113" id="4Kf-JO-kRg"/>
+                                    <constraint firstItem="kjc-I1-VyV" firstAttribute="bottom" secondItem="dqC-OM-1i0" secondAttribute="bottom" id="EuJ-HZ-M8H"/>
                                     <constraint firstItem="Qqp-yf-dtj" firstAttribute="leading" secondItem="mze-4s-XVh" secondAttribute="leading" constant="114" id="RgX-KU-FTJ"/>
                                     <constraint firstItem="Qqp-yf-dtj" firstAttribute="top" secondItem="d50-Nx-sN0" secondAttribute="bottom" constant="-3" id="Ue1-70-bP0"/>
+                                    <constraint firstItem="kjc-I1-VyV" firstAttribute="top" secondItem="dqC-OM-1i0" secondAttribute="top" id="WXN-Lq-N57"/>
                                     <constraint firstAttribute="trailing" secondItem="d50-Nx-sN0" secondAttribute="trailing" constant="115" id="aC2-u1-G5S"/>
                                     <constraint firstAttribute="bottom" secondItem="Qqp-yf-dtj" secondAttribute="bottom" constant="112" id="cPW-QG-qPy"/>
                                     <constraint firstItem="d50-Nx-sN0" firstAttribute="leading" secondItem="mze-4s-XVh" secondAttribute="leading" constant="115" id="h3M-tr-2hh"/>
+                                    <constraint firstItem="kjc-I1-VyV" firstAttribute="leading" secondItem="d50-Nx-sN0" secondAttribute="leading" id="h3r-y5-SOR"/>
                                     <constraint firstItem="d50-Nx-sN0" firstAttribute="top" secondItem="mze-4s-XVh" secondAttribute="top" constant="8" id="nP5-6q-zry"/>
+                                    <constraint firstAttribute="bottom" secondItem="kjc-I1-VyV" secondAttribute="bottom" constant="144" id="p6N-37-3jS"/>
+                                    <constraint firstItem="dqC-OM-1i0" firstAttribute="leading" secondItem="kjc-I1-VyV" secondAttribute="trailing" constant="8" symbolic="YES" id="xmE-gQ-dJ4"/>
+                                    <constraint firstAttribute="trailing" secondItem="dqC-OM-1i0" secondAttribute="trailing" constant="71" id="zZe-xw-ZIB"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1a-m3-CUb">
                                 <rect key="frame" x="0.0" y="969" width="768" height="55"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="stj-Nt-Lci">
-                                        <rect key="frame" x="259" y="9" width="289" height="37"/>
+                                        <rect key="frame" x="240" y="9" width="289" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="a1w-9s-3I7"/>
                                         </constraints>
@@ -2025,11 +2041,11 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="stj-Nt-Lci" firstAttribute="leading" secondItem="S1a-m3-CUb" secondAttribute="leading" constant="259" id="LpL-eD-R8g"/>
+                                    <constraint firstItem="stj-Nt-Lci" firstAttribute="leading" secondItem="S1a-m3-CUb" secondAttribute="leading" constant="240" id="LpL-eD-R8g"/>
                                     <constraint firstAttribute="bottom" secondItem="stj-Nt-Lci" secondAttribute="bottom" constant="9" id="Myp-Tu-Uxd"/>
                                     <constraint firstAttribute="height" constant="55" id="fLH-qT-MFz"/>
                                     <constraint firstItem="stj-Nt-Lci" firstAttribute="top" secondItem="S1a-m3-CUb" secondAttribute="top" constant="9" id="g1j-Sb-PBA"/>
-                                    <constraint firstAttribute="trailing" secondItem="stj-Nt-Lci" secondAttribute="trailing" constant="220" id="hFa-wt-jXd"/>
+                                    <constraint firstAttribute="trailing" secondItem="stj-Nt-Lci" secondAttribute="trailing" constant="239" id="hFa-wt-jXd"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -2376,6 +2392,8 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
     </scenes>
     <resources>
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
+        <image name="nosoda" width="315" height="275"/>
+        <image name="water" width="900" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="mu9-0O-LWt"/>

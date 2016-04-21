@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller2-->
@@ -162,11 +163,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="takingBloodSugar" translatesAutoresizingMaskIntoConstraints="NO" id="z96-fM-Epe">
-                                        <rect key="frame" x="256" y="242" width="256" height="148"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="takingBloodSugar" translatesAutoresizingMaskIntoConstraints="NO" id="z96-fM-Epe">
+                                        <rect key="frame" x="192" y="257" width="385" height="339"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="256" id="Pig-zY-wrS"/>
-                                            <constraint firstAttribute="height" constant="148" id="v7U-dk-tbX"/>
+                                            <constraint firstAttribute="width" constant="385" id="Pig-zY-wrS"/>
+                                            <constraint firstAttribute="height" constant="339" id="v7U-dk-tbX"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -179,7 +180,7 @@
                                     <constraint firstItem="GFb-RZ-NmK" firstAttribute="leading" secondItem="ZNO-SJ-8Ne" secondAttribute="leading" constant="79" id="VlG-ou-iqU"/>
                                     <constraint firstItem="z96-fM-Epe" firstAttribute="centerX" secondItem="GFb-RZ-NmK" secondAttribute="centerX" id="iWN-sC-B5r"/>
                                     <constraint firstAttribute="trailing" secondItem="GFb-RZ-NmK" secondAttribute="trailing" constant="79" id="oiH-jm-VVq"/>
-                                    <constraint firstItem="z96-fM-Epe" firstAttribute="top" secondItem="ZNO-SJ-8Ne" secondAttribute="top" constant="242" id="uLz-ow-bhs"/>
+                                    <constraint firstItem="z96-fM-Epe" firstAttribute="top" secondItem="ZNO-SJ-8Ne" secondAttribute="top" constant="257" id="uLz-ow-bhs"/>
                                     <constraint firstAttribute="trailing" secondItem="Xa1-Cm-3YX" secondAttribute="trailing" constant="510" id="zVW-us-RYx"/>
                                 </constraints>
                             </view>
@@ -300,10 +301,10 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkingBloodSugar" translatesAutoresizingMaskIntoConstraints="NO" id="Fij-pp-JOy">
-                                        <rect key="frame" x="232" y="297" width="305" height="183"/>
+                                        <rect key="frame" x="189" y="251" width="390" height="351"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="183" id="3Lh-TS-aM5"/>
-                                            <constraint firstAttribute="width" constant="305" id="sZ0-yd-VXv"/>
+                                            <constraint firstAttribute="height" constant="351" id="3Lh-TS-aM5"/>
+                                            <constraint firstAttribute="width" constant="390" id="sZ0-yd-VXv"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -313,7 +314,7 @@
                                     <constraint firstItem="yUG-Sk-MRn" firstAttribute="leading" secondItem="8P1-f2-tUK" secondAttribute="leading" constant="80" id="EJk-y3-1A9"/>
                                     <constraint firstItem="m0C-TZ-rAM" firstAttribute="leading" secondItem="8P1-f2-tUK" secondAttribute="leading" constant="79" id="Iba-cx-f1A"/>
                                     <constraint firstAttribute="trailing" secondItem="m0C-TZ-rAM" secondAttribute="trailing" constant="79" id="SXt-Hg-Isw"/>
-                                    <constraint firstItem="Fij-pp-JOy" firstAttribute="top" secondItem="8P1-f2-tUK" secondAttribute="top" constant="297" id="aZm-Sn-VuH"/>
+                                    <constraint firstItem="Fij-pp-JOy" firstAttribute="top" secondItem="8P1-f2-tUK" secondAttribute="top" constant="251" id="aZm-Sn-VuH"/>
                                     <constraint firstAttribute="trailing" secondItem="yUG-Sk-MRn" secondAttribute="trailing" constant="510" id="imh-d9-4R5"/>
                                     <constraint firstItem="m0C-TZ-rAM" firstAttribute="top" secondItem="yUG-Sk-MRn" secondAttribute="bottom" constant="40" id="kOy-YL-l2W"/>
                                     <constraint firstItem="Fij-pp-JOy" firstAttribute="centerX" secondItem="m0C-TZ-rAM" secondAttribute="centerX" id="lFs-w5-kog"/>
@@ -444,14 +445,32 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FDA_Nutrition_Facts_Label_2006.png" translatesAutoresizingMaskIntoConstraints="NO" id="dpk-J1-SK9">
+                                        <rect key="frame" x="415" y="257" width="345" height="321"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="345" id="UFa-6b-gkC"/>
+                                            <constraint firstAttribute="height" constant="321" id="oI9-Pq-aYn"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="old-man-exercising" translatesAutoresizingMaskIntoConstraints="NO" id="MZ1-tD-fc6">
+                                        <rect key="frame" x="8" y="257" width="388" height="304"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="304" id="aFe-ER-xrW"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="wlu-K7-yPy" secondAttribute="trailing" constant="79" id="NXM-tb-0oN"/>
                                     <constraint firstItem="wlu-K7-yPy" firstAttribute="leading" secondItem="ALj-oA-IFG" secondAttribute="leading" constant="79" id="SuU-y2-pyW"/>
+                                    <constraint firstItem="MZ1-tD-fc6" firstAttribute="top" secondItem="dpk-J1-SK9" secondAttribute="top" id="Vqr-iv-9Bb"/>
+                                    <constraint firstItem="MZ1-tD-fc6" firstAttribute="top" secondItem="ALj-oA-IFG" secondAttribute="top" constant="257" id="Xyv-JC-fGD"/>
+                                    <constraint firstItem="MZ1-tD-fc6" firstAttribute="leading" secondItem="ALj-oA-IFG" secondAttribute="leadingMargin" id="d17-H6-XRg"/>
+                                    <constraint firstItem="dpk-J1-SK9" firstAttribute="leading" secondItem="MZ1-tD-fc6" secondAttribute="trailing" constant="19" id="dxR-Rl-RdA"/>
                                     <constraint firstItem="wlu-K7-yPy" firstAttribute="top" secondItem="pjt-7f-aqZ" secondAttribute="bottom" constant="40" id="f8B-cw-92Q"/>
                                     <constraint firstAttribute="centerX" secondItem="wlu-K7-yPy" secondAttribute="centerX" id="lHA-A2-zs9"/>
                                     <constraint firstAttribute="trailing" secondItem="pjt-7f-aqZ" secondAttribute="trailing" constant="510" id="m8d-nA-Dm5"/>
+                                    <constraint firstItem="dpk-J1-SK9" firstAttribute="trailing" secondItem="ALj-oA-IFG" secondAttribute="trailingMargin" id="mL5-gy-Pdd"/>
                                     <constraint firstItem="pjt-7f-aqZ" firstAttribute="leading" secondItem="ALj-oA-IFG" secondAttribute="leading" constant="80" id="n4m-GB-BNK"/>
                                     <constraint firstItem="wlu-K7-yPy" firstAttribute="top" secondItem="pjt-7f-aqZ" secondAttribute="bottom" constant="40" id="ohe-0p-j8w"/>
                                     <constraint firstAttribute="top" secondItem="wlu-K7-yPy" secondAttribute="bottom" symbolic="YES" id="qE7-Qf-EHM"/>
@@ -565,11 +584,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5cr-wR-BHI">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5cr-wR-BHI">
                                         <rect key="frame" x="79" y="88" width="610" height="472"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="403" id="XMI-j0-nIH"/>
+                                            <constraint firstAttribute="height" constant="472" id="XMI-j0-nIH"/>
                                         </constraints>
                                         <string key="text">What can make your blood sugar levels get higher?
 
@@ -579,9 +598,17 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carbs" translatesAutoresizingMaskIntoConstraints="NO" id="gCa-QE-tK1">
+                                        <rect key="frame" x="195" y="422" width="378" height="292"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="378" id="oVT-rX-O0p"/>
+                                            <constraint firstAttribute="height" constant="292" id="qTo-uX-1rQ"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="gCa-QE-tK1" firstAttribute="centerX" secondItem="5cr-wR-BHI" secondAttribute="centerX" id="9Ga-1m-dVd"/>
                                     <constraint firstAttribute="trailing" secondItem="SZE-OP-yQL" secondAttribute="trailing" constant="510" id="Fgb-o7-5ED"/>
                                     <constraint firstAttribute="trailing" secondItem="5cr-wR-BHI" secondAttribute="trailing" constant="79" id="LBU-uD-yOh"/>
                                     <constraint firstItem="SZE-OP-yQL" firstAttribute="top" secondItem="934-2T-IyE" secondAttribute="top" constant="8" id="TUX-lB-Hnf"/>
@@ -589,6 +616,7 @@
                                     <constraint firstItem="5cr-wR-BHI" firstAttribute="top" secondItem="SZE-OP-yQL" secondAttribute="bottom" constant="40" id="YYX-qi-Th6"/>
                                     <constraint firstItem="SZE-OP-yQL" firstAttribute="leading" secondItem="934-2T-IyE" secondAttribute="leading" constant="80" id="u7w-g1-IDh"/>
                                     <constraint firstItem="5cr-wR-BHI" firstAttribute="top" secondItem="SZE-OP-yQL" secondAttribute="bottom" constant="40" id="wy8-Hf-dWk"/>
+                                    <constraint firstItem="gCa-QE-tK1" firstAttribute="top" secondItem="934-2T-IyE" secondAttribute="top" constant="422" id="xDP-Nh-q0l"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Y2-uT-JTm">
@@ -707,16 +735,25 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blood-sugar-chart" translatesAutoresizingMaskIntoConstraints="NO" id="gep-LX-fjZ">
+                                        <rect key="frame" x="102" y="336" width="564" height="347"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="347" id="66O-xM-KmH"/>
+                                            <constraint firstAttribute="width" constant="564" id="b4z-io-sGt"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="SaW-j3-vde" firstAttribute="top" secondItem="6aW-CO-rYv" secondAttribute="top" constant="8" id="B94-d8-dNN"/>
                                     <constraint firstItem="ZZd-CF-STF" firstAttribute="leading" secondItem="6aW-CO-rYv" secondAttribute="leading" constant="79" id="CGZ-zA-IN5"/>
+                                    <constraint firstItem="gep-LX-fjZ" firstAttribute="top" secondItem="6aW-CO-rYv" secondAttribute="top" constant="336" id="EiQ-pw-oVt"/>
                                     <constraint firstItem="SaW-j3-vde" firstAttribute="leading" secondItem="6aW-CO-rYv" secondAttribute="leading" constant="80" id="TCg-5v-3gK"/>
                                     <constraint firstItem="ZZd-CF-STF" firstAttribute="top" secondItem="SaW-j3-vde" secondAttribute="bottom" constant="40" id="WsM-ba-oUG"/>
                                     <constraint firstAttribute="trailing" secondItem="SaW-j3-vde" secondAttribute="trailing" constant="510" id="eph-hM-gQ2"/>
                                     <constraint firstItem="ZZd-CF-STF" firstAttribute="top" secondItem="SaW-j3-vde" secondAttribute="bottom" constant="40" id="fCT-8M-J8z"/>
                                     <constraint firstAttribute="trailing" secondItem="ZZd-CF-STF" secondAttribute="trailing" constant="79" id="lxH-PY-m6I"/>
+                                    <constraint firstItem="gep-LX-fjZ" firstAttribute="centerX" secondItem="ZZd-CF-STF" secondAttribute="centerX" id="wOJ-Uh-i9a"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnc-zY-Ku7">
@@ -826,11 +863,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lvZ-7D-ynJ">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lvZ-7D-ynJ">
                                         <rect key="frame" x="79" y="88" width="610" height="348"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="hTd-jp-Lyi"/>
+                                            <constraint firstAttribute="height" constant="348" id="hTd-jp-Lyi"/>
                                         </constraints>
                                         <string key="text">What can make your blood sugar levels get higher?
 
@@ -840,6 +877,13 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sick" translatesAutoresizingMaskIntoConstraints="NO" id="hcN-j9-yy0">
+                                        <rect key="frame" x="217" y="458" width="335" height="245"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="335" id="4Yh-QZ-8ii"/>
+                                            <constraint firstAttribute="height" constant="245" id="vMh-Fy-AVm"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -847,7 +891,9 @@
                                     <constraint firstItem="lvZ-7D-ynJ" firstAttribute="top" secondItem="BQe-Gu-WDG" secondAttribute="bottom" constant="40" id="BFD-g9-sov"/>
                                     <constraint firstAttribute="trailing" secondItem="BQe-Gu-WDG" secondAttribute="trailing" constant="510" id="HYx-B2-eVM"/>
                                     <constraint firstItem="lvZ-7D-ynJ" firstAttribute="top" secondItem="BQe-Gu-WDG" secondAttribute="bottom" constant="40" id="TlS-9j-2S9"/>
+                                    <constraint firstItem="hcN-j9-yy0" firstAttribute="centerX" secondItem="lvZ-7D-ynJ" secondAttribute="centerX" id="VHt-k8-08A"/>
                                     <constraint firstAttribute="trailing" secondItem="lvZ-7D-ynJ" secondAttribute="trailing" constant="79" id="Weq-7E-l3v"/>
+                                    <constraint firstItem="hcN-j9-yy0" firstAttribute="top" secondItem="lvZ-7D-ynJ" secondAttribute="bottom" constant="22" id="aoy-sc-0fb"/>
                                     <constraint firstItem="BQe-Gu-WDG" firstAttribute="leading" secondItem="yyq-S8-wc4" secondAttribute="leading" constant="80" id="vyO-tR-WQF"/>
                                     <constraint firstItem="lvZ-7D-ynJ" firstAttribute="leading" secondItem="yyq-S8-wc4" secondAttribute="leading" constant="79" id="zpW-ac-eMx"/>
                                 </constraints>
@@ -959,11 +1005,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xM0-2V-Z7m">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xM0-2V-Z7m">
                                         <rect key="frame" x="79" y="88" width="610" height="474"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="dh9-lS-Fee"/>
+                                            <constraint firstAttribute="height" constant="474" id="dh9-lS-Fee"/>
                                         </constraints>
                                         <string key="text">Steps to check your blood sugar:
 
@@ -973,12 +1019,21 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handWash" translatesAutoresizingMaskIntoConstraints="NO" id="L2M-m1-dmV">
+                                        <rect key="frame" x="184" y="445" width="401" height="311"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="311" id="f8n-oy-Qcz"/>
+                                            <constraint firstAttribute="width" constant="401" id="woP-Cd-8Ya"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="X5e-n3-N4k" firstAttribute="top" secondItem="JSd-G6-5qN" secondAttribute="top" constant="8" id="2Uk-Xq-GjL"/>
+                                    <constraint firstItem="L2M-m1-dmV" firstAttribute="centerX" secondItem="xM0-2V-Z7m" secondAttribute="centerX" id="AY4-mo-aXv"/>
                                     <constraint firstItem="xM0-2V-Z7m" firstAttribute="leading" secondItem="JSd-G6-5qN" secondAttribute="leading" constant="79" id="St7-JK-iA5"/>
                                     <constraint firstAttribute="trailing" secondItem="X5e-n3-N4k" secondAttribute="trailing" constant="510" id="WNp-fb-BSe"/>
+                                    <constraint firstAttribute="bottom" secondItem="L2M-m1-dmV" secondAttribute="bottom" constant="98" id="Zro-Ta-05V"/>
                                     <constraint firstAttribute="trailing" secondItem="xM0-2V-Z7m" secondAttribute="trailing" constant="79" id="cJe-Kc-Wfo"/>
                                     <constraint firstItem="xM0-2V-Z7m" firstAttribute="top" secondItem="X5e-n3-N4k" secondAttribute="bottom" constant="40" id="ofI-Fw-tvM"/>
                                     <constraint firstItem="X5e-n3-N4k" firstAttribute="leading" secondItem="JSd-G6-5qN" secondAttribute="leading" constant="80" id="qS1-kt-5Ts"/>
@@ -1092,11 +1147,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1nY-Ra-fog">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1nY-Ra-fog">
                                         <rect key="frame" x="79" y="88" width="610" height="389"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="400" id="mVs-E9-34J"/>
+                                            <constraint firstAttribute="height" constant="389" id="mVs-E9-34J"/>
                                         </constraints>
                                         <string key="text">What can make your blood sugar levels get higher?
 
@@ -1108,15 +1163,24 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="iuo-eg-PaW">
+                                        <rect key="frame" x="214" y="507" width="340" height="252"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="340" id="Jg2-YU-AEs"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="1nY-Ra-fog" secondAttribute="trailing" constant="79" id="5ty-14-1nJ"/>
+                                    <constraint firstItem="iuo-eg-PaW" firstAttribute="top" secondItem="1nY-Ra-fog" secondAttribute="bottom" constant="30" id="6Uv-Es-ovb"/>
                                     <constraint firstItem="7Bf-zi-ZEN" firstAttribute="top" secondItem="nUf-w0-Iic" secondAttribute="top" constant="8" id="Drs-nO-pZq"/>
                                     <constraint firstItem="1nY-Ra-fog" firstAttribute="top" secondItem="7Bf-zi-ZEN" secondAttribute="bottom" constant="40" id="Hfi-cE-2nF"/>
+                                    <constraint firstItem="iuo-eg-PaW" firstAttribute="centerX" secondItem="1nY-Ra-fog" secondAttribute="centerX" id="NLm-IN-nTt"/>
                                     <constraint firstItem="1nY-Ra-fog" firstAttribute="leading" secondItem="nUf-w0-Iic" secondAttribute="leading" constant="79" id="RD4-0M-0SQ"/>
                                     <constraint firstItem="1nY-Ra-fog" firstAttribute="top" secondItem="7Bf-zi-ZEN" secondAttribute="bottom" constant="40" id="ROL-4t-8dz"/>
                                     <constraint firstItem="7Bf-zi-ZEN" firstAttribute="leading" secondItem="nUf-w0-Iic" secondAttribute="leading" constant="80" id="Wm0-71-aWP"/>
+                                    <constraint firstAttribute="bottom" secondItem="iuo-eg-PaW" secondAttribute="bottom" constant="95" id="XUD-SA-qjx"/>
                                     <constraint firstAttribute="trailing" secondItem="7Bf-zi-ZEN" secondAttribute="trailing" constant="510" id="rSG-I8-WhZ"/>
                                 </constraints>
                             </view>
@@ -1361,11 +1425,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WjM-Zm-XZ8">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WjM-Zm-XZ8">
                                         <rect key="frame" x="80" y="88" width="610" height="317"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="334" id="foU-Te-Q1n"/>
+                                            <constraint firstAttribute="height" constant="317" id="foU-Te-Q1n"/>
                                         </constraints>
                                         <string key="text">What can make your blood sugar levels lower?
 
@@ -1375,13 +1439,22 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snack" translatesAutoresizingMaskIntoConstraints="NO" id="mhT-Ek-Fj1">
+                                        <rect key="frame" x="233" y="450" width="304" height="265"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="265" id="BP7-A5-rrp"/>
+                                            <constraint firstAttribute="width" constant="304" id="Oc2-Yb-i2U"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="uC7-fs-jnk" firstAttribute="leading" secondItem="huq-1m-rjN" secondAttribute="leading" constant="80" id="1xC-hg-URD"/>
                                     <constraint firstItem="WjM-Zm-XZ8" firstAttribute="top" secondItem="uC7-fs-jnk" secondAttribute="bottom" constant="40" id="GjG-DQ-ccR"/>
-                                    <constraint firstItem="WjM-Zm-XZ8" firstAttribute="leading" secondItem="huq-1m-rjN" secondAttribute="leading" constant="79" id="S9u-GZ-ylp"/>
-                                    <constraint firstAttribute="trailing" secondItem="WjM-Zm-XZ8" secondAttribute="trailing" constant="79" id="USY-2t-mhR"/>
+                                    <constraint firstItem="mhT-Ek-Fj1" firstAttribute="top" secondItem="WjM-Zm-XZ8" secondAttribute="bottom" constant="45" id="LJk-MC-vKl"/>
+                                    <constraint firstItem="WjM-Zm-XZ8" firstAttribute="leading" secondItem="huq-1m-rjN" secondAttribute="leading" constant="80" id="S9u-GZ-ylp"/>
+                                    <constraint firstAttribute="trailing" secondItem="WjM-Zm-XZ8" secondAttribute="trailing" constant="78" id="USY-2t-mhR"/>
+                                    <constraint firstItem="mhT-Ek-Fj1" firstAttribute="centerX" secondItem="WjM-Zm-XZ8" secondAttribute="centerX" id="ZsY-FP-G7d"/>
                                     <constraint firstAttribute="trailing" secondItem="uC7-fs-jnk" secondAttribute="trailing" constant="510" id="aL2-C4-fNn"/>
                                     <constraint firstItem="WjM-Zm-XZ8" firstAttribute="top" secondItem="uC7-fs-jnk" secondAttribute="bottom" constant="40" id="gXV-Tw-arp"/>
                                     <constraint firstItem="uC7-fs-jnk" firstAttribute="top" secondItem="huq-1m-rjN" secondAttribute="top" constant="8" id="yje-v6-HV9"/>
@@ -1494,11 +1567,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nb5-5X-Rue">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nb5-5X-Rue">
                                         <rect key="frame" x="79" y="88" width="610" height="360"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="408" id="1hH-f2-MWQ"/>
+                                            <constraint firstAttribute="height" constant="360" id="1hH-f2-MWQ"/>
                                         </constraints>
                                         <string key="text">What can make your blood sugar levels lower?
 
@@ -1508,6 +1581,13 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insulinvial.png" translatesAutoresizingMaskIntoConstraints="NO" id="LFe-1f-j9O">
+                                        <rect key="frame" x="216" y="505" width="336" height="243"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="243" id="Zbx-LH-Ydw"/>
+                                            <constraint firstAttribute="width" constant="336" id="cCw-S3-Buw"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1516,7 +1596,9 @@
                                     <constraint firstItem="Nb5-5X-Rue" firstAttribute="top" secondItem="RZQ-gc-3eD" secondAttribute="bottom" constant="40" id="OYH-am-4Ue"/>
                                     <constraint firstItem="RZQ-gc-3eD" firstAttribute="top" secondItem="dZg-4N-DvM" secondAttribute="top" constant="8" id="RzB-SG-8n8"/>
                                     <constraint firstAttribute="trailing" secondItem="RZQ-gc-3eD" secondAttribute="trailing" constant="510" id="TNz-9L-gUA"/>
+                                    <constraint firstItem="LFe-1f-j9O" firstAttribute="top" secondItem="Nb5-5X-Rue" secondAttribute="bottom" constant="57" id="bDe-hj-HGe"/>
                                     <constraint firstItem="Nb5-5X-Rue" firstAttribute="top" secondItem="RZQ-gc-3eD" secondAttribute="bottom" constant="40" id="hX4-A9-Vsg"/>
+                                    <constraint firstItem="LFe-1f-j9O" firstAttribute="centerX" secondItem="Nb5-5X-Rue" secondAttribute="centerX" id="iQU-NU-wIF"/>
                                     <constraint firstItem="Nb5-5X-Rue" firstAttribute="leading" secondItem="dZg-4N-DvM" secondAttribute="leading" constant="79" id="l8s-xP-EWb"/>
                                 </constraints>
                             </view>
@@ -2051,8 +2133,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="FDA_Nutrition_Facts_Label_2006.png" width="684" height="1342"/>
+        <image name="blood-sugar-chart" width="811" height="493"/>
+        <image name="carbs" width="460" height="288"/>
         <image name="checkingBloodSugar" width="493" height="335"/>
+        <image name="handWash" width="525" height="275"/>
+        <image name="insulinvial.png" width="500" height="333"/>
+        <image name="old-man-exercising" width="560" height="375"/>
+        <image name="sick" width="2000" height="2000"/>
+        <image name="snack" width="236" height="207"/>
         <image name="takingBloodSugar" width="570" height="270"/>
+        <image name="water" width="900" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="VpC-WG-1Cw"/>

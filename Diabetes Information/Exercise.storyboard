@@ -1023,6 +1023,13 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="QhP-0E-HQo">
+                                        <rect key="frame" x="153" y="463" width="463" height="291"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="291" id="Nu4-f4-ILt"/>
+                                            <constraint firstAttribute="width" constant="463" id="Prf-3K-vlZ"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1032,7 +1039,9 @@ Exercise may decrease the amount of insulin or other medication you need to cont
                                     <constraint firstItem="S05-mr-ylp" firstAttribute="leading" secondItem="X38-AN-NIA" secondAttribute="leading" constant="79" id="80y-0i-d1p"/>
                                     <constraint firstItem="a2D-kY-T70" firstAttribute="top" secondItem="X38-AN-NIA" secondAttribute="top" constant="8" id="FYA-yT-mdF"/>
                                     <constraint firstItem="S05-mr-ylp" firstAttribute="top" secondItem="a2D-kY-T70" secondAttribute="bottom" constant="40" id="I3a-dX-aQI"/>
+                                    <constraint firstItem="QhP-0E-HQo" firstAttribute="top" secondItem="S05-mr-ylp" secondAttribute="bottom" constant="8" symbolic="YES" id="MdV-PB-CmR"/>
                                     <constraint firstAttribute="trailing" secondItem="a2D-kY-T70" secondAttribute="trailing" constant="510" id="aBv-kz-1EP"/>
+                                    <constraint firstItem="QhP-0E-HQo" firstAttribute="centerX" secondItem="S05-mr-ylp" secondAttribute="centerX" id="gdv-oV-mCB"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ee-0h-ciq">
@@ -1286,10 +1295,10 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="halfCupOfOats.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wqG-GX-cYl">
-                                        <rect key="frame" x="280" y="574" width="282" height="162"/>
+                                        <rect key="frame" x="200" y="522" width="368" height="238"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="282" id="73n-of-crQ"/>
-                                            <constraint firstAttribute="height" constant="162" id="kFM-nz-d3p"/>
+                                            <constraint firstAttribute="width" constant="368" id="73n-of-crQ"/>
+                                            <constraint firstAttribute="height" constant="238" id="kFM-nz-d3p"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -1298,8 +1307,8 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                     <constraint firstItem="ZMj-gD-Sn7" firstAttribute="top" secondItem="K9C-fk-vyh" secondAttribute="bottom" constant="40" id="0dW-UK-ogP"/>
                                     <constraint firstItem="K9C-fk-vyh" firstAttribute="top" secondItem="Ug6-d3-phT" secondAttribute="top" constant="8" id="Ah0-qs-cFY"/>
                                     <constraint firstAttribute="trailing" secondItem="K9C-fk-vyh" secondAttribute="trailing" constant="510" id="Fvo-yW-CAF"/>
-                                    <constraint firstItem="wqG-GX-cYl" firstAttribute="leading" secondItem="Ug6-d3-phT" secondAttribute="leading" constant="280" id="H5v-Te-737"/>
-                                    <constraint firstItem="wqG-GX-cYl" firstAttribute="top" secondItem="ZMj-gD-Sn7" secondAttribute="bottom" constant="72" id="JUR-76-aea"/>
+                                    <constraint firstItem="wqG-GX-cYl" firstAttribute="leading" secondItem="Ug6-d3-phT" secondAttribute="leading" constant="200" id="H5v-Te-737"/>
+                                    <constraint firstItem="wqG-GX-cYl" firstAttribute="top" secondItem="ZMj-gD-Sn7" secondAttribute="bottom" constant="20" id="JUR-76-aea"/>
                                     <constraint firstAttribute="trailing" secondItem="ZMj-gD-Sn7" secondAttribute="trailing" constant="78" id="MAN-5o-yU1"/>
                                     <constraint firstItem="K9C-fk-vyh" firstAttribute="leading" secondItem="Ug6-d3-phT" secondAttribute="leading" constant="80" id="Xny-2g-1ml"/>
                                     <constraint firstItem="ZMj-gD-Sn7" firstAttribute="top" secondItem="K9C-fk-vyh" secondAttribute="bottom" constant="40" id="aW6-DW-90m"/>
@@ -1424,9 +1433,17 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blood-sugar-chart" translatesAutoresizingMaskIntoConstraints="NO" id="b4X-Po-78G">
+                                        <rect key="frame" x="137" y="375" width="495" height="279"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="279" id="Q6u-pv-syU"/>
+                                            <constraint firstAttribute="width" constant="495" id="UGz-tB-iA9"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="b4X-Po-78G" firstAttribute="centerX" secondItem="14t-1e-7tR" secondAttribute="centerX" id="70a-8L-aL5"/>
                                     <constraint firstItem="14t-1e-7tR" firstAttribute="leading" secondItem="RTf-TB-lDy" secondAttribute="leading" constant="79" id="Dqm-OW-oVi"/>
                                     <constraint firstAttribute="trailing" secondItem="14t-1e-7tR" secondAttribute="trailing" constant="79" id="Hwh-Jg-jg7"/>
                                     <constraint firstAttribute="trailing" secondItem="x6z-4l-g3H" secondAttribute="trailing" constant="510" id="N7u-us-yV9"/>
@@ -1434,6 +1451,7 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                     <constraint firstItem="x6z-4l-g3H" firstAttribute="leading" secondItem="RTf-TB-lDy" secondAttribute="leading" constant="80" id="l13-oO-aeg"/>
                                     <constraint firstItem="14t-1e-7tR" firstAttribute="top" secondItem="x6z-4l-g3H" secondAttribute="bottom" constant="40" id="lTp-Jh-f7X"/>
                                     <constraint firstItem="14t-1e-7tR" firstAttribute="top" secondItem="x6z-4l-g3H" secondAttribute="bottom" constant="40" id="tdZ-pn-lkO"/>
+                                    <constraint firstItem="b4X-Po-78G" firstAttribute="top" secondItem="RTf-TB-lDy" secondAttribute="top" constant="375" id="zDe-rT-PPZ"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BOw-rS-syC">
@@ -1554,14 +1572,23 @@ More activity than normal can cause your blood sugar levels to drop, which may m
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snack" translatesAutoresizingMaskIntoConstraints="NO" id="M4v-jn-oA4">
+                                        <rect key="frame" x="160" y="465" width="449" height="272"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="272" id="27s-8p-AqW"/>
+                                            <constraint firstAttribute="width" constant="449" id="8UJ-wj-pvm"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="D5v-ez-dh4" secondAttribute="trailing" constant="79" id="6dt-D6-Sde"/>
                                     <constraint firstAttribute="trailing" secondItem="laO-Xj-OlB" secondAttribute="trailing" constant="510" id="F6J-wC-8Fp"/>
                                     <constraint firstItem="D5v-ez-dh4" firstAttribute="top" secondItem="laO-Xj-OlB" secondAttribute="bottom" constant="40" id="NWj-99-4ao"/>
+                                    <constraint firstItem="M4v-jn-oA4" firstAttribute="centerX" secondItem="D5v-ez-dh4" secondAttribute="centerX" id="QmU-tV-b6M"/>
                                     <constraint firstItem="laO-Xj-OlB" firstAttribute="top" secondItem="lmu-Ou-YR2" secondAttribute="top" constant="8" id="Ye3-rr-97T"/>
                                     <constraint firstItem="D5v-ez-dh4" firstAttribute="top" secondItem="laO-Xj-OlB" secondAttribute="bottom" constant="40" id="eY7-Gb-xGR"/>
+                                    <constraint firstItem="M4v-jn-oA4" firstAttribute="top" secondItem="D5v-ez-dh4" secondAttribute="bottom" constant="43" id="gd5-Gy-MA6"/>
                                     <constraint firstItem="laO-Xj-OlB" firstAttribute="leading" secondItem="lmu-Ou-YR2" secondAttribute="leading" constant="80" id="jgd-wz-gDb"/>
                                     <constraint firstItem="D5v-ez-dh4" firstAttribute="leading" secondItem="lmu-Ou-YR2" secondAttribute="leading" constant="79" id="s2g-1L-GHy"/>
                                 </constraints>
@@ -2855,6 +2882,7 @@ If your blood sugar is still lower than 100 mg/dl, eat another small snack and c
         </scene>
     </scenes>
     <resources>
+        <image name="blood-sugar-chart" width="811" height="493"/>
         <image name="cake" width="640" height="533"/>
         <image name="earbuds" width="620" height="300"/>
         <image name="halfCupOfOats.jpg" width="389" height="308"/>

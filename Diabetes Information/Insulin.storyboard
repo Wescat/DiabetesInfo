@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="7bW-zW-YL2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F18c" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="7bW-zW-YL2">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -1194,6 +1194,13 @@ Make sure that area of your skin is clean</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nopill" translatesAutoresizingMaskIntoConstraints="NO" id="8ei-8R-7W6">
+                                        <rect key="frame" x="209" y="314" width="351" height="225"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="225" id="eXb-xb-8S4"/>
+                                            <constraint firstAttribute="width" constant="351" id="mPL-lH-4PD"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1203,6 +1210,8 @@ Make sure that area of your skin is clean</string>
                                     <constraint firstItem="dHc-0s-h2d" firstAttribute="leading" secondItem="jjN-Ej-SSi" secondAttribute="leading" constant="79" id="PbN-9w-tY3"/>
                                     <constraint firstItem="dHc-0s-h2d" firstAttribute="top" secondItem="Bjl-O7-CzA" secondAttribute="bottom" constant="-8" id="ScJ-sT-R7B"/>
                                     <constraint firstAttribute="trailing" secondItem="dHc-0s-h2d" secondAttribute="trailing" constant="79" id="W7W-Qk-3He"/>
+                                    <constraint firstItem="8ei-8R-7W6" firstAttribute="centerY" secondItem="jjN-Ej-SSi" secondAttribute="centerY" id="XfV-qu-6Xb"/>
+                                    <constraint firstItem="8ei-8R-7W6" firstAttribute="centerX" secondItem="dHc-0s-h2d" secondAttribute="centerX" id="dVo-gn-Ps7"/>
                                     <constraint firstItem="Bjl-O7-CzA" firstAttribute="top" secondItem="jjN-Ej-SSi" secondAttribute="top" constant="8" id="mEN-w4-yuj"/>
                                 </constraints>
                             </view>
@@ -1712,16 +1721,16 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insulinvial.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fmq-oc-EwS">
-                                        <rect key="frame" x="80" y="454" width="284" height="168"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insulincooler.png" translatesAutoresizingMaskIntoConstraints="NO" id="mCM-8M-n8o">
+                                        <rect key="frame" x="422" y="454" width="267" height="237"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="168" id="TKg-fe-abH"/>
+                                            <constraint firstAttribute="width" constant="267" id="OMx-id-hn2"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insulincooler.png" translatesAutoresizingMaskIntoConstraints="NO" id="mCM-8M-n8o">
-                                        <rect key="frame" x="448" y="454" width="241" height="168"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="insulinvial.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fmq-oc-EwS">
+                                        <rect key="frame" x="79" y="454" width="285" height="237"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="241" id="OMx-id-hn2"/>
+                                            <constraint firstAttribute="height" constant="237" id="TKg-fe-abH"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -1730,16 +1739,16 @@ After a vial or pen has be opened, you can keep it at room temperature for a mon
                                     <constraint firstItem="Fmq-oc-EwS" firstAttribute="top" secondItem="mCM-8M-n8o" secondAttribute="top" id="1h6-U1-2Qx"/>
                                     <constraint firstItem="VGh-38-9ie" firstAttribute="top" secondItem="ImY-by-jfk" secondAttribute="top" constant="8" id="34M-9X-Z7j"/>
                                     <constraint firstItem="SMr-tK-amL" firstAttribute="top" secondItem="VGh-38-9ie" secondAttribute="bottom" constant="8" id="4fC-JN-FNQ"/>
-                                    <constraint firstItem="Fmq-oc-EwS" firstAttribute="leading" secondItem="ImY-by-jfk" secondAttribute="leadingMargin" constant="72" id="Gsn-xN-AAg"/>
+                                    <constraint firstItem="Fmq-oc-EwS" firstAttribute="leading" secondItem="ImY-by-jfk" secondAttribute="leadingMargin" constant="71" id="Gsn-xN-AAg"/>
                                     <constraint firstItem="VGh-38-9ie" firstAttribute="leading" secondItem="ImY-by-jfk" secondAttribute="leading" constant="80" id="KiF-Dg-pfd"/>
                                     <constraint firstAttribute="trailing" secondItem="VGh-38-9ie" secondAttribute="trailing" constant="79" id="SbA-I5-UqI"/>
-                                    <constraint firstItem="Fmq-oc-EwS" firstAttribute="bottom" secondItem="SMr-tK-amL" secondAttribute="bottom" constant="119" id="aZx-nP-COQ"/>
+                                    <constraint firstItem="Fmq-oc-EwS" firstAttribute="bottom" secondItem="SMr-tK-amL" secondAttribute="bottom" constant="188" id="aZx-nP-COQ"/>
                                     <constraint firstItem="SMr-tK-amL" firstAttribute="leading" secondItem="ImY-by-jfk" secondAttribute="leading" constant="79" id="bzF-pc-4qp"/>
                                     <constraint firstItem="SMr-tK-amL" firstAttribute="top" secondItem="VGh-38-9ie" secondAttribute="bottom" constant="8" id="gXq-ld-pH5"/>
-                                    <constraint firstItem="mCM-8M-n8o" firstAttribute="bottom" secondItem="SMr-tK-amL" secondAttribute="bottom" constant="119" id="o30-dg-Rns"/>
+                                    <constraint firstItem="mCM-8M-n8o" firstAttribute="bottom" secondItem="SMr-tK-amL" secondAttribute="bottom" constant="188" id="o30-dg-Rns"/>
                                     <constraint firstItem="mCM-8M-n8o" firstAttribute="trailing" secondItem="ImY-by-jfk" secondAttribute="trailingMargin" constant="-71" id="qHb-Ee-re8"/>
                                     <constraint firstAttribute="trailing" secondItem="SMr-tK-amL" secondAttribute="trailing" constant="79" id="vI5-hV-b31"/>
-                                    <constraint firstItem="mCM-8M-n8o" firstAttribute="leading" secondItem="Fmq-oc-EwS" secondAttribute="trailing" constant="84" id="x64-Md-z0z"/>
+                                    <constraint firstItem="mCM-8M-n8o" firstAttribute="leading" secondItem="Fmq-oc-EwS" secondAttribute="trailing" constant="58" id="x64-Md-z0z"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3O4-2n-ZuH">
@@ -1851,17 +1860,11 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no-cars1.png" translatesAutoresizingMaskIntoConstraints="NO" id="wPy-Oq-Jsu">
-                                        <rect key="frame" x="444" y="520" width="245" height="173"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoFreezer.png" translatesAutoresizingMaskIntoConstraints="NO" id="VLy-BA-tsd">
+                                        <rect key="frame" x="44" y="520" width="302" height="230"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="245" id="EyY-iA-L5M"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoFreezer.png" translatesAutoresizingMaskIntoConstraints="NO" id="VLy-BA-tsd">
-                                        <rect key="frame" x="79" y="520" width="255" height="173"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="255" id="5sZ-JH-ump"/>
-                                            <constraint firstAttribute="height" constant="173" id="ib5-ka-czt"/>
+                                            <constraint firstAttribute="width" constant="302" id="5sZ-JH-ump"/>
+                                            <constraint firstAttribute="height" constant="230" id="ib5-ka-czt"/>
                                         </constraints>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Store your insulin somewhere that is easy for you to remember in your house" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BVd-VV-wJy">
@@ -1873,6 +1876,12 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no-cars1.png" translatesAutoresizingMaskIntoConstraints="NO" id="wPy-Oq-Jsu">
+                                        <rect key="frame" x="444" y="520" width="245" height="230"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="245" id="EyY-iA-L5M"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -1883,7 +1892,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                                     <constraint firstItem="7lJ-SS-ohG" firstAttribute="leading" secondItem="hBh-1c-uiQ" secondAttribute="leading" constant="79" id="WD9-GR-8Q0"/>
                                     <constraint firstItem="BVd-VV-wJy" firstAttribute="top" secondItem="hBh-1c-uiQ" secondAttribute="top" constant="18" id="Y8M-2a-6R3"/>
                                     <constraint firstItem="VLy-BA-tsd" firstAttribute="top" secondItem="7lJ-SS-ohG" secondAttribute="bottom" constant="13" id="iyM-hr-HWc"/>
-                                    <constraint firstItem="7lJ-SS-ohG" firstAttribute="leading" secondItem="VLy-BA-tsd" secondAttribute="leading" id="lFJ-Ia-J5S"/>
+                                    <constraint firstItem="7lJ-SS-ohG" firstAttribute="leading" secondItem="VLy-BA-tsd" secondAttribute="leading" constant="35" id="lFJ-Ia-J5S"/>
                                     <constraint firstItem="7lJ-SS-ohG" firstAttribute="trailing" secondItem="wPy-Oq-Jsu" secondAttribute="trailing" id="qwS-54-y3r"/>
                                     <constraint firstItem="VLy-BA-tsd" firstAttribute="top" secondItem="wPy-Oq-Jsu" secondAttribute="top" id="yvR-7c-k9l"/>
                                     <constraint firstAttribute="trailing" secondItem="7lJ-SS-ohG" secondAttribute="trailing" constant="79" id="zxV-qf-5g1"/>
@@ -2388,7 +2397,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
                         <viewControllerLayoutGuide type="bottom" id="8Bg-jU-h29"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qVA-o6-jmf">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="784"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="finished" translatesAutoresizingMaskIntoConstraints="NO" id="QVx-rz-cwG">
@@ -2685,6 +2694,7 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
         <image name="insulincooler.png" width="300" height="300"/>
         <image name="insulinvial.png" width="500" height="333"/>
         <image name="no-cars1.png" width="379" height="379"/>
+        <image name="nopill" width="398" height="308"/>
         <image name="wrong" width="600" height="569"/>
         <image name="x" width="64" height="64"/>
     </resources>
