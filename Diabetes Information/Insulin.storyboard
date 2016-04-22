@@ -1713,7 +1713,7 @@ Throw the needle away in the box provided by your pharmacy or healthcare provide
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G5y-Uu-gV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="I4N-YQ-5in"/>
             </objects>
-            <point key="canvasLocation" x="3385" y="3696"/>
+            <point key="canvasLocation" x="3428" y="3696"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xta-BW-kMb">
@@ -2716,6 +2716,97 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
             </objects>
             <point key="canvasLocation" x="1635" y="1246"/>
         </scene>
+        <!--Draw Insulin Video-->
+        <scene sceneID="f0f-bN-OXj">
+            <objects>
+                <viewController storyboardIdentifier="drawInsulinVideo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d7Z-Sx-EaZ" customClass="drawInsulinVideo" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bx7-Yy-cfD"/>
+                        <viewControllerLayoutGuide type="bottom" id="jVC-4t-1dO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HAq-t6-hpc">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xQc-b2-CZC">
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
+                                <subviews>
+                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mpj-lY-M2U">
+                                        <rect key="frame" x="264" y="17" width="240" height="128"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                    </webView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LH4-vK-aQn">
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
+                                <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="02i-bK-7v9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58L-57-BCF">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Basics" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="782-aC-rrZ">
+                                        <rect key="frame" x="119" y="64" width="530" height="55"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="1" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="ELI-PL-mMS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Insulin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lVL-tj-PWs">
+                                        <rect key="frame" x="180" y="8" width="408" height="59"/>
+                                        <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="59" id="CfV-LV-lGq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22087704599999999" green="1" blue="0.2401192945" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="782-aC-rrZ" firstAttribute="leading" secondItem="58L-57-BCF" secondAttribute="leading" constant="119" id="0BI-Si-oRN"/>
+                                    <constraint firstItem="782-aC-rrZ" firstAttribute="top" secondItem="lVL-tj-PWs" secondAttribute="bottom" constant="-3" id="62O-eK-cba"/>
+                                    <constraint firstItem="782-aC-rrZ" firstAttribute="top" secondItem="lVL-tj-PWs" secondAttribute="bottom" constant="-3" id="892-ca-qpb"/>
+                                    <constraint firstAttribute="trailing" secondItem="782-aC-rrZ" secondAttribute="trailing" constant="119" id="Pdv-4K-YCr"/>
+                                    <constraint firstItem="lVL-tj-PWs" firstAttribute="leading" secondItem="58L-57-BCF" secondAttribute="leading" constant="180" id="cOq-4k-QJq"/>
+                                    <constraint firstAttribute="trailing" secondItem="lVL-tj-PWs" secondAttribute="trailing" constant="180" id="fTm-2b-4tx"/>
+                                    <constraint firstAttribute="bottom" secondItem="782-aC-rrZ" secondAttribute="bottom" id="goV-HL-H9J"/>
+                                    <constraint firstItem="lVL-tj-PWs" firstAttribute="top" secondItem="58L-57-BCF" secondAttribute="top" constant="8" id="jqK-0W-tNZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xQc-b2-CZC" secondAttribute="trailing" id="J1x-D3-RRJ"/>
+                            <constraint firstAttribute="trailing" secondItem="58L-57-BCF" secondAttribute="trailing" id="VXg-wR-dQs"/>
+                            <constraint firstItem="jVC-4t-1dO" firstAttribute="top" secondItem="LH4-vK-aQn" secondAttribute="bottom" id="Vat-Dc-lEE"/>
+                            <constraint firstItem="LH4-vK-aQn" firstAttribute="leading" secondItem="HAq-t6-hpc" secondAttribute="leading" id="YUM-IL-OaT"/>
+                            <constraint firstItem="58L-57-BCF" firstAttribute="leading" secondItem="HAq-t6-hpc" secondAttribute="leading" id="ZAz-q1-vUF"/>
+                            <constraint firstItem="xQc-b2-CZC" firstAttribute="top" secondItem="58L-57-BCF" secondAttribute="bottom" id="asG-35-Lx4"/>
+                            <constraint firstItem="xQc-b2-CZC" firstAttribute="top" secondItem="58L-57-BCF" secondAttribute="bottom" id="cGX-6R-W4l"/>
+                            <constraint firstItem="LH4-vK-aQn" firstAttribute="top" secondItem="xQc-b2-CZC" secondAttribute="bottom" id="dvd-BG-dPX"/>
+                            <constraint firstAttribute="trailing" secondItem="LH4-vK-aQn" secondAttribute="trailing" id="ixD-qZ-cDJ"/>
+                            <constraint firstItem="xQc-b2-CZC" firstAttribute="leading" secondItem="HAq-t6-hpc" secondAttribute="leading" id="izk-Cw-s9j"/>
+                            <constraint firstItem="58L-57-BCF" firstAttribute="top" secondItem="HAq-t6-hpc" secondAttribute="top" id="ldK-pI-msl"/>
+                            <constraint firstItem="LH4-vK-aQn" firstAttribute="top" secondItem="xQc-b2-CZC" secondAttribute="bottom" id="qHJ-Qn-qgA"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="NdI-hA-evE" appends="YES" id="bFx-Ym-wkh"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="0IW-Xg-JBy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Fs-Zt-mQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="NdI-hA-evE"/>
+            </objects>
+            <point key="canvasLocation" x="4276" y="3696"/>
+        </scene>
     </scenes>
     <resources>
         <image name="NoFreezer.png" width="681" height="681"/>
@@ -2732,10 +2823,10 @@ Keep your insulin away from extreme temperatures, like in your car or in the fre
         <image name="x" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iqZ-Tl-sUT"/>
         <segue reference="OXq-CT-gCG"/>
         <segue reference="JPt-e2-ll4"/>
         <segue reference="va9-fr-nrn"/>
+        <segue reference="hRg-Xx-0cX"/>
         <segue reference="h5W-TJ-XMH"/>
     </inferredMetricsTieBreakers>
 </document>

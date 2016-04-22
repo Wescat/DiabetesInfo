@@ -19,6 +19,7 @@ class CheckSugarPageViewController: UIPageViewController{
             self.newViewController("checkSugar5"),
             self.newViewController("checkSugar6"),
             self.newViewController("checkSugar7"),
+            self.newViewController("checkSugarVideo"),
             self.newViewController("checkSugarFinal")]
     }()
     

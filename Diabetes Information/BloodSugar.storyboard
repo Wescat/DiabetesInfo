@@ -2131,6 +2131,119 @@
             </objects>
             <point key="canvasLocation" x="4560" y="4415"/>
         </scene>
+        <!--Check Blood Sugar-->
+        <scene sceneID="uDu-Cu-QXM">
+            <objects>
+                <viewController storyboardIdentifier="checkSugarVideo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TsV-zP-jWz" customClass="checkBloodSugar" customModule="Diabetes_Information" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bx3-IR-j7M"/>
+                        <viewControllerLayoutGuide type="bottom" id="YL2-Ru-3UG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Hr-v0-DpB">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20d-rJ-pGu">
+                                <rect key="frame" x="0.0" y="115" width="768" height="854"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UYb-Uf-VOU">
+                                        <rect key="frame" x="80" y="8" width="178" height="40"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="pBR-ch-DKf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5mn-yb-7Xx">
+                                        <rect key="frame" x="79" y="88" width="610" height="522"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="522" id="SC3-M7-wQp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="UYb-Uf-VOU" firstAttribute="top" secondItem="20d-rJ-pGu" secondAttribute="top" constant="8" id="IfE-tG-7Yu"/>
+                                    <constraint firstItem="5mn-yb-7Xx" firstAttribute="top" secondItem="UYb-Uf-VOU" secondAttribute="bottom" constant="40" id="OO0-dt-pw2"/>
+                                    <constraint firstItem="5mn-yb-7Xx" firstAttribute="leading" secondItem="20d-rJ-pGu" secondAttribute="leading" constant="79" id="ZwO-Xe-uUS"/>
+                                    <constraint firstItem="UYb-Uf-VOU" firstAttribute="leading" secondItem="20d-rJ-pGu" secondAttribute="leading" constant="80" id="eb1-wT-aeT"/>
+                                    <constraint firstAttribute="trailing" secondItem="UYb-Uf-VOU" secondAttribute="trailing" constant="510" id="jaN-P0-eCc"/>
+                                    <constraint firstAttribute="trailing" secondItem="5mn-yb-7Xx" secondAttribute="trailing" constant="79" id="wDL-Pu-IG6"/>
+                                    <constraint firstItem="5mn-yb-7Xx" firstAttribute="top" secondItem="UYb-Uf-VOU" secondAttribute="bottom" constant="40" id="y0F-wE-1kr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ywi-Fy-ogK">
+                                <rect key="frame" x="0.0" y="969" width="768" height="55"/>
+                                <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Zmg-d7-PjI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wF3-63-ZgR">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="115"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mfM-T5-rOe">
+                                        <rect key="frame" x="180" y="8" width="408" height="57"/>
+                                        <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="57" id="ODX-tg-rzw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="How to Check Your Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U1I-5b-iqO">
+                                        <rect key="frame" x="119" y="67" width="530" height="48"/>
+                                        <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="Rfz-D5-uKl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mfM-T5-rOe" firstAttribute="leading" secondItem="wF3-63-ZgR" secondAttribute="leading" constant="180" id="Kod-Mh-VkN"/>
+                                    <constraint firstAttribute="trailing" secondItem="mfM-T5-rOe" secondAttribute="trailing" constant="180" id="LpE-oM-fcP"/>
+                                    <constraint firstAttribute="trailing" secondItem="U1I-5b-iqO" secondAttribute="trailing" constant="119" id="UTg-qO-ZaQ"/>
+                                    <constraint firstItem="mfM-T5-rOe" firstAttribute="top" secondItem="wF3-63-ZgR" secondAttribute="top" constant="8" id="ixV-NC-ogi"/>
+                                    <constraint firstItem="U1I-5b-iqO" firstAttribute="top" secondItem="mfM-T5-rOe" secondAttribute="bottom" constant="2" id="jJr-pW-trf"/>
+                                    <constraint firstItem="U1I-5b-iqO" firstAttribute="leading" secondItem="wF3-63-ZgR" secondAttribute="leading" constant="119" id="lGd-eW-hjk"/>
+                                    <constraint firstItem="U1I-5b-iqO" firstAttribute="top" secondItem="mfM-T5-rOe" secondAttribute="bottom" constant="2" id="pta-ef-gZB"/>
+                                    <constraint firstAttribute="bottom" secondItem="U1I-5b-iqO" secondAttribute="bottom" id="tcd-lL-QMM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Ywi-Fy-ogK" firstAttribute="leading" secondItem="7Hr-v0-DpB" secondAttribute="leading" id="7so-8C-Doo"/>
+                            <constraint firstItem="Ywi-Fy-ogK" firstAttribute="top" secondItem="20d-rJ-pGu" secondAttribute="bottom" id="9Hf-Nn-Sht"/>
+                            <constraint firstItem="wF3-63-ZgR" firstAttribute="top" secondItem="7Hr-v0-DpB" secondAttribute="top" id="HFa-px-5s4"/>
+                            <constraint firstItem="YL2-Ru-3UG" firstAttribute="top" secondItem="Ywi-Fy-ogK" secondAttribute="bottom" id="Jtc-uV-0xz"/>
+                            <constraint firstAttribute="trailing" secondItem="Ywi-Fy-ogK" secondAttribute="trailing" id="Mht-9b-uRX"/>
+                            <constraint firstItem="20d-rJ-pGu" firstAttribute="leading" secondItem="7Hr-v0-DpB" secondAttribute="leading" id="QCm-k0-uYv"/>
+                            <constraint firstAttribute="trailing" secondItem="wF3-63-ZgR" secondAttribute="trailing" id="a3e-qK-t9p"/>
+                            <constraint firstItem="Ywi-Fy-ogK" firstAttribute="top" secondItem="20d-rJ-pGu" secondAttribute="bottom" id="gOS-a0-nhM"/>
+                            <constraint firstAttribute="trailing" secondItem="20d-rJ-pGu" secondAttribute="trailing" id="iWk-cr-4lS"/>
+                            <constraint firstItem="20d-rJ-pGu" firstAttribute="top" secondItem="wF3-63-ZgR" secondAttribute="bottom" id="kgM-6P-82Z"/>
+                            <constraint firstItem="20d-rJ-pGu" firstAttribute="top" secondItem="wF3-63-ZgR" secondAttribute="bottom" id="vZl-UV-xyG"/>
+                            <constraint firstItem="wF3-63-ZgR" firstAttribute="leading" secondItem="7Hr-v0-DpB" secondAttribute="leading" id="yMx-AX-gZ3"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="o8i-aH-UMS" appends="YES" id="rRE-jJ-OFm"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgh-NO-OQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="o8i-aH-UMS"/>
+            </objects>
+            <point key="canvasLocation" x="3656" y="3284"/>
+        </scene>
     </scenes>
     <resources>
         <image name="FDA_Nutrition_Facts_Label_2006.png" width="684" height="1342"/>
@@ -2146,7 +2259,7 @@
         <image name="water" width="900" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VpC-WG-1Cw"/>
-        <segue reference="dpB-tG-hoK"/>
+        <segue reference="qg1-NT-U14"/>
+        <segue reference="xXM-Nl-1r3"/>
     </inferredMetricsTieBreakers>
 </document>

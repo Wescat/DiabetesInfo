@@ -20,6 +20,7 @@ class InsulinBasicsViewController: UIPageViewController{
             self.newViewController("InsulinBasics6"),
             self.newViewController("InsulinBasics7"),
             self.newViewController("InsulinBasics8"),
+            self.newViewController("drawInsulinVideo"),
             self.newViewController("InsulinBasicsFinal")]
     }()
     

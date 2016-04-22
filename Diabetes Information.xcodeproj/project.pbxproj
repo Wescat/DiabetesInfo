@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		174798761C72667B004D75A6 /* PreventComplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */; };
+		179608A71CC9DE8000FAD3D8 /* CheckingGlucose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179608A61CC9DE8000FAD3D8 /* CheckingGlucose.swift */; };
+		17EA0FBF1CC9A69800CBCB35 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EA0FBE1CC9A69800CBCB35 /* AVKit.framework */; };
+		17EA0FC31CC9AA1900CBCB35 /* drawInsulinVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EA0FC21CC9AA1900CBCB35 /* drawInsulinVideo.swift */; };
+		17EA0FC51CC9C43E00CBCB35 /* Drawing up insulin.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 17EA0FC41CC9C43E00CBCB35 /* Drawing up insulin.MOV */; };
+		17EA0FC71CC9CA6700CBCB35 /* Checking blood glucose.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 17EA0FC61CC9CA6700CBCB35 /* Checking blood glucose.MOV */; };
 		404C8EBF1C691BB8000C676F /* CountingCarbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */; };
 		40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */; };
 		40E497E21C5EBB8C00ECB5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E497E11C5EBB8C00ECB5F1 /* ViewController.swift */; };
@@ -76,6 +81,11 @@
 
 /* Begin PBXFileReference section */
 		174798751C72667B004D75A6 /* PreventComplicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreventComplicationsViewController.swift; sourceTree = "<group>"; };
+		179608A61CC9DE8000FAD3D8 /* CheckingGlucose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckingGlucose.swift; sourceTree = "<group>"; };
+		17EA0FBE1CC9A69800CBCB35 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		17EA0FC21CC9AA1900CBCB35 /* drawInsulinVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawInsulinVideo.swift; sourceTree = "<group>"; };
+		17EA0FC41CC9C43E00CBCB35 /* Drawing up insulin.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Drawing up insulin.MOV"; path = "../../../Desktop/Drawing up insulin.MOV"; sourceTree = "<group>"; };
+		17EA0FC61CC9CA6700CBCB35 /* Checking blood glucose.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Checking blood glucose.MOV"; path = "../../../Desktop/Checking blood glucose.MOV"; sourceTree = "<group>"; };
 		404C8EBE1C691BB8000C676F /* CountingCarbsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingCarbsViewController.swift; sourceTree = "<group>"; };
 		40E497DC1C5EBB8C00ECB5F1 /* Diabetes Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diabetes Information.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E497DF1C5EBB8C00ECB5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EA0FBF1CC9A69800CBCB35 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +168,7 @@
 		40E497D31C5EBB8C00ECB5F1 = {
 			isa = PBXGroup;
 			children = (
+				17EA0FBE1CC9A69800CBCB35 /* AVKit.framework */,
 				40E497DE1C5EBB8C00ECB5F1 /* Diabetes Information */,
 				40E497F31C5EBB8D00ECB5F1 /* Diabetes InformationTests */,
 				40E497FE1C5EBB8D00ECB5F1 /* Diabetes InformationUITests */,
@@ -192,6 +204,8 @@
 				739FB60C1CB32259006A654C /* Assets.xcassets */,
 				F90E8D771CB1A65B007DF51D /* insulincooler.png */,
 				F90E8D7D1CB1A7FE007DF51D /* insulinvial.png */,
+				17EA0FC61CC9CA6700CBCB35 /* Checking blood glucose.MOV */,
+				17EA0FC41CC9C43E00CBCB35 /* Drawing up insulin.MOV */,
 				F90E8D731CB1A642007DF51D /* FDA_Nutrition_Facts_Label_2006.png */,
 				F90E8D751CB1A648007DF51D /* cabinet.png */,
 				F90E8D711CB1A63B007DF51D /* snickers.png */,
@@ -240,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				F9689B251C8DF9AC0054CEF7 /* CheckSugarPageViewController.swift */,
+				179608A61CC9DE8000FAD3D8 /* CheckingGlucose.swift */,
 				F9689B261C8DF9AC0054CEF7 /* SugarLevelPageViewController.swift */,
 				7315F6B51C8F6C34009D9320 /* BloodSugar.storyboard */,
 			);
@@ -251,6 +266,7 @@
 			children = (
 				F94A7A9A1C6FD23C00F4FF0E /* DrawInsulinViewController.swift */,
 				F9571B461C7A5012003557DA /* InsulinBasicsViewController.swift */,
+				17EA0FC21CC9AA1900CBCB35 /* drawInsulinVideo.swift */,
 				A95FDC931CB5C38700866D64 /* InsulinMedia.xcassets */,
 				7315F6B81C8F7072009D9320 /* Insulin.storyboard */,
 				A9F1E2511CC81E4F003BFACA /* popover.swift */,
@@ -395,8 +411,10 @@
 				F90E8D7C1CB1A664007DF51D /* NoFreezer.png in Resources */,
 				F90E8D761CB1A648007DF51D /* cabinet.png in Resources */,
 				F90E8D7A1CB1A660007DF51D /* no-cars1.png in Resources */,
+				17EA0FC71CC9CA6700CBCB35 /* Checking blood glucose.MOV in Resources */,
 				7315F6B61C8F6C34009D9320 /* BloodSugar.storyboard in Resources */,
 				F90E8D781CB1A65B007DF51D /* insulincooler.png in Resources */,
+				17EA0FC51CC9C43E00CBCB35 /* Drawing up insulin.MOV in Resources */,
 				73C8ED0D1C8E1CCB00A4FCEE /* Exercise.storyboard in Resources */,
 				F90E8D7E1CB1A7FE007DF51D /* insulinvial.png in Resources */,
 				7315F6B91C8F7072009D9320 /* Insulin.storyboard in Resources */,
@@ -432,10 +450,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				40E497E21C5EBB8C00ECB5F1 /* ViewController.swift in Sources */,
+				17EA0FC31CC9AA1900CBCB35 /* drawInsulinVideo.swift in Sources */,
 				73C8ED0A1C8E108500A4FCEE /* SickDaysViewController.swift in Sources */,
 				40E497E01C5EBB8C00ECB5F1 /* AppDelegate.swift in Sources */,
 				404C8EBF1C691BB8000C676F /* CountingCarbsViewController.swift in Sources */,
 				73B9B1A71CB1C69A001AB736 /* GameViewController.swift in Sources */,
+				179608A71CC9DE8000FAD3D8 /* CheckingGlucose.swift in Sources */,
 				A9F1E2521CC81E4F003BFACA /* popover.swift in Sources */,
 				73B8E1881C728221008DC8DA /* ExerciseGeneralTipsViewController.swift in Sources */,
 				F94A7A9B1C6FD23C00F4FF0E /* DrawInsulinViewController.swift in Sources */,
