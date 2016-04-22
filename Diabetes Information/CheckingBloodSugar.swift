@@ -29,4 +29,13 @@ class checkSugarVideo : UIViewController{
             self.view.addSubview(player.view)
         }
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        moviePlayer.play()
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        moviePlayer.pause()
+    }
+
 }

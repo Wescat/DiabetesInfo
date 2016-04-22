@@ -11,10 +11,11 @@ import UIKit
 
 // Test Commit
 class CountingCarbsFinal: UIViewController{
-    @IBOutlet weak var quizLabel: UILabel!
+    
     @IBOutlet weak var quizResponse: UILabel!
     
 
+    @IBOutlet weak var quizLabel: UILabel!
     
    
     let dbqm = DiabetesInformationQuizModel(question: "Which one of these foods equals 15g of carbs?", correctAnswer:"2")

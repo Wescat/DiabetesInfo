@@ -1497,50 +1497,41 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5p-15-dYh">
-                                <rect key="frame" x="20" y="109" width="728" height="92"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                </accessibility>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jC-6s-2Ar">
-                                <rect key="frame" x="66" y="230" width="99" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jC-6s-2Ar">
+                                <rect key="frame" x="166" y="336" width="120" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="CWl-lT-1zu"/>
-                                    <constraint firstAttribute="width" constant="99" id="VeJ-gd-HXF"/>
+                                    <constraint firstAttribute="height" constant="120" id="CWl-lT-1zu"/>
+                                    <constraint firstAttribute="width" constant="120" id="VeJ-gd-HXF"/>
                                 </constraints>
-                                <state key="normal" title="Hamburger"/>
+                                <state key="normal" backgroundImage="hamburger"/>
                                 <connections>
                                     <action selector="quizButton1:" destination="L9D-oX-wF7" eventType="touchUpInside" id="QOl-wT-Xoq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5U-mM-bpQ">
-                                <rect key="frame" x="66" y="285" width="99" height="454"/>
-                                <state key="normal" title="Milk Shake"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5U-mM-bpQ">
+                                <rect key="frame" x="166" y="526" width="120" height="120"/>
+                                <state key="normal" backgroundImage="milkshake"/>
                                 <connections>
                                     <action selector="quizButton3:" destination="L9D-oX-wF7" eventType="touchUpInside" id="FOQ-XP-Xa1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9a-am-TfS">
-                                <rect key="frame" x="507" y="285" width="119" height="454"/>
-                                <state key="normal" title="Pizza"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9a-am-TfS">
+                                <rect key="frame" x="506" y="526" width="120" height="120"/>
+                                <state key="normal" backgroundImage="pizza"/>
                                 <connections>
                                     <action selector="quizButton4:" destination="L9D-oX-wF7" eventType="touchUpInside" id="mYH-Za-UOD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qh-sr-rSz">
-                                <rect key="frame" x="364" y="846" width="41" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qh-sr-rSz">
+                                <rect key="frame" x="279" y="734" width="211" height="123"/>
                                 <accessibility key="accessibilityConfiguration" label="finishButton"/>
                                 <state key="normal" title="Finish"/>
                                 <connections>
                                     <segue destination="q30-SO-UxJ" kind="modal" id="Bk6-KF-sru"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puf-h8-Bul">
-                                <rect key="frame" x="318" y="800" width="133" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puf-h8-Bul">
+                                <rect key="frame" x="0.0" y="588" width="133" height="21"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES" updatesFrequently="YES"/>
                                 </accessibility>
@@ -1552,12 +1543,18 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-ln-QsR">
-                                <rect key="frame" x="507" y="230" width="119" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oe-L3-reQ">
+                                <rect key="frame" x="20" y="187" width="728" height="89"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-ln-QsR">
+                                <rect key="frame" x="506" y="336" width="120" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="119" id="4rN-yI-DOE"/>
+                                    <constraint firstAttribute="width" constant="120" id="4rN-yI-DOE"/>
                                 </constraints>
-                                <state key="normal" title="Small Apple"/>
+                                <state key="normal" backgroundImage="applePic"/>
                                 <connections>
                                     <action selector="quizButton2:" destination="L9D-oX-wF7" eventType="touchUpInside" id="JLI-g9-Cpw"/>
                                 </connections>
@@ -1567,28 +1564,23 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="PWJ-Pg-Hav" firstAttribute="leading" secondItem="I8m-nP-b9H" secondAttribute="leading" id="4XO-Pb-DMw"/>
-                            <constraint firstItem="1jC-6s-2Ar" firstAttribute="leading" secondItem="s06-p0-p8q" secondAttribute="leadingMargin" constant="46" id="58I-rB-EFs"/>
-                            <constraint firstItem="k5p-15-dYh" firstAttribute="leading" secondItem="s06-p0-p8q" secondAttribute="leadingMargin" id="5O9-pb-SVl"/>
+                            <constraint firstItem="1jC-6s-2Ar" firstAttribute="leading" secondItem="s06-p0-p8q" secondAttribute="leadingMargin" constant="146" id="58I-rB-EFs"/>
                             <constraint firstItem="PWJ-Pg-Hav" firstAttribute="trailing" secondItem="I8m-nP-b9H" secondAttribute="trailing" id="602-XL-5CF"/>
                             <constraint firstItem="xbd-ln-QsR" firstAttribute="trailing" secondItem="V9a-am-TfS" secondAttribute="trailing" id="6cm-Si-AyZ"/>
-                            <constraint firstItem="k5p-15-dYh" firstAttribute="centerX" secondItem="I8m-nP-b9H" secondAttribute="centerX" id="6rv-jE-cMZ"/>
-                            <constraint firstItem="Y5U-mM-bpQ" firstAttribute="top" secondItem="1jC-6s-2Ar" secondAttribute="bottom" constant="25" id="8et-2c-pJu"/>
-                            <constraint firstItem="1jC-6s-2Ar" firstAttribute="top" secondItem="k5p-15-dYh" secondAttribute="bottom" constant="29" id="ELH-dP-K7H"/>
+                            <constraint firstItem="Y5U-mM-bpQ" firstAttribute="top" secondItem="1jC-6s-2Ar" secondAttribute="bottom" constant="70" id="8et-2c-pJu"/>
                             <constraint firstItem="Y5U-mM-bpQ" firstAttribute="top" secondItem="V9a-am-TfS" secondAttribute="top" id="Ex4-nC-Zyh"/>
-                            <constraint firstItem="Puf-h8-Bul" firstAttribute="centerX" secondItem="6Qh-sr-rSz" secondAttribute="centerX" id="F4g-dc-0nu"/>
+                            <constraint firstItem="Puf-h8-Bul" firstAttribute="centerX" secondItem="6Qh-sr-rSz" secondAttribute="centerX" constant="-318" id="F4g-dc-0nu"/>
                             <constraint firstItem="PWJ-Pg-Hav" firstAttribute="top" secondItem="s06-p0-p8q" secondAttribute="top" id="GlA-4J-igW"/>
-                            <constraint firstItem="Puf-h8-Bul" firstAttribute="centerX" secondItem="k5p-15-dYh" secondAttribute="centerX" id="HFc-QV-QZg"/>
-                            <constraint firstItem="Y5U-mM-bpQ" firstAttribute="centerY" secondItem="s06-p0-p8q" secondAttribute="centerY" id="IN4-42-1it"/>
+                            <constraint firstItem="Y5U-mM-bpQ" firstAttribute="centerY" secondItem="s06-p0-p8q" secondAttribute="centerY" constant="74" id="IN4-42-1it"/>
                             <constraint firstItem="Y5U-mM-bpQ" firstAttribute="trailing" secondItem="1jC-6s-2Ar" secondAttribute="trailing" id="Mng-Ig-c86"/>
-                            <constraint firstItem="YLr-K6-zzc" firstAttribute="top" secondItem="6Qh-sr-rSz" secondAttribute="bottom" constant="148" id="O8N-ea-57b"/>
+                            <constraint firstItem="YLr-K6-zzc" firstAttribute="top" secondItem="6Qh-sr-rSz" secondAttribute="bottom" constant="167" id="O8N-ea-57b"/>
                             <constraint firstItem="PWJ-Pg-Hav" firstAttribute="centerX" secondItem="s06-p0-p8q" secondAttribute="centerX" id="Oez-Uu-0Dk"/>
-                            <constraint firstItem="Puf-h8-Bul" firstAttribute="top" secondItem="V9a-am-TfS" secondAttribute="bottom" constant="61" id="SnO-na-tHb"/>
-                            <constraint firstItem="V9a-am-TfS" firstAttribute="baseline" secondItem="Y5U-mM-bpQ" secondAttribute="firstBaseline" id="Tlx-G6-nZz"/>
-                            <constraint firstItem="6Qh-sr-rSz" firstAttribute="top" secondItem="Puf-h8-Bul" secondAttribute="bottom" constant="25" id="WhI-Jv-1lx"/>
+                            <constraint firstItem="Puf-h8-Bul" firstAttribute="top" secondItem="V9a-am-TfS" secondAttribute="bottom" constant="-58" id="SnO-na-tHb"/>
+                            <constraint firstItem="V9a-am-TfS" firstAttribute="baseline" secondItem="Y5U-mM-bpQ" secondAttribute="firstBaseline" constant="120" id="Tlx-G6-nZz"/>
+                            <constraint firstItem="6Qh-sr-rSz" firstAttribute="top" secondItem="Puf-h8-Bul" secondAttribute="bottom" constant="125" id="WhI-Jv-1lx"/>
                             <constraint firstAttribute="trailing" secondItem="xbd-ln-QsR" secondAttribute="trailing" constant="142" id="a7L-E3-SL6"/>
                             <constraint firstItem="xbd-ln-QsR" firstAttribute="baseline" secondItem="1jC-6s-2Ar" secondAttribute="baseline" id="qp4-nd-XbI"/>
-                            <constraint firstItem="Y5U-mM-bpQ" firstAttribute="baseline" secondItem="V9a-am-TfS" secondAttribute="firstBaseline" id="qqW-jM-fZi"/>
-                            <constraint firstItem="k5p-15-dYh" firstAttribute="top" secondItem="I8m-nP-b9H" secondAttribute="bottom" constant="18" id="s2h-ei-CGT"/>
+                            <constraint firstItem="Y5U-mM-bpQ" firstAttribute="baseline" secondItem="V9a-am-TfS" secondAttribute="firstBaseline" constant="120" id="qqW-jM-fZi"/>
                             <constraint firstItem="Y5U-mM-bpQ" firstAttribute="leading" secondItem="1jC-6s-2Ar" secondAttribute="leading" id="tig-Ef-6lb"/>
                             <constraint firstItem="I8m-nP-b9H" firstAttribute="top" secondItem="L7C-n3-cdW" secondAttribute="bottom" constant="31" id="wWH-u5-acg"/>
                             <constraint firstItem="V9a-am-TfS" firstAttribute="leading" secondItem="xbd-ln-QsR" secondAttribute="leading" id="yR7-Rr-sm1"/>
@@ -1599,14 +1591,14 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
                     </view>
                     <connections>
                         <outlet property="finishButton" destination="6Qh-sr-rSz" id="o6b-xW-4SP"/>
-                        <outlet property="quizLabel" destination="k5p-15-dYh" id="fYx-V4-iW7"/>
+                        <outlet property="quizLabel" destination="3oe-L3-reQ" id="qDB-Cx-glu"/>
                         <outlet property="quizResponse" destination="Puf-h8-Bul" id="Ty1-Zy-mRJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BQj-rH-Jbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="yjN-4b-sku"/>
             </objects>
-            <point key="canvasLocation" x="8885" y="-3771"/>
+            <point key="canvasLocation" x="8736" y="-3784"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="7ds-D5-lxv">
@@ -2392,7 +2384,11 @@ Some food labels and menus list serving sizes and number of carbs, but if not, y
     </scenes>
     <resources>
         <image name="Screen Shot 2016-02-02 at 8.09.46 PM.png" width="1240" height="670"/>
+        <image name="applePic" width="640" height="423"/>
+        <image name="hamburger" width="640" height="481"/>
+        <image name="milkshake" width="640" height="426"/>
         <image name="nosoda" width="315" height="275"/>
+        <image name="pizza" width="640" height="437"/>
         <image name="water" width="900" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>

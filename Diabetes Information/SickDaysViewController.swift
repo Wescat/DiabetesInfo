@@ -17,6 +17,7 @@ class SickDaysViewController: UIPageViewController{
             self.newViewController("SickDays3"),
             self.newViewController("SickDays4"),
             self.newViewController("SickDays5"),
+            self.newViewController("SickDaysActivity"),
             self.newViewController("SickDaysFinal")]
     }()
     

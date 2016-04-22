@@ -18,50 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VsL-cA-fkd">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="1024"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VsL-cA-fkd">
+                                <rect key="frame" x="0.0" y="0.0" width="785" height="1072"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssf-47-IOW">
-                                        <rect key="frame" x="0.0" y="83" width="600" height="941"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyv-St-W13">
-                                                <rect key="frame" x="108" y="467" width="385" height="230"/>
-                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="230" id="8zx-Cc-BSk"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <state key="normal" title="What Do Your Blood Sugar Levels Mean?"/>
-                                                <connections>
-                                                    <segue destination="5X9-JZ-0Ek" kind="modal" id="dpB-tG-hoK"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGb-HJ-WvL">
-                                                <rect key="frame" x="108" y="145" width="385" height="230"/>
-                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="230" id="fHX-di-vgG"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                <state key="normal" title="How to Check Your Blood Sugar"/>
-                                                <connections>
-                                                    <segue destination="kH4-dT-dS5" kind="modal" id="VpC-WG-1Cw"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="centerY" secondItem="ssf-47-IOW" secondAttribute="centerY" constant="111.5" id="27r-83-ogh"/>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="92" id="A51-cg-UTS"/>
-                                            <constraint firstAttribute="trailing" secondItem="zyv-St-W13" secondAttribute="trailing" constant="107" id="H11-eu-XEK"/>
-                                            <constraint firstAttribute="trailing" secondItem="IGb-HJ-WvL" secondAttribute="trailing" constant="107" id="fyy-1H-FQV"/>
-                                            <constraint firstItem="IGb-HJ-WvL" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="108" id="hcL-mR-nkx"/>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="92" id="mlY-b1-Uko"/>
-                                            <constraint firstItem="zyv-St-W13" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="108" id="ySm-Cu-CpQ"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6e1-Ug-hIU">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="75"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6e1-Ug-hIU">
+                                        <rect key="frame" x="0.0" y="0.0" width="766" height="75"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rB7-5d-TVt">
                                                 <rect key="frame" x="9" y="23" width="76" height="30"/>
@@ -74,8 +35,8 @@
                                                     <action selector="onMainMenuPress:" destination="xup-C3-Nve" eventType="touchUpInside" id="C1r-sA-rGO"/>
                                                 </connections>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mer-3j-ndj">
-                                                <rect key="frame" x="169" y="0.0" width="262" height="75"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Blood Sugar" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mer-3j-ndj">
+                                                <rect key="frame" x="252" y="0.0" width="262" height="75"/>
                                                 <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="75" id="OhR-x0-pl7"/>
@@ -94,25 +55,56 @@
                                             <constraint firstAttribute="bottom" secondItem="mer-3j-ndj" secondAttribute="bottom" id="l0t-93-SBy"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ssf-47-IOW">
+                                        <rect key="frame" x="0.0" y="83" width="766" height="941"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGb-HJ-WvL">
+                                                <rect key="frame" x="191" y="145" width="385" height="230"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="230" id="fHX-di-vgG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <state key="normal" title="How to Check Your Blood Sugar"/>
+                                                <connections>
+                                                    <segue destination="kH4-dT-dS5" kind="modal" id="VpC-WG-1Cw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyv-St-W13">
+                                                <rect key="frame" x="191" y="467" width="385" height="230"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="230" id="8zx-Cc-BSk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <state key="normal" title="What Do Your Blood Sugar Levels Mean?"/>
+                                                <connections>
+                                                    <segue destination="5X9-JZ-0Ek" kind="modal" id="dpB-tG-hoK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.088020639649999996" green="1" blue="0.97725526399999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="centerY" secondItem="ssf-47-IOW" secondAttribute="centerY" constant="111.5" id="27r-83-ogh"/>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="92" id="A51-cg-UTS"/>
+                                            <constraint firstItem="IGb-HJ-WvL" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="191" id="hcL-mR-nkx"/>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="top" secondItem="IGb-HJ-WvL" secondAttribute="bottom" constant="92" id="mlY-b1-Uko"/>
+                                            <constraint firstItem="zyv-St-W13" firstAttribute="leading" secondItem="ssf-47-IOW" secondAttribute="leading" constant="191" id="ySm-Cu-CpQ"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="ssf-47-IOW" secondAttribute="bottom" id="8b1-WP-6y5"/>
-                                    <constraint firstItem="ssf-47-IOW" firstAttribute="top" secondItem="6e1-Ug-hIU" secondAttribute="bottom" constant="8" id="IbB-r1-va8"/>
-                                    <constraint firstItem="ssf-47-IOW" firstAttribute="top" secondItem="6e1-Ug-hIU" secondAttribute="bottom" constant="8" id="NK4-T5-f7T"/>
-                                    <constraint firstAttribute="trailing" secondItem="6e1-Ug-hIU" secondAttribute="trailing" id="NRC-ai-fQy"/>
                                     <constraint firstItem="6e1-Ug-hIU" firstAttribute="leading" secondItem="VsL-cA-fkd" secondAttribute="leading" id="dHj-6l-PoA"/>
-                                    <constraint firstAttribute="trailing" secondItem="ssf-47-IOW" secondAttribute="trailing" id="hey-OC-OMJ"/>
                                     <constraint firstItem="6e1-Ug-hIU" firstAttribute="top" secondItem="VsL-cA-fkd" secondAttribute="top" id="nnL-JR-6lc"/>
-                                    <constraint firstItem="ssf-47-IOW" firstAttribute="leading" secondItem="VsL-cA-fkd" secondAttribute="leading" id="uux-mg-kil"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VsL-cA-fkd" firstAttribute="leading" secondItem="jLc-U9-8Gu" secondAttribute="leading" id="Cki-n7-M6c"/>
-                            <constraint firstItem="VsL-cA-fkd" firstAttribute="bottom" secondItem="70r-og-gCG" secondAttribute="top" id="fER-vV-NHc"/>
+                            <constraint firstItem="VsL-cA-fkd" firstAttribute="bottom" secondItem="70r-og-gCG" secondAttribute="top" constant="48" id="fER-vV-NHc"/>
                             <constraint firstItem="VsL-cA-fkd" firstAttribute="top" secondItem="jLc-U9-8Gu" secondAttribute="top" id="q7C-kK-ZA3"/>
                         </constraints>
                     </view>
@@ -120,7 +112,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Un0-vW-lmp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="hNk-7C-Ddt"/>
             </objects>
-            <point key="canvasLocation" x="-3733" y="5202"/>
+            <point key="canvasLocation" x="-3925" y="5214"/>
         </scene>
         <!--Check Sugar Page View Controller-->
         <scene sceneID="gnj-DS-YYc">
@@ -2259,7 +2251,7 @@
         <image name="water" width="900" height="900"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qg1-NT-U14"/>
-        <segue reference="xXM-Nl-1r3"/>
+        <segue reference="dpB-tG-hoK"/>
+        <segue reference="VpC-WG-1Cw"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -20,7 +20,7 @@ class CountingCarbsViewController: UIPageViewController{
             //self.newViewController("CountingCarbs6"),
             self.newViewController("CountingCarbs7"),
             self.newViewController("CountingCarbs8"),
-            self.newViewController("CountingCarbsActivity"),
+            self.newViewController("CountingCarbsFinal"),
             self.newViewController("CountingCarbsLast")]
     }()
     
